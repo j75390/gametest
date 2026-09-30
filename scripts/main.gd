@@ -206,7 +206,7 @@ func show_map():
 	var view = MapView.new()
 	view.name = "RouteMap"
 	scroll.add_child(view)
-	view.setup(expedition, has_full_map)
+	view.setup(expedition, has_full_map, [{"player_id":"local", "character_id":selected_character.id, "node_id":expedition.current_id, "display_name":selected_character.name, "color":"e5bd72", "is_local":true}])
 	view.node_selected.connect(enter_node)
 	var toolbar = HBoxContainer.new()
 	toolbar.add_theme_constant_override("separation", 12)

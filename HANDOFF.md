@@ -101,3 +101,8 @@
 ## 미라 얼굴 수정
 사용자가 ComfyUI 재생성 미라의 얼굴 변형을 지적했다. 원본 full_02를 얼굴 기준으로 내장 image_gen에서 다시 제작한 mira_character_select_builtin_v1.png로 선택 원화/목록을 교체. 원본 full/gallery/모션과 이전 생성물은 보존. 현재 바탕화면 프로젝트에도 동시 적용.
 Godot AI MCP로 현재 바탕화면 프로젝트 재실행 후 수정된 미라 텍스처 경로와 실제 선택 화면을 확인했다. 실행 오류 없음.
+
+## 2026-10-01 지도 현재 위치 얼굴 표시
+사용자가 현재 위치 표시 누락을 지적했다. current_location이 툴팁에만 연결되고 실제 그리기가 없던 상태를 수정했다. 새 독립 얼굴 초상화 4장을 내장 이미지 생성기로 제작해 map_portrait 데이터에 등록했다. map_player_marker.gd/map_view.gd가 얼굴+테두리+현재 위치 문구를 표시하며 main.gd의 실제 선택 캐릭터/현재 노드와 연결했다. 원래 장소 아이콘과 이동·안개 규칙은 유지한다.
+
+MAP_PLAYERS_QA solo=4 party=4 failures=0 및 MAP_GRAPH_QA seeds=200 failures=0, MAP_UI_QA failures=0. 같은 노드 4인/분리 위치/안개 숨김/클릭 통과/이동 후 얼굴 위치를 검증했다. 여러 플레이어 표시 API는 준비했으나 실제 멀티 네트워크 기능은 미구현이다. docs/MAP_PLAYER_MARKERS.md에 규격·검증·생성 프롬프트 기록. 현재 바탕화면 프로젝트에 동시 반영한다.

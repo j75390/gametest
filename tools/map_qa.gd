@@ -92,6 +92,8 @@ func run() -> void:
 	await process_frame
 	var id: int = main.expedition.available()[0]
 	var original_seed: int = main.expedition.run_seed
+	check(view.player_markers.has("local"), "Current player face missing")
+	check(view.player_markers["local"].get_meta("node_id") == main.expedition.current_id, "Player marker on wrong start node")
 	await RenderingServer.frame_post_draw
 	root.get_texture().get_image().save_png("res://docs/map-fog.png")
 	var click := InputEventMouseButton.new()
@@ -120,6 +122,8 @@ func run() -> void:
 	await process_frame
 	await process_frame
 	check(main.expedition.run_seed == original_seed, "Map rerolled mid-run")
+	view = main.content.get_node("ExpeditionScroll/RouteMap")
+	check(view.player_markers["local"].get_meta("node_id") == id, "Player face did not follow completed move")
 	check(main.expedition.nodes[id].cleared and main.expedition.visited.has(id), "Completion not recorded")
 	await RenderingServer.frame_post_draw
 	root.get_texture().get_image().save_png("res://docs/map-progress.png")

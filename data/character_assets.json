@@ -36,21 +36,25 @@
     "status": "독립 프레임 제작 중: 기본 2장, 다른 자세 미완성",
     "selection_panorama": "res://assets/characters/mira/selection_panorama_v1.png",
     "illustration": "res://assets/characters/mira/illustration/mira_character_select_builtin_v1.png",
-    "needs_transparent_art": false
+    "needs_transparent_art": false,
+    "map_portrait": "res://assets/characters/mira/portrait/mira_map_portrait.png"
   },
   "kalian": {
     "illustration": "res://assets/characters/kalian/illustration/kalian_character_select_builtin_v1.png",
     "needs_transparent_art": false,
-    "selection": "res://assets/characters/kalian/illustration/kalian_character_select_builtin_v1.png"
+    "selection": "res://assets/characters/kalian/illustration/kalian_character_select_builtin_v1.png",
+    "map_portrait": "res://assets/characters/kalian/portrait/kalian_map_portrait.png"
   },
   "sera": {
     "illustration": "res://assets/characters/sera/illustration/sera_character_select.png",
     "needs_transparent_art": false,
-    "selection": "res://assets/characters/sera/illustration/sera_character_select.png"
+    "selection": "res://assets/characters/sera/illustration/sera_character_select.png",
+    "map_portrait": "res://assets/characters/sera/portrait/sera_map_portrait.png"
   },
   "lucian": {
     "illustration": "res://assets/characters/lucian/illustration/lucian_character_select.png",
     "needs_transparent_art": false,
-    "selection": "res://assets/characters/lucian/illustration/lucian_character_select.png"
+    "selection": "res://assets/characters/lucian/illustration/lucian_character_select.png",
+    "map_portrait": "res://assets/characters/lucian/portrait/lucian_map_portrait.png"
   }
 }
