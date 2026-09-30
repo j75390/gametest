@@ -97,3 +97,7 @@
 ## 2026-10-01 내장 이미지 생성으로 전환
 사용자가 ComfyUI 원화 품질을 거부해 내장 image_gen으로 칼리안 선택 원화를 새로 제작했다. 기존 미라 full_02를 그림체 참고로 사용. 파일 kalian_character_select_builtin_v1.png를 현재 바탕화면 프로젝트와 Git 프로젝트에 함께 적용했다. 이전 원화는 보존한다. 다른 캐릭터의 내장 생성 재제작은 아직 남아 있다.
 `n실제 바탕화면 프로젝트에서 HOME_MERGE_QA characters=4 failures=0. 칼리안 투명 표시와 도감/원정 진입 확인. 스크립트 오류 없음.
+
+## 미라 얼굴 수정
+사용자가 ComfyUI 재생성 미라의 얼굴 변형을 지적했다. 원본 full_02를 얼굴 기준으로 내장 image_gen에서 다시 제작한 mira_character_select_builtin_v1.png로 선택 원화/목록을 교체. 원본 full/gallery/모션과 이전 생성물은 보존. 현재 바탕화면 프로젝트에도 동시 적용.
+Godot AI MCP로 현재 바탕화면 프로젝트 재실행 후 수정된 미라 텍스처 경로와 실제 선택 화면을 확인했다. 실행 오류 없음.

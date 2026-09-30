@@ -1,7 +1,7 @@
 {
   "mira": {
     "full": "res://assets/characters/mira/full_02.png",
-    "selection": "res://assets/characters/mira/illustration/mira_character_select.png",
+    "selection": "res://assets/characters/mira/illustration/mira_character_select_builtin_v1.png",
     "gallery": [
       {
         "name": "전신 · 성당",
@@ -35,7 +35,7 @@
     },
     "status": "독립 프레임 제작 중: 기본 2장, 다른 자세 미완성",
     "selection_panorama": "res://assets/characters/mira/selection_panorama_v1.png",
-    "illustration": "res://assets/characters/mira/illustration/mira_character_select.png",
+    "illustration": "res://assets/characters/mira/illustration/mira_character_select_builtin_v1.png",
     "needs_transparent_art": false
   },
   "kalian": {
