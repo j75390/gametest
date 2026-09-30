@@ -39,9 +39,9 @@
     "needs_transparent_art": false
   },
   "kalian": {
-    "illustration": "res://assets/characters/kalian/illustration/kalian_character_select.png",
+    "illustration": "res://assets/characters/kalian/illustration/kalian_character_select_builtin_v1.png",
     "needs_transparent_art": false,
-    "selection": "res://assets/characters/kalian/illustration/kalian_character_select.png"
+    "selection": "res://assets/characters/kalian/illustration/kalian_character_select_builtin_v1.png"
   },
   "sera": {
     "illustration": "res://assets/characters/sera/illustration/sera_character_select.png",
