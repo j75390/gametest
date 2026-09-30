@@ -65,7 +65,7 @@ func _load_records() -> void:
             "cards": cards.get(ch.id, []), "status": "원정대원 · 전용 카드 기록"})
     for record in records["캐릭터"]:
         var pack := Assets.profile(record.id)
-        if not pack.is_empty():
+        if pack.has("motions"):
             record.art = pack.full
             record.sprite = pack.motions.idle[0].path
             record["gallery"] = pack.get("gallery", [])
@@ -419,7 +419,7 @@ func _build_motion(path: String) -> void:
         _label(panel, "독립 SD 모션 자산 미등록", 16, MUTED)
         return
     sprite_preview = _picture(panel, null, Vector2(145, 180))
-    sprite_preview.texture_filter = CanvasItem.TEXTURE_FILTER_LINEAR_WITH_MIPMAPS if not Assets.profile(selected_id).is_empty() else CanvasItem.TEXTURE_FILTER_NEAREST
+    sprite_preview.texture_filter = CanvasItem.TEXTURE_FILTER_LINEAR_WITH_MIPMAPS if Assets.profile(selected_id).has("motions") else CanvasItem.TEXTURE_FILTER_NEAREST
     var controls := VBoxContainer.new()
     controls.custom_minimum_size.x = 158
     panel.add_child(controls)
@@ -429,7 +429,7 @@ func _build_motion(path: String) -> void:
     for i in range(MOTIONS.size()):
         var b := _button(grid, MOTIONS[i], _set_motion.bind(i))
         b.toggle_mode = true
-        if not Assets.profile(selected_id).is_empty() and Assets.count(selected_id, Assets.KEYS[i]) == 0:
+        if Assets.profile(selected_id).has("motions") and Assets.count(selected_id, Assets.KEYS[i]) == 0:
             b.disabled = true
             b.text += " · 제작 중"
         motion_buttons.append(b)
@@ -451,7 +451,7 @@ func _toggle_play() -> void:
 func _update_frame() -> void:
     if not sheet or not is_instance_valid(sprite_preview):
         return
-    if not Assets.profile(selected_id).is_empty():
+    if Assets.profile(selected_id).has("motions"):
         sprite_preview.texture = Assets.frame(selected_id, Assets.KEYS[motion_index], frame_index)
         return
     var atlas := AtlasTexture.new()
@@ -472,7 +472,7 @@ func _update_frame() -> void:
 func _process(delta: float) -> void:
     if sheet and playing:
         frame_time += delta
-        var duration := Assets.duration(selected_id, Assets.KEYS[motion_index], frame_index) if not Assets.profile(selected_id).is_empty() else 0.18
+        var duration := Assets.duration(selected_id, Assets.KEYS[motion_index], frame_index) if Assets.profile(selected_id).has("motions") else 0.18
         if frame_time >= duration:
             frame_time -= duration
             var total := Assets.count(selected_id, Assets.KEYS[motion_index])

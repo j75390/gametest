@@ -1,5 +1,19 @@
 # 운빨 원정대 — 집 PC 작업 인계
 
+## 2026-10-01 집 PC 병합 및 ComfyUI 선택 원화 적용
+- 기존 바탕화면 프로젝트는 그대로 보존하고 별도 `gametest` Git 작업 폴더에서 병합했다. 원격 기준 1ad07a8. 비교/병합 범위는 docs/HOME_MERGE.md.
+- 학원 버전의 지도 생성, 안개, 공개 갈림길 유지, 아이콘/지도 원화를 유지했다. 집의 캐릭터 선택 UI와 ComfyUI 브리지를 연결했다. 카드/전투 JSON은 양쪽 내용이 동일했으며 수치를 바꾸지 않았다.
+- 로컬 ComfyUI를 실제 호출해 미라/칼리안/세라/루시안 선택 전용 PNG를 생성했다. 미라는 제공 원화 full_02를 입력으로 img2img 재생성 후 BiRefNet 배경 제거, 나머지는 새 텍스트 생성 후 배경 제거. 4명 모두 실제 RGBA alpha 0..255 확인. 기존 배경 포함 원화를 사각형으로 표시하던 문제를 해결했다.
+- 선택 원화 경로: assets/characters/<id>/illustration/<id>_character_select.png. 도감 full/gallery와 전투 motions는 유지한다. 미라를 기준으로 새 애니메이션풍 원화를 적용했으나 캐릭터별 세부 채색·장식 밀도까지 완전히 통일됐다는 뜻은 아니다.
+- 실패/초기 시도와 워크플로/작업 ID를 ai/generated에 보존했다. 재실행은 tools/generate_characters.py / generate_character_select.bat. 현재 적용 이미지가 덮어써지지 않도록 새 검수 폴더에 생성한다. 미라 참조 파일의 자동 업로드 및 재실행도 실제 성공했다.
+- 서버 8188이 종료되어 기존 ComfyUI/.venv/Scripts/python.exe로 복구했다. standalone-env Python에는 torch가 없으므로 서버용과 HTTP 도구용을 구분했다. IPAdapter/전용 LoRA 미설치. BiRefNet 모델은 PC에만 설치하며 Git에는 포함하지 않는다. 자세한 설정은 ai/SETUP.md.
+- 선택 프로필과 모션 프로필을 구분하는 도감 오류 수정 5곳을 보존했다. 선택 UI의 쓰이지 않는 Label 3개 생성으로 발생하던 종료 시 누수도 수정했다.
+- 실제 Godot 4.7.2, 1440×900 렌더링/마우스 입력 검사: HOME_MERGE_QA characters=4 failures=0. 4명 선택, 이미지 투명도, 이름/데이터, 도감 열고 닫기, 원정 시작, 미라 HP72/덱10장, 최신 지도 진입, 선택 오버레이 제거 확인. 최종 실행에는 스크립트 오류 및 누수 경고 없음.
+- 지도 검증: MAP_GRAPH_QA seeds=200 failures=0, MAP_UI_QA failures=0. 실제 이동→전투→카드→보상→지도 및 공개 규칙 유지. 첫 샌드박스 실행의 사용자 디렉터리/인증서 접근 메시지는 실제 사용자 환경 재실행에서 사라졌으며 최종 지도 검사 오류 없음.
+- 증거: docs/selection-merged-{mira,kalian,sera,lucian}.png, docs/selection-art-validation.json. 커밋 작성자는 사용자 지정 JDG이며 이 저장소에만 설정했다.
+- 남은 작업: 캐릭터별 아트의 세부 화풍 최종 통일, 독립 SD 모션, 난이도 클리어/해금/저장, 실제 시작 패시브·유물, 게임 세이브, 다섯 ACT/전체 콘텐츠. 카드 이미지 미표시 선택 UI 원칙 유지. 위의 과거 미완성 목록도 계속 유효하다.
+
+
 ## 2026-09-30 GitHub 인수인계 설정
 - 이제 기본 전달 경로는 `https://github.com/j75390/gametest.git`의 main 브랜치다. 아래 ZIP 설명은 이전 수동 전달 방법이다.
 - `docs/PC_SYNC.md`에 최초 clone, 집의 기존 수정 병합, 시작/종료 절차를 기록했다. `tools/sync.ps1`은 start/finish/status를 제공한다.

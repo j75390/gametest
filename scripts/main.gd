@@ -139,21 +139,21 @@ func show_menu():
 func show_character_select():
 	screen = "character_select"
 	clear_content()
-	title.text = "원정대원 선택"
-	add_text("캐릭터마다 전용 카드 풀이 다릅니다.")
-	for ch in characters:
-		var row = HBoxContainer.new()
-		row.add_theme_constant_override("separation", 24)
-		content.add_child(row)
-		add_picture(row, Assets.picture(ch.id, "selection"), Vector2(160, 190))
-		var b = Button.new()
-		b.text = "%s  ·  %s\n%s" % [ch.name, ch.class, ch.theme]
-		b.custom_minimum_size = Vector2(0, 80)
-		b.add_theme_font_size_override("font_size", 19)
-		b.pressed.connect(func(c=ch): choose_character(c))
-		b.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-		row.add_child(b)
-	add_button("← 메인 메뉴", show_menu)
+	var selection = load("res://scripts/character_select.gd").new()
+	selection.name = "CharacterSelection"
+	selection.setup(characters)
+	selection.codex_requested.connect(show_codex)
+	selection.character_chosen.connect(func(ch):
+		remove_child(selection)
+		selection.queue_free()
+		choose_character(ch)
+	)
+	selection.back_requested.connect(func():
+		remove_child(selection)
+		selection.queue_free()
+		show_menu()
+	)
+	add_child(selection)
 
 func choose_character(ch):
 	owned_relics.clear()

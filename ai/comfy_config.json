@@ -1,0 +1,5 @@
+{
+  "api_url": "http://127.0.0.1:8188",
+  "install_root": "D:\\Comfy-Desktop",
+  "bindings": {"prompt": "6.text", "negative": "7.text", "seed": "3.seed", "steps": "3.steps"}
+}

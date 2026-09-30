@@ -1,0 +1,157 @@
+{
+  "1": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "691f361ffb044a27bba7b730e0c9e161.png"
+    }
+  },
+  "2": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "1",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 640,
+      "height": 800,
+      "crop": "disabled"
+    }
+  },
+  "10": {
+    "class_type": "ImagePadForOutpaint",
+    "inputs": {
+      "image": [
+        "2",
+        0
+      ],
+      "left": 640,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "feathering": 48
+    }
+  },
+  "4": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "sd_xl_base_1.0.safetensors"
+    }
+  },
+  "6": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "4",
+        1
+      ],
+      "text": "highly detailed gothic cathedral interior background, massive ornate black columns, golden candelabras and many lit candles, violet stained glass windows, alchemy table with purple glass potion bottles, intricate carved gold decorations, dark fantasy anime painting, sharp architectural detail, moonlit interior, purple and gold lighting, continuous room"
+    }
+  },
+  "7": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "4",
+        1
+      ],
+      "text": "text, watermark, logo, user interface, border, frame, panel, duplicate person, extra woman, extra face, flat color, blank wall, blurry, low detail, modern room"
+    }
+  },
+  "5": {
+    "class_type": "VAEEncode",
+    "inputs": {
+      "vae": [
+        "4",
+        2
+      ],
+      "pixels": [
+        "10",
+        0
+      ]
+    }
+  },
+  "3": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "4",
+        0
+      ],
+      "positive": [
+        "6",
+        0
+      ],
+      "negative": [
+        "7",
+        0
+      ],
+      "latent_image": [
+        "12",
+        0
+      ],
+      "seed": 93028,
+      "steps": 32,
+      "cfg": 6.5,
+      "sampler_name": "dpmpp_2m",
+      "scheduler": "karras",
+      "denoise": 1.0
+    }
+  },
+  "8": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "3",
+        0
+      ],
+      "vae": [
+        "4",
+        2
+      ]
+    }
+  },
+  "11": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "10",
+        0
+      ],
+      "source": [
+        "8",
+        0
+      ],
+      "mask": [
+        "10",
+        1
+      ],
+      "x": 0,
+      "y": 0,
+      "resize_source": false
+    }
+  },
+  "9": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "11",
+        0
+      ],
+      "filename_prefix": "expedition_mira_outpaint"
+    }
+  },
+  "12": {
+    "class_type": "SetLatentNoiseMask",
+    "inputs": {
+      "samples": [
+        "5",
+        0
+      ],
+      "mask": [
+        "10",
+        1
+      ]
+    }
+  }
+}

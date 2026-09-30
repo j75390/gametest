@@ -1,0 +1,148 @@
+{
+  "prompt": [
+    2,
+    "8a0dd7e1-7c02-49ec-b69b-e7fb3f9658ae",
+    {
+      "4": {
+        "class_type": "CheckpointLoaderSimple",
+        "inputs": {
+          "ckpt_name": "sd_xl_base_1.0.safetensors"
+        }
+      },
+      "5": {
+        "class_type": "EmptyLatentImage",
+        "inputs": {
+          "width": 1344,
+          "height": 768,
+          "batch_size": 1
+        }
+      },
+      "6": {
+        "class_type": "CLIPTextEncode",
+        "inputs": {
+          "text": "masterpiece, premium dark gothic fantasy game environment illustration, vast ruined cathedral interior, ornate pointed arches, black stone, muted antique gold filigree, violet moonlight through stained glass, purple alchemical mist, candles, dramatic atmospheric perspective, quiet dark left side, detailed architectural scenery, wide cinematic composition, no people, no characters, no text, no interface",
+          "clip": [
+            "4",
+            1
+          ]
+        }
+      },
+      "7": {
+        "class_type": "CLIPTextEncode",
+        "inputs": {
+          "text": "person, woman, man, character, text, letters, watermark, logo, interface, blurry, low quality, modern furniture",
+          "clip": [
+            "4",
+            1
+          ]
+        }
+      },
+      "3": {
+        "class_type": "KSampler",
+        "inputs": {
+          "seed": 9302026,
+          "steps": 25,
+          "cfg": 7.0,
+          "sampler_name": "euler",
+          "scheduler": "normal",
+          "denoise": 1.0,
+          "model": [
+            "4",
+            0
+          ],
+          "positive": [
+            "6",
+            0
+          ],
+          "negative": [
+            "7",
+            0
+          ],
+          "latent_image": [
+            "5",
+            0
+          ]
+        }
+      },
+      "8": {
+        "class_type": "VAEDecode",
+        "inputs": {
+          "samples": [
+            "3",
+            0
+          ],
+          "vae": [
+            "4",
+            2
+          ]
+        }
+      },
+      "9": {
+        "class_type": "SaveImage",
+        "inputs": {
+          "filename_prefix": "expedition_bridge",
+          "images": [
+            "8",
+            0
+          ]
+        }
+      }
+    },
+    {
+      "client_id": "744a5f30-2ff1-4188-a931-71c763afdbd3",
+      "create_time": 1790694075046
+    },
+    [
+      "9"
+    ]
+  ],
+  "outputs": {
+    "9": {
+      "images": [
+        {
+          "filename": "expedition_bridge_00002_.png",
+          "subfolder": "",
+          "type": "output"
+        }
+      ]
+    }
+  },
+  "status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "8a0dd7e1-7c02-49ec-b69b-e7fb3f9658ae",
+          "timestamp": 1790694075047
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "4"
+          ],
+          "prompt_id": "8a0dd7e1-7c02-49ec-b69b-e7fb3f9658ae",
+          "timestamp": 1790694075048
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "8a0dd7e1-7c02-49ec-b69b-e7fb3f9658ae",
+          "timestamp": 1790694094595
+        }
+      ]
+    ]
+  },
+  "meta": {
+    "9": {
+      "node_id": "9",
+      "display_node": "9",
+      "parent_node": null,
+      "real_node_id": "9"
+    }
+  }
+}

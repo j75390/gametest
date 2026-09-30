@@ -1,0 +1,54 @@
+{
+  "mira": {
+    "path": "assets/characters/mira/illustration/mira_character_select.png",
+    "dimensions": [
+      832,
+      1040
+    ],
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.404,
+    "sha256": "67ee4d1db9a14bd7041f53c5254c4fbe509f76e1eb0af7399098a6efe2518ef9"
+  },
+  "kalian": {
+    "path": "assets/characters/kalian/illustration/kalian_character_select.png",
+    "dimensions": [
+      832,
+      1216
+    ],
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.719,
+    "sha256": "e5b5c5212d3339a87e9c91cf126af6568f9f33a8718737836f88393053e9cad7"
+  },
+  "sera": {
+    "path": "assets/characters/sera/illustration/sera_character_select.png",
+    "dimensions": [
+      768,
+      1344
+    ],
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.53,
+    "sha256": "701172b55d21442cc57a5a6070b30be45bbe32f9b0bfbd33fd8c4dd1be0b3807"
+  },
+  "lucian": {
+    "path": "assets/characters/lucian/illustration/lucian_character_select.png",
+    "dimensions": [
+      768,
+      1344
+    ],
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.531,
+    "sha256": "d8fe7345d1456317e4347bdc04e63655be08c42a8433303addb2b2bb552f511c"
+  }
+}

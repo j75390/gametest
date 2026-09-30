@@ -1,0 +1,6 @@
+{
+  "mira_design": "assets/characters/mira/full_01.png",
+  "mira_full": "assets/characters/mira/full_02.png",
+  "mira_idle": "assets/characters/mira/animated/idle.png",
+  "usage": "Style reference only; never crop into new character assets."
+}
