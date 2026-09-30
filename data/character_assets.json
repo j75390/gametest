@@ -1,0 +1,38 @@
+{
+  "mira": {
+    "full": "res://assets/characters/mira/full_02.png",
+    "selection": "res://assets/characters/mira/full_01.png",
+    "gallery": [
+      {
+        "name": "전신 · 성당",
+        "path": "res://assets/characters/mira/full_01.png"
+      },
+      {
+        "name": "전신 · 주술",
+        "path": "res://assets/characters/mira/full_02.png"
+      },
+      {
+        "name": "새 SD · 기본",
+        "path": "res://assets/characters/mira/animated/idle.png"
+      }
+    ],
+    "motions": {
+      "idle": [
+        {
+          "path": "res://assets/characters/mira/animated/idle.png",
+          "duration": 2.8
+        },
+        {
+          "path": "res://assets/characters/mira/animated/blink.png",
+          "duration": 0.14
+        }
+      ],
+      "walk": [],
+      "attack": [],
+      "skill": [],
+      "hurt": [],
+      "death": []
+    },
+    "status": "독립 프레임 제작 중: 기본 2장, 다른 자세 미완성"
+  }
+}

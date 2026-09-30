@@ -1,0 +1,41 @@
+[
+  {
+    "id": "venom",
+    "name": "맹독",
+    "type": "디버프",
+    "effect": "적 턴 시작 시 최대 HP의 비율 피해. 매 턴 지속 시간이 1 줄어든다.",
+    "art": "res://assets/cards/toxic_vial.png",
+    "sources": [
+      "맹독 주술"
+    ],
+    "related": [
+      "카드:venom_hex"
+    ]
+  },
+  {
+    "id": "bleed",
+    "name": "출혈",
+    "type": "디버프",
+    "effect": "적 턴 시작 시 중첩 수만큼 피해를 받고 중첩이 1 감소한다.",
+    "art": "res://assets/cards/bleeding_slash.svg",
+    "sources": [
+      "출혈 베기"
+    ],
+    "related": [
+      "카드:bleeding_slash"
+    ]
+  },
+  {
+    "id": "empower",
+    "name": "저주 증폭",
+    "type": "버프",
+    "effect": "다음 공격 카드에 추가 피해를 더한 뒤 사라진다.",
+    "art": "res://assets/cards/curse_bolt.svg",
+    "sources": [
+      "저주탄"
+    ],
+    "related": [
+      "카드:curse_bolt"
+    ]
+  }
+]

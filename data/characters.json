@@ -1,0 +1,30 @@
+[
+  {
+    "id": "mira",
+    "name": "미라",
+    "class": "연금술사",
+    "theme": "독 / 연금술 / 흡수 / 저주",
+    "max_hp": 72
+  },
+  {
+    "id": "kalian",
+    "name": "칼리안",
+    "class": "검사",
+    "theme": "참격 / 출혈 / 연속 공격",
+    "max_hp": 110
+  },
+  {
+    "id": "sera",
+    "name": "세라",
+    "class": "마도사",
+    "theme": "마력 / 저주 / 광역 폭발",
+    "max_hp": 82
+  },
+  {
+    "id": "lucian",
+    "name": "루시안",
+    "class": "성직자",
+    "theme": "회복 / 축복 / 신성 심판",
+    "max_hp": 92
+  }
+]

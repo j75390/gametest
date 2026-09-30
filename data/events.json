@@ -1,0 +1,26 @@
+[
+  {
+    "id": "twisted_altar",
+    "name": "뒤틀린 제단",
+    "type": "선택",
+    "act": 1,
+    "art": "res://assets/cards/ash_cathedral.png",
+    "effect": "폐허의 제단이 무기에 새길 각인을 제안한다.",
+    "sources": [
+      "ACT I 이벤트"
+    ],
+    "choices": [
+      {
+        "name": "HP 6을 바쳐 공격 카드에 흑철 각인",
+        "hp_cost": 6,
+        "enchantment": "sharpen"
+      },
+      {
+        "name": "지나간다"
+      }
+    ],
+    "related": [
+      "인챈트:sharpen"
+    ]
+  }
+]

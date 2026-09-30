@@ -1,0 +1,80 @@
+[
+  {
+    "id": "ash_warden",
+    "name": "재의 파수꾼",
+    "type": "일반",
+    "hp": 45,
+    "act": 1,
+    "art": "res://assets/monsters/ash_warden.png",
+    "pattern": [
+      {
+        "name": "향로 강타",
+        "damage": 8
+      },
+      {
+        "name": "잿불 휘두르기",
+        "damage": 12
+      }
+    ],
+    "effect": "두 공격을 순서대로 반복한다.",
+    "gold": 25,
+    "sources": [
+      "ACT I 전투"
+    ],
+    "related": [
+      "이벤트:twisted_altar"
+    ]
+  },
+  {
+    "id": "ash_warden_elite",
+    "name": "재의 파수꾼 · 정예",
+    "type": "엘리트",
+    "hp": 70,
+    "act": 1,
+    "art": "res://assets/monsters/ash_warden.png",
+    "pattern": [
+      {
+        "name": "향로 강타",
+        "damage": 12
+      },
+      {
+        "name": "잿불 휘두르기",
+        "damage": 16
+      }
+    ],
+    "effect": "두 공격을 순서대로 반복한다.",
+    "gold": 40,
+    "sources": [
+      "ACT I 엘리트"
+    ],
+    "related": [
+      "이벤트:twisted_altar"
+    ]
+  },
+  {
+    "id": "ash_warden_boss",
+    "name": "재의 파수꾼 · 수문장",
+    "type": "보스",
+    "hp": 110,
+    "act": 1,
+    "art": "res://assets/monsters/ash_warden.png",
+    "pattern": [
+      {
+        "name": "향로 강타",
+        "damage": 16
+      },
+      {
+        "name": "잿불 휘두르기",
+        "damage": 20
+      }
+    ],
+    "effect": "두 공격을 순서대로 반복한다.",
+    "gold": 60,
+    "sources": [
+      "ACT I 보스"
+    ],
+    "related": [
+      "이벤트:twisted_altar"
+    ]
+  }
+]

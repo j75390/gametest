@@ -1,0 +1,17 @@
+[
+  {
+    "id": "healing_draught",
+    "name": "성혈 회복약",
+    "rarity": "일반",
+    "type": "회복",
+    "heal": 20,
+    "art": "res://assets/cards/healing_draught.svg",
+    "sources": [
+      "상점"
+    ],
+    "price": 35,
+    "related": [
+      "카드:blessing"
+    ]
+  }
+]

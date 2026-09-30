@@ -1,0 +1,32 @@
+[
+  {
+    "id": "explorer_map",
+    "name": "탐험가의 지도",
+    "rarity": "전설",
+    "effect": "현재 ACT의 모든 노드와 연결선을 보여줍니다.",
+    "art": "res://assets/cards/explorer_map.png",
+    "sources": [
+      "보물"
+    ],
+    "related": [],
+    "cursed": false,
+    "reveal_map": true
+  },
+  {
+    "id": "blood_contract",
+    "name": "핏빛 계약서",
+    "rarity": "희귀",
+    "cursed": true,
+    "effect": "공격 피해 +25%, 최대 HP -15%.",
+    "art": "res://assets/cards/blood_contract.png",
+    "sources": [
+      "상점"
+    ],
+    "related": [
+      "카드:bleeding_slash",
+      "카드:red_chain"
+    ],
+    "damage_multiplier": 1.25,
+    "hp_multiplier": 0.85
+  }
+]
