@@ -1,5 +1,19 @@
 # 운빨 원정대 — 집 PC 작업 인계
 
+## 다음 PC에서 먼저 읽을 인수인계 — 2026-10-01
+
+- 최신 기능 커밋: `02f3804` (미라 도트 SD 6종). 이 문서 보완 커밋까지 포함한 원격 main을 기준으로 이어간다.
+- 먼저 `AGENTS.md`, 이 문서, `docs/PC_SYNC.md`, `docs/MIRA_INDEPENDENT_FRAMES.md`를 읽는다. 로컬 변경을 보존·비교한 뒤 깨끗한 저장소에서 `tools/sync.ps1 start`로 동기화한다.
+- 집에서 실제 실행한 폴더: `C:/Users/j9357/OneDrive/Desktop/운빨원정대_Godot4_시작프로젝트`. Git 작업 폴더: `C:/Users/j9357/Documents/Codex/2026-09-29/godot-comfyui-codex-agents-md-codex/gametest`. 두 폴더는 상시 자동 동기화가 아니다. 다른 PC에서는 해당 PC의 실제 프로젝트 경로를 확인한다.
+- 미라 자산: `assets/characters/mira/pixel_sd_v1/`의 투명 PNG 12장. 원본·선택 원화·지도 얼굴은 별도 보존. `data/character_assets.json`이 모션 경로/시간 원본이며 `scripts/character_visual.gd`가 도감/전투 공용 재생기다.
+- 완료: 도감 기본/이동/공격/스킬/피격/사망 버튼, 일시정지/재개, 전투 행동 연결, 마지막 사망 자세 유지, 미리보기 잘림 수정. 각 동작은 소수 키포즈 방식이며 고프레임 보간은 하지 않았다. 이동 모션은 도감용으로 재생하며 지도 이동 규칙을 바꾸지 않았다.
+- 검증: Godot 4.7.2에서 `tools/mira_motion_qa.gd` 오류 0건. 기록 `docs/mira-motion-qa.txt`, 화면 `docs/mira-pixel-*.png`. 지도 200개 시드와 지도→전투→보상 회귀 검사도 통과. 실제 바탕화면 프로젝트와 Godot AI MCP 실행에서도 확인했다.
+- 남은 범위: 다른 캐릭터의 독립 SD/모션, 세라·루시안 등 아트 통일, 실제 멀티 네트워크, 저장/불러오기, 다음 ACT 및 전체 콘텐츠. 지도 다인 위치 표시는 구현돼 있으나 실제 멀티 접속 완료가 아니다.
+- 사용자 우선순위: 한 작업을 확실하게 마무리하고 5시간 사용량 30% 여유를 남긴다. 새 작업 전에 최신 요청을 확인한다. 이번 종료 조회는 67% 사용/33% 잔여였으며 현재 할당량으로 재사용하지 않는다.
+- 이미지 생성은 최신 사용자 지시에 따라 내장 image_gen을 사용한다. 기존 ComfyUI 전용 지침은 대체됐다. 프레임 시트 자르기/원화 축소로 SD를 대신하지 않는다.
+- 에디터가 기존 스크립트를 열고 있을 때 이전 메모리 내용이 파일을 덮어쓰지 않도록 주의한다. 외부 수정 후 파일 스캔과 재실행으로 실제 로드 경로를 확인한다.
+
+
 ## 2026-10-01 집 PC 병합 및 ComfyUI 선택 원화 적용
 - 기존 바탕화면 프로젝트는 그대로 보존하고 별도 `gametest` Git 작업 폴더에서 병합했다. 원격 기준 1ad07a8. 비교/병합 범위는 docs/HOME_MERGE.md.
 - 학원 버전의 지도 생성, 안개, 공개 갈림길 유지, 아이콘/지도 원화를 유지했다. 집의 캐릭터 선택 UI와 ComfyUI 브리지를 연결했다. 카드/전투 JSON은 양쪽 내용이 동일했으며 수치를 바꾸지 않았다.
@@ -95,7 +109,7 @@
 
 ## 2026-10-01 내장 이미지 생성으로 전환
 사용자가 ComfyUI 원화 품질을 거부해 내장 image_gen으로 칼리안 선택 원화를 새로 제작했다. 기존 미라 full_02를 그림체 참고로 사용. 파일 kalian_character_select_builtin_v1.png를 현재 바탕화면 프로젝트와 Git 프로젝트에 함께 적용했다. 이전 원화는 보존한다. 다른 캐릭터의 내장 생성 재제작은 아직 남아 있다.
-`n실제 바탕화면 프로젝트에서 HOME_MERGE_QA characters=4 failures=0. 칼리안 투명 표시와 도감/원정 진입 확인. 스크립트 오류 없음.
+실제 바탕화면 프로젝트에서 HOME_MERGE_QA characters=4 failures=0. 칼리안 투명 표시와 도감/원정 진입 확인. 스크립트 오류 없음.
 
 ## 미라 얼굴 수정
 사용자가 ComfyUI 재생성 미라의 얼굴 변형을 지적했다. 원본 full_02를 얼굴 기준으로 내장 image_gen에서 다시 제작한 mira_character_select_builtin_v1.png로 선택 원화/목록을 교체. 원본 full/gallery/모션과 이전 생성물은 보존. 현재 바탕화면 프로젝트에도 동시 적용.
@@ -111,4 +125,4 @@ MAP_PLAYERS_QA solo=4 party=4 failures=0 및 MAP_GRAPH_QA seeds=200 failures=0, 
 MIRA_MOTION_QA frames=12 motions=6 battle=attack/skill/hurt/death failures=0. PNG 전체 프레임·투명도·반복·일회 동작·사망 유지·일시정지·실제 도감 클릭·전투 전환·다른 3명 그림을 검사했다. 움직임은 소수 키포즈 기반이며 고프레임 보간은 아니다. 이동 모션은 도감에서 재생하며 지도 이동 규칙은 유지했다. 바탕화면 실제 사용 폴더도 백업 및 차이 비교 후 함께 반영한다.
 다음 작업은 다른 캐릭터 SD/모션, 또는 사용자 지정 우선순위. 이번 범위를 넘어 사용량을 소진하지 않는다.
 
-최종 반영: 바탕화면 프로젝트와 기존 Git 기준을 비교했으며 codex.gd의 별도 차이는 탭/공백 형식뿐이었다. 백업 후 41개 파일 반영. 바탕화면에서도 MIRA_MOTION_QA failures=0, 지도 회귀 MAP_GRAPH_QA seeds=200 failures=0 / MAP_UI_QA failures=0. Godot AI MCP 실제 열린 프로젝트의 도감에서 6개 버튼 활성화와 skill_release.png 재생 확인, 실행 오류 없음. 마지막 사용량 확인 63% 사용으로 30% 이상 여유를 남기고 종료한다.
+최종 반영: 바탕화면 프로젝트와 기존 Git 기준을 비교했으며 codex.gd의 별도 차이는 탭/공백 형식뿐이었다. 백업 후 41개 파일 반영. 바탕화면에서도 MIRA_MOTION_QA failures=0, 지도 회귀 MAP_GRAPH_QA seeds=200 failures=0 / MAP_UI_QA failures=0. Godot AI MCP 실제 열린 프로젝트의 도감에서 6개 버튼 활성화와 skill_release.png 재생 확인, 실행 오류 없음. 해당 작업 종료 시 마지막 사용량 확인 67% 사용으로 30% 이상 여유를 남기고 종료한다.
