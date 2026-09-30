@@ -1,0 +1,20 @@
+{
+  "generator": "OpenAI built-in image_gen",
+  "date": "2026-10-01",
+  "reference": "assets/characters/mira/full_02.png",
+  "method": "independently generated whole transparent frames, no sheet cropping",
+  "generated_ids": {
+    "idle": "f6ce8a4d-cb95-4ee5-b9b3-88d9b4012238",
+    "idle_blink": "022de307-afc8-4ff9-b6dd-f6a9ecde1452",
+    "walk_a": "8ecd8807-2f9c-41c4-8f28-288c27518170",
+    "walk_b": "1458ded3-0c07-42df-a963-4d299f39ecfc",
+    "walk_pass": "16eab149-ae2b-4a88-bbe5-12c3207fd768",
+    "attack_prepare": "cc626f18-56ca-4ea7-9c00-d7d4d606763a",
+    "attack_release": "0d2f073b-779a-4bc7-b46e-efa9dbae2c7f",
+    "skill_charge": "e41a5bf5-63f3-43d9-87b7-09267a5cedfb",
+    "skill_release": "7dd7e49d-60f1-4547-b284-4d62a999b910",
+    "hurt": "65e18211-c611-40da-a0c8-b443e7ba9eb4",
+    "death_fall": "4caf7df0-f2d0-4f4b-b190-a7e51efa23b6",
+    "death_rest": "74068c1e-a034-4da3-9fec-6225d2436d97"
+  }
+}

@@ -284,7 +284,7 @@ func show_battle():
 	stage.alignment = BoxContainer.ALIGNMENT_CENTER
 	stage.add_theme_constant_override("separation", 100)
 	content.add_child(stage)
-	if not Assets.profile(selected_character.id).is_empty():
+	if Assets.count(selected_character.id, "idle") > 0:
 		var actor = CharacterVisual.new()
 		actor.name = "Hero"
 		actor.custom_minimum_size = Vector2(340, 230)
@@ -378,7 +378,7 @@ func end_turn():
 	var incoming = int(enemy.pattern[enemy_turn % enemy.pattern.size()].damage)
 	enemy_turn += 1
 	var damage = max(0, incoming - block)
-	hp -= damage
+	hp = maxi(0, hp - damage)
 	block = 0
 	battle_motion = "death" if hp <= 0 else ("hurt" if damage > 0 else "idle")
 	show_battle()

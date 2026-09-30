@@ -27,7 +27,7 @@ static func duration(character_id: String, motion: String, index: int) -> float:
 	var frames: Array = profile(character_id).get("motions", {}).get(motion, [])
 	if frames.is_empty():
 		return 0.16
-	return float(frames[clampi(index, 0, frames.size() - 1)].get("duration", 0.16))
+	return maxf(0.01, float(frames[clampi(index, 0, frames.size() - 1)].get("duration", 0.16)))
 
 static func motion_duration(character_id: String, motion: String) -> float:
 	var total := 0.0

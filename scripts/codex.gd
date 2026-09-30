@@ -2,6 +2,7 @@ extends Control
 ## Independent, data-backed archive. Reference package assets are never loaded.
 signal closed
 const Assets = preload("res://scripts/character_assets.gd")
+const CharacterVisual = preload("res://scripts/character_visual.gd")
 
 const Data = preload("res://scripts/game_data.gd")
 const CATEGORIES := ["캐릭터", "카드", "유물", "몬스터", "포션", "인챈트", "이벤트", "파워", "지역", "스토리"]
@@ -217,7 +218,7 @@ func _build() -> void:
         tab_buttons.append(b)
     body = HBoxContainer.new()
     body.name = "ThreeColumns"
-    body.custom_minimum_size.y = 440
+    body.custom_minimum_size.y = 400
     body.size_flags_vertical = Control.SIZE_EXPAND_FILL
     body.add_theme_constant_override("separation", 14)
     root.add_child(body)
@@ -253,7 +254,7 @@ func _build() -> void:
     var lower := _panel(root)
     _label(lower, "전투 모션  /  전용 카드 기록", 17, GOLD)
     gallery_scroll = _scroll(lower, "GalleryScroll")
-    gallery_scroll.custom_minimum_size.y = 200
+    gallery_scroll.custom_minimum_size.y = 230
     gallery_scroll.vertical_scroll_mode = ScrollContainer.SCROLL_MODE_AUTO
     gallery_scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_AUTO
     gallery_box = HBoxContainer.new()
@@ -418,8 +419,17 @@ func _build_motion(path: String) -> void:
     if not sheet:
         _label(panel, "독립 SD 모션 자산 미등록", 16, MUTED)
         return
-    sprite_preview = _picture(panel, null, Vector2(145, 180))
-    sprite_preview.texture_filter = CanvasItem.TEXTURE_FILTER_LINEAR_WITH_MIPMAPS if Assets.profile(selected_id).has("motions") else CanvasItem.TEXTURE_FILTER_NEAREST
+    if Assets.profile(selected_id).has("motions"):
+        sprite_preview = CharacterVisual.new()
+        sprite_preview.custom_minimum_size = Vector2(210, 210)
+        sprite_preview.size_flags_vertical = Control.SIZE_SHRINK_BEGIN
+        panel.add_child(sprite_preview)
+        sprite_preview.loop_preview = true
+        sprite_preview.setup(selected_id)
+        sprite_preview.set_process(playing)
+    else:
+        sprite_preview = _picture(panel, null, Vector2(145, 180))
+        sprite_preview.texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
     var controls := VBoxContainer.new()
     controls.custom_minimum_size.x = 158
     panel.add_child(controls)
@@ -428,6 +438,7 @@ func _build_motion(path: String) -> void:
     controls.add_child(grid)
     for i in range(MOTIONS.size()):
         var b := _button(grid, MOTIONS[i], _set_motion.bind(i))
+        b.custom_minimum_size.x = 74
         b.toggle_mode = true
         if Assets.profile(selected_id).has("motions") and Assets.count(selected_id, Assets.KEYS[i]) == 0:
             b.disabled = true
@@ -447,12 +458,14 @@ func _set_motion(index: int) -> void:
 func _toggle_play() -> void:
     playing = not playing
     pause_button.text = "Ⅱ 일시정지" if playing else "▷ 재생"
+    if is_instance_valid(sprite_preview) and sprite_preview is CharacterVisual:
+        sprite_preview.set_process(playing)
 
 func _update_frame() -> void:
     if not sheet or not is_instance_valid(sprite_preview):
         return
     if Assets.profile(selected_id).has("motions"):
-        sprite_preview.texture = Assets.frame(selected_id, Assets.KEYS[motion_index], frame_index)
+        sprite_preview.play(Assets.KEYS[motion_index])
         return
     var atlas := AtlasTexture.new()
     atlas.atlas = sheet
@@ -470,6 +483,8 @@ func _update_frame() -> void:
     sprite_preview.texture = atlas
 
 func _process(delta: float) -> void:
+    if is_instance_valid(sprite_preview) and sprite_preview is CharacterVisual:
+        return
     if sheet and playing:
         frame_time += delta
         var duration := Assets.duration(selected_id, Assets.KEYS[motion_index], frame_index) if Assets.profile(selected_id).has("motions") else 0.18

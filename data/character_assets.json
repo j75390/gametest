@@ -12,32 +12,106 @@
         "path": "res://assets/characters/mira/full_02.png"
       },
       {
-        "name": "새 SD · 기본",
-        "path": "res://assets/characters/mira/animated/idle.png"
+        "name": "도트 SD · 기본",
+        "path": "res://assets/characters/mira/pixel_sd_v1/idle.png"
+      },
+      {
+        "name": "도트 SD · 주술",
+        "path": "res://assets/characters/mira/pixel_sd_v1/skill_release.png"
       }
     ],
     "motions": {
       "idle": [
         {
-          "path": "res://assets/characters/mira/animated/idle.png",
-          "duration": 2.8
+          "path": "res://assets/characters/mira/pixel_sd_v1/idle.png",
+          "duration": 2.4
         },
         {
-          "path": "res://assets/characters/mira/animated/blink.png",
+          "path": "res://assets/characters/mira/pixel_sd_v1/idle_blink.png",
+          "duration": 0.13
+        }
+      ],
+      "walk": [
+        {
+          "path": "res://assets/characters/mira/pixel_sd_v1/walk_a.png",
+          "duration": 0.16
+        },
+        {
+          "path": "res://assets/characters/mira/pixel_sd_v1/walk_pass.png",
+          "duration": 0.12
+        },
+        {
+          "path": "res://assets/characters/mira/pixel_sd_v1/walk_b.png",
+          "duration": 0.16
+        },
+        {
+          "path": "res://assets/characters/mira/pixel_sd_v1/idle.png",
+          "duration": 0.12
+        }
+      ],
+      "attack": [
+        {
+          "path": "res://assets/characters/mira/pixel_sd_v1/attack_prepare.png",
+          "duration": 0.18
+        },
+        {
+          "path": "res://assets/characters/mira/pixel_sd_v1/attack_release.png",
+          "duration": 0.3
+        },
+        {
+          "path": "res://assets/characters/mira/pixel_sd_v1/idle.png",
+          "duration": 0.18
+        }
+      ],
+      "skill": [
+        {
+          "path": "res://assets/characters/mira/pixel_sd_v1/skill_charge.png",
+          "duration": 0.32
+        },
+        {
+          "path": "res://assets/characters/mira/pixel_sd_v1/skill_release.png",
+          "duration": 0.48
+        },
+        {
+          "path": "res://assets/characters/mira/pixel_sd_v1/idle.png",
+          "duration": 0.18
+        }
+      ],
+      "hurt": [
+        {
+          "path": "res://assets/characters/mira/pixel_sd_v1/hurt.png",
+          "duration": 0.26
+        },
+        {
+          "path": "res://assets/characters/mira/pixel_sd_v1/idle_blink.png",
+          "duration": 0.12
+        },
+        {
+          "path": "res://assets/characters/mira/pixel_sd_v1/idle.png",
           "duration": 0.14
         }
       ],
-      "walk": [],
-      "attack": [],
-      "skill": [],
-      "hurt": [],
-      "death": []
+      "death": [
+        {
+          "path": "res://assets/characters/mira/pixel_sd_v1/hurt.png",
+          "duration": 0.16
+        },
+        {
+          "path": "res://assets/characters/mira/pixel_sd_v1/death_fall.png",
+          "duration": 0.3
+        },
+        {
+          "path": "res://assets/characters/mira/pixel_sd_v1/death_rest.png",
+          "duration": 1.2
+        }
+      ]
     },
-    "status": "독립 프레임 제작 중: 기본 2장, 다른 자세 미완성",
+    "status": "도트 SD 기본·이동·공격·스킬·피격·사망 독립 프레임 적용",
     "selection_panorama": "res://assets/characters/mira/selection_panorama_v1.png",
     "illustration": "res://assets/characters/mira/illustration/mira_character_select_builtin_v1.png",
     "needs_transparent_art": false,
-    "map_portrait": "res://assets/characters/mira/portrait/mira_map_portrait.png"
+    "map_portrait": "res://assets/characters/mira/portrait/mira_map_portrait.png",
+    "pixel_art": true
   },
   "kalian": {
     "illustration": "res://assets/characters/kalian/illustration/kalian_character_select_builtin_v1.png",
