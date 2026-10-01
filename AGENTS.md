@@ -300,3 +300,5 @@ Godot AI MCP가 연결되어 있으면:
 - 2026-10-01 미라 도트 SD 6종은 pixel_sd_v1 독립 PNG 12장과 character_assets.json 타임라인을 기준으로 한다. 도감과 전투는 CharacterVisual을 공유한다. 이전 기본 2장/나머지 제작 중 상태로 되돌리지 않는다. 작은 키포즈 세트이며 고프레임 보간 완성으로 과장하지 않는다.
 
 - 최신 추가 자료는 docs/CODEX_HANDOVER_LATEST_ORIGINAL.md 및 docs/power_status_300.txt. 충돌 조정과 실제 구현 여부는 docs/PROJECT_DIRECTION.md/HANDOFF.md를 따른다. 300개 초안과 Content Tool 설명을 실행 가능한 구현으로 간주하지 않는다.
+
+- 최신 사용자 지시: 콘텐츠 편집은 tools/content_tool의 REST API/CLI를 우선한다. docs/CONTENT_TOOL_INTEGRATION.md를 읽는다. 반복 아이콘은 ComfyUI 우선, 핵심 일러스트는 별도 고품질 경로. 새 생성물은 needs_review, 승인 후 export. 기존 내장 생성 전용 규칙 중 반복 아이콘 부분은 이 지시로 대체한다.

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>운빨원정대 Content Tool</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header>
+  <div>
+    <h1>운빨원정대 Content Tool</h1>
+    <p>카드 · 유물 · 포션 · 인챈트 · 파워/상태이상 · 몬스터 · 이벤트</p>
+  </div>
+  <div class="header-actions">
+    <button id="btnValidate">전체 검증</button>
+    <button id="btnExport">Godot Export</button>
+    <button id="btnHandover">인수인계</button>
+  </div>
+</header>
+
+<div id="statusBar">준비됨</div>
+
+<main>
+  <aside>
+    <div id="tabs"></div>
+    <div class="aside-box">
+      <label>검색</label>
+      <input id="searchInput" placeholder="이름 또는 ID">
+    </div>
+    <div class="aside-box">
+      <h3>ComfyUI</h3>
+      <input id="comfyUrl" value="http://127.0.0.1:8188">
+      <button id="btnComfyStatus">연결 확인</button>
+    </div>
+  </aside>
+
+  <section class="editor">
+    <div class="section-title">
+      <h2 id="typeTitle">콘텐츠</h2>
+      <button id="btnNew">+ 새 항목</button>
+    </div>
+    <div id="form"></div>
+    <div class="form-actions">
+      <button class="primary" id="btnSave">저장</button>
+      <button id="btnGenerateArt">ComfyUI 이미지 생성</button>
+      <button class="danger" id="btnDelete">삭제</button>
+    </div>
+  </section>
+
+  <section class="right">
+    <div class="panel">
+      <h3>미리보기</h3>
+      <div id="preview" class="preview"></div>
+    </div>
+    <div class="panel list-panel">
+      <h3>목록</h3>
+      <div id="itemList"></div>
+    </div>
+  </section>
+</main>
+
+<div class="modal hidden" id="exportModal">
+  <div class="modal-card">
+    <h2>Godot Export</h2>
+    <p>비워두면 툴의 export 폴더에만 JSON을 만듭니다.</p>
+    <label>Godot 프로젝트 경로</label>
+    <input id="godotPath" placeholder="C:\...\project-folder">
+    <div class="modal-actions">
+      <button id="doExport" class="primary">Export</button>
+      <button data-close="exportModal">닫기</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal hidden" id="handoverModal">
+  <div class="modal-card wide">
+    <h2>인수인계 생성</h2>
+    <label>현재 목표</label><textarea id="hoGoal"></textarea>
+    <label>완료된 것</label><textarea id="hoCompleted"></textarea>
+    <label>남은 작업</label><textarea id="hoPending"></textarea>
+    <label>메모</label><textarea id="hoNotes"></textarea>
+    <div class="modal-actions">
+      <button id="doHandover" class="primary">HANDOVER_CURRENT.md 생성</button>
+      <button data-close="handoverModal">닫기</button>
+    </div>
+  </div>
+</div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

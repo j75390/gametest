@@ -1,8 +1,14 @@
 extends RefCounted
 ## Single runtime catalog shared by the archive, combat, shops and rewards.
 static var cache: Dictionary = {}
+const CONTENT_KEYS := ["cards", "relics", "potions", "enchantments", "powers", "monsters", "events"]
+const CATALOG := "res://data/content_tool/catalog.json"
 
 static func read(key: String) -> Variant:
+	if not cache.has(key) and key in CONTENT_KEYS and FileAccess.file_exists(CATALOG):
+		var catalog: Dictionary = JSON.parse_string(FileAccess.get_file_as_string(CATALOG))
+		for kind in CONTENT_KEYS:
+			cache[kind] = catalog[kind]
 	if not cache.has(key):
 		cache[key] = JSON.parse_string(FileAccess.get_file_as_string("res://data/" + key + ".json"))
 	return cache[key]

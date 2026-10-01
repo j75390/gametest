@@ -1,0 +1,6 @@
+{
+  "goal": "Content Tool Godot integration",
+  "completed": "21 existing records migrated; API validate/export; shared runtime catalog and status model; Godot regression passed",
+  "pending": "ComfyUI is offline; real generation and hover visual QA remain",
+  "notes": "See docs/CONTENT_TOOL_INTEGRATION.md"
+}

@@ -3,16 +3,30 @@ extends Control
 const Data = preload("res://scripts/game_data.gd")
 var enemy: Dictionary = {}
 var enemy_turn := 0
-var bleed := 0
-var next_attack := 0
+const UnitStatus = preload("res://scripts/unit_status.gd")
+const StatusPanel = preload("res://scripts/status_panel.gd")
+var player_status = UnitStatus.new()
+var enemy_status = UnitStatus.new()
+var bleed: int:
+	get: return enemy_status.amount("bleed")
+	set(value): enemy_status.set_amount("bleed", value)
+var next_attack: int:
+	get: return player_status.amount("empower")
+	set(value): player_status.set_amount("empower", value)
 var owned_relics: Array[String] = []
 const Assets = preload("res://scripts/character_assets.gd")
 const CharacterVisual = preload("res://scripts/character_visual.gd")
 var battle_motion := "idle"
 var battle_busy := false
 var enemy_max_hp := 45
-var venom_turns := 0
-var venom_rate := 0.0
+var venom_turns: int:
+	get: return enemy_status.amount("venom")
+	set(value): enemy_status.set_amount("venom", value)
+var venom_rate: float:
+	get: return float(enemy_status.entries.get("venom", {}).get("rate", 0.0))
+	set(value):
+		if enemy_status.entries.has("venom"):
+			enemy_status.entries["venom"]["rate"] = value
 
 var screen := "menu"
 var selected_character := {}
@@ -259,6 +273,8 @@ func advance_map():
 
 func start_battle(kind:String):
 	screen = "battle"
+	player_status.entries.clear()
+	enemy_status.entries.clear()
 	enemy = Data.read("monsters")[0 if kind == "전투" else (1 if kind == "엘리트" else 2)]
 	enemy_hp = int(enemy.hp)
 	enemy_turn = 0
@@ -276,6 +292,7 @@ func start_battle(kind:String):
 	hand.clear()
 	energy = 3
 	_draw_cards(5)
+	enemy_status.apply(enemy.get("powers", []))
 	show_battle()
 
 func _draw_cards(n:int):
@@ -306,6 +323,19 @@ func show_battle():
 	else:
 		add_picture(stage, Assets.picture(selected_character.id, "full"), Vector2(240, 230))
 	add_picture(stage, load(enemy.art), Vector2(240, 230))
+	var status_row := HBoxContainer.new()
+	status_row.name = "UnitStatuses"
+	status_row.alignment = BoxContainer.ALIGNMENT_CENTER
+	status_row.add_theme_constant_override("separation", 120)
+	content.add_child(status_row)
+	var player_panel = StatusPanel.new()
+	player_panel.name = "Player"
+	status_row.add_child(player_panel)
+	player_panel.setup(selected_character.name, hp, max_hp, player_status)
+	var enemy_panel = StatusPanel.new()
+	enemy_panel.name = "Enemy"
+	status_row.add_child(enemy_panel)
+	enemy_panel.setup(enemy.name, enemy_hp, enemy_max_hp, enemy_status)
 	add_text("%s · 다음 행동: %s" % [enemy.name, enemy.pattern[enemy_turn % enemy.pattern.size()].name])
 	add_text("적 HP: %d / %d   ·   맹독 %d턴" % [enemy_hp, enemy_max_hp, venom_turns])
 	var cards_row = HBoxContainer.new()
@@ -346,8 +376,7 @@ func play_card(index:int):
 		venom_rate = float(c.venom_rate)
 	var damage := int(c.get("damage", 0))
 	if c.type == "공격":
-		damage += next_attack
-		next_attack = 0
+		damage += player_status.consume_attack()
 		if owned_relics.has("blood_contract"):
 			damage = ceili(damage * Data.find_record("relics", "blood_contract").damage_multiplier)
 	enemy_hp -= damage
@@ -372,26 +401,20 @@ func end_turn():
 	if battle_busy or screen != "battle":
 		return
 	battle_busy = true
-	enemy_hp -= bleed
-	bleed = maxi(0, bleed - 1)
+	enemy_hp -= enemy_status.tick(enemy_max_hp)
 	if enemy_hp <= 0:
 		battle_busy = false
 		show_reward()
 		return
-	if venom_turns > 0:
-		enemy_hp -= maxi(1, ceili(enemy_max_hp * venom_rate))
-		venom_turns -= 1
-		if enemy_hp <= 0:
-			battle_busy = false
-			show_reward()
-			return
 	for c in hand:
 		discard_pile.append(c)
 	hand.clear()
-	var incoming = int(enemy.pattern[enemy_turn % enemy.pattern.size()].damage)
+	var action: Dictionary = enemy.pattern[enemy_turn % enemy.pattern.size()]
+	var incoming = int(action.damage) + enemy_status.consume_attack()
+	player_status.apply(action.get("apply_statuses", []))
 	enemy_turn += 1
 	var damage = max(0, incoming - block)
-	hp = maxi(0, hp - damage)
+	hp = maxi(0, hp - damage - player_status.tick(max_hp))
 	block = 0
 	battle_motion = "death" if hp <= 0 else ("hurt" if damage > 0 else "idle")
 	show_battle()

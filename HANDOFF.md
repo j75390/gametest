@@ -1,5 +1,11 @@
 # 잿빛 원정대 — 집 PC 작업 인계
 
+## Content Tool 연동
+- tools/content_tool에 제공 툴과 연결 코드를 보존. 편집 원본 content.json, 승인된 게임용 catalog.json export 및 game_data.gd 공통 읽기 연결. 바탕화면 실행기도 같은 원본으로 연결했다.
+- 기존21개 이관 + 샘플2개 보존, API 수정/검증/export/복원 통과. 공통 상태 모델과 양쪽 HP바 아래 아이콘/툴팁 추가. Godot 상태 계산 및 미라 전투 회귀 검사 오류0.
+- ComfyUI 8188은 꺼져 있어 실제 생성 미검증. 300개 효과/전체 GUI·hover 시각 검사 미완성. 세부 파일/CLI/경로/제한은 docs/CONTENT_TOOL_INTEGRATION.md. 다음은 ComfyUI 실행 후 샘플 아이콘 생성→needs_review 확인→검수 및 상태 UI 실제 hover 확인.
+
+
 ## 최신 인수인계 ZIP 수신
 - LuckyExpedition_CODEX_Handover_Latest.zip의 원문 MD 및 power_status_300.txt를 docs/에 원본 그대로 보존했다. MD/TXT 동일, 파워 초안 300개 번호 연속성 및 보존 파일 SHA-256 일치 확인.
 - docs/PROJECT_DIRECTION.md에 추가 목표/아이콘 규격/현행 기준과의 차이를 정리했다. 게임명 잿빛 원정대, 내장 생성, 독립 프레임, 연결선 기준 두 칸 시야는 유지한다.

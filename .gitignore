@@ -18,3 +18,7 @@ build/
 dist/
 Thumbs.db
 Desktop.ini
+
+tools/content_tool/__pycache__/
+tools/content_tool/export/
+tools/content_tool/generated/
