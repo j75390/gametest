@@ -39,6 +39,8 @@ var bg := ColorRect.new()
 var title := Label.new()
 var content: VBoxContainer
 var footer := Label.new()
+var shell: MarginContainer
+var title_menu: Control
 
 func _ready():
 	_load_data()
@@ -62,6 +64,7 @@ func _build_shell():
 	add_child(bg)
 
 	var frame = MarginContainer.new()
+	shell = frame
 	frame.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	frame.add_theme_constant_override("margin_left", 42)
 	frame.add_theme_constant_override("margin_right", 42)
@@ -97,6 +100,11 @@ func _build_shell():
 	root_v.add_child(footer)
 
 func clear_content():
+	if is_instance_valid(title_menu):
+		remove_child(title_menu)
+		title_menu.queue_free()
+		title_menu = null
+	shell.show()
 	for c in content.get_children():
 		content.remove_child(c)
 		c.queue_free()
@@ -128,13 +136,18 @@ func add_button(text_value:String, callable:Callable):
 func show_menu():
 	screen = "menu"
 	clear_content()
-	title.text = "잿빛 원정대"
-	add_text("다크 고딕 덱빌딩 로그라이크")
-	add_button("싱글 플레이", show_character_select)
-	add_button("도감", show_codex)
-	add_button("설정", show_settings)
-	add_button("멀티 플레이 (기초 화면)", show_multiplayer)
-	add_button("종료하기", func(): get_tree().quit())
+	shell.hide()
+	title_menu = load("res://scripts/title_menu.gd").new()
+	title_menu.name = "TitleMenu"
+	title_menu.chosen.connect(func(action):
+		match action:
+			"single": show_character_select()
+			"multi": show_multiplayer()
+			"codex": show_codex()
+			"settings": show_settings()
+			"quit": get_tree().quit()
+	)
+	add_child(title_menu)
 
 func show_character_select():
 	screen = "character_select"
