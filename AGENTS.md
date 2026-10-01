@@ -298,3 +298,5 @@ Godot AI MCP가 연결되어 있으면:
 - 지도 현재 위치는 선택 캐릭터의 독립 얼굴 초상화로 표시한다. 이동에 따라 위치를 갱신한다. 여러 플레이어는 얼굴·번호·색으로 구분하며 같은 장소에서 겹치지 않게 한다. 이 얼굴 테두리는 허용하되 일반 장소 아이콘에 원형 바탕을 다시 추가하지 않는다. 멀티 위치 표시 테스트와 실제 네트워크 접속을 구분한다.
 
 - 2026-10-01 미라 도트 SD 6종은 pixel_sd_v1 독립 PNG 12장과 character_assets.json 타임라인을 기준으로 한다. 도감과 전투는 CharacterVisual을 공유한다. 이전 기본 2장/나머지 제작 중 상태로 되돌리지 않는다. 작은 키포즈 세트이며 고프레임 보간 완성으로 과장하지 않는다.
+
+- 최신 추가 자료는 docs/CODEX_HANDOVER_LATEST_ORIGINAL.md 및 docs/power_status_300.txt. 충돌 조정과 실제 구현 여부는 docs/PROJECT_DIRECTION.md/HANDOFF.md를 따른다. 300개 초안과 Content Tool 설명을 실행 가능한 구현으로 간주하지 않는다.
