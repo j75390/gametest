@@ -1,5 +1,13 @@
 # 잿빛 원정대 — 집 PC 작업 인계
 
+## 집 PC 최신 작업 수신 확인
+- 원격 `4a9f312`까지 fast-forward pull 완료. AGENTS.md, PC_SYNC.md, PROJECT_DIRECTION.md, TITLE_MENU.md와 최신 종료 인수인계를 확인했다.
+- 게임명 잿빛 원정대, 시작 화면 v2, 메뉴 포커스 유지 수정 및 통합 제작 목표를 인계받았다. 신규 목표를 구현 완료로 취급하지 않는다. 미라 12장·6종과 지도 공개 규칙 유지.
+- 바탕화면 실제 사용 프로젝트에 변경 46개 파일을 비교·백업 후 반영했다. 로컬 Godot 설정 및 기존 테스트/이미지 UID를 보존했다. 백업은 이 PC 작업 폴더 work/before-pull-4a9f312-desktop.zip.
+- Godot 4.7.2 import 성공, 실제 렌더링 TITLE_FOCUS_QA mouse_exit=3 keyboard=1 failures=0. 현재 MCP 에디터 연결은 없어 Godot 실행 파일로 확인했다. 전체 게임 QA를 재실행한 것은 아니다.
+- 이번에는 수신·병합·인수인계만 수행했다. 다음 기능 구현은 사용자 우선순위를 따른다.
+
+
 ## 2026-10-01 작업 종료 인수인계 — 다음 PC는 여기부터
 - 오늘 집 작업을 수신한 뒤 게임 제목을 **잿빛 원정대**로 변경했다. 폴더명과 GitHub gametest 주소는 그대로다.
 - ChatGPT 문서 및 CODEX_HANDOVER ZIP 원문을 보존하고 `docs/PROJECT_DIRECTION.md`에 통합했다. 유물 154개·고대 유물·제작 도구·공통 상태이상·영구 도감·멀티 이벤트는 제작 목표이며 새로 구현된 기능이 아니다.
