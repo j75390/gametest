@@ -1,5 +1,16 @@
 # 잿빛 원정대 — 집 PC 작업 인계
 
+## 2026-10-01 작업 종료 인수인계 — 다음 PC는 여기부터
+- 오늘 집 작업을 수신한 뒤 게임 제목을 **잿빛 원정대**로 변경했다. 폴더명과 GitHub gametest 주소는 그대로다.
+- ChatGPT 문서 및 CODEX_HANDOVER ZIP 원문을 보존하고 `docs/PROJECT_DIRECTION.md`에 통합했다. 유물 154개·고대 유물·제작 도구·공통 상태이상·영구 도감·멀티 이벤트는 제작 목표이며 새로 구현된 기능이 아니다.
+- 시작 화면 최종본은 **v2**: 생성한 고딕 폐허 배경 + 별도 은색 금속 로고 + 금색 가시 장식 버튼 + 청록 선택 광채. 얇은 글꼴/사각 버튼의 v1으로 되돌리지 않는다. 제목/버튼은 배경 스크린샷에 포함된 가짜 UI가 아니다.
+- 마지막 수정은 마우스 이탈 시 강조가 싱글 플레이로 튀는 문제다. 마우스로 가리킨 버튼에 실제 포커스를 옮겨 마지막 선택을 유지한다. 방향키도 같은 선택 상태를 사용한다.
+- 검증 기록: `TITLE_MENU_QA resolutions=3 routes=4 failures=0`, 마지막 수정은 `TITLE_FOCUS_QA mouse_exit=3 keyboard=1 failures=0`. Godot 4.7.2 실제 실행 결과이며 이번 종료 정리에서 반복 실행하지 않았다. 종료 버튼 자동 클릭/전체 게임 QA는 실시하지 않았다.
+- 최신 화면 `docs/title-menu-v2-1440.png` 등, 제작 프롬프트 `docs/TITLE_MENU.md`, 코드 `scripts/title_menu.gd`, 자산 `assets/ui/title/` 및 `assets/backgrounds/title_ruins_v1.png`.
+- 종료 정리에는 Godot가 만든 이미지 import 메타데이터와 테스트 UID, 기존 도감 탭 들여쓰기도 함께 보존한다. 도감은 공백을 무시한 diff에서 기능 차이가 없음을 확인했다. 기존 import 파일은 줄바꿈 차이로 내용 변경이 없었다.
+- 여전히 미완성: 멀티/설정 내부 기능, 저장·불러오기, 다른 캐릭터 독립 모션, 5 ACT 및 콘텐츠 목표, 신규 기획 시스템. 미라 12장·6종과 기존 지도 규칙은 유지한다.
+- 집 PC에서는 로컬 변경을 확인해 보존한 뒤 pull하고 `AGENTS.md` → 이 문서 → `docs/PROJECT_DIRECTION.md` → `docs/TITLE_MENU.md` 순으로 읽는다. 게임이 이미 실행 중이면 다시 실행한다. 다음 구현은 사용자가 정하는 우선순위를 따른다.
+
 ## 2026-10-01 메뉴 강조 유지 수정
 - 마우스 이탈 때 hover 상태가 해제되며 최초 싱글 플레이 포커스로 강조가 튀던 문제를 수정했다. 마우스 진입 시 실제 버튼 포커스를 이동하여 마지막 선택을 유지하며 방향키도 같은 상태를 사용한다.
 - scripts/title_menu.gd 수정, tools/title_focus_qa.gd 추가. 실제 Godot에서 세 메뉴의 진입/이탈 및 위 방향키 이동 검사 TITLE_FOCUS_QA mouse_exit=3 keyboard=1 failures=0.
