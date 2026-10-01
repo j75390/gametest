@@ -25,6 +25,11 @@ func setup(unit_name: String, hp: int, maximum: int, statuses) -> void:
 		var count: int = statuses.amount(id)
 		var unit := "턴" if record.get("stack_mode") == "DURATION" else "중첩"
 		icon.tooltip_text = "%s\n%s · %d%s\n%s" % [record.name, record.get("type", "파워"), count, unit, record.get("tooltip", record.effect)]
+		if record.get("behavior") == "dot_percent":
+			var rate := float(statuses.entries[id].get("rate", record.get("rate", 0.08)))
+			icon.tooltip_text += "\n다음 턴 피해: %d (최대 HP의 %d%%)" % [maxi(1, ceili(maximum * rate)), roundi(rate * 100)]
+		elif record.get("behavior") == "dot_flat":
+			icon.tooltip_text += "\n다음 턴 피해: %d" % count
 		row.add_child(icon)
 		var number := Label.new()
 		number.text = str(count)

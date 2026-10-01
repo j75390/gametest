@@ -304,6 +304,37 @@
           "damage": 18
         }
       }
+    },
+    {
+      "id": "poison_infusion",
+      "name": "독 주입",
+      "rarity": "일반",
+      "type": "스킬",
+      "character": "mira",
+      "target": "적 1명",
+      "keywords": [
+        "독",
+        "스킬"
+      ],
+      "energy_cost": 1,
+      "description": "독 5중첩을 부여한다. 강화 시 8중첩.",
+      "image": "res://assets/status/poison_v3.png",
+      "art_source": "COMFYUI",
+      "approval_state": "approved",
+      "runtime": {
+        "poison": 5,
+        "sources": [
+          "전투 보상",
+          "상점"
+        ],
+        "related": [
+          "파워:poison"
+        ],
+        "upgrade": {
+          "poison": 8
+        }
+      },
+      "approval_basis": "Reviewed poison symbol reused as this utility card symbol; gameplay text generated from runtime values."
     }
   ],
   "relics": [
@@ -418,49 +449,68 @@
   "powers": [
     {
       "id": "poison",
-      "name": "맹독",
+      "name": "독",
       "category": "DEBUFF",
       "stack_mode": "COUNTER",
-      "target": "ENEMY",
+      "target": "BOTH",
       "trigger": "턴 시작",
       "duration": 0,
       "max_stack": 0,
-      "effect": "턴 시작 시 중첩 수만큼 피해를 받는다.",
-      "remove_condition": "효과 규칙에 따라 중첩 감소",
-      "tooltip": "턴 시작 시 현재 맹독 중첩 수만큼 피해를 받습니다.",
-      "icon": "res://ai/review/comfy_poison_test.png",
-      "art_prompt": "dark gothic poison status icon, violet green vial, game UI icon, no text",
+      "effect": "자신의 턴 시작 시 중첩 수만큼 HP 피해를 받고 1중첩 감소한다. 맹독과 독립적으로 적용된다.",
+      "remove_condition": "중첩 또는 남은 턴이 0이 되면 제거",
+      "tooltip": "자신의 턴 시작 시 중첩 수만큼 HP 피해를 받고 1중첩 감소한다. 맹독과 독립적으로 적용된다.",
+      "icon": "res://assets/status/poison_v3.png",
+      "art_prompt": "Single green liquid droplet, no face or bottle",
       "art_source": "COMFYUI",
-      "approval_state": "needs_review",
+      "approval_state": "approved",
       "generation": {
-        "prompt_id": "6774d649-e584-49b8-b772-ba112cc34a70",
-        "seed": 9357,
+        "prompt_id": "cf1c7dea-3801-45c1-8b27-30bd921d028c",
+        "seed": 9468,
         "checkpoint": "sd_xl_base_1.0.safetensors"
-      }
+      },
+      "runtime": {
+        "behavior": "dot_flat",
+        "sources": [
+          "독 주입"
+        ],
+        "related": [
+          "카드:poison_infusion"
+        ]
+      },
+      "approval_basis": "2026-10-02 visual review: distinct single green droplet / purple skull, no bottle or text; battle-size QA follows."
     },
     {
       "id": "venom",
       "name": "맹독",
-      "effect": "적 턴 시작 시 최대 HP의 비율 피해. 매 턴 지속 시간이 1 줄어든다.",
-      "icon": "res://assets/cards/toxic_vial.png",
+      "effect": "자신의 턴 시작 시 최대 HP의 8% 피해(올림, 최소 1)를 받고 남은 시간이 1턴 감소한다. 독과 독립적으로 적용된다.",
+      "icon": "res://assets/status/venom_v1.png",
       "approval_state": "approved",
-      "art_source": "MANUAL",
-      "approval_basis": "Preserved existing shipped runtime asset; path verified; no new generated art approved",
+      "art_source": "COMFYUI",
+      "approval_basis": "2026-10-02 visual review: distinct single green droplet / purple skull, no bottle or text; battle-size QA follows.",
       "category": "DEBUFF",
       "stack_mode": "DURATION",
-      "tooltip": "적 턴 시작 시 최대 HP의 비율 피해. 매 턴 지속 시간이 1 줄어든다.",
+      "tooltip": "자신의 턴 시작 시 최대 HP의 8% 피해(올림, 최소 1)를 받고 남은 시간이 1턴 감소한다. 독과 독립적으로 적용된다.",
       "duration": 0,
       "max_stack": 0,
       "trigger": "턴 시작",
       "runtime": {
+        "behavior": "dot_percent",
+        "rate": 0.08,
         "sources": [
           "맹독 주술"
         ],
         "related": [
           "카드:venom_hex"
-        ],
-        "behavior": "dot_percent"
-      }
+        ]
+      },
+      "generation": {
+        "prompt_id": "4a0fbf6a-55f0-44cb-8546-ba1567d0363b",
+        "seed": 9360,
+        "checkpoint": "sd_xl_base_1.0.safetensors"
+      },
+      "target": "BOTH",
+      "remove_condition": "중첩 또는 남은 턴이 0이 되면 제거",
+      "art_prompt": "Single ivory skull corroded by violet venom, no bottle"
     },
     {
       "id": "bleed",

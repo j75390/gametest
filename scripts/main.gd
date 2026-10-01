@@ -337,7 +337,7 @@ func show_battle():
 	status_row.add_child(enemy_panel)
 	enemy_panel.setup(enemy.name, enemy_hp, enemy_max_hp, enemy_status)
 	add_text("%s · 다음 행동: %s" % [enemy.name, enemy.pattern[enemy_turn % enemy.pattern.size()].name])
-	add_text("적 HP: %d / %d   ·   맹독 %d턴" % [enemy_hp, enemy_max_hp, venom_turns])
+	add_text("적 HP: %d / %d   ·   독 %d중첩 · 맹독 %d턴" % [enemy_hp, enemy_max_hp, enemy_status.amount("poison"), venom_turns])
 	var cards_row = HBoxContainer.new()
 	cards_row.name = "Hand"
 	cards_row.add_theme_constant_override("separation", 12)
@@ -381,6 +381,7 @@ func play_card(index:int):
 			damage = ceili(damage * Data.find_record("relics", "blood_contract").damage_multiplier)
 	enemy_hp -= damage
 	bleed += int(c.get("bleed", 0))
+	enemy_status.set_amount("poison", enemy_status.amount("poison") + int(c.get("poison", 0)))
 	next_attack += int(c.get("next_attack", 0))
 	block += int(c.get("block", 0))
 	if c.has("heal"):

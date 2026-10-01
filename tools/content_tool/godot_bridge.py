@@ -57,8 +57,8 @@ def export_catalog(data, project):
                 assets.append((project/target,raw));row['art']='res://'+target.as_posix()
             if kind=='cards':
                 if not isinstance(row['cost'],(int,float)) or row['cost']<0:raise ValueError('Invalid card cost')
-                if not any(k in row for k in ('damage','block','heal','bleed','next_attack','venom_turns')):raise ValueError('Card needs executable runtime effects')
-                for k in ('damage','block','heal','bleed','next_attack','venom_turns'):
+                if not any(k in row for k in ('damage','block','heal','bleed','poison','next_attack','venom_turns')):raise ValueError('Card needs executable runtime effects')
+                for k in ('damage','block','heal','bleed','poison','next_attack','venom_turns'):
                     if k in row and (not isinstance(row[k],(int,float)) or row[k]<0):raise ValueError('Invalid numeric effect: '+k)
             if kind=='monsters' and (row['hp']<=0 or not row.get('pattern') or any('damage' not in a or 'name' not in a for a in row['pattern'])):raise ValueError('Monster HP/pattern invalid')
             rows.append(row)

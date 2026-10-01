@@ -1,30 +1,30 @@
 # 운빨원정대 현재 인수인계
 
-- 생성 시각: 2026-10-01T20:15:04
+- 생성 시각: 2026-10-02T00:58:06
 
 ## 현재 목표
-ComfyUI pipeline smoke test
+독과 맹독을 분리하여 실제 게임 적용
 
 ## 완료된 것
-Actual SDXL generation; needs_review persisted; validate PASS; unapproved export excluded; runtime catalog unchanged
+Content Tool API 편집/검증/export, ComfyUI 두 아이콘 승인, 독 주입 카드, 전투/도감/바탕화면 적용 및 Godot 검사0오류
 
 ## 남은 작업
-Icon art quality below target; not approved; workflow/style tuning needed
+장기 밸런스 검증, 300개 상태 전체 구현 및 저장 시스템은 별도
 
 ## 메모
-ai/review/comfy_poison_test.png; prompt_id 6774d649-e584-49b8-b772-ba112cc34a70
+docs/POISON_VENOM.md와 HANDOFF.md 참조. poison 고정 피해, venom 기존8% 비례 피해. 승인 아이콘 두 장만 사용.
 
 ## 콘텐츠 현황
-- 카드: 10개 (approved 10개)
+- 카드: 11개 (approved 11개)
 - 유물: 3개 (approved 2개)
 - 포션: 1개 (approved 1개)
 - 마법부여: 1개 (approved 1개)
-- 파워/상태이상: 4개 (approved 3개)
+- 파워/상태이상: 4개 (approved 4개)
 - 몬스터: 3개 (approved 3개)
 - 이벤트: 1개 (approved 1개)
 
 ## 검증 결과
-- 전체 23개 / 정상 23개 / 오류 0개
+- 전체 24개 / 정상 24개 / 오류 0개
 
 ## 다음 작업자 필수 규칙
 - 종합 이미지 크롭 재사용 금지

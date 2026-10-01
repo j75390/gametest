@@ -321,7 +321,7 @@ func _rebuild_list() -> void:
 			_select(record)
 
 func _texture(path: String) -> Texture2D:
-	var allowed := path.begins_with("res://assets/characters/") or path.begins_with("res://assets/monsters/") or path.begins_with("res://assets/cards/")
+	var allowed := path.begins_with("res://assets/characters/") or path.begins_with("res://assets/monsters/") or path.begins_with("res://assets/cards/") or path.begins_with("res://assets/status/") or path.begins_with("res://assets/content_tool/")
 	if not allowed or not ResourceLoader.exists(path):
 		return null
 	return load(path) as Texture2D

@@ -27,6 +27,8 @@ static func effect_text(effect: Dictionary) -> String:
 			parts.append("%s %d" % [pair[1], effect[pair[0]]])
 	if effect.get("venom_turns", 0) > 0:
 		parts.append("맹독 %d턴 · 적 턴 시작 시 최대 HP의 %d%% 피해" % [effect.venom_turns, roundi(effect.venom_rate * 100)])
+	if effect.get("poison", 0) > 0:
+		parts.append("독 %d중첩 · 적 턴 시작 시 중첩만큼 피해, 이후 1중첩 감소" % effect.poison)
 	return ". ".join(parts) + "." if not parts.is_empty() else effect.get("effect", "효과 없음")
 
 static func upgraded(card: Dictionary) -> Dictionary:

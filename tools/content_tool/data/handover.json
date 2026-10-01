@@ -1,6 +1,6 @@
 {
-  "goal": "ComfyUI pipeline smoke test",
-  "completed": "Actual SDXL generation; needs_review persisted; validate PASS; unapproved export excluded; runtime catalog unchanged",
-  "pending": "Icon art quality below target; not approved; workflow/style tuning needed",
-  "notes": "ai/review/comfy_poison_test.png; prompt_id 6774d649-e584-49b8-b772-ba112cc34a70"
+  "goal": "독과 맹독을 분리하여 실제 게임 적용",
+  "completed": "Content Tool API 편집/검증/export, ComfyUI 두 아이콘 승인, 독 주입 카드, 전투/도감/바탕화면 적용 및 Godot 검사0오류",
+  "pending": "장기 밸런스 검증, 300개 상태 전체 구현 및 저장 시스템은 별도",
+  "notes": "docs/POISON_VENOM.md와 HANDOFF.md 참조. poison 고정 피해, venom 기존8% 비례 피해. 승인 아이콘 두 장만 사용."
 }

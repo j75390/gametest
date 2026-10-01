@@ -1,5 +1,12 @@
 # 잿빛 원정대 — 집 PC 작업 인계
 
+## 2026-10-02 독 / 맹독 실제 적용
+- 사용자 요청으로 poison=독(중첩 고정 피해), venom=맹독(기존 최대HP8%, 지속 턴) 분리. 독 주입 카드 비용1/독5/강화8을 미라 보상·상점 풀에 추가. 기존 맹독 주술과 시작 덱 유지.
+- ComfyUI 단일 초록 방울·보라 해골을 새로 생성/검수/승인, Content Tool API→validate→export→게임 연결. 이전 포션 그림 테스트는 게임에 쓰지 않는다.
+- 두 상태 동시 적용, 플레이어·적 공통 계산/HP바 아이콘/툴팁/도감 적용. 도감 status/content_tool 이미지 경로 차단 원인 수정.
+- 바탕화면 실제 프로젝트 병합 및 Godot POISON_SPLIT_QA failures=0. API24개 오류0. 세부 규칙/이미지/검증 범위 docs/POISON_VENOM.md. 전투·도감 실제 캡처 포함.
+- 저장 시스템과 300개 상태 전체 구현은 여전히 미완성. 새 카드 수치는 초기 밸런스이며 장기 플레이 조정 필요.
+
 ## ComfyUI 연결 후속 테스트
 Content Tool /api/comfy/status 정상, /api/comfy/generate로 powers/poison 샘플 생성 성공. SDXL base 1.0, seed 9357, 768×768, prompt_id 6774d649-e584-49b8-b772-ba112cc34a70.
 결과: ai/review/comfy_poison_test.png. 상태 needs_review 자동 기록, validate 오류0, export 제외 PASS. export 전후 게임 데이터는 메타데이터를 제외하고 동일함을 비교했다. 게임 효과/아트는 변경되지 않았다.

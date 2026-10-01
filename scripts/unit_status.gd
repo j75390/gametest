@@ -35,7 +35,7 @@ func tick(max_hp: int) -> int:
 				damage += amount(id)
 				set_amount(id, amount(id) - 1)
 			"dot_percent":
-				damage += maxi(1, ceili(max_hp * float(entries[id].get("rate", 0.08))))
+				damage += maxi(1, ceili(max_hp * float(entries[id].get("rate", definition.get("rate", 0.08)))))
 				set_amount(id, amount(id) - 1)
 	return damage
 
