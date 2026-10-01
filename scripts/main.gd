@@ -4,6 +4,7 @@ const Data = preload("res://scripts/game_data.gd")
 var enemy: Dictionary = {}
 var enemy_turn := 0
 const UnitStatus = preload("res://scripts/unit_status.gd")
+const BattleHand = preload("res://scripts/battle_hand.gd")
 const BattleFX = preload("res://scripts/battle_fx.gd")
 var battle_fx
 const StatusPanel = preload("res://scripts/status_panel.gd")
@@ -116,6 +117,7 @@ func _build_shell():
 	root_v.add_child(footer)
 
 func clear_content():
+	content.add_theme_constant_override("separation", 14)
 	if is_instance_valid(title_menu):
 		remove_child(title_menu)
 		title_menu.queue_free()
@@ -326,6 +328,7 @@ func show_battle():
 	else:
 		add_picture(stage, Assets.picture(selected_character.id, "full"), Vector2(240, 230))
 	add_picture(stage, load(enemy.art), Vector2(240, 230)).name = "Enemy"
+	stage.get_node("Enemy").set_script(preload("res://scripts/battle_unit_view.gd"))
 	var status_row := HBoxContainer.new()
 	status_row.name = "UnitStatuses"
 	status_row.alignment = BoxContainer.ALIGNMENT_CENTER
@@ -339,36 +342,80 @@ func show_battle():
 	enemy_panel.name = "Enemy"
 	status_row.add_child(enemy_panel)
 	enemy_panel.setup(enemy.name, enemy_hp, enemy_max_hp, enemy_status)
-	add_text("%s · 다음 행동: %s" % [enemy.name, enemy.pattern[enemy_turn % enemy.pattern.size()].name])
+	add_text("%s · 다음 행동: %s" % [enemy.name, enemy.pattern[enemy_turn % enemy.pattern.size()].name]).name = "Intent"
 	add_text("적 HP: %d / %d   ·   독 %d중첩 · 맹독 %d턴" % [enemy_hp, enemy_max_hp, enemy_status.amount("poison"), venom_turns]).name = "EnemySummary"
-	var cards_row = HBoxContainer.new()
-	cards_row.name = "Hand"
-	cards_row.add_theme_constant_override("separation", 12)
-	content.add_child(cards_row)
-	for i in range(hand.size()):
-		var c = hand[i]
-		var box = VBoxContainer.new()
-		box.custom_minimum_size.x = 205
-		box.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-		cards_row.add_child(box)
-		if c.has("art"):
-			add_picture(box, load(c.art), Vector2(0, 115))
-		var b = Button.new()
-		b.text = "%s [%d]\n%s · %s\n%s" % [c.name, c.cost, c.rarity, c.type, Data.effect_text(c)]
-		b.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-		b.custom_minimum_size = Vector2(205, 105)
-		b.disabled = battle_busy or int(c.cost) > energy
-		b.pressed.connect(func(index=i): play_card(index))
-		box.add_child(b)
-	add_button("턴 종료", end_turn).disabled = battle_busy
-	add_button("덱 보기", show_deck).disabled = battle_busy
+	if selected_character.id == "mira":
+		content.add_theme_constant_override("separation", 6)
+		var hand_view = BattleHand.new()
+		hand_view.name = "Hand"
+		content.add_child(hand_view)
+		hand_view.setup(hand, energy, battle_busy, stage.get_node("Enemy"))
+		hand_view.card_requested.connect(play_card)
+		var controls := HBoxContainer.new()
+		controls.name = "BattleControls"
+		content.add_child(controls)
+		var hint := Label.new()
+		hint.text = "카드 → 적 드래그 · 클릭 후 대상 선택 · 우클릭/ESC 취소"
+		hint.add_theme_font_size_override("font_size", 14)
+		hint.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		controls.add_child(hint)
+		for pair in [["덱 보기", show_deck], ["턴 종료", end_turn]]:
+			var button: Button = add_button(pair[0], pair[1])
+			button.disabled = battle_busy
+			button.custom_minimum_size.x = 140
+			content.remove_child(button)
+			controls.add_child(button)
+	else:
+		var cards_row = HBoxContainer.new()
+		cards_row.name = "Hand"
+		cards_row.add_theme_constant_override("separation", 12)
+		content.add_child(cards_row)
+		for i in range(hand.size()):
+			var c = hand[i]
+			var box = VBoxContainer.new()
+			box.custom_minimum_size.x = 205
+			box.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+			cards_row.add_child(box)
+			if c.has("art"):
+				add_picture(box, load(c.art), Vector2(0, 115))
+			var b = Button.new()
+			b.text = "%s [%d]\n%s · %s\n%s" % [c.name, c.cost, c.rarity, c.type, Data.effect_text(c)]
+			b.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+			b.custom_minimum_size = Vector2(205, 105)
+			b.disabled = battle_busy or int(c.cost) > energy
+			b.pressed.connect(func(index=i): play_card(index))
+			box.add_child(b)
+		add_button("턴 종료", end_turn).disabled = battle_busy
+		add_button("덱 보기", show_deck).disabled = battle_busy
+
+	_refresh_battle_tooltips()
 
 func _refresh_battle_hp() -> void:
+	_refresh_battle_tooltips()
 	content.get_node("PlayerSummary").text = "%s  HP %d/%d   방어 %d   에너지 %d/3" % [selected_character.name, hp, max_hp, block, energy]
 	content.get_node("EnemySummary").text = "적 HP: %d / %d   ·   독 %d중첩 · 맹독 %d턴" % [enemy_hp, enemy_max_hp, enemy_status.amount("poison"), venom_turns]
 	for pair in [["Player", hp], ["Enemy", enemy_hp]]:
 		var panel = content.get_node_or_null("UnitStatuses/" + pair[0])
 		if panel: panel.get_child(0).value = maxi(0, pair[1])
+
+func _refresh_battle_tooltips() -> void:
+	var hero = content.get_node_or_null("BattleStage/Hero")
+	if hero:
+		hero.tooltip_text = "%s · %s\nHP %d/%d · 방어 %d\n%s\n\n%s" % [selected_character.name, selected_character.get("class", ""), hp, max_hp, block, selected_character.get("theme", ""), StatusPanel.describe_all(player_status, max_hp)]
+	var target = content.get_node_or_null("BattleStage/Enemy")
+	var intent = content.get_node_or_null("Intent")
+	var action: Dictionary = enemy.pattern[enemy_turn % enemy.pattern.size()]
+	var text := "%s\n공격 피해 %d" % [action.name, int(action.damage) + enemy_status.amount("empower")]
+	for applied in action.get("apply_statuses", []):
+		var id: String = applied if applied is String else str(applied.get("id", ""))
+		var definition := Data.find_record("powers", id)
+		text += "\n부여: %s" % definition.get("name", id)
+		if applied is Dictionary: text += " %d" % applied.get("amount", 1)
+	if intent:
+		intent.mouse_filter = Control.MOUSE_FILTER_STOP
+		intent.tooltip_text = text
+	if target:
+		target.tooltip_text = "%s · HP %d/%d\n%s\n\n다음 행동: %s\n\n%s" % [enemy.name, enemy_hp, enemy_max_hp, enemy.get("effect", ""), text, StatusPanel.describe_all(enemy_status, enemy_max_hp)]
 
 func _begin_fx():
 	var fx = BattleFX.new()
@@ -478,6 +525,7 @@ func end_turn():
 			if hero.motion != "death": hero.play("death")
 			while not hero.finished: await get_tree().process_frame
 			await get_tree().create_timer(0.1).timeout
+		await fx.drain()
 		fx.queue_free()
 	else:
 		enemy_hp = maxi(0, enemy_hp - enemy_status.tick(enemy_max_hp))

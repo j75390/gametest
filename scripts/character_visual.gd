@@ -7,6 +7,9 @@ var elapsed := 0.0
 var loop_preview := false
 var finished := false
 
+func _make_custom_tooltip(for_text: String) -> Object:
+	return preload("res://scripts/battle_tooltip.gd").build(for_text)
+
 func setup(id: String, initial_motion: String = "idle") -> void:
 	character_id = id
 	expand_mode = TextureRect.EXPAND_IGNORE_SIZE

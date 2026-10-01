@@ -3,6 +3,7 @@ extends Control
 signal phase_changed(phase: String)
 var phase := "idle"
 var rings: Array[Dictionary] = []
+var last_effect_msec := -1000
 
 func _ready() -> void:
 	mouse_filter = Control.MOUSE_FILTER_IGNORE
@@ -38,6 +39,7 @@ func _draw() -> void:
 			draw_line(ring.point + direction * (10 + 35 * t), ring.point + direction * (35 + 75 * t), color, 3 * (1 - t) + 1, true)
 
 func float_text(actor: Control, text: String, color: Color) -> void:
+	last_effect_msec = Time.get_ticks_msec()
 	var label := Label.new()
 	label.text = text
 	label.add_theme_font_size_override("font_size", 28)
@@ -53,6 +55,7 @@ func float_text(actor: Control, text: String, color: Color) -> void:
 	tween.chain().tween_callback(label.queue_free)
 
 func impact(actor: Control, color: Color, text: String, shake := true) -> void:
+	last_effect_msec = Time.get_ticks_msec()
 	rings.append({"point": center(actor), "color": color, "age": 0.0})
 	if not text.is_empty(): float_text(actor, text, color)
 	if not shake: return
@@ -103,7 +106,7 @@ func strike(attacker: Control, target: Control, ranged: bool, color: Color, appl
 	back.tween_property(attacker, "scale", old_scale, 0.22)
 	await back.finished
 	attacker.z_index = old_z
-	await get_tree().create_timer(0.18).timeout
+	await drain()
 	mark("idle")
 
 func pulse(actor: Control, color: Color, apply: Callable) -> void:
@@ -113,4 +116,10 @@ func pulse(actor: Control, color: Color, apply: Callable) -> void:
 	mark("impact")
 	impact(actor, color, "", false)
 	await get_tree().create_timer(0.55).timeout
+	await drain()
 	mark("idle")
+
+func drain() -> void:
+	# Let the final floating number fade fully before the battle UI is rebuilt.
+	var remaining := 0.72 - (Time.get_ticks_msec() - last_effect_msec) / 1000.0
+	if remaining > 0: await get_tree().create_timer(remaining).timeout

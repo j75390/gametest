@@ -21,7 +21,7 @@ func run():
 	main.show_battle()
 	await process_frame
 	main.play_card(0)
-	await create_timer(0.10).timeout
+	while not is_instance_valid(main.battle_fx): await process_frame
 	check(main.enemy_hp == 100 and main.battle_busy, "Damage must wait for contact")
 	var fx = main.battle_fx
 	var hero = main.content.get_node("BattleStage/Hero")
@@ -38,7 +38,7 @@ func run():
 	await capture("rest")
 	main.block = 0
 	main.end_turn()
-	await create_timer(0.1).timeout
+	while not is_instance_valid(main.battle_fx): await process_frame
 	check(main.hp == main.max_hp, "Enemy also waits for impact")
 	fx = main.battle_fx
 	while fx.phase != "impact": await process_frame
@@ -56,5 +56,29 @@ func run():
 	main.block = 0
 	await main.end_turn()
 	check(main.hp == 0 and not main.battle_busy and main.screen != "battle", "Lethal enemy hit completes death and unlocks")
+	# New battle: resizing and repeated input must not duplicate hits or leave transforms behind.
+	main.hp = main.max_hp
+	main.start_battle("전투")
+	main.enemy_hp = 200
+	main.enemy_max_hp = 200
+	main.hand = [main.card_db.common[0].duplicate(true)]
+	main.energy = 3
+	main.play_card(0)
+	await create_timer(0.1).timeout
+	root.size = Vector2i(1280, 720)
+	main.play_card(0)
+	main.end_turn()
+	while main.battle_busy: await process_frame
+	check(main.enemy_hp == 194 and main.energy == 2 and main.enemy_turn == 0, "Resize / repeated input applies once")
+	check(main.content.get_node("BattleStage/Hero").scale == Vector2.ONE, "Resize restores pose")
+	main.hand = [main.card_db.common[1].duplicate(true)]
+	main.energy = 3
+	await main.play_card(0)
+	check(main.block == 5 and main.enemy_hp == 194, "Defense pulse does not hit enemy")
+	main.block = 999
+	var before_blocked_hp: int = main.hp
+	await main.end_turn()
+	check(main.hp == before_blocked_hp and main.block == 0, "Fully blocked hit and turn cleanup")
+	root.size = Vector2i(1440, 900)
 	print("MIRA_HIT_QA failures=%d" % failures.size())
 	quit(0 if failures.is_empty() else 1)
