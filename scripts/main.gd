@@ -4,6 +4,8 @@ const Data = preload("res://scripts/game_data.gd")
 var enemy: Dictionary = {}
 var enemy_turn := 0
 const UnitStatus = preload("res://scripts/unit_status.gd")
+const BattleFX = preload("res://scripts/battle_fx.gd")
+var battle_fx
 const StatusPanel = preload("res://scripts/status_panel.gd")
 var player_status = UnitStatus.new()
 var enemy_status = UnitStatus.new()
@@ -137,6 +139,7 @@ func add_text(text_value:String):
 	l.add_theme_font_size_override("font_size", 18)
 	l.modulate = Color("#d4c7c0")
 	content.add_child(l)
+	return l
 
 func add_button(text_value:String, callable:Callable):
 	var b = Button.new()
@@ -308,7 +311,7 @@ func _draw_cards(n:int):
 func show_battle():
 	clear_content()
 	title.text = "전투"
-	add_text("%s  HP %d/%d   방어 %d   에너지 %d/3" % [selected_character.name, hp, max_hp, block, energy])
+	add_text("%s  HP %d/%d   방어 %d   에너지 %d/3" % [selected_character.name, hp, max_hp, block, energy]).name = "PlayerSummary"
 	var stage = HBoxContainer.new()
 	stage.name = "BattleStage"
 	stage.alignment = BoxContainer.ALIGNMENT_CENTER
@@ -322,7 +325,7 @@ func show_battle():
 		actor.setup(selected_character.id, battle_motion)
 	else:
 		add_picture(stage, Assets.picture(selected_character.id, "full"), Vector2(240, 230))
-	add_picture(stage, load(enemy.art), Vector2(240, 230))
+	add_picture(stage, load(enemy.art), Vector2(240, 230)).name = "Enemy"
 	var status_row := HBoxContainer.new()
 	status_row.name = "UnitStatuses"
 	status_row.alignment = BoxContainer.ALIGNMENT_CENTER
@@ -337,7 +340,7 @@ func show_battle():
 	status_row.add_child(enemy_panel)
 	enemy_panel.setup(enemy.name, enemy_hp, enemy_max_hp, enemy_status)
 	add_text("%s · 다음 행동: %s" % [enemy.name, enemy.pattern[enemy_turn % enemy.pattern.size()].name])
-	add_text("적 HP: %d / %d   ·   독 %d중첩 · 맹독 %d턴" % [enemy_hp, enemy_max_hp, enemy_status.amount("poison"), venom_turns])
+	add_text("적 HP: %d / %d   ·   독 %d중첩 · 맹독 %d턴" % [enemy_hp, enemy_max_hp, enemy_status.amount("poison"), venom_turns]).name = "EnemySummary"
 	var cards_row = HBoxContainer.new()
 	cards_row.name = "Hand"
 	cards_row.add_theme_constant_override("separation", 12)
@@ -360,17 +363,21 @@ func show_battle():
 	add_button("턴 종료", end_turn).disabled = battle_busy
 	add_button("덱 보기", show_deck).disabled = battle_busy
 
-func play_card(index:int):
-	if battle_busy or screen != "battle":
-		return
-	if index < 0 or index >= hand.size():
-		return
-	var c = hand[index]
-	if int(c.cost) > energy:
-		return
-	battle_busy = true
-	battle_motion = "attack" if c.type == "공격" else "skill"
-	energy -= int(c.cost)
+func _refresh_battle_hp() -> void:
+	content.get_node("PlayerSummary").text = "%s  HP %d/%d   방어 %d   에너지 %d/3" % [selected_character.name, hp, max_hp, block, energy]
+	content.get_node("EnemySummary").text = "적 HP: %d / %d   ·   독 %d중첩 · 맹독 %d턴" % [enemy_hp, enemy_max_hp, enemy_status.amount("poison"), venom_turns]
+	for pair in [["Player", hp], ["Enemy", enemy_hp]]:
+		var panel = content.get_node_or_null("UnitStatuses/" + pair[0])
+		if panel: panel.get_child(0).value = maxi(0, pair[1])
+
+func _begin_fx():
+	var fx = BattleFX.new()
+	fx.name = "BattleFX"
+	add_child(fx)
+	battle_fx = fx
+	return fx
+
+func _card_effect(c: Dictionary) -> int:
 	if c.has("venom_turns"):
 		venom_turns = int(c.venom_turns)
 		venom_rate = float(c.venom_rate)
@@ -379,52 +386,122 @@ func play_card(index:int):
 		damage += player_status.consume_attack()
 		if owned_relics.has("blood_contract"):
 			damage = ceili(damage * Data.find_record("relics", "blood_contract").damage_multiplier)
-	enemy_hp -= damage
+	enemy_hp = maxi(0, enemy_hp - damage)
 	bleed += int(c.get("bleed", 0))
 	enemy_status.set_amount("poison", enemy_status.amount("poison") + int(c.get("poison", 0)))
 	next_attack += int(c.get("next_attack", 0))
 	block += int(c.get("block", 0))
-	if c.has("heal"):
-		hp = min(max_hp, hp + int(c.heal))
+	hp = mini(max_hp, hp + int(c.get("heal", 0)))
+	_refresh_battle_hp()
+	return damage
+
+func play_card(index:int):
+	if battle_busy or screen != "battle" or index < 0 or index >= hand.size():
+		return
+	var c: Dictionary = hand[index]
+	if int(c.cost) > energy: return
+	battle_busy = true
+	battle_motion = "attack" if c.type == "공격" else "skill"
+	energy -= int(c.cost)
 	discard_pile.append(c)
 	hand.remove_at(index)
 	show_battle()
-	var animation_time = maxf(0.8, Assets.motion_duration(selected_character.id, battle_motion) + 0.05)
-	await get_tree().create_timer(animation_time).timeout
+	if selected_character.id == "mira":
+		await get_tree().process_frame
+		var hero = content.get_node("BattleStage/Hero")
+		var target = content.get_node("BattleStage/Enemy")
+		var fx = _begin_fx()
+		var offensive: bool = c.get("damage", 0) > 0 or c.get("poison", 0) > 0 or c.get("venom_turns", 0) > 0 or c.get("bleed", 0) > 0
+		var color := Color("bd74ff") if not c.has("poison") else Color("70e85a")
+		var apply := func():
+			var damage := _card_effect(c)
+			if offensive:
+				fx.impact(target, color, str(-damage) if damage > 0 else ("독 +%d" % c.poison if c.has("poison") else "맹독 %d턴" % c.get("venom_turns", 0)), damage > 0)
+			if c.get("block", 0) > 0: fx.float_text(hero, "방어 +%d" % c.block, Color("79cce7"))
+			if c.get("heal", 0) > 0: fx.float_text(hero, "회복 +%d" % c.heal, Color("8cedb0"))
+		if offensive:
+			await fx.strike(hero, target, c.type != "공격", color, apply)
+		else:
+			await fx.pulse(hero, Color("79cce7"), apply)
+		if enemy_hp <= 0:
+			var fade = create_tween()
+			fade.tween_property(target, "modulate:a", 0.0, 0.3)
+			await fade.finished
+		fx.queue_free()
+	else:
+		_card_effect(c)
+		await get_tree().create_timer(maxf(0.8, Assets.motion_duration(selected_character.id, battle_motion) + 0.05)).timeout
 	battle_busy = false
 	battle_motion = "idle"
-	if enemy_hp <= 0:
-		show_reward()
-	else:
-		show_battle()
+	if enemy_hp <= 0: show_reward()
+	else: show_battle()
+
+func _dot_phase(statuses, maximum: int, actor: Control, player: bool, fx) -> void:
+	# Compute each tick once; display separate receipts for poison and venom.
+	var receipts: Array = statuses.tick_details(maximum)
+	for receipt in receipts:
+		if player: hp = maxi(0, hp - receipt.damage)
+		else: enemy_hp = maxi(0, enemy_hp - receipt.damage)
+		_refresh_battle_hp()
+		var color := Color("73e956") if receipt.id == "poison" else Color("c47bff")
+		fx.impact(actor, color, "%s -%d" % [Data.find_record("powers", receipt.id).name, receipt.damage], false)
+		await get_tree().create_timer(0.45).timeout
 
 func end_turn():
-	if battle_busy or screen != "battle":
-		return
+	if battle_busy or screen != "battle": return
 	battle_busy = true
-	enemy_hp -= enemy_status.tick(enemy_max_hp)
-	if enemy_hp <= 0:
-		battle_busy = false
-		show_reward()
-		return
-	for c in hand:
-		discard_pile.append(c)
-	hand.clear()
-	var action: Dictionary = enemy.pattern[enemy_turn % enemy.pattern.size()]
-	var incoming = int(action.damage) + enemy_status.consume_attack()
-	player_status.apply(action.get("apply_statuses", []))
-	enemy_turn += 1
-	var damage = max(0, incoming - block)
-	hp = maxi(0, hp - damage - player_status.tick(max_hp))
-	block = 0
-	battle_motion = "death" if hp <= 0 else ("hurt" if damage > 0 else "idle")
-	show_battle()
-	await get_tree().create_timer(maxf(1.0, Assets.motion_duration(selected_character.id, battle_motion) + 0.1)).timeout
+	if selected_character.id == "mira":
+		show_battle()
+		await get_tree().process_frame
+		var hero = content.get_node("BattleStage/Hero")
+		var target = content.get_node("BattleStage/Enemy")
+		var fx = _begin_fx()
+		await _dot_phase(enemy_status, enemy_max_hp, target, false, fx)
+		if enemy_hp > 0:
+			var action: Dictionary = enemy.pattern[enemy_turn % enemy.pattern.size()]
+			var incoming := int(action.damage) + enemy_status.consume_attack()
+			await fx.strike(target, hero, false, Color("f4b58d"), func():
+				var damage := maxi(0, incoming - block)
+				hp = maxi(0, hp - damage)
+				player_status.apply(action.get("apply_statuses", []))
+				if damage > 0: hero.play("death" if hp <= 0 else "hurt")
+				fx.impact(hero, Color("f4b58d"), str(-damage) if damage > 0 else "방어", damage > 0)
+				_refresh_battle_hp()
+			)
+			enemy_turn += 1
+			await _dot_phase(player_status, max_hp, hero, true, fx)
+		if enemy_hp <= 0:
+			var fade = create_tween()
+			fade.tween_property(target, "modulate:a", 0.0, 0.3)
+			await fade.finished
+		if hp <= 0:
+			if hero.motion != "death": hero.play("death")
+			while not hero.finished: await get_tree().process_frame
+			await get_tree().create_timer(0.1).timeout
+		fx.queue_free()
+	else:
+		enemy_hp = maxi(0, enemy_hp - enemy_status.tick(enemy_max_hp))
+		if enemy_hp > 0:
+			var action: Dictionary = enemy.pattern[enemy_turn % enemy.pattern.size()]
+			var incoming = int(action.damage) + enemy_status.consume_attack()
+			player_status.apply(action.get("apply_statuses", []))
+			enemy_turn += 1
+			var damage = max(0, incoming - block)
+			hp = maxi(0, hp - damage - player_status.tick(max_hp))
+			battle_motion = "death" if hp <= 0 else ("hurt" if damage > 0 else "idle")
+			show_battle()
+			await get_tree().create_timer(maxf(1.0, Assets.motion_duration(selected_character.id, battle_motion) + 0.1)).timeout
 	battle_busy = false
 	battle_motion = "idle"
+	if enemy_hp <= 0:
+		show_reward()
+		return
 	if hp <= 0:
 		show_game_over()
 		return
+	for c in hand: discard_pile.append(c)
+	hand.clear()
+	block = 0
 	energy = 3
 	_draw_cards(5)
 	show_battle()
@@ -599,6 +676,7 @@ func show_multiplayer():
 	add_button("← 메인 메뉴", show_menu)
 
 func show_game_over():
+	screen = "game_over"
 	clear_content()
 	title.text = "원정 실패"
 	add_text("다시 원정할 수 있습니다.")

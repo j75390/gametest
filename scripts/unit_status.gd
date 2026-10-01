@@ -28,16 +28,21 @@ func apply(items: Array) -> void:
 
 func tick(max_hp: int) -> int:
 	var damage := 0
+	for receipt in tick_details(max_hp): damage += receipt.damage
+	return damage
+
+func tick_details(max_hp: int) -> Array:
+	var receipts: Array = []
 	for id in entries.keys():
 		var definition := Data.find_record("powers", id)
+		var damage := 0
 		match definition.get("behavior", ""):
-			"dot_flat":
-				damage += amount(id)
-				set_amount(id, amount(id) - 1)
-			"dot_percent":
-				damage += maxi(1, ceili(max_hp * float(entries[id].get("rate", definition.get("rate", 0.08)))))
-				set_amount(id, amount(id) - 1)
-	return damage
+			"dot_flat": damage = amount(id)
+			"dot_percent": damage = maxi(1, ceili(max_hp * float(entries[id].get("rate", definition.get("rate", 0.08)))))
+		if damage > 0:
+			receipts.append({"id": id, "damage": damage})
+			set_amount(id, amount(id) - 1)
+	return receipts
 
 func consume_attack() -> int:
 	var bonus := 0

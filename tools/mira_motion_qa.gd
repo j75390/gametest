@@ -117,14 +117,14 @@ func run() -> void:
 	main.block = 0
 	main.enemy_turn = 0
 	main.end_turn()
-	await process_frame
+	await create_timer(0.36).timeout
 	check(main.content.get_node("BattleStage/Hero").motion == "hurt", "Enemy hit did not play hurt")
 	await create_timer(1.1).timeout
 	main.hp = 1
 	main.block = 0
 	main.enemy_turn = 0
 	main.end_turn()
-	await create_timer(0.65).timeout
+	await create_timer(1.0).timeout
 	check(main.hp == 0, "Lethal hit displayed negative HP")
 	check(main.content.get_node("BattleStage/Hero").texture.resource_path.ends_with("death_rest.png"), "Lethal hit did not reach final death pose")
 	await capture("battle-death")
