@@ -203,7 +203,7 @@ func _build() -> void:
     var heading := VBoxContainer.new()
     heading.size_flags_horizontal = Control.SIZE_EXPAND_FILL
     header.add_child(heading)
-    _label(heading, "운빨 원정대  /  검은 기록보관소", 14, GOLD)
+    _label(heading, "잿빛 원정대  /  검은 기록보관소", 14, GOLD)
     _label(heading, "원정 도감", 32)
     _button(header, "닫기  ×", func(): closed.emit())
     var tabs := GridContainer.new()

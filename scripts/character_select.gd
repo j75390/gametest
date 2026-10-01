@@ -36,7 +36,7 @@ func _ready() -> void:
 	background.modulate = Color(0.38,0.32,0.43)
 	background.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	canvas.add_child(background)
-	text("운빨 원정대", Vector2(40,25),Vector2(400,46),30,Color("e2c28b"))
+	text("잿빛 원정대", Vector2(40,25),Vector2(400,46),30,Color("e2c28b"))
 	text("원정대원 선택",Vector2(1100,35),Vector2(290,36),20,Color("c7b3cf"))
 	panel(Vector2(32,100),Vector2(226,684))
 	text("원정대원",Vector2(52,116),Vector2(180,30),20,Color("d8bb88"))

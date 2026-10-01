@@ -7,17 +7,17 @@ import json
 root = Path(__file__).resolve().parents[1]
 output = root / 'handoff_packages'
 output.mkdir(exist_ok=True)
-package = output / '운빨원정대_집PC인계_2026-09-30.zip'
+package = output / '잿빛원정대_집PC인계_2026-09-30.zip'
 index = 2
 while package.exists():
-    package = output / f'운빨원정대_집PC인계_2026-09-30_{index}.zip'
+    package = output / f'잿빛원정대_집PC인계_2026-09-30_{index}.zip'
     index += 1
 files = [root / name for name in ('project.godot', 'AGENTS.md', 'HANDOFF.md', 'HOME_PC_START.txt', 'README.md')]
 for folder in ('assets', 'data', 'docs', 'scenes', 'scripts', 'tools', 'references', 'addons/godot_ai'):
     for path in (root / folder).rglob('*'):
         if path.is_file() and not path.is_symlink() and not any(part in {'.git', '.godot', '__pycache__', '.aws', '.codex'} for part in path.parts) and path.name != '.env':
             files.append(path)
-prefix = '운빨원정대_학원인계/'
+prefix = '잿빛원정대_학원인계/'
 manifest = []
 with ZipFile(package, 'w', ZIP_DEFLATED, compresslevel=6) as archive:
     for path in sorted(set(files)):

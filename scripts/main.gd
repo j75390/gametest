@@ -73,7 +73,7 @@ func _build_shell():
 	root_v.add_theme_constant_override("separation", 18)
 	frame.add_child(root_v)
 
-	title.text = "운빨 원정대"
+	title.text = "잿빛 원정대"
 	title.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	title.add_theme_font_size_override("font_size", 46)
 	title.modulate = Color("#e7d5b6")
@@ -128,7 +128,7 @@ func add_button(text_value:String, callable:Callable):
 func show_menu():
 	screen = "menu"
 	clear_content()
-	title.text = "운빨 원정대"
+	title.text = "잿빛 원정대"
 	add_text("다크 고딕 덱빌딩 로그라이크")
 	add_button("싱글 플레이", show_character_select)
 	add_button("도감", show_codex)
