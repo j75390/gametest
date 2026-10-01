@@ -24,3 +24,9 @@ unit_status.gd가 플레이어/몬스터에 공통 적용된다. 현재 지원 �
 ## 검증 / 제한
 REST 카드 비용 수정→validate→export 값 반영→원래 값 복원 PASS. 23개 validate 오류0, 초안2개 제외. CONTENT_STATUS_QA units=2 shared_catalog=true failures=0. 실제 렌더링 MIRA_MOTION_QA 6종/공격/스킬/피격/사망 오류0. Godot import 오류 없음.
 ComfyUI 실제 생성, 전체 300효과, 모든 export 스키마/참조 무결성의 포괄 검증, 브라우저 GUI 수동 조작 및 실제 hover 팝업 시각 검수는 남아 있다. 툴은 로컬 단일 제작자용이며 동시 편집 충돌 해결은 미구현이다.
+
+## ComfyUI 실제 생성 테스트 완료
+Content Tool /api/comfy/status 정상, /api/comfy/generate로 powers/poison 샘플 생성 성공. SDXL base 1.0, seed 9357, 768×768, prompt_id 6774d649-e584-49b8-b772-ba112cc34a70.
+결과: ai/review/comfy_poison_test.png. 상태 needs_review 자동 기록, validate 오류0, export 제외 PASS. export 전후 게임 데이터는 메타데이터를 제외하고 동일함을 비교했다. 게임 효과/아트는 변경되지 않았다.
+시각 검수: 병 실루엣은 구분되지만 밝은 배경과 단순한 재질로 현재 다크 고딕 스타일에 미달한다. 최종 승인하지 않았다. 다음 단계는 반복 아이콘용 워크플로/배경/재질 개선이다.
+기존 'ComfyUI 꺼짐/생성 미검증' 기록은 이 테스트로 해소했다. 서버 시작 시 이미 실행 중인 인스턴스의 포트/DB 충돌로 추가 실행은 종료됐고, 정상 응답하는 기존 8188 서버를 사용했다.

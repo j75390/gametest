@@ -507,7 +507,7 @@
   ],
   "_meta": {
     "format": 1,
-    "source_sha256": "b00d1c0fecf45256c06b4c02c068ce1dd555bee563eb7eb1213027aec8a74c9e",
+    "source_sha256": "effe401c235ff59fb22876d25f77b4867b1c75c404404517889ae99c430e28b6",
     "excluded": [
       "relics/explorers_map",
       "powers/poison"

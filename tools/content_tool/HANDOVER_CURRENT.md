@@ -1,18 +1,18 @@
 # 운빨원정대 현재 인수인계
 
-- 생성 시각: 2026-10-01T20:03:17
+- 생성 시각: 2026-10-01T20:15:04
 
 ## 현재 목표
-Content Tool Godot integration
+ComfyUI pipeline smoke test
 
 ## 완료된 것
-21 existing records migrated; API validate/export; shared runtime catalog and status model; Godot regression passed
+Actual SDXL generation; needs_review persisted; validate PASS; unapproved export excluded; runtime catalog unchanged
 
 ## 남은 작업
-ComfyUI is offline; real generation and hover visual QA remain
+Icon art quality below target; not approved; workflow/style tuning needed
 
 ## 메모
-See docs/CONTENT_TOOL_INTEGRATION.md
+ai/review/comfy_poison_test.png; prompt_id 6774d649-e584-49b8-b772-ba112cc34a70
 
 ## 콘텐츠 현황
 - 카드: 10개 (approved 10개)

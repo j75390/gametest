@@ -1,5 +1,12 @@
 # 잿빛 원정대 — 집 PC 작업 인계
 
+## ComfyUI 연결 후속 테스트
+Content Tool /api/comfy/status 정상, /api/comfy/generate로 powers/poison 샘플 생성 성공. SDXL base 1.0, seed 9357, 768×768, prompt_id 6774d649-e584-49b8-b772-ba112cc34a70.
+결과: ai/review/comfy_poison_test.png. 상태 needs_review 자동 기록, validate 오류0, export 제외 PASS. export 전후 게임 데이터는 메타데이터를 제외하고 동일함을 비교했다. 게임 효과/아트는 변경되지 않았다.
+시각 검수: 병 실루엣은 구분되지만 밝은 배경과 단순한 재질로 현재 다크 고딕 스타일에 미달한다. 최종 승인하지 않았다. 다음 단계는 반복 아이콘용 워크플로/배경/재질 개선이다.
+기존 'ComfyUI 꺼짐/생성 미검증' 기록은 이 테스트로 해소했다. 서버 시작 시 이미 실행 중인 인스턴스의 포트/DB 충돌로 추가 실행은 종료됐고, 정상 응답하는 기존 8188 서버를 사용했다.
+
+
 ## Content Tool 연동
 - tools/content_tool에 제공 툴과 연결 코드를 보존. 편집 원본 content.json, 승인된 게임용 catalog.json export 및 game_data.gd 공통 읽기 연결. 바탕화면 실행기도 같은 원본으로 연결했다.
 - 기존21개 이관 + 샘플2개 보존, API 수정/검증/export/복원 통과. 공통 상태 모델과 양쪽 HP바 아래 아이콘/툴팁 추가. Godot 상태 계산 및 미라 전투 회귀 검사 오류0.

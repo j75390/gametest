@@ -428,10 +428,15 @@
       "effect": "턴 시작 시 중첩 수만큼 피해를 받는다.",
       "remove_condition": "효과 규칙에 따라 중첩 감소",
       "tooltip": "턴 시작 시 현재 맹독 중첩 수만큼 피해를 받습니다.",
-      "icon": "",
+      "icon": "res://ai/review/comfy_poison_test.png",
       "art_prompt": "dark gothic poison status icon, violet green vial, game UI icon, no text",
       "art_source": "COMFYUI",
-      "approval_state": "draft"
+      "approval_state": "needs_review",
+      "generation": {
+        "prompt_id": "6774d649-e584-49b8-b772-ba112cc34a70",
+        "seed": 9357,
+        "checkpoint": "sd_xl_base_1.0.safetensors"
+      }
     },
     {
       "id": "venom",

@@ -1,6 +1,6 @@
 {
-  "goal": "Content Tool Godot integration",
-  "completed": "21 existing records migrated; API validate/export; shared runtime catalog and status model; Godot regression passed",
-  "pending": "ComfyUI is offline; real generation and hover visual QA remain",
-  "notes": "See docs/CONTENT_TOOL_INTEGRATION.md"
+  "goal": "ComfyUI pipeline smoke test",
+  "completed": "Actual SDXL generation; needs_review persisted; validate PASS; unapproved export excluded; runtime catalog unchanged",
+  "pending": "Icon art quality below target; not approved; workflow/style tuning needed",
+  "notes": "ai/review/comfy_poison_test.png; prompt_id 6774d649-e584-49b8-b772-ba112cc34a70"
 }
