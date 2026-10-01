@@ -5,7 +5,6 @@ var canvas: Control
 var buttons: Array[Button] = []
 var highlights: Array[TextureRect] = []
 var elapsed := 0.0
-var hovered := -1
 
 func _ready() -> void:
 	set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
@@ -84,10 +83,8 @@ void fragment() {
 		light.material = glow_material
 		button.add_child(light)
 		highlights.append(light)
-		button.mouse_entered.connect(func(): hovered = i)
-		button.mouse_exited.connect(func():
-			if hovered == i: hovered = -1
-		)
+		# Mouse and keyboard share one selection; leaving never resets to item 0.
+		button.mouse_entered.connect(button.grab_focus)
 		button.pressed.connect(func(): chosen.emit(actions[i]))
 		canvas.add_child(button)
 		buttons.append(button)
@@ -105,7 +102,7 @@ func _layout() -> void:
 func _process(delta: float) -> void:
 	elapsed += delta
 	for i in range(buttons.size()):
-		var active := hovered == i or (hovered < 0 and buttons[i].has_focus())
+		var active := buttons[i].has_focus()
 		highlights[i].visible = active
 		highlights[i].material.set_shader_parameter("strength", 0.65 + sin(elapsed * 2.0) * 0.15)
 		buttons[i].get_child(0).modulate = Color(0.7, 0.85, 0.85) if buttons[i].button_pressed else Color.WHITE

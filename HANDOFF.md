@@ -1,5 +1,9 @@
 # 잿빛 원정대 — 집 PC 작업 인계
 
+## 2026-10-01 메뉴 강조 유지 수정
+- 마우스 이탈 때 hover 상태가 해제되며 최초 싱글 플레이 포커스로 강조가 튀던 문제를 수정했다. 마우스 진입 시 실제 버튼 포커스를 이동하여 마지막 선택을 유지하며 방향키도 같은 상태를 사용한다.
+- scripts/title_menu.gd 수정, tools/title_focus_qa.gd 추가. 실제 Godot에서 세 메뉴의 진입/이탈 및 위 방향키 이동 검사 TITLE_FOCUS_QA mouse_exit=3 keyboard=1 failures=0.
+
 ## 2026-10-01 시작 화면 v2 시각 수정
 - 사용자가 v1의 폰트/버튼이 참고와 다르다고 지적했다. 얇은 제목 글꼴과 사각 버튼을 대체하여 새 독립 은색 금속 로고 및 금색 가시 장식 버튼 PNG를 제작·적용했다. 잿빛 원정대 제목과 기존 배경 유지, 영문/부제 제거, 선택 시 청록 광채.
 - scripts/title_menu.gd, assets/ui/title/*, tools/title_menu_qa.gd 변경. 제작 프롬프트/원본 ID는 docs/TITLE_MENU.md, 실제 화면은 docs/title-menu-v2-*.png.
