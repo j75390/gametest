@@ -1,5 +1,11 @@
 # 잿빛 원정대 — 집 PC 작업 인계
 
+## 2026-10-02 미라 손패를 실제 세로 카드 형태로 변경
+- 사용자가 정보 패널 같은 손패를 반복 지적하여 220×330 세로 카드/독립 고딕 프레임/큰 아트/비용 문양/효과 양피지로 교체했다. 하단 부채꼴 겹침, hover 상승·확대·전면 표시. 기존 패널 형태로 되돌리지 않는다.
+- scripts/battle_card.gd 추가, battle_hand.gd/main.gd 수정. 효과 원본·카드 데이터·독/맹독·명중 판정은 유지. 미라 전투에서 제목/꼬리말/중복 요약을 줄여 공간 확보하고 다른 화면은 복구한다.
+- 실제 렌더링 CARD_SHAPE_QA(2해상도), MIRA_HAND_QA, MIRA_HIT_QA 모두 실패0. 효과 줄바꿈 넘침과 비용 소수점 표기를 수정했다. docs/CARD_HAND_VISUAL.md에 자산/프롬프트/검증, docs/card-hand-*.png에 최신 화면.
+- 전투 배경/효과음/다른 캐릭터 전용 UI/다중 적 조준은 미완성. 작업 전부터 있던 data/characters.json, data/events.json 및 무관한 import 변경은 보존하고 커밋에 포함하지 않았다.
+
 ## 2026-10-02 학원 PC 최신 작업 수신
 - 깨끗한 작업 폴더에서 sync.ps1 start로 `4a9f312` 이후 7개 커밋을 `6e45913`까지 fast-forward pull했다. 로컬 충돌 없이 현재 사용 프로젝트에 반영했다.
 - 최신 AGENTS/PROJECT_DIRECTION 및 CONTENT_TOOL_INTEGRATION, POISON_VENOM, MIRA_HIT, MIRA_BATTLE_INPUT 인수인계를 읽었다. 미라 우선 개발, 독/맹독 별개 유지, 기존 독립 모션/시작 화면/지도 규칙 보존을 인계받았다.

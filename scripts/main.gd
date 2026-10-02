@@ -117,6 +117,10 @@ func _build_shell():
 	root_v.add_child(footer)
 
 func clear_content():
+	title.show()
+	footer.show()
+	title.get_parent().get_child(1).show()
+	content.size_flags_vertical = Control.SIZE_FILL
 	content.add_theme_constant_override("separation", 14)
 	if is_instance_valid(title_menu):
 		remove_child(title_menu)
@@ -346,6 +350,11 @@ func show_battle():
 	add_text("적 HP: %d / %d   ·   독 %d중첩 · 맹독 %d턴" % [enemy_hp, enemy_max_hp, enemy_status.amount("poison"), venom_turns]).name = "EnemySummary"
 	if selected_character.id == "mira":
 		content.add_theme_constant_override("separation", 6)
+		title.hide()
+		footer.hide()
+		title.get_parent().get_child(1).hide()
+		content.get_node("EnemySummary").hide()
+		content.size_flags_vertical = Control.SIZE_EXPAND_FILL
 		var hand_view = BattleHand.new()
 		hand_view.name = "Hand"
 		content.add_child(hand_view)

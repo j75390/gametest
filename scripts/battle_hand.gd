@@ -11,6 +11,9 @@ var aiming: Control
 var pressing := false
 var press_origin := Vector2.ZERO
 var pointer := Vector2.ZERO
+var hovered := -1
+var homes: Array[Vector2] = []
+var angles: Array[float] = []
 
 class AimOverlay extends Control:
 	var hand
@@ -43,54 +46,16 @@ func setup(values: Array, available: int, busy: bool, enemy: Control) -> void:
 	energy = available
 	locked = busy
 	target = enemy
-	custom_minimum_size.y = 245
+	custom_minimum_size.y = 365
+	size_flags_vertical = Control.SIZE_EXPAND_FILL
 	mouse_filter = Control.MOUSE_FILTER_IGNORE
 	for i in range(cards.size()):
-		var c: Dictionary = cards[i]
-		var panel := PanelContainer.new()
+		var panel = preload("res://scripts/battle_card.gd").new()
 		panel.name = "Card%d" % i
-		var style := StyleBoxFlat.new()
-		style.bg_color = Color("211329")
-		style.border_color = Color("bc9859")
-		style.set_border_width_all(2)
-		style.set_corner_radius_all(10)
-		style.content_margin_left = 8
-		style.content_margin_right = 8
-		style.content_margin_top = 7
-		style.content_margin_bottom = 8
-		panel.add_theme_stylebox_override("panel", style)
-		panel.tooltip_text = "%s · 비용 %d\n%s\n%s" % [c.name, c.cost, c.type, Data.effect_text(c)]
+		panel.setup(cards[i])
 		add_child(panel)
 		views.append(panel)
-		var column := VBoxContainer.new()
-		column.add_theme_constant_override("separation", 3)
-		panel.add_child(column)
-		var heading := Label.new()
-		heading.text = "%d  ·  %s" % [c.cost, c.name]
-		heading.add_theme_font_size_override("font_size", 17)
-		heading.add_theme_color_override("font_color", Color("ead9b2"))
-		column.add_child(heading)
-		var art := TextureRect.new()
-		art.texture = load(c.art)
-		art.custom_minimum_size = Vector2(0, 91)
-		art.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
-		art.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
-		column.add_child(art)
-		var kind := Label.new()
-		kind.text = "%s · %s" % [c.type, c.rarity]
-		kind.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-		kind.add_theme_font_size_override("font_size", 12)
-		kind.modulate = Color("c6afd5")
-		column.add_child(kind)
-		var description := Label.new()
-		description.text = Data.effect_text(c)
-		description.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-		description.add_theme_font_size_override("font_size", 13)
-		column.add_child(description)
-		_ignore_children(panel)
-		panel.gui_input.connect(_card_input.bind(i))
-		panel.minimum_size_changed.connect(_layout.call_deferred)
-		panel.modulate = Color(0.48, 0.48, 0.48) if locked or c.cost > energy else Color.WHITE
+		panel.modulate = Color(0.48, 0.48, 0.48) if locked or cards[i].cost > energy else Color.WHITE
 	aiming = AimOverlay.new()
 	aiming.hand = self
 	aiming.mouse_filter = Control.MOUSE_FILTER_IGNORE
@@ -99,12 +64,6 @@ func setup(values: Array, available: int, busy: bool, enemy: Control) -> void:
 	aiming.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	resized.connect(_layout)
 	_layout()
-
-func _ignore_children(node: Node):
-	for child in node.get_children():
-		if child is Control: child.mouse_filter = Control.MOUSE_FILTER_IGNORE
-		_ignore_children(child)
-
 func needs_target(index: int) -> bool:
 	return str(cards[index].get("target", "")).contains("적")
 
@@ -113,19 +72,38 @@ func _exit_tree():
 
 func _layout():
 	if views.is_empty(): return
-	var width := minf(192, maxf(145, (size.x - 70) / maxf(1, views.size())))
-	var step := minf(width + 9, maxf(55, (size.x - width - 20) / maxf(1, views.size() - 1)))
-	var left := (size.x - (views.size() - 1) * step - width) / 2
+	homes.clear()
+	angles.clear()
+	var step := minf(140, maxf(38, (size.x - 300) / maxf(1, views.size() - 1)))
+	var left := (size.x - (views.size() - 1) * step - 220) / 2
 	for i in range(views.size()):
-		views[i].size = Vector2(width, 220)
-		views[i].position = Vector2(left + step * i, 22)
-		views[i].pivot_offset = Vector2(width / 2, 220)
+		var spread := (i - (views.size() - 1) / 2.0) / maxf(1, (views.size() - 1) / 2.0)
+		homes.append(Vector2(left + step * i, size.y - 355 + absf(spread) * 12))
+		angles.append(deg_to_rad(spread * 8))
+		views[i].pivot_offset = Vector2(110, 300)
+		views[i].position = homes[i]
+		views[i].rotation = angles[i]
+		views[i].scale = Vector2.ONE * 0.88
+		views[i].z_index = i
 
-func _process(_delta):
+func _hit_index(point: Vector2) -> int:
+	var order: Array[int] = []
+	for i in range(views.size()): order.append(i)
+	order.sort_custom(func(a, b): return views[a].z_index > views[b].z_index)
+	for i in order:
+		var local: Vector2 = views[i].get_global_transform().affine_inverse() * point
+		if Rect2(Vector2.ZERO, views[i].size).has_point(local): return i
+	return -1
+
+func _process(delta):
 	for i in range(views.size()):
-		var focused: bool = selected == i or (selected < 0 and views[i].get_global_rect().has_point(pointer))
-		views[i].scale = Vector2.ONE * (1.08 if focused else 1.0)
-		views[i].z_index = 10 if focused else i
+		var focused: bool = selected == i or (selected < 0 and hovered == i)
+		var weight := minf(delta * 20, 1)
+		views[i].scale = views[i].scale.lerp(Vector2.ONE * (1.06 if focused else 0.88), weight)
+		views[i].rotation = lerp_angle(views[i].rotation, 0.0 if focused else angles[i], weight)
+		views[i].position = views[i].position.lerp(homes[i] + Vector2(0, -46 if focused else 0), weight)
+		views[i].z_index = 30 if focused else i
+		views[i].set_active(focused and not locked)
 	if is_instance_valid(aiming): aiming.queue_redraw()
 
 func _card_input(event: InputEvent, index: int):
@@ -148,7 +126,14 @@ func commit():
 		card_requested.emit(index)
 
 func _input(event: InputEvent):
-	if event is InputEventMouse: pointer = event.position
+	if event is InputEventMouse:
+		pointer = event.position
+		if event is InputEventMouseMotion and selected < 0: hovered = _hit_index(pointer)
+	if selected < 0 and not locked and event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT:
+		var index := _hit_index(pointer)
+		if index >= 0:
+			_card_input(event, index)
+			return
 	if selected < 0 or locked: return
 	if (event is InputEventKey and event.pressed and event.keycode == KEY_ESCAPE) or (event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_RIGHT):
 		cancel()
