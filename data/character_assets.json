@@ -1,5 +1,6 @@
 {
   "mira": {
+    "selection_scene_art": "res://assets/characters/mira/illustration/mira_seated_selection_v2.png",
     "full": "res://assets/characters/mira/full_02.png",
     "selection": "res://assets/characters/mira/illustration/mira_character_select_builtin_v1.png",
     "gallery": [

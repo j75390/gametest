@@ -44,51 +44,70 @@ func _ready() -> void:
 	canvas.size = Vector2(1440,900)
 	var background := TextureRect.new()
 	background.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
-	background.texture = load("res://assets/backgrounds/title_ruins_v1.png")
+	background.texture = load("res://assets/backgrounds/selection_ruins_v2.png")
 	background.position = Vector2(0,-36)
 	background.size = Vector2(1440,972)
 	background.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_COVERED
-	background.modulate = Color(0.72,0.65,0.79)
+	background.modulate = Color(0.92,0.92,0.96)
 	background.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	canvas.add_child(background)
-	image_layer("res://assets/ui/title/ashen_logo_v2.png", Vector2(18,6),Vector2(258,125))
-	text("원정대원 선택", Vector2(1085,34),Vector2(320,36),22,Color("c6af8b"))
+	panel(Vector2(34,730),Vector2(1372,110))
 	for i in range(roster.size()):
 		var ch: Dictionary = roster[i]
-		var button := action("",Vector2(180+i*284,722),Vector2(258,106))
+		var button := action("",Vector2(102+i*314,730),Vector2(292,108))
 		button.name = "Character_" + str(ch.id)
 		button.tooltip_text = ch.name + " · " + ch.class
 		var art := TextureRect.new()
 		art.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 		art.texture = Assets.picture(ch.id,"map_portrait")
-		art.position = Vector2(12,8)
-		art.size = Vector2(98,88)
-		art.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+		art.position = Vector2(8,6)
+		art.size = Vector2(276,96)
+		art.stretch_mode = TextureRect.STRETCH_SCALE
+		# Display the face area of the independent portrait; never slice full-body art.
+		var face_shader := Shader.new()
+		face_shader.code = "shader_type canvas_item; uniform float top = 0.18; void fragment() { COLOR = texture(TEXTURE, vec2(UV.x, top + UV.y * (96.0 / 276.0))); }"
+		var face_material := ShaderMaterial.new()
+		face_material.shader = face_shader
+		face_material.set_shader_parameter("top", 0.30 if ch.id in ["mira", "sera"] else 0.18)
+		art.material = face_material
 		art.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		button.add_child(art)
+		var name_band := ColorRect.new()
+		name_band.color = Color(0.015,0.012,0.022,0.90)
+		name_band.position = Vector2(8,76)
+		name_band.size = Vector2(276,26)
+		name_band.mouse_filter = Control.MOUSE_FILTER_IGNORE
+		button.add_child(name_band)
 		var caption := Label.new()
-		caption.text = ch.name + "\n" + ch.class
-		caption.position = Vector2(122,26)
-		caption.add_theme_font_size_override("font_size",19)
+		caption.text = ch.name + " · " + ch.class
+		caption.position = Vector2(8,76)
+		caption.size = Vector2(276,26)
+		caption.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+		caption.add_theme_font_size_override("font_size",18)
 		caption.add_theme_font_override("font", serif)
 		caption.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		button.add_child(caption)
-		var border := image_layer("res://assets/ui/selection/ornate_frame_v1.png", Vector2(-8,-7),Vector2(274,120), button)
+		var border := image_layer("res://assets/ui/selection/ornate_frame_v1.png", Vector2(-8,-7),Vector2(308,122), button)
 		selection_frames.append(border)
 		button.pressed.connect(_select.bind(i))
 		selectors.append(button)
 	portrait.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
-	portrait.position = Vector2(-58,8)
-	portrait.size = Vector2(850,712)
+	portrait.position = Vector2(-24,-2)
+	portrait.size = Vector2(770,732)
 	portrait.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
 	portrait.mouse_filter = Control.MOUSE_FILTER_IGNORE
-	canvas.add_child(portrait)
+	var portrait_stage := Control.new()
+	portrait_stage.size = Vector2(708,720)
+	portrait_stage.clip_contents = true
+	portrait_stage.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	canvas.add_child(portrait_stage)
+	portrait_stage.add_child(portrait)
 	asset_status = text("",Vector2(40,652),Vector2(640,32),16,Color("ddc08d"))
 	asset_status.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	panel(Vector2(708,108),Vector2(700,144))
-	heading = text("",Vector2(746,121),Vector2(620,66),54,Color("eedcea"))
-	slot = text("",Vector2(749,192),Vector2(610,28),18,Color("bca2cd"))
-	quote = text("",Vector2(746,258),Vector2(640,35),21,Color("e6bf84"))
+	panel(Vector2(708,58),Vector2(700,214))
+	heading = text("",Vector2(746,76),Vector2(620,76),62,Color("eedcea"))
+	slot = text("",Vector2(749,163),Vector2(610,28),18,Color("bca2cd"))
+	quote = text("",Vector2(746,210),Vector2(620,35),21,Color("e6bf84"))
 	panel(Vector2(712,302),Vector2(244,388))
 	text("원정 준비",Vector2(742,324),Vector2(184,32),24,Color("d8bb88"))
 	information = text("",Vector2(744,378),Vector2(184,290),19,Color("e1d5c3"))
@@ -197,8 +216,10 @@ func _select(index: int) -> void:
 	selected_index = index
 	var ch: Dictionary = roster[index]
 	var profile: Dictionary = Assets.profile(ch.id)
-	var path: String = profile.get("illustration","")
+	var path: String = profile.get("selection_scene_art",profile.get("illustration",""))
 	portrait.texture = load(path) if not path.is_empty() and ResourceLoader.exists(path) else Assets.picture(ch.id,"selection")
+	portrait.position = Vector2(-28,8) if ch.id == "mira" else Vector2(-24,-2)
+	portrait.size = Vector2(780,960) if ch.id == "mira" else Vector2(770,732)
 	asset_status.text = ""
 	heading.text = ch.name
 	quote.text = {"mira":"“빼앗긴 생명에도, 아직 쓸모는 있어.”", "kalian":"“내 검이 멈추기 전엔 끝나지 않는다.”", "sera":"“잊힌 이름 속에 힘이 잠들어 있다.”", "lucian":"“꺼진 불씨에도 축복은 남는다.”"}.get(ch.id, "")
@@ -215,7 +236,7 @@ func _select(index: int) -> void:
 	relic_effect.text = Data.relic_text(relic) if not relic.is_empty() else "이 원정대원의 전용 유물은 아직 준비 중입니다."
 	for i in range(selectors.size()):
 		selection_frames[i].modulate = Color("ffe3aa") if i == index else Color("706575")
-		selectors[i].add_theme_stylebox_override("normal",box(Color("382440") if i==index else Color("15101b"),Color("e1b775") if i==index else Color("604953")))
+		selectors[i].add_theme_stylebox_override("normal",box(Color("25171e") if i==index else Color("101015"),Color("e1b775") if i==index else Color("604953")))
 
 func _show_details() -> void:
 	detail_popup.title = roster[selected_index].name + " · 상세정보"

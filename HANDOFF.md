@@ -1,5 +1,12 @@
 # 잿빛 원정대 — 집 PC 작업 인계
 
+## 2026-10-02 선택 미술 재제작 — 기존 전신/배경 교체
+- 사용자가 이전 결과를 거부한 핵심은 테두리가 아니라 일러스트 자세·배경·하단 얼굴 배치였다. 미라를 새로 제작한 앉은 자세로, 배경을 가까운 폐허 성당/붉은 배너/촛불/연금술 소품으로 교체. 제목 로고/우상단 선택 문구 제거, 대사는 이름 패널 안으로 이동. 하단은 얼굴을 크게 표시하고 하단 이름띠를 둔다.
+- 독립 자산 assets/characters/mira/illustration/mira_seated_selection_v2.png와 assets/backgrounds/selection_ruins_v2.png. character_assets.json의 selection_scene_art로 선택 화면만 연결하며 원래 전신/도감/SD는 보존. 원본 화면을 자르거나 한 장짜리 화면을 버튼 UI로 쓰지 않음. 독립 얼굴 초상화의 표시 영역만 UI에서 조정한다.
+- 내장 생성 프롬프트: reference character design, seated sideways on low stone sarcophagus, rabbit half mask, dark purple hair, black/purple dress and white sleeves, violet spell, independent transparent silhouette with chest/vials; 배경: no characters/UI/text, intimate ruined cathedral, crimson banners, candles, violet vials, dark right half. 소스 exec-7280691c-8e4b-419c-9ff6-e20888be1cee.png 및 exec-7d9b69ee-3a0d-4152-afeb-5e2f7696191f.png. 전체 생성물 시각 확인 후 적용.
+- Godot SELECTION_RELIC_QA 두 해상도, 네 캐릭터 클릭, 유물 지급·방어·초기화 PASS. 최신 docs/selection-relic-*.png. 나머지 캐릭터의 새 앉은 일러스트 및 시작 유물은 미완성, 기존 자산 유지.
+- 사용량 최신 '10%'는 이전 잔여량 정정 문맥상 **10% 남음/90% 사용**으로 이해해 알렸다. 과거70% 기준보다 우선. 일일 창은 제공되지 않으며5시간 기준. 시작66%, 검증 중81%. 요청 범위 마무리 후push하며 수치 소진을 위해 불필요한 작업을 하지 않는다.
+
 ## 사용량 기준 사용자 정정 — 2026-10-02
 - **70% 사용 / 30% 남음**에서 인수인계와 push. 이전 30% 사용 중단 기록은 잘못 이해한 것으로 폐기한다. 39% 확인 후 사용자 정정에 따라 선택 화면 미술 개선을 재개했다.
 
