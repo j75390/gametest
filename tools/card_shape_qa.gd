@@ -6,6 +6,14 @@ func check(ok: bool, detail: String):
 		failures += 1
 		push_error(detail)
 func run():
+	var palette = load("res://scripts/card_style.gd")
+	var common = palette.resolve({"character": "common", "rarity": "희귀"})
+	var mira = palette.resolve({"character": "mira", "rarity": "희귀"})
+	var legendary = palette.resolve({"character": "mira", "rarity": "전설"})
+	check(common.owner_color != mira.owner_color, "Colorless and character colors must differ")
+	check(common.rarity_color == mira.rarity_color, "Rarity must not depend on character")
+	check(mira.owner_color == legendary.owner_color and mira.rarity_color != legendary.rarity_color, "Rarity must not change ownership color")
+	check(palette.resolve({"character": "kalian"}).owner_label == "칼리안 전용", "Owner label must use actual character")
 	var main = load("res://scenes/Main.tscn").instantiate()
 	root.add_child(main)
 	main.choose_character(main.characters[0])
@@ -26,6 +34,8 @@ func run():
 		check(hand.homes[1].x - hand.homes[0].x < 220 * 0.88, "Cards must overlap")
 		var event := InputEventMouseMotion.new()
 		event.position = hand.views[2].get_global_transform() * Vector2(70,160)
+		Input.warp_mouse(event.position)
+		event.global_position = event.position
 		root.push_input(event, true)
 		await create_timer(0.3).timeout
 		check(hand.hovered == 2 and hand.views[2].z_index == 30, "Hover must bring card forward")
