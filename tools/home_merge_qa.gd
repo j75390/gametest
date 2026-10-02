@@ -44,6 +44,9 @@ func run() -> void:
 	await process_frame
 	await click(selection.selectors[0])
 	await click(selection.canvas.get_node("StartExpedition"))
+	check(main.screen == "arrival", "Missing opening encounter")
+	main.take_arrival_reward(0)
+	main.finish_arrival()
 	await process_frame
 	await process_frame
 	check(main.screen == "map", "Selection did not enter new map")

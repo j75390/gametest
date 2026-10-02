@@ -566,11 +566,52 @@
       "art": "res://assets/cards/ash_cathedral.png",
       "name": "뒤틀린 제단",
       "effect": "폐허의 제단이 무기에 새길 각인을 제안한다."
+    },
+    {
+      "type": "원정 시작",
+      "trigger": "act_start",
+      "speaker": "문지기 에델 · 잿빛 성당",
+      "dialogue": [
+        "“{hero}… 마침내 이 문 앞까지 왔군요.\n이곳의 불은 오래전에 꺼졌지만, 재 속에는 아직 온기가 남아 있어요.”",
+        "“빈손으로 들여보낼 수는 없겠지요.\n불씨 하나를 가져가세요. 길을 살 돈도, 버틸 숨결도, 잊힌 지식도 될 수 있으니.”"
+      ],
+      "farewell": "“당신이 고른 불씨를 잊지 마세요.\n이제 문을 열겠습니다.”",
+      "sources": [
+        "ACT I 원정 시작 · 원정당 1회"
+      ],
+      "related": [],
+      "id": "ash_cathedral_arrival",
+      "act": 1,
+      "choices": [
+        {
+          "name": "남겨진 여비",
+          "description": "골드 80을 얻습니다.",
+          "reward": "gold",
+          "amount": 80,
+          "reply": "“먼저 떠난 이들이 남긴 여비예요.\n이번에는 살아 돌아올 사람에게 쓰이기를.”\n\n골드 80을 얻었습니다."
+        },
+        {
+          "name": "꺼지지 않는 숨결",
+          "description": "최대 생명력과 현재 생명력이 6 증가합니다.",
+          "reward": "max_hp",
+          "amount": 6,
+          "reply": "“작은 불씨라도 쉽게 꺼지지는 않아요.\n당신의 숨결도 그러하기를.”\n\n최대 생명력과 현재 생명력이 6 증가했습니다."
+        },
+        {
+          "name": "잊힌 지식",
+          "description": "전용 카드 ‘{card}’ 1장을 덱에 추가합니다.",
+          "reward": "card",
+          "reply": "“당신이라면 이 지식의 쓰임을 알겠지요.\n그 힘이 당신을 집어삼키지만 않기를.”\n\n선택한 전용 카드 1장을 덱에 추가했습니다."
+        }
+      ],
+      "art": "res://assets/events/ash_keeper_v1.png",
+      "name": "재 속에 남은 불씨",
+      "effect": "성당 문 앞, 등불을 든 여인이 당신의 이름을 부른다. 그녀가 내민 손 위로 세 갈래의 불씨가 떠오른다."
     }
   ],
   "_meta": {
     "format": 1,
-    "source_sha256": "afcdcfc4c28aafc4b679f8107924900efc65c484e544279191c342a4f4d5a41f",
+    "source_sha256": "10c2b36ecb2e60604464e2e99f1f1e883faf24da959fbff9f48f194d2a782ec7",
     "excluded": [
       "relics/explorers_map"
     ]

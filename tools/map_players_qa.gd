@@ -12,6 +12,8 @@ func run() -> void:
 	current_scene = main
 	for character in main.characters:
 		main.choose_character(character)
+		main.take_arrival_reward(0)
+		main.finish_arrival()
 		await process_frame
 		await process_frame
 		var view = main.content.get_node("ExpeditionScroll/RouteMap")
@@ -20,6 +22,8 @@ func run() -> void:
 		await RenderingServer.frame_post_draw
 		root.get_texture().get_image().save_png("res://docs/map-position-%s.png"%character.id)
 	main.choose_character(main.characters[0])
+	main.take_arrival_reward(0)
+	main.finish_arrival()
 	await process_frame
 	await process_frame
 	var view = main.content.get_node("ExpeditionScroll/RouteMap")

@@ -1,30 +1,30 @@
 # 운빨원정대 현재 인수인계
 
-- 생성 시각: 2026-10-02T00:58:06
+- 생성 시각: 2026-10-02T23:18:32
 
 ## 현재 목표
-독과 맹독을 분리하여 실제 게임 적용
+ACT I opening encounter
 
 ## 완료된 것
-Content Tool API 편집/검증/export, ComfyUI 두 아이콘 승인, 독 주입 카드, 전투/도감/바탕화면 적용 및 Godot 검사0오류
+Approved ash keeper art and event, dialogue and single reward before map; Godot QA passed
 
 ## 남은 작업
-장기 밸런스 검증, 300개 상태 전체 구현 및 저장 시스템은 별도
+ACT II, battle background, audio, saving, multiplayer
 
 ## 메모
-docs/POISON_VENOM.md와 HANDOFF.md 참조. poison 고정 피해, venom 기존8% 비례 피해. 승인 아이콘 두 장만 사용.
+See docs/ACT_ARRIVAL.md; original starter deck unchanged
 
 ## 콘텐츠 현황
 - 카드: 11개 (approved 11개)
-- 유물: 3개 (approved 2개)
+- 유물: 4개 (approved 3개)
 - 포션: 1개 (approved 1개)
 - 마법부여: 1개 (approved 1개)
 - 파워/상태이상: 4개 (approved 4개)
 - 몬스터: 3개 (approved 3개)
-- 이벤트: 1개 (approved 1개)
+- 이벤트: 2개 (approved 2개)
 
 ## 검증 결과
-- 전체 24개 / 정상 24개 / 오류 0개
+- 전체 26개 / 정상 26개 / 오류 0개
 
 ## 다음 작업자 필수 규칙
 - 종합 이미지 크롭 재사용 금지

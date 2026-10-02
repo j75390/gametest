@@ -17,6 +17,8 @@ func run():
 	var main = load("res://scenes/Main.tscn").instantiate()
 	root.add_child(main)
 	main.choose_character(main.characters[0])
+	main.take_arrival_reward(0)
+	main.finish_arrival()
 	main.start_battle("전투")
 	main.hand = [main.card_db.common[0].duplicate(true), main.card_db.common[1].duplicate(true), main.card_db.mira[0].duplicate(true), main.card_db.mira[1].duplicate(true), main.card_db.mira[2].duplicate(true)]
 	main.show_battle()

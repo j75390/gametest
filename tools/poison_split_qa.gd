@@ -34,6 +34,8 @@ func run():
 	root.add_child(main)
 	current_scene = main
 	main.choose_character(main.characters[0])
+	main.take_arrival_reward(0)
+	main.finish_arrival()
 	main.start_battle("전투")
 	main.enemy_max_hp = 100
 	main.enemy_hp = 100

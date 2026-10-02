@@ -91,6 +91,8 @@ func run() -> void:
 	codex.closed.emit()
 	await process_frame
 	main.choose_character(main.characters[0])
+	main.take_arrival_reward(0)
+	main.finish_arrival()
 	main.start_battle("전투")
 	await process_frame
 	await process_frame
@@ -133,6 +135,8 @@ func run() -> void:
 	# Characters without a motion set still need visible battle art.
 	for index in range(1, 4):
 		main.choose_character(main.characters[index])
+		main.take_arrival_reward(0)
+		main.finish_arrival()
 		main.start_battle("전투")
 		await process_frame
 		await process_frame

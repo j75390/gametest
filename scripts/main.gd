@@ -58,6 +58,11 @@ var content: VBoxContainer
 var footer := Label.new()
 var shell: MarginContainer
 var title_menu: Control
+var arrival_view: Control
+var arrival_pending := false
+var arrival_reward_taken := false
+var arrival_event: Dictionary = {}
+var arrival_card: Dictionary = {}
 
 func _ready():
 	_load_data()
@@ -117,6 +122,10 @@ func _build_shell():
 	root_v.add_child(footer)
 
 func clear_content():
+	if is_instance_valid(arrival_view):
+		remove_child(arrival_view)
+		arrival_view.queue_free()
+		arrival_view = null
 	title.show()
 	footer.show()
 	title.get_parent().get_child(1).show()
@@ -205,6 +214,46 @@ func choose_character(ch):
 	for i in range(5):
 		deck.append(card_db.common[1].duplicate(true))
 	_generate_map()
+	arrival_pending = true
+	arrival_reward_taken = false
+	arrival_event = Data.find_record("events","ash_cathedral_arrival")
+	var pool: Array = card_db.get(ch.id,[])
+	arrival_card = pool.pick_random().duplicate(true) if not pool.is_empty() else {}
+	show_arrival()
+
+func show_arrival() -> void:
+	clear_content()
+	screen = "arrival"
+	shell.hide()
+	arrival_view = load("res://scripts/act_arrival.gd").new()
+	arrival_view.name = "ActArrival"
+	arrival_view.setup(arrival_event,arrival_card,selected_character.name)
+	arrival_view.reward_chosen.connect(take_arrival_reward)
+	arrival_view.continue_requested.connect(finish_arrival)
+	add_child(arrival_view)
+	if arrival_reward_taken:
+		arrival_view.show_result(arrival_event.farewell)
+
+func take_arrival_reward(index: int) -> void:
+	if screen != "arrival" or not arrival_pending or arrival_reward_taken:
+		return
+	if index < 0 or index >= arrival_event.choices.size(): return
+	var choice: Dictionary = arrival_event.choices[index]
+	match choice.reward:
+		"gold": gold += int(choice.amount)
+		"max_hp":
+			max_hp += int(choice.amount)
+			hp = mini(max_hp,hp + int(choice.amount))
+		"card":
+			if arrival_card.is_empty(): return
+			deck.append(arrival_card.duplicate(true))
+		_: return
+	arrival_reward_taken = true
+	arrival_view.show_result(choice.reply)
+
+func finish_arrival() -> void:
+	if not arrival_pending or not arrival_reward_taken: return
+	arrival_pending = false
 	show_map()
 
 func _generate_map():
@@ -212,6 +261,9 @@ func _generate_map():
 	has_full_map = false
 
 func show_map():
+	if arrival_pending:
+		show_arrival()
+		return
 	screen = "map"
 	clear_content()
 	title.text = "원정 지도"
@@ -659,7 +711,7 @@ func show_treasure():
 
 func show_event():
 	clear_content()
-	var event = Data.read("events")[0]
+	var event = Data.find_record("events","twisted_altar")
 	title.text = event.name
 	add_picture(content, load(event.art), Vector2(0, 220))
 	add_text(event.effect)

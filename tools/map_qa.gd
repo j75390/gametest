@@ -62,6 +62,8 @@ func run() -> void:
 	root.add_child(main)
 	current_scene = main
 	main.choose_character(main.characters[0])
+	main.take_arrival_reward(0)
+	main.finish_arrival()
 	await process_frame
 	await process_frame
 	var view = main.content.get_node("ExpeditionScroll/RouteMap")

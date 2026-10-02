@@ -1,6 +1,6 @@
 {
-  "goal": "독과 맹독을 분리하여 실제 게임 적용",
-  "completed": "Content Tool API 편집/검증/export, ComfyUI 두 아이콘 승인, 독 주입 카드, 전투/도감/바탕화면 적용 및 Godot 검사0오류",
-  "pending": "장기 밸런스 검증, 300개 상태 전체 구현 및 저장 시스템은 별도",
-  "notes": "docs/POISON_VENOM.md와 HANDOFF.md 참조. poison 고정 피해, venom 기존8% 비례 피해. 승인 아이콘 두 장만 사용."
+  "goal": "ACT I opening encounter",
+  "completed": "Approved ash keeper art and event, dialogue and single reward before map; Godot QA passed",
+  "pending": "ACT II, battle background, audio, saving, multiplayer",
+  "notes": "See docs/ACT_ARRIVAL.md; original starter deck unchanged"
 }
