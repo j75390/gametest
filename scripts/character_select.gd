@@ -223,11 +223,7 @@ func _select(index: int) -> void:
 	asset_status.text = ""
 	heading.text = ch.name
 	quote.text = {"mira":"“빼앗긴 생명에도, 아직 쓸모는 있어.”", "kalian":"“내 검이 멈추기 전엔 끝나지 않는다.”", "sera":"“잊힌 이름 속에 힘이 잠들어 있다.”", "lucian":"“꺼진 불씨에도 축복은 남는다.”"}.get(ch.id, "")
-	var starter: Array = Data.cards().get("common",[])
-	var starter_names: Array[String] = []
-	for card in starter.slice(0,2):
-		starter_names.append("%s × 5" % card.name)
-	information.text = "생명력    %d\n\n소지금    120\n\n에너지    3\n\n시작 덱\n%s" % [ch.max_hp,"\n".join(starter_names)]
+	information.text = "생명력    %d\n\n소지금    120\n\n에너지    3" % ch.max_hp
 	biography.text = INTRO.get(ch.id, ch.theme)
 	slot.text = ch.class + " · " + ch.theme.replace(" / ", " · ")
 	var relic := Data.starting_relic(ch.id)
