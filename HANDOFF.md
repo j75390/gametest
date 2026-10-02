@@ -1,5 +1,11 @@
 # 잿빛 원정대 — 집 PC 작업 인계
 
+## 2026-10-02 집 PC 최신 인수인계 수신
+- 깨끗한 main에서 6e45913→da344e3 fast-forward pull. AGENTS/HANDOFF/PC_SYNC와 카드 손패·소속/등급 문서를 읽고 선택 미술 v2, 세로 손패, 미라 시작 유물 변경을 인계받았다.
+- 바탕화면 실제 프로젝트와 이전 커밋을 비교하고 변경 59개 중 로컬 UID 메타데이터 5개를 보존, 나머지 54개 파일 반영. 코드 충돌 없음. 백업: 작업 폴더 work/before-pull-da344e3-desktop.zip. 기존 원화·SD·지도 기능은 유지한다.
+- 바탕화면 프로젝트 Godot 4.7.2 import 성공. 실제 렌더링 SELECTION_RELIC_QA PASS(두 해상도/선택/지급/방어/초기화), CARD_SHAPE_QA resolutions=2 failures=0. 이번에는 수신·병합 검증만 했고 전체 플레이를 다시 검증하지 않았다.
+- 다음 우선순위는 미라 우선: 보상/상점/도감 카드 표시 통일과 남은 게임 흐름. ACT 시작 이벤트·전투 배경·효과음·저장·실제 멀티는 미완성. 최신 완료 기록과 이전 계획을 구분한다.
+
 ## 2026-10-02 선택 미술 재제작 — 기존 전신/배경 교체
 - 사용자가 이전 결과를 거부한 핵심은 테두리가 아니라 일러스트 자세·배경·하단 얼굴 배치였다. 미라를 새로 제작한 앉은 자세로, 배경을 가까운 폐허 성당/붉은 배너/촛불/연금술 소품으로 교체. 제목 로고/우상단 선택 문구 제거, 대사는 이름 패널 안으로 이동. 하단은 얼굴을 크게 표시하고 하단 이름띠를 둔다.
 - 독립 자산 assets/characters/mira/illustration/mira_seated_selection_v2.png와 assets/backgrounds/selection_ruins_v2.png. character_assets.json의 selection_scene_art로 선택 화면만 연결하며 원래 전신/도감/SD는 보존. 원본 화면을 자르거나 한 장짜리 화면을 버튼 UI로 쓰지 않음. 독립 얼굴 초상화의 표시 영역만 UI에서 조정한다.
