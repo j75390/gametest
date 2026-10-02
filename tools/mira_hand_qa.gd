@@ -80,12 +80,13 @@ func run():
 	check(main.venom_turns == 3 and main.energy == 1, "Click then target casts venom")
 	hand = main.content.get_node("Hand")
 	var self_card: Vector2 = hand.views[0].get_global_rect().get_center()
+	var before_defense: int = main.block
 	await button(true, self_card)
 	await button(false, self_card)
 	while main.battle_busy: await process_frame
 	await process_frame
 	await process_frame
-	check(main.block == 5 and main.energy == 0, "Self card needs no enemy")
+	check(main.block == before_defense + 5 and main.energy == 0, "Self card adds defense without enemy")
 	hand = main.content.get_node("Hand")
 	var expensive: Vector2 = hand.views[0].get_global_rect().get_center()
 	await button(true, expensive)

@@ -73,8 +73,9 @@ func run():
 	check(main.content.get_node("BattleStage/Hero").scale == Vector2.ONE, "Resize restores pose")
 	main.hand = [main.card_db.common[1].duplicate(true)]
 	main.energy = 3
+	var before_defense: int = main.block
 	await main.play_card(0)
-	check(main.block == 5 and main.enemy_hp == 194, "Defense pulse does not hit enemy")
+	check(main.block == before_defense + 5 and main.enemy_hp == 194, "Defense pulse adds block without hitting enemy")
 	main.block = 999
 	var before_blocked_hp: int = main.hp
 	await main.end_turn()

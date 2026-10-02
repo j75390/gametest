@@ -12,6 +12,20 @@ func run():
 		root.size = dimensions
 		await create_timer(0.3).timeout
 		assert(view.relic_effect.position.y + view.relic_effect.size.y <= 674)
+		for i in range(view.selectors.size()):
+			var button = view.selectors[i]
+			var point = button.get_global_transform() * (button.size * 0.5)
+			Input.warp_mouse(point)
+			for pressed in [true, false]:
+				var click := InputEventMouseButton.new()
+				click.button_index = MOUSE_BUTTON_LEFT
+				click.position = point
+				click.global_position = point
+				click.pressed = pressed
+				root.push_input(click, true)
+			await process_frame
+			assert(view.selected_index == i)
+		view._select(0)
 		await RenderingServer.frame_post_draw
 		root.get_texture().get_image().save_png("res://docs/selection-relic-%d.png" % dimensions.x)
 	view._select(1)

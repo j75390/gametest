@@ -1,5 +1,15 @@
 # 잿빛 원정대 — 집 PC 작업 인계
 
+## 사용량 기준 사용자 정정 — 2026-10-02
+- **70% 사용 / 30% 남음**에서 인수인계와 push. 이전 30% 사용 중단 기록은 잘못 이해한 것으로 폐기한다. 39% 확인 후 사용자 정정에 따라 선택 화면 미술 개선을 재개했다.
+
+## 2026-10-02 선택 화면 고딕 미술 개선
+- 밋밋한 패널 느낌에 대한 사용자 재지적 반영. 기존 title_ruins 배경(폐허·촛불·붉은 배너), 확대된 독립 전신, 잿빛 원정대 로고, 독립 얼굴 초상화 목록, 새 금속 가시 프레임, 제목 명조/본문 가독성 분리. 소개/유물/스탯 구조와 상단 탐색 메뉴 제외 유지.
+- assets/ui/selection/ornate_frame_v1.png는 내장 생성 독립 투명 프레임. 원본 exec-deb8000f-5e91-41fd-8e85-bc5aa1a0723c.png. 프롬프트 요지: single landscape3:2 dark gothic gold/black iron thorn rectangular frame, violet gems, transparent center/exterior, no text/character/UI screenshot. alpha 중앙0 확인, 실제 화면 검수 후 채택. 참고 화면을 자르지 않았다. NinePatch로 새 UI 프레임 모서리를 유지해 세로 패널 제목 겹침 수정.
+- 실제 SELECTION_RELIC_QA 1440×900/1280×720, 네 캐릭터 버튼 클릭/유물 지급/효과/초기화 PASS. MIRA_HAND_QA 및 MIRA_HIT_QA 실패0. 방어 카드는 시작 방어값에5 추가하는 검증으로 갱신했다. docs/selection-relic-*.png 최신 화면.
+- 사용량 마지막 확인60% 사용/40% 남음. 요청한 화면 개선과 검증을 마쳐 정상 종료 push하며, 사용량 기준으로 중단한 것은 아님.
+- 나머지 캐릭터 시작 유물, 전투 배경/ACT 이벤트/효과음은 미완성. 추가 캐릭터를 완료로 표시하지 않는다. 다음은 미라 게임 흐름과 카드 보상/상점/도감 연결.
+
 ## 2026-10-02 캐릭터 선택 소개/시작 유물 — 사용량 기준 종료
 - 선택 화면: 큰 전신 왼쪽, 오른쪽 스탯과 소개/전투 방식/유물 그림·등급·효과, 하단 4명 선택. 기존 도감/상세 버튼 제거, 메인 도감 유지. 참고 이미지 자체를 UI로 사용하지 않았다.
 - 미라 일반 전용 시작 유물 '빛바랜 초승달': 원정 시작 지급, 매 전투 시작 방어3, 상점 판매 제외. Content Tool add needs_review→이미지 검수 approved→export; GameData.starting_relic/relic_text 공유. 새 원정 중복/타 캐릭터 이월 방지 검증.
