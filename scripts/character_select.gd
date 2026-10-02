@@ -9,11 +9,21 @@ var selected_index := 0
 var canvas := Control.new()
 var portrait := TextureRect.new()
 var heading: Label
-var information := Label.new()
+var information: Label
 var slot: Label
 var asset_status: Label
 var selectors: Array[Button] = []
 var detail_popup := AcceptDialog.new()
+var biography: Label
+var relic_name: Label
+var relic_effect: Label
+var relic_art := TextureRect.new()
+const INTRO := {
+	"mira": "금지된 연금술을 품고 폐허를 떠도는 주술사. 독으로 적을 쇠약하게 만들고 빼앗은 생명으로 버팁니다.",
+	"kalian": "무너진 전선을 홀로 지켜 온 검사. 참격과 출혈을 쌓아 끊임없는 공격으로 적을 몰아붙입니다.",
+	"sera": "잊힌 주문을 수집하는 마도사. 마력과 저주를 엮어 강력한 마법을 펼칩니다.",
+	"lucian": "꺼져 가는 성화를 지키는 성직자. 회복과 축복으로 버티며 신성한 힘으로 맞섭니다."
+}
 
 func setup(characters: Array) -> void:
 	roster = characters
@@ -36,64 +46,57 @@ func _ready() -> void:
 	background.modulate = Color(0.38,0.32,0.43)
 	background.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	canvas.add_child(background)
-	text("잿빛 원정대", Vector2(40,25),Vector2(400,46),30,Color("e2c28b"))
-	text("원정대원 선택",Vector2(1100,35),Vector2(290,36),20,Color("c7b3cf"))
-	panel(Vector2(32,100),Vector2(226,684))
-	text("원정대원",Vector2(52,116),Vector2(180,30),20,Color("d8bb88"))
+	text("원정대원 선택", Vector2(40,25),Vector2(400,46),30,Color("e2c28b"))
 	for i in range(roster.size()):
 		var ch: Dictionary = roster[i]
-		var button := action("",Vector2(48,164+i*148),Vector2(194,132))
+		var button := action("",Vector2(280+i*282,704),Vector2(270,96))
 		button.name = "Character_" + str(ch.id)
 		button.tooltip_text = ch.name + " · " + ch.class
 		var art := TextureRect.new()
 		art.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 		art.texture = Assets.picture(ch.id,"selection")
 		art.position = Vector2(8,8)
-		art.size = Vector2(74,116)
+		art.size = Vector2(74,80)
 		art.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
 		art.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		button.add_child(art)
 		var caption := Label.new()
 		caption.text = ch.name + "\n" + ch.class
-		caption.position = Vector2(92,38)
+		caption.position = Vector2(92,18)
 		caption.add_theme_font_size_override("font_size",19)
 		caption.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		button.add_child(caption)
 		button.pressed.connect(_select.bind(i))
 		selectors.append(button)
 	portrait.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
-	portrait.position = Vector2(276,102)
-	portrait.size = Vector2(684,678)
+	portrait.position = Vector2(20,90)
+	portrait.size = Vector2(700,604)
 	portrait.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
 	portrait.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	canvas.add_child(portrait)
-	asset_status = text("",Vector2(294,749),Vector2(640,32),16,Color("ddc08d"))
+	asset_status = text("",Vector2(40,652),Vector2(640,32),16,Color("ddc08d"))
 	asset_status.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	panel(Vector2(986,100),Vector2(422,550))
-	heading = text("",Vector2(1010,116),Vector2(372,68),48,Color("f2dfbc"))
-	var scroll := ScrollContainer.new()
-	scroll.position = Vector2(1010,194)
-	scroll.size = Vector2(372,430)
-	scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
-	canvas.add_child(scroll)
-	information.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-	information.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-	information.add_theme_font_size_override("font_size",18)
-	information.add_theme_color_override("font_color",Color("d8ccd9"))
-	scroll.add_child(information)
-	panel(Vector2(986,669),Vector2(422,115))
-	text("선택된 원정대원",Vector2(1010,681),Vector2(372,26),17,Color("ad94ba"))
-	slot = text("",Vector2(1010,719),Vector2(372,46),26,Color("e6c991"))
+	heading = text("",Vector2(740,100),Vector2(640,68),48,Color("f2dfbc"))
+	slot = text("",Vector2(740,176),Vector2(640,34),22,Color("bca2cd"))
+	panel(Vector2(730,234),Vector2(224,440))
+	text("시작 스탯",Vector2(750,252),Vector2(180,32),23,Color("d8bb88"))
+	information = text("",Vector2(750,306),Vector2(184,340),21,Color("e1d5c3"))
+	panel(Vector2(974,234),Vector2(434,440))
+	text("전투 방식",Vector2(996,252),Vector2(388,32),23,Color("d8bb88"))
+	biography = text("",Vector2(996,300),Vector2(384,144),20,Color("e1d5c3"))
+	text("시작 유물",Vector2(996,456),Vector2(380,30),21,Color("d8bb88"))
+	relic_art.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+	relic_art.position = Vector2(992,510)
+	relic_art.size = Vector2(96,112)
+	relic_art.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+	relic_art.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	canvas.add_child(relic_art)
+	relic_name = text("",Vector2(1096,504),Vector2(284,50),21,Color("e6c991"))
+	relic_effect = text("",Vector2(1096,560),Vector2(284,96),18,Color("e1d5c3"))
 	panel(Vector2(0,804),Vector2(1440,96))
 	var back := action("← 돌아가기",Vector2(32,823),Vector2(190,54))
 	back.name = "Back"
 	back.pressed.connect(func(): back_requested.emit())
-	var detail := action("상세정보",Vector2(242,823),Vector2(170,54))
-	detail.name = "Details"
-	detail.pressed.connect(_show_details)
-	var codex := action("도감",Vector2(432,823),Vector2(150,54))
-	codex.name = "Codex"
-	codex.pressed.connect(func(): codex_requested.emit())
 	text("난이도 0 · 기본 원정",Vector2(658,835),Vector2(330,34),20,Color("c7ad83"))
 	var start := action("원정 시작 →",Vector2(1138,817),Vector2(270,66))
 	start.name = "StartExpedition"
@@ -157,14 +160,19 @@ func _select(index: int) -> void:
 	var profile: Dictionary = Assets.profile(ch.id)
 	var path: String = profile.get("illustration","")
 	portrait.texture = load(path) if not path.is_empty() and ResourceLoader.exists(path) else Assets.picture(ch.id,"selection")
-	asset_status.text = "선택용 투명 전신 일러스트 준비 중" if profile.get("needs_transparent_art",true) else ""
+	asset_status.text = ""
 	heading.text = ch.name
 	var starter: Array = Data.cards().get("common",[])
 	var starter_names: Array[String] = []
 	for card in starter.slice(0,2):
 		starter_names.append("%s × 5" % card.name)
-	information.text = "%s\n\nHP  %d   /   시작 골드  120\n\n전투 특징\n%s\n\n패시브\n%s\n\n시작 덱\n%s\n\n시작 유물\n%s" % [ch.class,ch.max_hp,ch.theme.replace(" / "," · "),ch.get("passive_description","등록된 패시브 없음")," · ".join(starter_names),ch.get("starting_relic_description","없음")]
-	slot.text = "01   %s · %s" % [ch.name,ch.class]
+	information.text = "HP   %d\n\n골드   120\n\n에너지   3\n\n시작 덱\n%s" % [ch.max_hp,"\n".join(starter_names)]
+	biography.text = INTRO.get(ch.id, ch.theme)
+	slot.text = ch.class + " · " + ch.theme.replace(" / ", " · ")
+	var relic := Data.starting_relic(ch.id)
+	relic_art.texture = load(relic.art) if not relic.is_empty() else null
+	relic_name.text = relic.name + "\n" + relic.rarity + " · 전용" if not relic.is_empty() else "시작 유물 미등록"
+	relic_effect.text = Data.relic_text(relic) if not relic.is_empty() else "이 원정대원의 전용 유물은 아직 준비 중입니다."
 	for i in range(selectors.size()):
 		selectors[i].add_theme_stylebox_override("normal",box(Color("382440") if i==index else Color("15101b"),Color("e1b775") if i==index else Color("604953")))
 

@@ -1,5 +1,13 @@
 # 잿빛 원정대 — 집 PC 작업 인계
 
+## 2026-10-02 캐릭터 선택 소개/시작 유물 — 사용량 기준 종료
+- 선택 화면: 큰 전신 왼쪽, 오른쪽 스탯과 소개/전투 방식/유물 그림·등급·효과, 하단 4명 선택. 기존 도감/상세 버튼 제거, 메인 도감 유지. 참고 이미지 자체를 UI로 사용하지 않았다.
+- 미라 일반 전용 시작 유물 '빛바랜 초승달': 원정 시작 지급, 매 전투 시작 방어3, 상점 판매 제외. Content Tool add needs_review→이미지 검수 approved→export; GameData.starting_relic/relic_text 공유. 새 원정 중복/타 캐릭터 이월 방지 검증.
+- SELECTION_RELIC_QA 두 해상도/캐릭터 변경/시작 신호/지급/방어/초기화 PASS. 최초 종료 리소스 누수는 교체 전 Label의 미해제 원인을 수정했다. 화면 docs/selection-relic-1280.png, 1440.png. Godot AI MCP 대신 실제 Godot CLI 렌더링 사용.
+- ComfyUI8188 연결 거부로 내장 생성 독립 투명 PNG assets/relics/mira_crescent_v1.png 사용. 원본 exec-4aac13f8-b048-4ec6-83d5-70608c1b8f5e.png, 프롬프트: small worn silver crescent brooch, violet crystal, faded black ribbon, gothic painterly inventory relic, transparent, no text/UI/sheet. 시트 자르기 없음. Content Tool 입력 기록 mira_starter_input.json 보존.
+- 미완성: 나머지 3명 시작 유물은 미등록 표시. 기존 전투 QA의 방어0 가정은 새 시작 유물 기준으로 후속 확인 필요. 선택 UI 추가 장식/밸런스/전체 진행 검수도 남음.
+- 사용량27%에서 마무리 시작, 실행 검증 후33% 확인하여 추가 구현 중단 및 즉시 인수인계/push. 일일 대신 확인 가능한5시간 기준. 다음은 다른 캐릭터 확장보다 미라 흐름 우선, 이 변경 회귀 검증 및 카드 보상/상점/도감 연결.
+
 ## 2026-10-02 카드 소속색/등급색 틀 및 종료 동기화
 - 실제 Godot CARD_SHAPE_QA 2해상도/소속·등급 독립성 실패0, MIRA_HAND_QA 실패0. 최초 hover 검사 실패는 실제 마우스 위치와 주입 좌표 동기화 후 재검증했다. 최종 사용량 확인 5시간11%/주간2%로 기준 미도달, 요청 범위 완료로 종료 동기화한다.
 - Spire Codex 카드 분류를 참고해 무색 공용(character=common)과 일반 등급(rarity)을 분리했다. 기존 원본 필드를 그대로 사용하며 수치/카드 풀은 변경하지 않았다.

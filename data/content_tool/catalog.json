@@ -322,6 +322,20 @@
       "effect": "공격 피해 +25%, 최대 HP -15%.",
       "art": "res://assets/cards/blood_contract.png",
       "cursed": true
+    },
+    {
+      "battle_start_block": 3,
+      "cursed": false,
+      "sources": [
+        "미라 시작 유물"
+      ],
+      "related": [],
+      "starter_character": "mira",
+      "id": "mira_crescent",
+      "name": "빛바랜 초승달",
+      "rarity": "일반",
+      "effect": "매 전투 시작 시 방어도 3을 얻습니다.",
+      "art": "res://assets/relics/mira_crescent_v1.png"
     }
   ],
   "potions": [
@@ -556,7 +570,7 @@
   ],
   "_meta": {
     "format": 1,
-    "source_sha256": "cab86e913299aa8834a2efdd2ebc08421da25532f1ba2386aa63d479fab8470f",
+    "source_sha256": "afcdcfc4c28aafc4b679f8107924900efc65c484e544279191c342a4f4d5a41f",
     "excluded": [
       "relics/explorers_map"
     ]

@@ -194,6 +194,8 @@ func show_character_select():
 func choose_character(ch):
 	owned_relics.clear()
 	selected_character = ch
+	var starting_relic := Data.starting_relic(ch.id)
+	if not starting_relic.is_empty(): owned_relics.append(starting_relic.id)
 	max_hp = int(ch.max_hp)
 	hp = max_hp
 	gold = 120
@@ -296,6 +298,8 @@ func start_battle(kind:String):
 	battle_motion = "idle"
 	block = 0
 	draw_pile = deck.duplicate(true)
+	for relic_id in owned_relics:
+		block += int(Data.find_record("relics", relic_id).get("battle_start_block", 0))
 	draw_pile.shuffle()
 	discard_pile.clear()
 	hand.clear()
@@ -609,6 +613,7 @@ func show_shop():
 		add_picture(content, load(potion.art), Vector2(0, 100))
 		add_button(potion.name + " · 즉시 복용 · %dG · " % potion.price + Data.effect_text(potion), buy_potion.bind(potion)).disabled = gold < potion.price or hp >= max_hp
 	for relic in relic_db:
+		if not str(relic.get("starter_character", "")).is_empty(): continue
 		add_button(relic.name + " · 90G · " + relic.effect, buy_relic.bind(relic)).disabled = gold < 90 or owned_relics.has(relic.id)
 	add_heading("서비스")
 	var rm = Button.new()

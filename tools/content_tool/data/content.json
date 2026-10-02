@@ -398,6 +398,27 @@
         "damage_multiplier": 1.25,
         "hp_multiplier": 0.85
       }
+    },
+    {
+      "id": "mira_crescent",
+      "approval_state": "approved",
+      "rarity": "일반",
+      "runtime": {
+        "battle_start_block": 3,
+        "cursed": false,
+        "sources": [
+          "미라 시작 유물"
+        ],
+        "related": [],
+        "starter_character": "mira"
+      },
+      "name": "빛바랜 초승달",
+      "icon": "res://assets/relics/mira_crescent_v1.png",
+      "character_restriction": "mira",
+      "effect": "매 전투 시작 시 방어도 3을 얻습니다.",
+      "art_source": "PREMIUM",
+      "flavor_text": "폐허를 떠나던 날, 미라가 옷깃에 걸었던 작은 부적.",
+      "approval_basis": "Independent built-in image, inspected full image: clear crescent/crystal, transparent background, no reference slicing. 2026-10-02."
     }
   ],
   "potions": [

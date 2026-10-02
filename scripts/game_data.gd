@@ -44,3 +44,14 @@ static func find_record(key: String, id: String) -> Dictionary:
 		if item.id == id:
 			return item
 	return {}
+
+static func starting_relic(character_id: String) -> Dictionary:
+	for relic in read("relics"):
+		if relic.get("starter_character", "") == character_id:
+			return relic
+	return {}
+
+static func relic_text(relic: Dictionary) -> String:
+	if relic.has("battle_start_block"):
+		return "매 전투 시작 시 방어도 %d을 얻습니다." % int(relic.battle_start_block)
+	return relic.get("effect", "")
