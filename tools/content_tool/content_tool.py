@@ -177,7 +177,18 @@ SCHEMA: dict[str, dict[str, Any]] = {
     }
 }
 
+for _extra, _label in [("regions", "지역"), ("lore", "스토리 기록")]:
+    TYPE_ORDER.append(_extra)
+    SCHEMA[_extra] = {"label": _label, "required": ["id", "name", "description"], "fields": [
+        {"key":"id","label":"ID","kind":"text"}, {"key":"name","label":"이름","kind":"text"},
+        {"key":"description","label":"본문","kind":"textarea"}, {"key":"act","label":"ACT","kind":"number","default":1},
+        {"key":"approval_state","label":"검수 상태","kind":"select","options":["draft","approved"],"default":"draft"}]}
+
 for _kind in TYPE_ORDER:
+    SCHEMA[_kind]["fields"].extend([
+        {"key":"text_ready","label":"검수 원고 도감에 표시","kind":"bool","default":False},
+        {"key":"text_only","label":"이미지 없는 글 콘텐츠","kind":"bool","default":False},
+        {"key":"text_review_state","label":"글 검수 (게임 적용 상태와 별개)","kind":"select","options":["pending_user","accepted","revise","rejected"],"default":"pending_user"}])
     SCHEMA[_kind]["fields"].append({"key":"runtime","label":"게임 효과/추가 데이터 (JSON)","kind":"json","default":{}})
 SCHEMA["cards"]["fields"][5]["options"].append("방어")
 

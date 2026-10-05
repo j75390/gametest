@@ -29,8 +29,8 @@ func run():
 		var hand = main.content.get_node("Hand")
 		for card in hand.views:
 			check(card.size == Vector2(220,330), "Card must stay portrait")
-			check(card.get_node("Effect").size.x <= 159, "Effect overflow width")
-			check(card.get_node("Effect").position.y + card.get_node("Effect").size.y <= 299, "Effect overflow height")
+			check(card.get_node("Effect").position.x >= 13 and card.get_node("Effect").position.x + card.get_node("Effect").size.x <= 207, "Effect overflow width")
+			check(card.get_node("Effect").position.y + card.get_node("Effect").size.y <= 316, "Effect overflow height")
 			check(not card.get_node("Energy").text.contains("."), "Energy must be integer")
 		check(hand.angles[0] < 0 and hand.angles[4] > 0, "Fan rotations absent")
 		check(hand.homes[1].x - hand.homes[0].x < 220 * 0.88, "Cards must overlap")

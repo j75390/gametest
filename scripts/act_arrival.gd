@@ -23,20 +23,29 @@ func _ready() -> void:
 	add_child(canvas)
 	canvas.size = Vector2(1440,900)
 	var art := TextureRect.new()
-	art.texture = load(event.art)
+	art.texture = load(event.art) if not event.get("art", "").is_empty() else null
 	art.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 	art.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_COVERED
 	art.position = Vector2(36,32)
 	art.size = Vector2(550,836)
 	canvas.add_child(art)
-	label_at("ACT I · 잿빛 성당",Vector2(632,66),Vector2(732,36),20,Color("ae8f62"))
+	label_at(event.get("chapter", "ACT I · 잿빛 성당"),Vector2(632,66),Vector2(732,36),20,Color("ae8f62"))
 	label_at(event.name,Vector2(632,116),Vector2(732,68),38,Color("ebd8b7"))
-	label_at(event.speaker,Vector2(632,204),Vector2(732,32),22,Color("bba0d1"))
+	label_at(event.get("speaker", "미라의 기록"),Vector2(632,204),Vector2(732,32),22,Color("bba0d1"))
 	dialogue = label_at("",Vector2(632,256),Vector2(720,188),25,Color("eee2d7"))
 	actions.position = Vector2(632,492)
 	actions.size = Vector2(732,340)
 	actions.add_theme_constant_override("separation",14)
 	canvas.add_child(actions)
+	if art.texture == null:
+		art.hide()
+		for child in canvas.get_children():
+			if child is Label:
+				child.position.x = 120
+				child.size.x = 1200
+		actions.position.x = 120
+		actions.size.x = 1200
+		dialogue.add_theme_font_size_override("font_size", 24)
 	resized.connect(fit)
 	fit()
 	show_dialogue()
@@ -65,9 +74,10 @@ func clear_actions() -> void:
 func button(value: String, callback: Callable) -> Button:
 	var item := Button.new()
 	item.text = value
-	item.custom_minimum_size = Vector2(732,82)
+	item.custom_minimum_size = Vector2(actions.size.x,82)
 	item.add_theme_font_size_override("font_size",21)
 	item.alignment = HORIZONTAL_ALIGNMENT_LEFT
+	item.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	var style := StyleBoxFlat.new()
 	style.bg_color = Color("251c30")
 	style.border_color = Color("8f7250")
@@ -98,6 +108,8 @@ func show_dialogue() -> void:
 			if choice.get("reward","") == "card":
 				description = description.replace("{card}",str(offered_card.get("name","")))
 			var option := button(choice.name + "\n" + description,func(): reward_chosen.emit(i))
+			option.disabled = choice.get("disabled", false)
+			option.tooltip_text = choice.get("disabled_reason", "")
 			if choice.get("reward","") == "card":
 				option.disabled = offered_card.is_empty()
 				if not offered_card.is_empty(): option.tooltip_text = preload("res://scripts/game_data.gd").effect_text(offered_card)
@@ -105,4 +117,4 @@ func show_dialogue() -> void:
 func show_result(reply: String) -> void:
 	dialogue.text = reply
 	clear_actions()
-	button("성당으로 들어간다  →",func(): continue_requested.emit())
+	button(event.get("continue_label", "성당으로 들어간다  →"),func(): continue_requested.emit())

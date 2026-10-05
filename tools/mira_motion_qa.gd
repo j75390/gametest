@@ -96,7 +96,7 @@ func run() -> void:
 	main.start_battle("전투")
 	await process_frame
 	await process_frame
-	check(main.content.get_node("BattleStage/Hero").texture.resource_path.contains("pixel_sd_v1"), "Battle still uses old SD")
+	check(main.content.get_node("BattleStage/Hero").texture.resource_path == Assets.profile("mira").motions.idle[0].path, "Battle does not use the active Mira asset profile")
 	await capture("battle-idle")
 	for card_index in [0, 1]:
 		main.hand = [main.card_db.common[card_index].duplicate(true)]

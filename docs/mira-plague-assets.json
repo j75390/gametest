@@ -1,0 +1,149 @@
+[
+  {
+    "name": "idle_blink",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-f2b43e1b-7449-4087-9168-e6563e4e8793.png",
+    "target": "assets/characters/mira/pixel_sd_plague_v2/idle_blink.png",
+    "state": "approved",
+    "review": "2026-10-03 visual review: original pose, expression, face, costume retained; raven mask, ears removed; independent transparent frame."
+  },
+  {
+    "name": "walk_a",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-006b4f01-6023-4d03-82d0-7ef9ab38acc7.png",
+    "target": "assets/characters/mira/pixel_sd_plague_v2/walk_a.png",
+    "state": "approved",
+    "review": "2026-10-03 visual review: original pose, expression, face, costume retained; raven mask, ears removed; independent transparent frame."
+  },
+  {
+    "name": "walk_pass",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-7ad9667c-4c87-4fed-b7bc-53ae44148ac4.png",
+    "target": "assets/characters/mira/pixel_sd_plague_v2/walk_pass.png",
+    "state": "approved",
+    "review": "2026-10-03 visual review: original pose, expression, face, costume retained; raven mask, ears removed; independent transparent frame."
+  },
+  {
+    "name": "walk_b",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-e9e71f55-2c75-418f-b8de-aee5bcd96442.png",
+    "target": "assets/characters/mira/pixel_sd_plague_v2/walk_b.png",
+    "state": "approved",
+    "review": "2026-10-03 visual review: original pose, expression, face, costume retained; raven mask, ears removed; independent transparent frame."
+  },
+  {
+    "name": "attack_prepare",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-bdf50388-b49a-49e9-a75e-3dbcd3104ed6.png",
+    "target": "assets/characters/mira/pixel_sd_plague_v2/attack_prepare.png",
+    "state": "approved",
+    "review": "2026-10-03 visual review: original pose, expression, face, costume retained; raven mask, ears removed; independent transparent frame."
+  },
+  {
+    "name": "attack_release",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-d107349f-ed00-4007-ae97-4385a2c9d96e.png",
+    "target": "assets/characters/mira/pixel_sd_plague_v2/attack_release.png",
+    "state": "approved",
+    "review": "2026-10-03 visual review: original pose, expression, face, costume retained; raven mask, ears removed; independent transparent frame."
+  },
+  {
+    "name": "skill_charge",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-dbe404b8-7d5a-4d09-b427-827249acee8d.png",
+    "target": "assets/characters/mira/pixel_sd_plague_v2/skill_charge.png",
+    "state": "approved",
+    "review": "2026-10-03 visual review: original pose, expression, face, costume retained; raven mask, ears removed; independent transparent frame."
+  },
+  {
+    "name": "skill_release",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-04db2e4d-e307-41b3-91a8-5be565257259.png",
+    "target": "assets/characters/mira/pixel_sd_plague_v2/skill_release.png",
+    "state": "approved",
+    "review": "2026-10-03 visual review: original pose, expression, face, costume retained; raven mask, ears removed; independent transparent frame."
+  },
+  {
+    "name": "hurt",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-ad89961d-d338-4d32-949e-469c414b2bb2.png",
+    "target": "assets/characters/mira/pixel_sd_plague_v2/hurt.png",
+    "state": "approved",
+    "review": "2026-10-03 visual review: original pose, expression, face, costume retained; raven mask, ears removed; independent transparent frame."
+  },
+  {
+    "name": "death_fall",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-2103690b-0131-4810-a8c6-47f27cddba33.png",
+    "target": "assets/characters/mira/pixel_sd_plague_v2/death_fall.png",
+    "state": "approved",
+    "review": "2026-10-03 visual review: original pose, expression, face, costume retained; raven mask, ears removed; independent transparent frame."
+  },
+  {
+    "name": "death_rest",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-48224823-6c30-4ded-80e7-89fd13be82b1.png",
+    "target": "assets/characters/mira/pixel_sd_plague_v2/death_rest.png",
+    "state": "approved",
+    "review": "2026-10-03 visual review: original pose, expression, face, costume retained; raven mask, ears removed; independent transparent frame."
+  },
+  {
+    "name": "full_01",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-a20d0ff3-0480-4d67-8a90-2d626e40ee32.png",
+    "target": "assets/characters/mira/full_01_plague_v2.png",
+    "state": "approved",
+    "review": "2026-10-03 inspected: face, composition, costume retained; ivory plague mask replaces rabbit ornament."
+  },
+  {
+    "name": "full_02",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-aae4229d-1f2f-45fe-9d8d-ec4bec6a4d6f.png",
+    "target": "assets/characters/mira/full_02_plague_v2.png",
+    "state": "approved",
+    "review": "2026-10-03 inspected: face, composition, costume retained; ivory plague mask replaces rabbit ornament."
+  },
+  {
+    "name": "standing",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85110400-c04a-48cf-ba94-07b154800109.png",
+    "target": "assets/characters/mira/illustration/mira_character_select_plague_v2.png",
+    "state": "approved",
+    "review": "2026-10-03 inspected: face, composition, costume retained; ivory plague mask replaces rabbit ornament."
+  },
+  {
+    "name": "panorama",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-24672860-7395-4479-be41-5edc15da0d6d.png",
+    "target": "assets/characters/mira/selection_panorama_plague_v2.png",
+    "state": "approved",
+    "review": "2026-10-03 inspected: face, composition, costume retained; ivory plague mask replaces rabbit ornament."
+  },
+  {
+    "name": "venom_hex",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-dddb349e-0fa0-412b-b23a-caa47eb94d4c.png",
+    "target": "assets/cards/mira/venom_hex_plague_v2.png",
+    "state": "approved",
+    "review": "2026-10-03 inspected: face, composition, costume retained; ivory plague mask replaces rabbit ornament."
+  },
+  {
+    "name": "soul_binding",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-513e0408-35a9-44e6-a005-7b79557b591e.png",
+    "target": "assets/cards/mira/soul_binding_plague_v2.png",
+    "state": "approved",
+    "review": "2026-10-03 inspected: face, composition, costume retained; ivory plague mask replaces rabbit ornament."
+  },
+  {
+    "name": "seated",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-d280f09e-a03b-4401-b2e9-4b8e3fe712ca.png",
+    "target": "assets/characters/mira/illustration/mira_seated_plague_v3.png",
+    "state": "approved",
+    "review": "2026-10-03 imagegen output visually inspected before integration."
+  },
+  {
+    "name": "portrait",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-3a93b221-b2a0-41aa-be48-f16a8c949d27.png",
+    "target": "assets/characters/mira/portrait/mira_map_portrait_plague_v2.png",
+    "state": "approved",
+    "review": "2026-10-03 imagegen output visually inspected before integration."
+  },
+  {
+    "name": "idle",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-bdc152e7-4d98-4480-9a9a-f8d5c36240a6.png",
+    "target": "assets/characters/mira/pixel_sd_plague_v2/idle.png",
+    "state": "approved",
+    "review": "2026-10-03 imagegen output visually inspected before integration."
+  },
+  {
+    "name": "empty_ward",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-6fd0cb67-2bfc-4075-b0e8-d76634f828fa.png",
+    "target": "assets/events/empty_ward_v1.png",
+    "state": "approved",
+    "review": "2026-10-03 imagegen output visually inspected before integration."
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "id": "empty_ward",
+  "title": "빈 병동",
+  "category": "CHARACTER",
+  "character_restriction": "mira",
+  "act": 1,
+  "story": "병실에는 침대가 여섯 개 있었다. 이불에는 사람이 누웠던 자국이 남았지만, 먼지는 그 위에도 고르게 쌓여 있었다.\n문 옆의 명패를 닦자 익숙한 약품 냄새가 났다.\n“완치 여섯. 퇴원 없음. 수령인란은 별도 보관.”\n미라는 가면 안쪽의 글씨를 더듬었다. 장부에서 지워졌다는 칸이 떠올랐다.",
+  "image": "res://assets/events/empty_ward_v1.png",
+  "art_source": "PREMIUM",
+  "approval_state": "approved",
+  "runtime": {
+    "type": "미라 조사 이벤트",
+    "sources": [
+      "ACT I · 미라의 첫 이벤트 칸"
+    ],
+    "related": [
+      "스토리:borrowed_flame",
+      "캐릭터:mira"
+    ]
+  },
+  "choices": [
+    {
+      "name": "명패를 가져간다",
+      "description": "명패를 조사물로 보관합니다. 전투 효과 없음.",
+      "flag": "ward_plate",
+      "reply": "여섯 개의 베개가 동시에 내려앉았다. 소리는 들리지 않았다.\n미라는 문을 닫지 못했다. 누가 자신을 불렀기 때문이 아니라, 아무도 부르지 않았기 때문이었다.\n\n조사물 ‘빈 침대의 명패’를 보관했습니다. 도감 → 스토리에서 확인할 수 있습니다."
+    },
+    {
+      "name": "기록을 종이에 옮긴다",
+      "description": "명패를 남기고 이번 원정의 조사 기록을 얻습니다.",
+      "flag": "ward_copy",
+      "reply": "미라는 여섯 줄을 차례로 옮겼다. 어느 줄에도 퇴원 날짜는 없었다.\n마지막에 자신의 이름을 쓰려다 손을 멈췄다. 가면 안쪽의 필체와는 달랐다.\n\n조사 기록 ‘여섯 줄의 사본’을 얻었습니다. 명패는 병동에 남았습니다."
+    },
+    {
+      "name": "문을 닫는다",
+      "description": "아무것도 가져가지 않고 길을 계속 갑니다.",
+      "flag": "ward_left",
+      "reply": "문을 닫자 약품 냄새가 끊겼다.\n여섯 명이 치료받았다는 기록은 있었다. 그들이 어디로 갔는지는 없었다.\n\n아무것도 가져오지 않았습니다. 원정은 계속할 수 있습니다."
+    }
+  ],
+  "approval_basis": "2026-10-03 independent empty-ward art inspected, no character/franchise/UI. Dialogue and all three investigation outcomes implemented; follow-up ACT not claimed."
+}

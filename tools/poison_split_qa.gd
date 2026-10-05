@@ -29,7 +29,16 @@ func run():
 	check(not poison.is_empty() and not venom.is_empty(), "Both cards in Mira reward/shop pool")
 	check(Data.upgraded(poison).poison == 8, "Poison upgrade")
 	check(venom.venom_turns == 3 and venom.venom_rate == 0.08, "Existing venom unchanged")
-	check(Data.effect_text(poison).contains("독 5중첩"), "Shared card description")
+	check(Data.effect_text(poison).contains("중독을 5 부여합니다"), "Shared card description")
+	check(Data.effect_text(venom) == "맹독을 3턴 부여합니다.", "Venom card shows duration without full rules")
+	check(not Data.effect_text(poison).contains("턴 시작"), "Poison card omits timing detail")
+	var described = Status.new()
+	described.apply([{"id":"poison","amount":12},{"id":"venom","amount":3,"rate":0.08}])
+	var tip = load("res://scripts/status_panel.gd")
+	check(tip.describe("poison", described, 74).contains("다음 턴 피해: 12"), "Poison tooltip shows live damage")
+	check(tip.describe("venom", described, 74).contains("다음 턴 피해: 6"), "Venom tooltip rounds live percent damage")
+	check(tip.describe("poison", described, 74).contains("1 감소"), "Tooltip retains decay rule")
+	check(not Data.cards().mira.any(func(c): return str(c.id).begins_with("mira_review_")), "Draft cards excluded from gameplay")
 	var main = load("res://scenes/Main.tscn").instantiate()
 	root.add_child(main)
 	current_scene = main
@@ -67,7 +76,7 @@ func run():
 	await process_frame
 	var codex = main.get_node("Codex")
 	codex._change_category("파워")
-	check(codex.records["파워"].any(func(r): return r.id == "poison" and r.name == "독"), "Codex poison record")
+	check(codex.records["파워"].any(func(r): return r.id == "poison" and r.name == "중독"), "Codex poison record")
 	check(codex.records["파워"].any(func(r): return r.id == "venom" and r.name == "맹독"), "Codex venom record")
 	check(codex.art_box.has_node("FullArtwork"), "Codex status artwork loads")
 	await process_frame

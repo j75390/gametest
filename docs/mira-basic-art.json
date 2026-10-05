@@ -1,0 +1,14 @@
+{
+  "generator": "built-in image_gen",
+  "assets": [
+    {
+      "path": "assets/cards/mira/strike_scene_v2.png",
+      "prompt": "Standalone square card action illustration ONLY, no text no borders no UI. Match referenced Mira identity exactly: purple hair, violet eyes, ivory raven plague mask perched above temple, black glove white floral sleeve black gold outfit. Mira BASIC ATTACK: waist-up Mira left side thrusting her gloved palm toward right, launching ONE sharp bright violet magical crescent into dark enemy silhouette right. Face and hand large and readable, central80% safe composition. Clean bold anime cel shading, simplified details for tiny card, dark burgundy-violet background and brilliant pale violet impact. No sword, no dagger, no shield, no seated pose, no spectral skull (reserved for venom spell)."
+    },
+    {
+      "path": "assets/cards/mira/defend_scene_v3.png",
+      "prompt": "Edit this Mira defense artwork: REPLACE THE STIFF TWO-HAND POSE with an anatomically natural, relaxed one-handed defensive gesture. Keep exact character face, purple hair, ivory plague mask perched on head, black glove, white floral sleeve, anime style. Medium waist-up 3/4 side view; torso turned toward left incoming attack, shoulders naturally aligned. ONE near arm is extended toward left, elbow comfortably bent, wrist straight, five fingers gently curved, palm supports a translucent lavender protective ward. Clearly show continuous shoulder-upperarm-elbow-forearm-hand anatomy; not exaggerated foreshortening. Other arm rests naturally near her waist and is partly hidden by sleeve, no second raised hand. Face upper right, gaze toward attack at left, calm alert expression. Less visual clutter: one simple broad arc of magical glass with gold alchemical circle stops ONE shadow claw at far left, cyan impact. Readable silhouette and coherent pose are top priority. No text, no border, no card frame, no weapon or physical shield. Square card art."
+    }
+  ],
+  "rejected": "defend_scene_v2.png: user found two-hand pose unnatural; replaced by one-hand ward"
+}

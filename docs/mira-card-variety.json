@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-03",
+  "assets": [
+    {
+      "path": "assets/cards/mira/venom_hex_ritual_v4.png",
+      "prompt": "Use case illustration-story. Original standalone landscape 4:3 RPG card artwork, no frame no text no UI. VENOM HEX, environmental ritual scene rather than character portrait. A ruined gothic infirmary floor seen from a low oblique angle: ONE large cracked ivory raven plague mask at lower left, purple poisonous curse mist unfurls out of it as a huge single spectral raven skull over the center; spreading violet corruption cracks radiate across stone toward distant faceless shadow enemy silhouettes. A small black gloved hand with white floral sleeve at right edge draws a gold alchemical circle, no face or torso visible. Focal mask/skull in central75% safe zone. Bold clean anime cel shading, dark indigo cathedral arches in soft background, purple and antique gold, sparse pale lime highlights. Strong clear 3-shape composition, quiet dark areas, restrained detail for small card. Narrative moment of lingering supernatural venom, not a potion bottle, no sword/shield. No text, no runic writing, no letters, no numbers."
+    },
+    {
+      "path": "assets/cards/mira/soul_binding_wide_v4.png",
+      "prompt": "Original standalone landscape4:3 RPG card art, SOUL BINDING. Use attached image only for Mira character identity (purple hair ivory raven plague mask on head black gold dress white sleeves). COMPLETELY DIFFERENT composition: wide full-body action tableau. Mira a small full-body figure at far LEFT third, feet planted, pulling one glowing gold chain with both hands naturally at waist level. At RIGHT a large translucent cyan ghost is being drawn out of a dark armored enemy. ONE sweeping chain creates a clean diagonal link across image; small luminous motes flow LEFT along it into Mira's chest to communicate drain and healing. Entire silhouettes within frame. Huge dark quiet negative space around main figures, strong readable opposing silhouettes, no closeup face, no extended hand toward camera. Background ruined gothic arch dim indigo, gold/cyan/purple limited palette. Polished anime cel shading, broad shapes not excessive particles. No text, no numbers, no card border or UI."
+    }
+  ],
+  "review": "Generated images and actual card render inspected; Content Tool approved and exported."
+}

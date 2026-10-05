@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1120" viewBox="0 0 1600 1120">
+<defs><marker id="gold" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#e2be78"/></marker><marker id="water" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0L7 4L0 8" fill="#649fbb"/></marker></defs>
+<rect width="1600" height="1120" fill="#11151a"/>
+<g font-family="Malgun Gothic, sans-serif" fill="#e7dfce">
+<text x="65" y="62" font-size="32">잿빛 분지 · 지역과 원정 경로</text>
+<text x="65" y="94" fill="#a9aeb0" font-size="17">지형 개념도 v0.1 / 제작자용 · 후반 지역 포함 · 전투 지도 미적용</text>
+<path d="M220 890 Q50 580 190 270 Q350 80 750 160 Q1100 60 1270 340 Q1440 680 1160 940 L1060 870 Q1230 610 1120 350 Q910 195 710 260 Q430 175 300 380 Q210 620 360 870Z" fill="#34363b" stroke="#62605c" stroke-width="2"/>
+<path d="M360 865 Q240 580 390 365 Q680 230 1060 350 Q1240 600 1040 885L930 1010H525Z" fill="#222c2b" stroke="#46504a"/>
+<path d="M400 820 Q330 590 480 390 Q770 290 1020 430 Q1160 640 980 890" fill="none" stroke="#475048" stroke-width="2"/>
+<path d="M445 825 Q390 610 530 445 Q770 360 970 490 Q1090 660 925 880" fill="none" stroke="#39453f" stroke-width="2"/>
+<path d="M785 245 Q840 400 775 490 Q735 610 810 725 Q835 875 755 1050" fill="none" stroke="#305b6f" stroke-width="28"/>
+<path d="M785 245 Q840 400 775 490 Q735 610 810 725 Q835 875 755 1050" fill="none" stroke="#649fbb" stroke-width="3" marker-end="url(#water)"/>
+<path d="M785 615 Q930 650 1110 640" fill="none" stroke="#649fbb" stroke-width="7"/>
+<path d="M1110 640L1110 550" fill="none" stroke="#649fbb" stroke-width="3" stroke-dasharray="7 5" marker-end="url(#water)"/>
+<path d="M655 925L460 745" stroke="#e2be78" stroke-width="4" marker-end="url(#gold)"/>
+<path d="M475 688L665 690" stroke="#e2be78" stroke-width="4" marker-end="url(#gold)"/>
+<path d="M815 670L990 530" stroke="#e2be78" stroke-width="4" marker-end="url(#gold)"/>
+<path d="M970 445L535 350" stroke="#e2be78" stroke-width="4" marker-end="url(#gold)"/>
+<path d="M540 298L760 220" stroke="#e2be78" stroke-width="4" marker-end="url(#gold)"/>
+<path d="M500 645L770 270" stroke="#827b6d" stroke-width="3" stroke-dasharray="10 9"/>
+<path d="M610 474l24 -22m-25 -2l24 22" stroke="#cc8f84" stroke-width="4"/>
+<text x="500" y="470" font-size="17" fill="#c5a39a">붕괴</text>
+<text x="350" y="525" font-size="17" fill="#b7afa2">옛 순례교 · 현재 통행 불가</text>
+<text x="660" y="383" font-size="17" fill="#e2be78">IV ← 건식 회랑 · 협곡 위 교량</text>
+<text x="878" y="611" font-size="17" fill="#e2be78">갑문 → 승강기</text>
+<text x="1125" y="610" font-size="16" fill="#87b8cd">양수관 ↑</text>
+<text x="625" y="777" font-size="17" fill="#87b8cd">하천은 남쪽으로 흐름 ↓</text>
+<text x="735" y="143" font-size="17" fill="#aab9c0">북쪽 집수지 / 절벽</text>
+<text x="212" y="237" font-size="18" fill="#9b9b94">북서 암반 능선</text>
+<text x="1165" y="320" font-size="18" fill="#9b9b94">동쪽 능선</text>
+<text x="545" y="1035" font-size="17" fill="#adb69e">남쪽으로 열린 출구 · 외부 마을로 이어짐</text>
+<rect x="645" y="170" width="350" height="110" rx="8" fill="#171b20" stroke="#ad9465" stroke-width="2"/><text x="663" y="200" font-size="23" fill="#ead3a5">V  새벽 없는 성소</text><text x="663" y="228" font-size="16" fill="#b3c1bb">+220m · 분배 / 북쪽 절벽 내부</text><text x="663" y="256" font-size="16" fill="#e0dcd0">쉼표 자리에 적힌 다음 사람의 번호</text><rect x="225" y="280" width="320" height="110" rx="8" fill="#171b20" stroke="#ad9465" stroke-width="2"/><text x="243" y="310" font-size="23" fill="#ead3a5">IV  이름 없는 서고</text><text x="243" y="338" font-size="16" fill="#b3c1bb">+150m · 삭제 / 건조한 암반</text><text x="243" y="366" font-size="16" fill="#e0dcd0">책보다 한 장 많은 반납표</text><rect x="920" y="435" width="355" height="110" rx="8" fill="#171b20" stroke="#ad9465" stroke-width="2"/><text x="938" y="465" font-size="23" fill="#ead3a5">III  유리 온실</text><text x="938" y="493" font-size="16" fill="#b3c1bb">+80m · 증류 / 햇빛 드는 단구</text><text x="938" y="521" font-size="16" fill="#e0dcd0">닫힌 날만 대답이 줄어드는 작업표</text><rect x="655" y="655" width="325" height="110" rx="8" fill="#171b20" stroke="#ad9465" stroke-width="2"/><text x="673" y="685" font-size="23" fill="#ead3a5">II  검은 운하</text><text x="673" y="713" font-size="16" fill="#b3c1bb">0~+15m · 운송 / 저지대 갑문</text><text x="673" y="741" font-size="16" fill="#e0dcd0">빈 배가 더 깊이 잠기는 까닭</text><rect x="195" y="640" width="330" height="110" rx="8" fill="#171b20" stroke="#ad9465" stroke-width="2"/><text x="213" y="670" font-size="23" fill="#ead3a5">I  잿빛 성당</text><text x="213" y="698" font-size="16" fill="#b3c1bb">+45m · 기록 / 홍수 위의 언덕</text><text x="213" y="726" font-size="16" fill="#e0dcd0">완치 기록은 있으나 퇴원 칸은 비었다</text><rect x="495" y="890" width="405" height="110" rx="8" fill="#171b20" stroke="#ad9465" stroke-width="2"/><text x="513" y="920" font-size="23" fill="#ead3a5">출발  남쪽 마을</text><text x="513" y="948" font-size="16" fill="#b3c1bb">+10m · 제방 / 밭 / 수선방 / 등불</text><text x="513" y="976" font-size="16" fill="#e0dcd0">우리가 돌아와야 하는 생활의 자리</text><rect x="1265" y="770" width="290" height="266" rx="8" fill="#1b2026" stroke="#485058"/>
+<text x="1285" y="803" font-size="20" fill="#ead3a5">지도 범례</text>
+<text x="1285" y="841" font-size="17" fill="#e2be78">금색 → 원정 진행</text>
+<text x="1285" y="876" font-size="17" fill="#87b8cd">청색 → 하천 / 관리 수로</text>
+<text x="1285" y="911" font-size="17" fill="#b7afa2">점선 → 파손된 옛 길</text>
+<text x="1285" y="946" font-size="17">높이 → 분지 바닥 기준</text>
+<text x="1285" y="981" font-size="16" fill="#a9aeb0">개념 배치 · 축척은 비례하지 않음</text>
+<text x="1285" y="1012" font-size="16" fill="#a9aeb0">폭 약 8km / 남북 약 11km 제안</text>
+<path d="M1480 250V160L1467 185M1480 160L1493 185" fill="none" stroke="#e2be78" stroke-width="3"/>
+<text x="1468" y="140" font-size="24">북</text>
+<text x="65" y="1092" font-size="17" fill="#aaa79d">관측 → 대조 → 기록 갱신. 숨은 보상이나 후반 진실을 플레이어 지도에 미리 표시하지 않는다.</text>
+</g></svg>

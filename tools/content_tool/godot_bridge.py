@@ -4,12 +4,12 @@ import hashlib
 import json
 from pathlib import Path
 
-KINDS = ['cards','relics','potions','enchants','powers','monsters','events']
+KINDS = ['cards','relics','potions','enchants','powers','monsters','events','regions','lore']
 ALIASES = {'enchants':'enchantments'}
 
 def runtime_item(kind, item):
     row = copy.deepcopy(item.get('runtime', {}))
-    for key in ('id','name','rarity','type','character','target','keywords','effect','act','hp','choices'):
+    for key in ('id','name','rarity','type','character','target','keywords','effect','act','hp','choices','flavor_text','story','description','text_only','origin_event','character_restriction'):
         if key in item: row[key] = copy.deepcopy(item[key])
     row['art'] = item.get('image', item.get('icon', ''))
     if kind == 'cards':
@@ -36,7 +36,7 @@ def export_catalog(data, project):
     result={};pending=[];assets=[]
     for kind in KINDS:
         rows=[];ids=set()
-        for item in data[kind]:
+        for item in data.get(kind, []):
             errs=validate_item(kind,item)
             if errs:raise ValueError(f'{kind}/{item.get("id")}: {errs}')
             if item['id'] in ids:raise ValueError('Duplicate ID: '+item['id'])
@@ -45,7 +45,9 @@ def export_catalog(data, project):
                 pending.append(kind+'/'+item['id']);continue
             row=runtime_item(kind,item)
             art=row['art']
-            if art.startswith('res://'):
+            if not art and item.get('text_only') and kind in ('relics','potions','events','regions','lore'):
+                pass  # User-authorized text-first content; never fabricate approved art.
+            elif art.startswith('res://'):
                 path=(project/art[6:]).resolve()
                 if not path.is_relative_to(project):raise ValueError('Art must stay inside project')
                 if not path.is_file():raise ValueError('Missing approved art: '+art)
@@ -73,8 +75,9 @@ def export_catalog(data, project):
         if not set(names)<={r['id'] for r in rows}:raise ValueError('Required game records missing or unapproved: '+kind)
     # Preserve rank order used by the existing encounter selector.
     result['monsters'].sort(key=lambda r:['일반','엘리트','보스'].index(r['type']))
-    result['_meta']={'format':1,'source_sha256':hashlib.sha256(json.dumps(data,sort_keys=True,ensure_ascii=False).encode()).hexdigest(),'excluded':pending}
+    result['_library']={k:[copy.deepcopy(i) for i in data.get(k,[]) if i.get('text_ready') and not i.get('archived')] for k in KINDS}
+    result['_meta']={'format':2,'source_sha256':hashlib.sha256(json.dumps(data,sort_keys=True,ensure_ascii=False).encode()).hexdigest(),'excluded':pending}
     for path,raw in assets:path.parent.mkdir(parents=True,exist_ok=True);path.write_bytes(raw)
     dest=project/'data/content_tool/catalog.json';dest.parent.mkdir(parents=True,exist_ok=True)
     temp=dest.with_suffix('.tmp');temp.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');temp.replace(dest)
-    return {'export_dir':str(dest.parent),'godot_written':[str(dest)],'excluded':pending,'counts':{k:len(v) for k,v in result.items() if k!='_meta'}}
+    return {'export_dir':str(dest.parent),'godot_written':[str(dest)],'excluded':pending,'counts':{k:len(v) for k,v in result.items() if not k.startswith('_')}}

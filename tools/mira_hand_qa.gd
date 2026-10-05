@@ -101,9 +101,9 @@ func run():
 	await process_frame
 	await process_frame
 	var hero = main.content.get_node("BattleStage/Hero")
-	check(hero.tooltip_text.contains("독 · 2중첩") and hero.tooltip_text.contains("맹독 · 3턴"), "Body tooltip aggregates statuses")
+	check(hero.tooltip_text.contains("중독 · 2중첩") and hero.tooltip_text.contains("맹독 · 3턴"), "Body tooltip aggregates statuses")
 	var poison_icon = main.content.get_node("UnitStatuses/Player").find_child("poison", true, false)
-	check(poison_icon.tooltip_text.begins_with("독 · 2중첩"), "Icon tooltip selects its own status")
+	check(poison_icon.tooltip_text.begins_with("중독 · 2중첩"), "Icon tooltip selects its own status")
 	check(main.content.get_node("Intent").tooltip_text.contains("공격 피해"), "Intent tooltip describes attack")
 	root.warp_mouse(hero.get_global_rect().get_center())
 	await point_at(hero.get_global_rect().get_center())

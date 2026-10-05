@@ -1,0 +1,32 @@
+[
+  {
+    "type": "relics",
+    "id": "relic_uncommon_002",
+    "prompt": "small tarnished bronze hand bell, cracked rim, deep violet ribbon, single object, centered, isolated on pure white background, hand painted fantasy item, detailed illustration, clean silhouette, empty margins",
+    "seed": 1060701,
+    "negative": "(frame, border, ornamental corners, square, card, panel, badge:1.6), text, logo, watermark, scenery, background pattern, collage, multiple objects, cropped",
+    "size": 768,
+    "steps": 22,
+    "retry_generated": true
+  },
+  {
+    "type": "potions",
+    "id": "potion_text_01",
+    "prompt": "small clear corked round vial filled with pale pink healing liquid, simple silver collar, single object, centered, isolated on pure white background, hand painted fantasy item, detailed illustration, clean silhouette, empty margins",
+    "seed": 1060706,
+    "negative": "(frame, border, ornamental corners, square, card, panel, badge:1.6), text, logo, watermark, scenery, background pattern, collage, multiple objects, cropped",
+    "size": 768,
+    "steps": 22,
+    "retry_generated": true
+  },
+  {
+    "type": "powers",
+    "id": "status_draft_001",
+    "prompt": "one red upward sword with short red rays, simple strong flat emblem, single object, centered, isolated on pure white background, hand painted fantasy item, detailed illustration, clean silhouette, empty margins",
+    "seed": 1060712,
+    "negative": "(frame, border, ornamental corners, square, card, panel, badge:1.6), text, logo, watermark, scenery, background pattern, collage, multiple objects, cropped",
+    "size": 768,
+    "steps": 22,
+    "retry_generated": true
+  }
+]

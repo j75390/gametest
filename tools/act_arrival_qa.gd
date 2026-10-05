@@ -51,7 +51,7 @@ func run() -> void:
 			main.show_map()
 			assert(main.screen == "map")
 	main.show_event()
-	assert(main.title.text == "뒤틀린 제단")
+	assert(main.screen == "story_event" and str(main.story_event.id).begins_with("common_act1_"))
 	main.choose_character(main.characters[0])
 	assert(not main.arrival_reward_taken and main.gold == 120 and main.deck.size() == 10)
 	main.queue_free()

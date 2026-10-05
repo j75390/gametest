@@ -1,0 +1,110 @@
+[
+  {
+    "type": "relics",
+    "id": "relic_uncommon_001",
+    "prompt": "single centered fantasy RPG inventory icon, stylized hand painted game art, bold simple silhouette, readable at small size, entire object, isolated on plain white background, no text, no frame, dark gothic palette, aged brass hospital bed nameplate, dark scratches, two mounting holes, violet cloth tie",
+    "seed": 1060600
+  },
+  {
+    "type": "relics",
+    "id": "relic_uncommon_002",
+    "prompt": "single centered fantasy RPG inventory icon, stylized hand painted game art, bold simple silhouette, readable at small size, entire object, isolated on plain white background, no text, no frame, dark gothic palette, small tarnished bronze hand bell, cracked rim, deep violet ribbon",
+    "seed": 1060601
+  },
+  {
+    "type": "relics",
+    "id": "relic_uncommon_005",
+    "prompt": "single centered fantasy RPG inventory icon, stylized hand painted game art, bold simple silhouette, readable at small size, entire object, isolated on plain white background, no text, no frame, dark gothic palette, antique silver pocket watch with brass hands and deep purple face, short chain",
+    "seed": 1060602
+  },
+  {
+    "type": "relics",
+    "id": "relic_uncommon_010",
+    "prompt": "single centered fantasy RPG inventory icon, stylized hand painted game art, bold simple silhouette, readable at small size, entire object, isolated on plain white background, no text, no frame, dark gothic palette, black iron plumb weight levitating slightly inside its own loose rope loop, tarnished metal",
+    "seed": 1060603
+  },
+  {
+    "type": "relics",
+    "id": "relic_uncommon_018",
+    "prompt": "single centered fantasy RPG inventory icon, stylized hand painted game art, bold simple silhouette, readable at small size, entire object, isolated on plain white background, no text, no frame, dark gothic palette, folded black alchemical filter paper with faint violet residue and delicate dried ink strokes",
+    "seed": 1060604
+  },
+  {
+    "type": "relics",
+    "id": "relic_uncommon_022",
+    "prompt": "single centered fantasy RPG inventory icon, stylized hand painted game art, bold simple silhouette, readable at small size, entire object, isolated on plain white background, no text, no frame, dark gothic palette, small blue alchemical oil lamp, brass stand, bright blue flame, intricate gothic shape",
+    "seed": 1060605
+  },
+  {
+    "type": "potions",
+    "id": "potion_text_01",
+    "prompt": "single centered fantasy RPG inventory icon, stylized hand painted game art, bold simple silhouette, readable at small size, entire object, isolated on plain white background, no text, no frame, dark gothic palette, small clear corked round vial filled with pale pink healing liquid, simple silver collar",
+    "seed": 1060606
+  },
+  {
+    "type": "potions",
+    "id": "potion_text_02",
+    "prompt": "single centered fantasy RPG inventory icon, stylized hand painted game art, bold simple silhouette, readable at small size, entire object, isolated on plain white background, no text, no frame, dark gothic palette, short broad faceted bottle filled with dark crimson concentrated medicine, heavy brass stopper",
+    "seed": 1060607
+  },
+  {
+    "type": "potions",
+    "id": "potion_text_03",
+    "prompt": "single centered fantasy RPG inventory icon, stylized hand painted game art, bold simple silhouette, readable at small size, entire object, isolated on plain white background, no text, no frame, dark gothic palette, small covered ceramic medicine cup with warm amber tea, green herbal leaf emblem",
+    "seed": 1060608
+  },
+  {
+    "type": "potions",
+    "id": "potion_text_04",
+    "prompt": "single centered fantasy RPG inventory icon, stylized hand painted game art, bold simple silhouette, readable at small size, entire object, isolated on plain white background, no text, no frame, dark gothic palette, narrow smoky glass vial filled with black green poison, silver neck ring",
+    "seed": 1060609
+  },
+  {
+    "type": "potions",
+    "id": "potion_text_05",
+    "prompt": "single centered fantasy RPG inventory icon, stylized hand painted game art, bold simple silhouette, readable at small size, entire object, isolated on plain white background, no text, no frame, dark gothic palette, curved sealed bottle of vivid violet venom, sharp pointed stopper",
+    "seed": 1060610
+  },
+  {
+    "type": "potions",
+    "id": "potion_text_06",
+    "prompt": "single centered fantasy RPG inventory icon, stylized hand painted game art, bold simple silhouette, readable at small size, entire object, isolated on plain white background, no text, no frame, dark gothic palette, squat hexagonal bottle filled with thick pearl white medicine, iron cap",
+    "seed": 1060611
+  },
+  {
+    "type": "powers",
+    "id": "status_draft_001",
+    "prompt": "single centered fantasy RPG inventory icon, stylized hand painted game art, bold simple silhouette, readable at small size, entire object, isolated on plain white background, no text, no frame, dark gothic palette, one red upward sword with short red rays, simple strong flat emblem",
+    "seed": 1060612
+  },
+  {
+    "type": "powers",
+    "id": "status_draft_002",
+    "prompt": "single centered fantasy RPG inventory icon, stylized hand painted game art, bold simple silhouette, readable at small size, entire object, isolated on plain white background, no text, no frame, dark gothic palette, one blue steel shield with upward blue chevrons, simple strong flat emblem",
+    "seed": 1060613
+  },
+  {
+    "type": "powers",
+    "id": "status_draft_006",
+    "prompt": "single centered fantasy RPG inventory icon, stylized hand painted game art, bold simple silhouette, readable at small size, entire object, isolated on plain white background, no text, no frame, dark gothic palette, one emerald green heart wrapped in a fresh growing leaf, simple strong flat emblem",
+    "seed": 1060614
+  },
+  {
+    "type": "powers",
+    "id": "status_draft_007",
+    "prompt": "single centered fantasy RPG inventory icon, stylized hand painted game art, bold simple silhouette, readable at small size, entire object, isolated on plain white background, no text, no frame, dark gothic palette, one cyan luminous shield with a second thin shield outline, simple flat emblem",
+    "seed": 1060615
+  },
+  {
+    "type": "powers",
+    "id": "status_draft_008",
+    "prompt": "single centered fantasy RPG inventory icon, stylized hand painted game art, bold simple silhouette, readable at small size, entire object, isolated on plain white background, no text, no frame, dark gothic palette, one violet crystal inside a protective purple arc, simple strong flat emblem",
+    "seed": 1060616
+  },
+  {
+    "type": "powers",
+    "id": "status_draft_011",
+    "prompt": "single centered fantasy RPG inventory icon, stylized hand painted game art, bold simple silhouette, readable at small size, entire object, isolated on plain white background, no text, no frame, dark gothic palette, one golden droplet inside a cleansing white flame, simple strong flat emblem",
+    "seed": 1060617
+  }
+]

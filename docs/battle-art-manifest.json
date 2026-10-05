@@ -1,0 +1,38 @@
+[
+  {
+    "path": "assets/backgrounds/battle_cathedral_v1.png",
+    "prompt": "Use case: stylized-concept. Create a polished original 16:10 landscape background ONLY for a side-view gothic card RPG battle. Ruined cathedral infirmary, charcoal stone pointed arches, muted violet stained glass, a few warm candles, distant altar and thin ash mist. Hand painted anime game environment, broad readable shapes, restrained detail, not photoreal. Camera horizontal looking across a broad flat stone floor, NOT looking down a corridor. Floor begins at 48 percent height and occupies entire lower half; level unobstructed standing areas at x25% and x75%, feet will be at y62%. Quiet mid-value purple-grey behind combatants so dark figures read clearly. Bottom25% darker quiet floor for cards. No characters, no text, no UI, no card frames. Wide cinematic composition, readable lighting, no central spotlight or objects obstructing the two standing areas.",
+    "generator": "built-in image_gen",
+    "review": "assistant visually reviewed; no baked text or UI; final Godot capture checked"
+  },
+  {
+    "path": "assets/cards/mira/venom_hex_scene_v3.png",
+    "prompt": "Use case: illustration-story. Production artwork ONLY for a small RPG card illustration slot, square composition. Use attached Mira for character identity: human face, dark purple hair, ivory raven-beak plague mask perched on SIDE TOP of hair, black dress white sleeves gold chains. NEW dynamic close-up composition: Mira on left third extends her black-gloved hand diagonally toward viewer, releasing a vivid violet poisonous curse forming ONE spectral raven skull on right, sickly lime accents. Face and hand fully within central80%, large readable silhouette, bold clean anime cel-shading and dramatic motion streaks, simplified dark violet background, crisp appealing face. Not seated. No text, no letters, no numbers, NO card frame, no borders, no UI, no tiny decorations. Art fills whole square. Purple/ivory/gold identity unchanged.",
+    "generator": "built-in image_gen",
+    "review": "assistant visually reviewed; no baked text or UI; final Godot capture checked"
+  },
+  {
+    "path": "assets/cards/mira/soul_binding_scene_v3.png",
+    "prompt": "Use case: illustration-story. Square standalone RPG spell illustration, NOT a card layout. Character identity from attached Mira: purple hair human face, white sleeve black glove, ivory raven-beak mask on side of head. Dynamic medium closeup on RIGHT side of composition, pulling taut luminous GOLD AND VIOLET spectral chains from left, chains bind a single ghostly cyan soul silhouette, purple energy flowing along chains into her palm, conveys soul binding and life siphon. Clear readable clean anime cel shading, strong 3-shape composition, teal against purple, face fully visible, central safe area80%. Background simple dark teal cathedral shadows. No text, no letters, no numbers, NO border, NO frame, NO UI; art fills square. Do not reproduce seated pose.",
+    "generator": "built-in image_gen",
+    "review": "assistant visually reviewed; no baked text or UI; final Godot capture checked"
+  },
+  {
+    "path": "assets/cards/strike_scene_v1.png",
+    "prompt": "Use case: illustration-story. Square standalone dark gothic RPG basic attack artwork only. Dynamic closeup of a black leather gloved hand swinging a short engraved silver dagger diagonally through a ragged shadow creature, one bright ivory slash arc, violet sparks, dark burgundy background. Bold polished 2D anime cel shading, clean readable big shapes, dramatic action composition, main dagger and contact point entirely inside central75%. No gore. No text, no letters, NO frame, NO card, NO UI, no border. Not a simple icon, depict action scene.",
+    "generator": "built-in image_gen",
+    "review": "assistant visually reviewed; no baked text or UI; final Godot capture checked"
+  },
+  {
+    "path": "assets/cards/defend_scene_v1.png",
+    "prompt": "Use case: illustration-story. Square original polished 2D anime cel shaded gothic RPG defense scene artwork ONLY. Closeup of an ornate dark steel buckler held by a black leather gloved hand intercepting a shadow claw. Bright pale blue magical crescent barrier curls around the shield, a clear brilliant impact star where claw hits, flying blue sparks. Simplified deep navy cathedral background. Strong bold readable composition at tiny card size, shield and contact point inside central75%, no tiny filigree overload. Dynamic diagonal composition, not a flat symbol. No text, no letters, no numbers, NO card frame or border or UI.",
+    "generator": "built-in image_gen",
+    "review": "assistant visually reviewed; no baked text or UI; final Godot capture checked"
+  },
+  {
+    "path": "assets/cards/mira/poison_infusion_scene_v1.png",
+    "prompt": "Use case: illustration-story. Square standalone anime gothic RPG skill illustration ONLY: poison infusion. Closeup black-gloved alchemist hand with flowing white sleeve and gold bracelet, holding a long silver alchemical needle with a bright green drop at tip, injecting a pulse of green toxin into a smoky shadow creature silhouette on right. Glowing GREEN branching veins and droplets show ordinary poison, distinct from purple spectral skull venom. No bottle or potion vessel. Dynamic diagonal action, large readable shapes, polished clean 2D cel shading, dark emerald background, focal needle and hand inside central75%. No blood, no text, no numbers, NO card frame, no border, no UI.",
+    "generator": "built-in image_gen",
+    "review": "assistant visually reviewed; no baked text or UI; final Godot capture checked"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "type": "relics",
+    "id": "relic_uncommon_001",
+    "prompt": "one small flat oval brass identification tag, blank worn metal surface, two small rivet holes, entire object visible, distant view, centered isolated object on plain white background, hand painted game inventory illustration, clean silhouette",
+    "seed": 1062900,
+    "negative": "multiple objects, collection, grid, collage, set, duplicates, close up, cropped, cut off, text, label, letters, frame, border, scenery",
+    "size": 768,
+    "steps": 22,
+    "retry_generated": true
+  },
+  {
+    "type": "relics",
+    "id": "relic_uncommon_005",
+    "prompt": "one small closed round silver pocketwatch, entire circular watch visible, purple dial, tiny brass hands, distant view, generous white space around object, centered isolated object on plain white background, hand painted game inventory illustration, clean silhouette",
+    "seed": 1062902,
+    "negative": "multiple objects, collection, grid, collage, set, duplicates, close up, cropped, cut off, text, label, letters, frame, border, scenery",
+    "size": 768,
+    "steps": 22,
+    "retry_generated": true
+  },
+  {
+    "type": "potions",
+    "id": "potion_text_03",
+    "prompt": "one small open ceramic teacup filled with amber herbal tea, side handle, muted ivory glaze, dark fantasy item, centered isolated object on plain white background, hand painted game inventory illustration, clean silhouette",
+    "seed": 1062908,
+    "negative": "multiple objects, collection, grid, collage, set, duplicates, close up, cropped, cut off, text, label, letters, frame, border, scenery",
+    "size": 768,
+    "steps": 22,
+    "retry_generated": true
+  },
+  {
+    "type": "potions",
+    "id": "potion_text_04",
+    "prompt": "one solitary round glass flask filled with dark green liquid, cork stopper, no label, entire bottle visible, centered isolated object on plain white background, hand painted game inventory illustration, clean silhouette",
+    "seed": 1062909,
+    "negative": "multiple objects, collection, grid, collage, set, duplicates, close up, cropped, cut off, text, label, letters, frame, border, scenery",
+    "size": 768,
+    "steps": 22,
+    "retry_generated": true
+  }
+]

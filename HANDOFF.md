@@ -1,5 +1,87 @@
 # 잿빛 원정대 — 집 PC 작업 인계
 
+## 2026-10-04 도감 정리 및 글 원고 반영
+- 도감: 왼쪽 세로 분류, 문맥별 필터, 독립 목록/본문 스크롤. 캐릭터의 시작 덱, 전투 모션 조작, 원화/SD 갤러리 제거. 실제 카드 컴포넌트 그리드, 전용 카드 바로가기(공용 기본 포함), 검색 빈 결과 처리. 별도 원고 검수 화면은 닫으면 기존 도감 상태 유지.
+- 원고: 유물154, 공통 이벤트100, 개인 이벤트72, 지역5, 새 포션20, 기존 상태 초안300 중 상세규칙42, lore121. docs/text-review에서 읽거나 도감 왼쪽 아래 원고 검수 진입. 미구현 효과는 검수안으로 명시하며 플레이 풀에 미투입.
+- 실제 연결: 유물9(기존3+신규6), 포션4, ACT I 공통20편+필수 장부 사건. 골드/체력 비용·중복 보상 방지, 사건 대사, 기록 해금 연결. ACT II 이후 전투 진행은 미구현.
+- 검증: STORY_CATALOG_QA, STORY_CONTENT_QA, CODEX_NAVIGATION_QA(1440×900/1280×720 렌더) 통과. 새 일러스트 없음. 바탕화면 41개 파일 백업 후 SHA256 일치 확인. 실제 바탕화면 프로젝트에서도 STORY_CONTENT_QA 및 CODEX_NAVIGATION_QA 두 해상도 통과. 백업 work/before-codex-text-20261004-174414. commit/push 없음.
+
+## 2026-10-04 승인 프레임 실제 적용·상태 설명 분리·카드 12종 검수안
+- 승인 시안에서 글자/캐릭터를 제거한 투명 프레임 assets/ui/cards/mira_frame_approved_v2.png 제작(생성 원본 exec-b12b06ac-679a-4ae7-a155-cbb5eede67c1.png). RGBA 1024×1536, 창/외부 알파 확인. battle_card는 원화→프레임→동적 이름/비용/종류/효과로 표시. 시안 통짜 이미지를 카드 그림에 중첩하지 않는다. 명조 계열 시스템 폰트+FontVariation 굵기 사용. mipmaps 사용. 미라 기준 승인된 보라색 디자인이며 다른 캐릭터별 프레임 변형은 미제작.
+- Data.effect_text: 맹독을 3턴 부여합니다 / 중독을 5 부여합니다 형태. 비용/부여량/전투 계산 유지. poison 표시명 중독으로 통일(ID poison 유지), 감소·방어 무시·자신의 턴 시작 등 상세 규칙은 Content Tool powers tooltip에 보관. status_panel은 실제 중첩/최대HP/비율로 다음 피해 표시.
+- Content Tool CLI로 명칭·툴팁 갱신, 카드 초안12개 draft 등록, validate 39 valid/0 invalid, export. 새 초안은 gameplay pools 제외 확인. docs/MIRA_CARD_REVIEW_2026-10-04.md에 비용/효과/강화/서사 연결. 수치 임시, 신규 로직 미구현·사용자 검수 대기. 기존 5종만 플레이 가능.
+- POISON_SPLIT_QA: 실제 카드 부여/양쪽 DOT/중첩 감소/방어 무시/상태 툴팁 실시간 수치/간결한 카드 문구/초안 제외 통과. CARD_SHAPE_QA 두 해상도 통과. docs/mira-card-art-review.png는 실제 컴포넌트 렌더.
+- 바탕화면 12개 파일 SHA256 일치 확인, import 후 CARD_SHAPE_QA 2해상도 및 MIRA_HAND_QA failures0. 바탕화면 반영 전 백업 work/before-approved-frame. 요청 전 push 금지 유지.
+
+## 2026-10-04 승인 카드 시안 및 명칭
+- 사용자가 생성형 고품질 방어 카드 디자인을 승인. docs/mira-defend-approved-design.png에 제목을 수비로 수정한 시안 보관. 이 파일은 글자가 포함된 디자인 검토 원본이며 기존 카드 그림 슬롯에 통째로 넣지 않는다. 승인 디자인을 재사용 가능한 프레임/실시간 텍스트로 게임에 구현하는 작업은 아직 남음.
+- Content Tool CLI로 strike 이름을 타격, defend 이름을 수비로 변경 후 validate/export. ID·분류(공격/방어)·효과·비용 유지. 시안 제목도 수비로 변경. 이름 변경은 실제 게임 데이터에 반영하며 디자인 적용과 구분한다. push 없음.
+
+## 2026-10-03 카드 리본·비율 재수정 (최신)
+- 직전 사각 이름표/비용칸은 사용자 거절. 접힌 은색 리본 이름 배너, 모서리에 걸친 다면 보석 비용, 작은 종류 명패로 변경. 외곽 몸체 폭192/높이315로 세로 비율 조정. 손패 입력 좌표 220×330은 유지.
+- 공격은 그림 하단 V자, 스킬/방어는 평평한 그림 창. 이미지 비율을 유지해 창을 채우고 마스크로 제한한다. 기존 원화 자체는 수정하지 않았다. ArtWindow/Illustration 경로로 이동하여 관련 QA 갱신.
+- 검토 이미지의 제목/구도 설명 모두 제거. docs/mira-card-art-review.png에는 카드만 표시. 카드 효과·비용·덱 변경 없음. 바탕화면 반영 후 CARD_SHAPE_QA 2해상도/MIRA_HAND_QA failures0 및 손패 캡처 검수. 변경 전 백업 work/before-ribbon-card-frame. 로컬 작업, push 없음.
+
+## 2026-10-03 카드 가독성·프레임 재설계
+- 사용자 요청에 따라 battle_card의 고딕 장식 이미지/양피지 설명창 제거. Godot 기본 패널로 얇은 캐릭터색 테두리, 은회색 이름표, 어두운 설명 바탕, 별도 비용 배지와 작은 종류표 구성. 기존 원화 유지.
+- 반복되는 하단 소유자·기본 표기 제거. 설명 13→16px, 폭158→174, 높이76→92, 줄 간격3. 보통 굵기 시스템 글꼴(Malgun Gothic/Noto Sans CJK KR/fallback) 사용. 문장 단위 줄바꿈, 한국어 단어 내부 분리 방지. 시스템별 글꼴 차이가 있을 수 있음.
+- 원본 효과/비용/덱 및 Content Tool 데이터 변경 없음. 카드 UI 공통 컴포넌트 변경이며 생성 이미지에 글자를 굽지 않는다. CARD_SHAPE_QA 실제 두 해상도 통과 및 손패/5종 캡처 검수. docs/mira-card-art-review.png 확인.
+- 바탕화면 반영 전 백업 work/before-clean-card-frame. commit/push 없음.
+
+## 2026-10-03 미라 카드 장면 다양화
+- 현재 5종을 공격 동작 / 정면 결계 / 장소·저주 의식 / 전신·영혼 흡수 / 손·연금술 도구로 구분. 맹독 주술 venom_hex_ritual_v4, 영혼의 구속 soul_binding_wide_v4 신규 제작. 승인된 기본 공격 v2와 정면 방어 v4 유지. 카드 수·효과·시작덱 변경 없음.
+- Content Tool CLI로 이미지 경로·검수 상태를 등록 후 validate(27개 valid, invalid0)/Godot export. 미라 프레임 보라색, 타입 띠의 공격/방어/스킬 모양과 희귀도 색 분리.
+- 저장소 및 바탕화면 실제 CARD_SHAPE_QA 두 해상도 failures0. 바탕화면 15개 파일 SHA256 일치 확인, 변경 전 백업 work/before-mira-card-variety. docs/mira-card-art-review.png는 실제 battle_card 컴포넌트 5종을 나란히 렌더한 검토 화면이며 신규 게임 화면은 아니다. 생성 프롬프트 docs/mira-card-variety.json.
+- 이번 범위는 미라 기존 5종의 시각 개선이며 전체 카드 풀 제작은 남아 있다. 로컬 반영만 수행하며 commit/push 없음.
+
+## 2026-10-03 방어 카드 정면 구도 수정
+- 사용자 추가 피드백: 옆으로 보이는 결계/자세를 정면으로 변경. defend_scene_v4.png: 얼굴·어깨 정면, 가슴 앞 원형 마법진 정면, 중앙 한 손으로 결계를 유지. 앞선 v2/v3는 사용하지 않으며 파일만 보존.
+- Content Tool defend.runtime.character_art.mira를 v4로 연결. 내장 생성 프롬프트 docs/mira-defense-front.json. 공격 카드·효과·덱 구성 변경 없음.
+
+## 2026-10-03 미라 기본 공격·방어 캐릭터 아트
+- 사용자 지적에 따라 미라 기본 공격의 칼/기본 방어의 방패를 미라 직접 행동 일러스트로 변경. 공격은 손에서 보라 주술을 발사, 방어는 한 팔로 결계를 지탱. 양손을 겹친 초기 방어 v2는 사용자 자세 피드백으로 제외하고 v3 적용. 프롬프트/파일 docs/mira-basic-art.json.
+- Content Tool strike/defend runtime.character_art.mira 경로를 CLI로 등록·검수·export. Data.cards(character_id)는 복사본에 아트만 적용하여 다른 캐릭터나 원본 카탈로그 오염 방지. 시작덱 5+5/비용/피해/방어/강화 수치 유지.
+- 미라 선택 시 덱/전투/덱 보기/선택 캐릭터 문맥의 도감에 동일 아트. 카드 프레임은 미라 색, 하단 미라 기본 표시. 다른 캐릭터 공용 아트 유지. 신규 카드 2장 mipmaps 사용.
+- MIRA_BASIC_ART_QA: 초기덱10장 경로/동일효과/강화아트유지/다른 캐릭터 전환/두 해상도 렌더 검사. 최종 캡처 docs/mira-basic-cards-1440.png. 로컬 작업, push 없음.
+
+## 2026-10-03 미라 전투 무대·카드 장면 일러스트 재작업
+- 사용자 지적: 검은 전투 배경, 중앙 위에 작은 캐릭터, 완성 카드 이미지를 다시 프레임에 넣어 글자와 테두리가 중복되는 문제. 미라 전투를 battle_scene.gd의 독립 1440×900 설계 좌표로 분리. 동일 비율 확대/축소로 양쪽 전투원·발밑 체력/상태·적 위 의도·하단 손패/에너지/더미/버튼 배치. 기존 드래그/클릭 조준과 타격 로직 유지.
+- 내장 이미지 생성으로 성당 병동 전투 배경 1장 + 카드 장면 5장 신규 제작: 기본 공격/방어, 맹독 주술, 영혼의 구속, 독 주입. 글자·테두리 없는 독립 그림이며 수치·이름·효과는 UI가 표시. 종전 full-card 그림은 파일 보존하되 이 5종 데이터에서 참조하지 않음.
+- Content Tool CLI needs_review→이미지 검수→approved→validate/export. 27개 유효, 오류0, 이전 explorers_map 초안 제외. 시작 덱/수치/독·맹독 규칙 변경 없음. 생성 프롬프트/경로: docs/battle-art-manifest.json.
+- battle_card.gd는 종횡비 보존, 그림 영역과 타입 글자 분리. 새 카드 5장 import mipmaps와 LINEAR_WITH_MIPMAPS 적용해 축소 시 번쩍이는 세부무늬 완화. status_panel.gd는 이름과 현재HP 수치를 바에 표시하고 타격 때 함께 갱신.
+- 실제 실행 검사: CARD_SHAPE_QA 1440×900/1280×720 failures0 및 캡처 검수, MIRA_HAND_QA 조준/취소/소비/툴팁 failures0. 바탕화면 MIRA_HIT_QA failures0; 화면 전환 직후 resize 신호의 트리 외 접근 오류도 수정 후 재검사 오류 없음.
+- 바탕화면 프로젝트 기존 코드/Content Tool 차이 비교 후 22개 파일 백업·반영·SHA256 일치 확인. 백업 work/before-battle-redesign-desktop.zip, 목록 work/battle-mirrored.json. 최종 화면 docs/card-hand-1440.png / card-hand-1280.png.
+- 범위: 미라의 현재 성당 전투. 다른 캐릭터는 기존 배치. 몬스터 원화는 기존 자산이며 전 몬스터 화풍 통일/다른 ACT 배경/음향은 아직 남음. 레퍼런스 게임 이미지를 잘라 사용하지 않음. commit/push 없음.
+
+## 2026-10-03 미라 역병의사 가면·도트 전체 교체 / ACT I 서사 연결
+- 최신 사용자 요청으로 텍스트 우선 보류를 해제하고 미라 아트 20장 수정: 선택 좌상/전신 투명/portrait/배경 원화2/파노라마/카드2/도트12. 얼굴·의상·보라색·각 모션 자세/시간 유지, 토끼 가면은 상아색 부리 가면으로 교체. 기존 원본 보존. docs/mira-plague-assets.json에 생성 원본/검수 기록.
+- character_assets.json과 Content Tool 승인 카드 경로를 새 버전으로 연결. 각 도트는 1254×1254 RGBA 독립 PNG. 선택·도감·지도 얼굴·전투에 같은 설정을 사용.
+- 에델 시작 대사에 미라 가면 속 이름/지워진 수령인 칸 단서 추가. 보상 동작 유지. 미라 첫 이벤트 노드에 빈 병동(신규 일러스트) 연결: 명패 보관/사본 작성/떠남 → 응답 → 지도. 이후 기존 제단 이벤트 유지. 다른 캐릭터의 기존 대사/이벤트는 유지.
+- 명패는 현재 전투 유물이 아닌 원정 내 조사물이다. 선택 전 안내하며 임의 전투 효과 없음. story_records.json 서문2 + 조건부 조사기록3, 선택한 기록만 도감 표시. 새 원정 초기화. 이안의 정체는 초반에 공개하지 않음.
+- Content Tool CLI 생성/검수/validate(27개 valid, invalid0)/export 완료. 기존 미승인 explorers_map 초안 제외 유지. 캐릭터/스토리 분류는 툴 미지원이므로 Data.read의 기존 JSON 구조 사용.
+- 실제 Godot: ACT_ARRIVAL_QA, SELECTION_RELIC_QA, MIRA_STORY_QA 두 해상도 PASS. 바탕화면 프로젝트 import와 MIRA_MOTION_QA 12프레임/6모션/전투 공격·스킬·피격·사망 failures=0. 구형 폴더명 고정 검사만 현 프로필 비교로 수정. 바탕화면 MIRA_HIT_QA failures=0, MIRA_STORY_QA PASS도 확인.
+- 바탕화면 실제 프로젝트 비교 후 반영, 삭제 없음. 변경 전 백업 work/before-mira-plague-desktop.zip. 최신 이미지 화면 docs/selection-relic-1440.png, docs/mira-ward-1440.png. 상세 docs/MIRA_PLAGUE_STORY.md.
+- 남음: 5 ACT 전체 진행/후반 편지·엔딩, 병동 후속 구조 사건/명패 유물화, 영구 조사 기록 저장, 전투 배경·음향. 이번 완료 범위를 전체 스토리 완성으로 해석하지 말 것.
+- 사용자 지시대로 로컬 작업만 저장. commit/push 및 sync.ps1 finish 실행하지 않음.
+
+## 2026-10-03 미라 이름·가면 설정 반영
+- 사용자 승인에 따라 스토리 v1.1: 이안이 가면 안쪽에 미라의 이름을 남겼고 나중 편지의 필체로 확인. 이름은 기억의 물리적 단서이며 만능 마법/부활 장치가 아니다. 초승달의 고통 전달과 기억 단서 역할을 구분.
+- data/characters.json에 selection_bio/biography 추가, 선택/도감에서 읽도록 연결. 초기 소개는 필체가 다르다는 단서까지만 표시. 후반 정체는 공개하지 않는다. 기존 캐릭터 ID·스탯·덱·효과 유지.
+- 역병의사 가면은 후속 아트 지침만 변경. 현재 화면의 토끼 가면 이미지는 아직 구형 그대로다. ACT별 공개 장면/영구 해금은 미구현. 로컬 저장, push 없음.
+
+## 2026-10-03 스토리 연결 초안 v1
+- docs/STORY_BIBLE_DRAFT.md 작성: 성화의 원리와 재앙의 원인, 미라/에델/이안 및 세력, 5 ACT 공개 순서, 결말 3방향, 주요 유물10개 연결안, 미라 전용 이벤트6개, 빈 병동 실제 문안, 포션/상태 기원.
+- 검토용 초안이며 설정 확정/게임 기능 구현 아님. 기존 시작 유물 방어3와 기존 대사·효과 데이터는 변경하지 않았다. 고대 유물은 메인 결말 필수 열쇠로 만들지 않고 희귀 이벤트를 놓쳐도 이야기가 진행되도록 설계했다.
+- 이미지 생성·push 없음. 다음은 사용자 내용 검토를 반영하고 Content Tool draft 및 도감 텍스트 검토 흐름에 등록. 전체 목표 수량 제작 완료로 보고하지 않는다.
+
+## 2026-10-03 텍스트 우선·서사 연결 방향
+- 사용자 지시: 유물/이벤트/버프·디버프/스토리/포션/지역은 이미지보다 텍스트 제작과 검토를 먼저 진행한다. 이후 스토리 기반과 유물 연결을 우선하도록 강조하여 Slay the Spire 1·2 자료를 조사했다.
+- 조사 및 독자적 설계 제안은 docs/STORY_REFERENCE_RESEARCH.md. 실제 설정과 팬 해석을 구분한다. 기존 수량 목표 유지. 중심 사건→지역/세력→대표 유물 연속 사건을 먼저 설계한다.
+- 이번에는 조사 문서만 작성. 새 콘텐츠 대량 등록, 효과 구현, 기존 스토리 변경은 하지 않았다. 검토용 초승달 연계 예시는 아직 확정 설정이 아니다. 로컬 저장만 하고 push하지 않는다.
+
+## 2026-10-03 업로드 방식 변경
+- 주말 동안 이 PC에서 작업. 사용자가 push를 요청하기 전까지 자동 업로드하지 않는다. 로컬 변경과 인수인계는 계속 기록하며 sync.ps1 finish는 실행하지 않는다. 이전 작업 종료 자동 push 규칙을 대체한다.
+
 ## 2026-10-02 원정 시작 대화·보상 실제 연결
 - 원정 시작 직후 지도로 직행하던 흐름 수정. ACT I 문지기 에델 새 일러스트/대화 → 보상 하나 선택 → 응답 → 지도. Content Tool 승인 이벤트 원본 공유. 기본 덱을 바꾸지 않고 카드 보상을 선택했을 때만 추가한다.
 - ACT_ARRIVAL_QA 두 해상도/실제 클릭/세 보상/중복 지급 방지/지도 진입 제한/새 원정 초기화 PASS. SELECTION_RELIC_QA 및 MIRA_HIT_QA PASS. 생성 시 불필요한 Label 할당으로 생긴 누수 원인도 제거했다.
@@ -290,3 +372,77 @@ MIRA_MOTION_QA frames=12 motions=6 battle=attack/skill/hurt/death failures=0. PN
 다음 작업은 다른 캐릭터 SD/모션, 또는 사용자 지정 우선순위. 이번 범위를 넘어 사용량을 소진하지 않는다.
 
 최종 반영: 바탕화면 프로젝트와 기존 Git 기준을 비교했으며 codex.gd의 별도 차이는 탭/공백 형식뿐이었다. 백업 후 41개 파일 반영. 바탕화면에서도 MIRA_MOTION_QA failures=0, 지도 회귀 MAP_GRAPH_QA seeds=200 failures=0 / MAP_UI_QA failures=0. Godot AI MCP 실제 열린 프로젝트의 도감에서 6개 버튼 활성화와 skill_release.png 재생 확인, 실행 오류 없음. 해당 작업 종료 시 마지막 사용량 확인 67% 사용으로 30% 이상 여유를 남기고 종료한다.
+
+
+## 2026-10-04 원정 선택 화면 변경
+승인 캐릭터 도감 시안의 큰 원화/간결한 소개 구성으로 character_select 변경. docs/SELECTION_GALLERY.md 참조. 두 해상도 QA 통과. 바탕화면 백업 후 반영. 도감 전체 시안 구현은 별도 미완료.
+
+- 후속 수정: 승인 시안에 맞춰 하단 초상을 원형 마스크/금속 메달 테두리로 변경. 선택 이름과 hover/focus 표시. 시작 버튼은 보라색 바탕·양끝 장식·금색 이중선, 문구는 원정 시작. 네이티브 SVG UI이며 클릭/문자는 실시간 분리.
+
+- 2026-10-05 중단 작업 확인: 바탕화면 import와 SELECTION_GALLERY_QA 정상 종료(PASS) 확인. 1280 화면 직접 검수, 원형 마스크/선택 이름/장식 시작 버튼 확인. 작업본과 실행본 3개 변경 파일 SHA256 일치.
+
+- 2026-10-05 선택 화면 후속: 시작 버튼 Noto Serif KR 중간 굵기, 과한 외곽선 제거, 보라색/금색 장식 조정. 시작 유물 아이콘 왼쪽88px+오른쪽 이름/효과. 두 해상도 QA PASS 및 실제 렌더 확인.
+
+- 2026-10-05 버튼 정렬 수정: 시작 문구를 버튼과 동일한360x76 영역에 가로/세로 중앙 정렬. 난이도도 동일한 중심축. 2해상도 렌더 확인 후 바탕화면 반영.
+
+## 2026-10-05 플레이어 도감 정보 보호
+- 보상/획득처/사건 선택 결과/관련 원고 링크를 일반 도감에서 제거. 검수 원고 진입 버튼 제거(개발용 메서드와 docs/text-review 원고는 유지).
+- 영구 발견 기록 user://discovered_codex.json 추가. 시작/구입/보상 카드·유물·포션, 조우 몬스터, 전투에서 경험한 상태를 기록. 기존 실행 중 덱/유물은 도감 열 때 이관. 과거 원정 기록은 소급 복구 불가.
+- 미발견 이름/효과/검색/필터 정보 차단. 카드는 뒷면, 유물/포션은 실루엣과 미발견 안내만 표시. 투명 그림 없는 항목은 공통 실루엣이며 개별 미술은 미제작.
+- 수집품은 넓은 그리드와 hover 설명, 상시 상세 패널 제거. 기존 성당 배경을 사용. 캐릭터 상세 화면의 추가 미술 개편 및 연대표 구현은 별도 남음.
+- CODEX_DISCOVERY_QA 1440×900/1280×720 및 STORY_CONTENT_QA 통과. commit/push 없음.
+
+## 2026-10-05 스토리와 삽화 반영
+- 서문 2편 및 병동 조사 3편을 장면 중심으로 개정. 필체 단서, 원정 동기, 선택별 증거 차이 유지. 후반 인물 정체 미공개.
+- 작은 인물 칸을 없애고 제목/장면 삽화/본문 단일 열 적용. 가면 안쪽 이름, 빌려 온 불씨 새 삽화 assets/story에 저장. 내장 image_gen 사용.
+- 프롬프트: mask_name — ruined cathedral alchemist workbench, ivory raven plague mask, handwritten 미라 inside leather lining, prescription, violet residue, candlelight, no UI. borrowed_flame — brass ember lantern at cottage threshold, shoes/blanket, violet mist and distant cathedral, dark gothic landscape, no UI.
+- workspace STORY_READER_QA 1440×900/1280×720 통과 및 렌더 직접 확인. 바탕화면 적용 5파일 SHA256 확인. 백업 work/before-story-reader-20261005-133219. 후반 전체 집필 완료를 의미하지 않음. commit/push 없음.
+
+## 2026-10-05 지역·미라·유물 서사 19편
+- data/narrative_records.json: 지역5/미라8/유물6. docs/MIRA_NARRATIVE_2026-10-05.md에 전체 검수 원고.
+- 짧은 조사 기록, 어긋난 절차와 물건의 흔적으로 불길함 표현. 기존 세계관/이안 공개 단계/동의와 책임 유지. 전투 효과나 유물 보상 변경 없음.
+- 도감에 flag 및 유물 발견 조건으로 연결. ward_resolved/ward_ledger/ward_plate는 현재 진행에서 사용. 후반 플래그는 원고용이며 ACT II 이후나 개인 연속 사건 구현 완료를 뜻하지 않음. 실제 구현되지 않은 조건을 자동 달성시키지 않음.
+- MIRA_NARRATIVE_QA PASS: 19편 ID 중복 없음, 초기 비공개, 병동 기록 및 초승달 발견 조건, 후반 플래그 공개 검증. 새 삽화 생성 없음. 기존 해당 장면 삽화만 사용. commit/push 없음.
+
+## 2026-10-05 지역 지형 개념 설계
+- docs/REGION_ATLAS.md/.svg/.png: 남쪽 열린 내륙 분지 제안, 다섯 ACT의 고도·수로·진입/합류/출구·생활·상태 변화와 비밀10개 정리.
+- 지형과 거리 수치는 설계안. 기존 ACT I 랜덤 전투 지도 미변경. 플레이어 공개/작가 진실 분리. 다음은 성당 세부 평면과 S02/S03 관측 기록 구현.
+
+## Illustrated atlas v1
+- docs/REGION_ATLAS_illustrated_v1.png: 사용자 제공 판타지 지도 참고로 내장 image_gen 제작. 기존 도식과 별도로 보존. 전체 지역 공개 제작용 시안이며 플레이어 지도 미적용.
+- Prompt: Original illustrated fantasy regional map on antique parchment, hand-drawn mountains/forests/rivers/roads/hamlets, inland horseshoe basin open south, village south, cathedral southwest, canal center, greenhouse east, archive northwest, sanctuary north. Korean six place labels and 잿빛 분지 title. Muted ink/watercolor, no flowchart boxes, arrows, reward icons or UI.
+- 지형 분위기/주요 지역 위치 검토용. 생성된 교량 연결은 세부 동선 도면과 추후 맞춰야 함. 축척 지도 아님.
+
+## 2026-10-05 성당 조사 지도 실제 연결
+- 원정 지도 성당 지도 버튼 및 완료 후 조사 지도 버튼. 진행 행 0/1/3/5/8/11과 장부 완료에 따라 구역 조사 가능. 전투 노드 선택은 기존 화면 유지.
+- assets/map/cathedral_atlas_v1.png: 내장 image_gen 생성. Prompt: antique parchment gothic cathedral complex cartographic map; entrance south, reception, six-bed ward west, apothecary corridor east, waiting courtyard, guarded north arch, eastern canal landing, no text/UI/arrows. 그림에 맞춰 상호작용 지점 조정.
+- 조사2개 cathedral_stamps/cathedral_mended_cover → 이번 원정 story_flags → 스토리 도감. 핵심 장부 진행/보상 변경 없음. 후속 운하에서의 대조 단계는 미구현.
+- 승인된 분지 지도 지역 도감에 추가. 성당7구역 위치 그림과 연결. 지도는 지형 안내이며 기존 노드 전투를 직접 대체하지 않음.
+- CATHEDRAL_ATLAS_QA PASS: 도착 전 조사 차단, 두 단서 기록, 도감 연동, 1440/1280 렌더. 원정이 끝나도 유지하는 영구 조사 저장은 아직 없음.
+
+## 2026-10-05 유물 그림 3개 적용
+- 간병인의 골무 / 소독 집게 / 잔불 심지 독립 투명 PNG 생성, Content Tool 원본 및 runtime catalog 연결. 기존 수치와 플레이 풀 유지.
+- RELIC_ART_QA: 실제 도감 렌더, 리소스 및 미발견 안내 통과. docs/RELIC_ART_2026-10-05.md 참조. 실제 저장 강제 해금 없음.
+
+## 2026-10-05 유물 아트 2차
+- 접힌 담요, 배급 주머니, 나무 수저 생성·연결. 누적 일반 유물 6종 전용 아트 완료. 수저 초기 halo 결과 미채택 후 새 독립 컷아웃 생성.
+- 상점 유물 구매 버튼 아이콘 추가. 기존 비용/효과 유지.
+- RELIC_ART_QA 6종 도감/미발견/상점 통과, STORY_CONTENT_QA failures=0. 실제 저장에 강제 해금하지 않음.
+
+## 2026-10-06 제작 방식 전환 및 미라 서사 아트
+- 최신 사용자 지시: 유물/포션/파워/버프·디버프 아이콘은 기존 Content Tool + 로컬 ComfyUI로 여러 개 생성. 내장 이미지 생성으로 소량씩 반복하지 않는다. 효과·설명·서사는 Codex가 작성/연결.
+- Content Tool 8765, ComfyUI 8188 로컬 실행. SDXL base 및 BiRefNet 기존 설치 사용. tools/content_tool/batch_icons.py는 목록 기반 순차 실행·결과 기록·재개를 지원한다. 자동 생성만으로 미구현 효과를 승인하지 않는다.
+- 이전 요청의 미라 서사 아트 8개도 보존/연결: 명패·사본·이송 장부·운하 검사소·온실 환기창 장면, 양면 처방판·공동 서명 처방전·돌려받은 초승달 유물.
+- 유물 이야기 3편 추가. narrative_records 총24. 도감 공개 플래그 유지. 양면 처방판 이야기는 ward_ledger 뒤 열림. 후반 지역 진행·신규 유물 전투 효과는 미구현.
+- MIRA_STORY_ART_QA 8개 렌더/스포일러 차단 통과, MIRA_NARRATIVE_QA 24개 조건별 공개 통과. docs/MIRA_STORY_ART_REVIEW.html에서 일괄 검수 가능.
+
+## 2026-10-06 최종 인수인계 · ComfyUI 일괄 제작
+- 사용자 요청으로 이번 누적 작업을 커밋/push한다. 이후 자동 push는 하지 않고 요청 시 수행한다.
+- 유물 6 / 포션 6 / 파워·버프 6, 합계 18개 PNG를 Content Tool + ComfyUI로 생성하고 assets/generated_icons에 연결. 배치 실행기, 재개 기록, 프롬프트 목록 유지. 중간 생성물 ai/*_output은 로컬 보존·Git 제외.
+- 효과 문구와 유물 기록문 작성. 회복약 3종은 기존 구현에 연결; 나머지 15종은 검수 원고(draft). 실제 풀은 유물9/포션4/파워4 유지. 미발견 항목 강제 공개 없음.
+- 서비스: Content Tool 127.0.0.1:8765, ComfyUI 127.0.0.1:8188. 기존 SDXL base 및 BiRefNet 사용. 모델/환경은 Git에 포함하지 않음. 다른 PC에서는 ai/comfy_shared_paths.yaml의 모델 경로를 맞출 것.
+- 검수: 18개 Godot 렌더 및 알파 확인. 복수 물체/잘림은 재생성하여 교체. STORY_CONTENT_QA failures=0 (샌드박스 user:// 접근 제한으로 실패했던 실행은 정상 권한에서 재검증).
+- 다음: 검수 원고 중 승인받은 효과부터 실제 전투 동작 구현. ACT II 이후 지역 진행과 후반 유물 효과는 아직 미구현. 도감에는 보상/해금조건을 노출하지 않으며 스토리/연대표 공개 조건을 유지.
+- 누적 작업: 캐릭터 선택·카드·도감 정리, 지역 지도와 성당 조사, 미라 서사24개, 서사 아트8개 및 기존 일반 유물6개를 함께 보존. 전체 154유물/300상태를 구현 완료한 것으로 설명하지 말 것.
+
+- 바탕화면 실행 프로젝트 46개 파일 백업·해시 대조 적용 완료. 백업: workspace/work/before-comfy-story-20261006-082819. 실제 실행 폴더에서 COMFY_BATCH_QA 18개 및 MIRA_NARRATIVE_QA 24개 통과.

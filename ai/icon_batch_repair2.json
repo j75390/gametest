@@ -1,0 +1,22 @@
+[
+  {
+    "type": "relics",
+    "id": "relic_uncommon_001",
+    "prompt": "A brass nameplate hanging from a short purple ribbon. A single worn blank metal plate, no writing. Watercolor painting of one object centered on white paper, plain empty background, fully visible with white margins.",
+    "seed": 1063470,
+    "negative": "grid, collage, collection, multiple, duplicates, comparison, sprite sheet, lineup, cropped, zoom, text, border, frame",
+    "size": 768,
+    "steps": 26,
+    "retry_generated": true
+  },
+  {
+    "type": "relics",
+    "id": "relic_uncommon_005",
+    "prompt": "A silver pocket watch with purple dial and gold clock hands. One complete round watch, no chain. Watercolor painting of one object centered on white paper, plain empty background, fully visible with white margins.",
+    "seed": 1063472,
+    "negative": "grid, collage, collection, multiple, duplicates, comparison, sprite sheet, lineup, cropped, zoom, text, border, frame",
+    "size": 768,
+    "steps": 26,
+    "retry_generated": true
+  }
+]

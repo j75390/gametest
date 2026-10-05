@@ -1,4 +1,5 @@
 extends Control
+const Discovery = preload("res://scripts/codex_discovery.gd")
 
 const Data = preload("res://scripts/game_data.gd")
 var enemy: Dictionary = {}
@@ -54,7 +55,9 @@ var has_full_map := false
 
 var bg := ColorRect.new()
 var title := Label.new()
-var content: VBoxContainer
+var content: Control
+var standard_content: VBoxContainer
+var battle_canvas: Control
 var footer := Label.new()
 var shell: MarginContainer
 var title_menu: Control
@@ -63,6 +66,11 @@ var arrival_pending := false
 var arrival_reward_taken := false
 var arrival_event: Dictionary = {}
 var arrival_card: Dictionary = {}
+var story_flags: Dictionary = {}
+var story_event: Dictionary = {}
+var story_choice_taken := false
+var battle_reward_claimed := false
+const StoryRules = preload("res://scripts/story_rules.gd")
 
 func _ready():
 	_load_data()
@@ -112,6 +120,7 @@ func _build_shell():
 	root_v.add_child(scroll)
 
 	content = VBoxContainer.new()
+	standard_content = content
 	content.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	content.add_theme_constant_override("separation", 14)
 	scroll.add_child(content)
@@ -122,6 +131,11 @@ func _build_shell():
 	root_v.add_child(footer)
 
 func clear_content():
+	if is_instance_valid(battle_canvas):
+		remove_child(battle_canvas)
+		battle_canvas.queue_free()
+		battle_canvas = null
+		content = standard_content
 	if is_instance_valid(arrival_view):
 		remove_child(arrival_view)
 		arrival_view.queue_free()
@@ -201,22 +215,31 @@ func show_character_select():
 	add_child(selection)
 
 func choose_character(ch):
+	story_flags.clear()
+	story_event.clear()
+	story_choice_taken = false
 	owned_relics.clear()
 	selected_character = ch
+	card_db = Data.cards(ch.id)
 	var starting_relic := Data.starting_relic(ch.id)
 	if not starting_relic.is_empty(): owned_relics.append(starting_relic.id)
+	if not owned_relics.is_empty(): Discovery.record("유물", str(owned_relics.back()))
 	max_hp = int(ch.max_hp)
 	hp = max_hp
 	gold = 120
 	deck.clear()
 	for i in range(5):
 		deck.append(card_db.common[0].duplicate(true))
+		Discovery.record("카드", str(deck.back().id))
 	for i in range(5):
 		deck.append(card_db.common[1].duplicate(true))
+		Discovery.record("카드", str(deck.back().id))
 	_generate_map()
 	arrival_pending = true
 	arrival_reward_taken = false
 	arrival_event = Data.find_record("events","ash_cathedral_arrival")
+	arrival_event = arrival_event.duplicate(true)
+	arrival_event.dialogue = arrival_event.get("dialogue_by_character",{}).get(ch.id,arrival_event.dialogue)
 	var pool: Array = card_db.get(ch.id,[])
 	arrival_card = pool.pick_random().duplicate(true) if not pool.is_empty() else {}
 	show_arrival()
@@ -247,6 +270,7 @@ func take_arrival_reward(index: int) -> void:
 		"card":
 			if arrival_card.is_empty(): return
 			deck.append(arrival_card.duplicate(true))
+			Discovery.record("카드", str(deck.back().id))
 		_: return
 	arrival_reward_taken = true
 	arrival_view.show_result(choice.reply)
@@ -270,6 +294,7 @@ func show_map():
 	add_text("%s · HP %d/%d · GOLD %d  |  ACT I · 잿빛 성당" % [selected_character.name, hp, max_hp, gold])
 	if expedition.completed:
 		add_heading("성당의 수문장을 쓰러뜨렸습니다")
+		add_button("성당 조사 지도", show_cathedral_atlas)
 		add_text("현재 구현된 원정을 마쳤습니다. 다음 ACT는 아직 준비 중입니다.")
 		add_button("메인 메뉴", show_menu)
 		return
@@ -301,8 +326,8 @@ func show_map():
 	var toolbar = HBoxContainer.new()
 	toolbar.add_theme_constant_override("separation", 12)
 	content.add_child(toolbar)
-	var actions = [func(): scroll.scroll_vertical = int(view.point(expedition.current_id).y - 360), show_deck, show_menu]
-	var labels = ["현재 위치로", "덱 보기", "← 메인 메뉴"]
+	var actions = [func(): scroll.scroll_vertical = int(view.point(expedition.current_id).y - 360), show_cathedral_atlas, show_deck, show_menu]
+	var labels = ["현재 위치로", "성당 지도", "덱 보기", "← 메인 메뉴"]
 	for i in range(labels.size()):
 		var button = Button.new()
 		button.text = labels[i]
@@ -313,6 +338,16 @@ func show_map():
 	await get_tree().process_frame
 	if is_instance_valid(scroll):
 		scroll.scroll_vertical = int(view.point(expedition.current_id).y - 360)
+
+func show_cathedral_atlas():
+	if has_node("CathedralAtlas"): return
+	var atlas = load("res://scripts/cathedral_atlas.gd").new()
+	atlas.name = "CathedralAtlas"
+	atlas.progress = 12 if story_flags.has("ward_ledger") else int(expedition.nodes[expedition.current_id].row)
+	atlas.flags = story_flags.duplicate()
+	atlas.observed.connect(func(id): story_flags[id] = true)
+	atlas.closed.connect(func(): atlas.queue_free())
+	add_child(atlas)
 
 func enter_node(id:int):
 	if screen != "map" or not expedition.enter(id):
@@ -328,17 +363,25 @@ func enter_node(id:int):
 	elif t == "보물":
 		show_treasure()
 	else:
-		show_event()
+		if selected_character.get("id", "") == "mira" and not story_flags.has("ward_resolved"):
+			show_story_event("empty_ward")
+		else:
+			show_event()
 
 func advance_map():
+	if screen == "reward" and enemy.get("type", "") == "보스" and not story_flags.has("ward_ledger"):
+		show_story_event("act1_ledger")
+		return
 	expedition.resolve()
 	show_map()
 
 func start_battle(kind:String):
+	battle_reward_claimed = false
 	screen = "battle"
 	player_status.entries.clear()
 	enemy_status.entries.clear()
 	enemy = Data.read("monsters")[0 if kind == "전투" else (1 if kind == "엘리트" else 2)]
+	Discovery.record("몬스터", str(enemy.id))
 	enemy_hp = int(enemy.hp)
 	enemy_turn = 0
 	bleed = 0
@@ -355,7 +398,8 @@ func start_battle(kind:String):
 	draw_pile.shuffle()
 	discard_pile.clear()
 	hand.clear()
-	energy = 3
+	energy = 3 + relic_total("battle_start_energy")
+	enemy_status.set_amount("poison", relic_total("battle_start_poison"))
 	_draw_cards(5)
 	enemy_status.apply(enemy.get("powers", []))
 	show_battle()
@@ -372,6 +416,14 @@ func _draw_cards(n:int):
 
 func show_battle():
 	clear_content()
+	if selected_character.id == "mira":
+		shell.hide()
+		battle_canvas = preload("res://scripts/battle_scene.gd").new()
+		add_child(battle_canvas)
+		content = battle_canvas
+		battle_canvas.setup(self)
+		_refresh_battle_tooltips()
+		return
 	title.text = "전투"
 	add_text("%s  HP %d/%d   방어 %d   에너지 %d/3" % [selected_character.name, hp, max_hp, block, energy]).name = "PlayerSummary"
 	var stage = HBoxContainer.new()
@@ -461,9 +513,11 @@ func _refresh_battle_hp() -> void:
 	content.get_node("EnemySummary").text = "적 HP: %d / %d   ·   독 %d중첩 · 맹독 %d턴" % [enemy_hp, enemy_max_hp, enemy_status.amount("poison"), venom_turns]
 	for pair in [["Player", hp], ["Enemy", enemy_hp]]:
 		var panel = content.get_node_or_null("UnitStatuses/" + pair[0])
-		if panel: panel.get_child(0).value = maxi(0, pair[1])
+		if panel: panel.set_hp(pair[1])
 
 func _refresh_battle_tooltips() -> void:
+	for state in [player_status, enemy_status]:
+		for id in state.entries: Discovery.record("파워", str(id))
 	var hero = content.get_node_or_null("BattleStage/Hero")
 	if hero:
 		hero.tooltip_text = "%s · %s\nHP %d/%d · 방어 %d\n%s\n\n%s" % [selected_character.name, selected_character.get("class", ""), hp, max_hp, block, selected_character.get("theme", ""), StatusPanel.describe_all(player_status, max_hp)]
@@ -623,8 +677,14 @@ func show_reward():
 	screen = "reward"
 	clear_content()
 	title.text = "전투 보상"
-	add_text("GOLD +%d" % enemy.gold)
-	gold += int(enemy.gold)
+	var reward_gold := int(enemy.gold) + relic_total("reward_gold_bonus")
+	var recovery := relic_total("victory_heal")
+	add_text("GOLD +%d" % reward_gold)
+	if recovery > 0: add_text("유물 · HP %d 회복" % recovery)
+	if not battle_reward_claimed:
+		gold += reward_gold
+		hp = mini(max_hp, hp + recovery)
+		battle_reward_claimed = true
 	add_heading("전용 카드 보상 · 1장 선택 또는 스킵")
 	var pool = card_db.get(selected_character.id, [])
 	var choices = []
@@ -641,7 +701,9 @@ func show_reward():
 	add_button("보상 스킵", advance_map)
 
 func take_reward_card(card):
+	if screen != "reward": return
 	deck.append(card.duplicate(true))
+	Discovery.record("카드", str(deck.back().id))
 	advance_map()
 
 func show_shop():
@@ -662,11 +724,18 @@ func show_shop():
 		content.add_child(b)
 	add_heading("포션 / 유물")
 	for potion in Data.read("potions"):
-		add_picture(content, load(potion.art), Vector2(0, 100))
+		if not potion.get("art", "").is_empty(): add_picture(content, load(potion.art), Vector2(0, 100))
 		add_button(potion.name + " · 즉시 복용 · %dG · " % potion.price + Data.effect_text(potion), buy_potion.bind(potion)).disabled = gold < potion.price or hp >= max_hp
 	for relic in relic_db:
-		if not str(relic.get("starter_character", "")).is_empty(): continue
-		add_button(relic.name + " · 90G · " + relic.effect, buy_relic.bind(relic)).disabled = gold < 90 or owned_relics.has(relic.id)
+		if not str(relic.get("starter_character", "")).is_empty() or not relic.get("shop", true) or relic.get("rarity", "") == "고대": continue
+		var relic_button = add_button(relic.name + " · 90G · " + relic.effect, buy_relic.bind(relic))
+		relic_button.disabled = gold < 90 or owned_relics.has(relic.id)
+		if not str(relic.get("art", "")).is_empty():
+			relic_button.icon = load(relic.art)
+			relic_button.expand_icon = true
+			relic_button.add_theme_constant_override("icon_max_width", 64)
+			relic_button.add_theme_constant_override("h_separation", 18)
+			relic_button.custom_minimum_size.y = 80
 	add_heading("서비스")
 	var rm = Button.new()
 	rm.text = "카드 제거 1회 · 75G"
@@ -679,6 +748,7 @@ func buy_card(card, price:int):
 	if gold >= price:
 		gold -= price
 		deck.append(card.duplicate(true))
+		Discovery.record("카드", str(deck.back().id))
 	show_shop()
 
 func remove_one_card():
@@ -690,8 +760,8 @@ func remove_one_card():
 func show_rest():
 	clear_content()
 	title.text = "휴식"
-	add_button("휴식: 최대 HP의 30% 회복", func():
-		hp = min(max_hp, hp + int(max_hp * 0.3))
+	add_button("휴식: 최대 HP의 30%% + %d 회복" % relic_total("rest_heal_bonus"), func():
+		hp = min(max_hp, hp + int(max_hp * 0.3) + relic_total("rest_heal_bonus"))
 		advance_map()
 	)
 	for i in range(deck.size()):
@@ -706,10 +776,61 @@ func show_treasure():
 		has_full_map = true
 		if not owned_relics.has("explorer_map"):
 			owned_relics.append("explorer_map")
+			Discovery.record("유물", str(owned_relics.back()))
 		advance_map()
 	)
 
+func show_story_event(id: String) -> void:
+	story_event = Data.find_record("events", id).duplicate(true)
+	if story_event.is_empty():
+		show_event()
+		return
+	clear_content()
+	screen = "story_event"
+	story_choice_taken = false
+	story_event["dialogue"] = str(story_event.effect).split("\n\n")
+	story_event["continue_label"] = "지도에 돌아간다 →"
+	for choice in story_event.choices:
+		var reason := StoryRules.unavailable(choice, hp, gold, owned_relics, story_flags)
+		choice["disabled"] = not reason.is_empty()
+		choice["disabled_reason"] = reason
+		if not reason.is_empty(): choice.description += " · " + reason
+	shell.hide()
+	arrival_view = load("res://scripts/act_arrival.gd").new()
+	arrival_view.setup(story_event, {}, selected_character.name)
+	arrival_view.reward_chosen.connect(take_story_choice)
+	arrival_view.continue_requested.connect(func():
+		if screen == "story_event" and story_choice_taken: advance_map()
+	)
+	add_child(arrival_view)
+
+func take_story_choice(index: int) -> void:
+	if screen != "story_event" or story_choice_taken or index < 0 or index >= story_event.choices.size():
+		return
+	var choice: Dictionary = story_event.choices[index]
+	if not StoryRules.unavailable(choice, hp, gold, owned_relics, story_flags).is_empty(): return
+	story_choice_taken = true
+	hp = mini(max_hp, hp - int(choice.get("hp_cost", 0)) + int(choice.get("heal", 0)))
+	gold += int(choice.get("gold_gain", 0)) - int(choice.get("gold_cost", 0))
+	if choice.has("relic"): owned_relics.append(choice.relic)
+	if not owned_relics.is_empty(): Discovery.record("유물", str(owned_relics.back()))
+	if story_event.id == "empty_ward": story_flags["ward_resolved"] = true
+	story_flags["event_seen_" + story_event.id] = true
+	if choice.has("flag"): story_flags[choice.flag] = true
+	arrival_view.show_result(choice.reply)
+	arrival_view.button("조사 기록 보기", func():
+		show_codex()
+		get_node("Codex")._change_category("스토리")
+	)
+
 func show_event():
+	var pool: Array = []
+	for item in Data.read("events"):
+		if item.get("pool", "") == "common" and int(item.get("act", 0)) == 1 and not story_flags.has("event_seen_" + item.id):
+			pool.append(item)
+	if not pool.is_empty():
+		show_story_event(pool.pick_random().id)
+		return
 	clear_content()
 	var event = Data.find_record("events","twisted_altar")
 	title.text = event.name
@@ -741,12 +862,14 @@ func buy_potion(potion: Dictionary):
 	if gold >= potion.price and hp < max_hp:
 		gold -= int(potion.price)
 		hp = mini(max_hp, hp + int(potion.heal))
+		Discovery.record("포션", str(potion.id))
 	show_shop()
 
 func buy_relic(relic: Dictionary):
 	if gold >= 90 and not owned_relics.has(relic.id):
 		gold -= 90
 		owned_relics.append(relic.id)
+		Discovery.record("유물", str(owned_relics.back()))
 		if relic.get("reveal_map", false):
 			has_full_map = true
 		if relic.has("hp_multiplier"):
@@ -768,9 +891,13 @@ func show_deck():
 	)
 
 func show_codex():
+	for card in deck: Discovery.record("카드", str(card.id))
+	for relic_id in owned_relics: Discovery.record("유물", relic_id)
 	if has_node("Codex"):
 		return
 	var archive = load("res://scenes/Codex.tscn").instantiate()
+	archive.story_flags = story_flags.duplicate()
+	archive.card_character = str(selected_character.get("id", ""))
 	add_child(archive)
 	archive.closed.connect(func():
 		remove_child(archive)
@@ -805,3 +932,9 @@ func add_picture(parent: Node, tex: Texture2D, minimum: Vector2) -> TextureRect:
 	picture.custom_minimum_size = minimum
 	parent.add_child(picture)
 	return picture
+
+func relic_total(effect: String) -> int:
+	var total := 0
+	for id in owned_relics:
+		total += int(Data.find_record("relics", id).get(effect, 0))
+	return total

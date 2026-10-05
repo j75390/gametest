@@ -1,0 +1,182 @@
+[
+  {
+    "type": "relics",
+    "id": "relic_uncommon_001",
+    "prompt": "aged brass hospital bed nameplate, dark scratches, two mounting holes, violet cloth tie, single object, centered, isolated on pure white background, hand painted fantasy item, detailed illustration, clean silhouette, empty margins",
+    "seed": 1060700,
+    "negative": "(frame, border, ornamental corners, square, card, panel, badge:1.6), text, logo, watermark, scenery, background pattern, collage, multiple objects, cropped",
+    "size": 768,
+    "steps": 22,
+    "retry_generated": true
+  },
+  {
+    "type": "relics",
+    "id": "relic_uncommon_002",
+    "prompt": "small tarnished bronze hand bell, cracked rim, deep violet ribbon, single object, centered, isolated on pure white background, hand painted fantasy item, detailed illustration, clean silhouette, empty margins",
+    "seed": 1060701,
+    "negative": "(frame, border, ornamental corners, square, card, panel, badge:1.6), text, logo, watermark, scenery, background pattern, collage, multiple objects, cropped",
+    "size": 768,
+    "steps": 22,
+    "retry_generated": true
+  },
+  {
+    "type": "relics",
+    "id": "relic_uncommon_005",
+    "prompt": "antique silver pocket watch with brass hands and deep purple face, short chain, single object, centered, isolated on pure white background, hand painted fantasy item, detailed illustration, clean silhouette, empty margins",
+    "seed": 1060702,
+    "negative": "(frame, border, ornamental corners, square, card, panel, badge:1.6), text, logo, watermark, scenery, background pattern, collage, multiple objects, cropped",
+    "size": 768,
+    "steps": 22,
+    "retry_generated": true
+  },
+  {
+    "type": "relics",
+    "id": "relic_uncommon_010",
+    "prompt": "black iron plumb weight levitating slightly inside its own loose rope loop, tarnished metal, single object, centered, isolated on pure white background, hand painted fantasy item, detailed illustration, clean silhouette, empty margins",
+    "seed": 1060703,
+    "negative": "(frame, border, ornamental corners, square, card, panel, badge:1.6), text, logo, watermark, scenery, background pattern, collage, multiple objects, cropped",
+    "size": 768,
+    "steps": 22,
+    "retry_generated": true
+  },
+  {
+    "type": "relics",
+    "id": "relic_uncommon_018",
+    "prompt": "folded black alchemical filter paper with faint violet residue and delicate dried ink strokes, single object, centered, isolated on pure white background, hand painted fantasy item, detailed illustration, clean silhouette, empty margins",
+    "seed": 1060704,
+    "negative": "(frame, border, ornamental corners, square, card, panel, badge:1.6), text, logo, watermark, scenery, background pattern, collage, multiple objects, cropped",
+    "size": 768,
+    "steps": 22,
+    "retry_generated": true
+  },
+  {
+    "type": "relics",
+    "id": "relic_uncommon_022",
+    "prompt": "small blue alchemical oil lamp, brass stand, bright blue flame, intricate gothic shape, single object, centered, isolated on pure white background, hand painted fantasy item, detailed illustration, clean silhouette, empty margins",
+    "seed": 1060705,
+    "negative": "(frame, border, ornamental corners, square, card, panel, badge:1.6), text, logo, watermark, scenery, background pattern, collage, multiple objects, cropped",
+    "size": 768,
+    "steps": 22,
+    "retry_generated": true
+  },
+  {
+    "type": "potions",
+    "id": "potion_text_01",
+    "prompt": "small clear corked round vial filled with pale pink healing liquid, simple silver collar, single object, centered, isolated on pure white background, hand painted fantasy item, detailed illustration, clean silhouette, empty margins",
+    "seed": 1060706,
+    "negative": "(frame, border, ornamental corners, square, card, panel, badge:1.6), text, logo, watermark, scenery, background pattern, collage, multiple objects, cropped",
+    "size": 768,
+    "steps": 22,
+    "retry_generated": true
+  },
+  {
+    "type": "potions",
+    "id": "potion_text_02",
+    "prompt": "short broad faceted bottle filled with dark crimson concentrated medicine, heavy brass stopper, single object, centered, isolated on pure white background, hand painted fantasy item, detailed illustration, clean silhouette, empty margins",
+    "seed": 1060707,
+    "negative": "(frame, border, ornamental corners, square, card, panel, badge:1.6), text, logo, watermark, scenery, background pattern, collage, multiple objects, cropped",
+    "size": 768,
+    "steps": 22,
+    "retry_generated": true
+  },
+  {
+    "type": "potions",
+    "id": "potion_text_03",
+    "prompt": "small covered ceramic medicine cup with warm amber tea, green herbal leaf emblem, single object, centered, isolated on pure white background, hand painted fantasy item, detailed illustration, clean silhouette, empty margins",
+    "seed": 1060708,
+    "negative": "(frame, border, ornamental corners, square, card, panel, badge:1.6), text, logo, watermark, scenery, background pattern, collage, multiple objects, cropped",
+    "size": 768,
+    "steps": 22,
+    "retry_generated": true
+  },
+  {
+    "type": "potions",
+    "id": "potion_text_04",
+    "prompt": "narrow smoky glass vial filled with black green poison, silver neck ring, single object, centered, isolated on pure white background, hand painted fantasy item, detailed illustration, clean silhouette, empty margins",
+    "seed": 1060709,
+    "negative": "(frame, border, ornamental corners, square, card, panel, badge:1.6), text, logo, watermark, scenery, background pattern, collage, multiple objects, cropped",
+    "size": 768,
+    "steps": 22,
+    "retry_generated": true
+  },
+  {
+    "type": "potions",
+    "id": "potion_text_05",
+    "prompt": "curved sealed bottle of vivid violet venom, sharp pointed stopper, single object, centered, isolated on pure white background, hand painted fantasy item, detailed illustration, clean silhouette, empty margins",
+    "seed": 1060710,
+    "negative": "(frame, border, ornamental corners, square, card, panel, badge:1.6), text, logo, watermark, scenery, background pattern, collage, multiple objects, cropped",
+    "size": 768,
+    "steps": 22,
+    "retry_generated": true
+  },
+  {
+    "type": "potions",
+    "id": "potion_text_06",
+    "prompt": "squat hexagonal bottle filled with thick pearl white medicine, iron cap, single object, centered, isolated on pure white background, hand painted fantasy item, detailed illustration, clean silhouette, empty margins",
+    "seed": 1060711,
+    "negative": "(frame, border, ornamental corners, square, card, panel, badge:1.6), text, logo, watermark, scenery, background pattern, collage, multiple objects, cropped",
+    "size": 768,
+    "steps": 22,
+    "retry_generated": true
+  },
+  {
+    "type": "powers",
+    "id": "status_draft_001",
+    "prompt": "one red upward sword with short red rays, simple strong flat emblem, single object, centered, isolated on pure white background, hand painted fantasy item, detailed illustration, clean silhouette, empty margins",
+    "seed": 1060712,
+    "negative": "(frame, border, ornamental corners, square, card, panel, badge:1.6), text, logo, watermark, scenery, background pattern, collage, multiple objects, cropped",
+    "size": 768,
+    "steps": 22,
+    "retry_generated": true
+  },
+  {
+    "type": "powers",
+    "id": "status_draft_002",
+    "prompt": "one blue steel shield with upward blue chevrons, simple strong flat emblem, single object, centered, isolated on pure white background, hand painted fantasy item, detailed illustration, clean silhouette, empty margins",
+    "seed": 1060713,
+    "negative": "(frame, border, ornamental corners, square, card, panel, badge:1.6), text, logo, watermark, scenery, background pattern, collage, multiple objects, cropped",
+    "size": 768,
+    "steps": 22,
+    "retry_generated": true
+  },
+  {
+    "type": "powers",
+    "id": "status_draft_006",
+    "prompt": "one emerald green heart wrapped in a fresh growing leaf, simple strong flat emblem, single object, centered, isolated on pure white background, hand painted fantasy item, detailed illustration, clean silhouette, empty margins",
+    "seed": 1060714,
+    "negative": "(frame, border, ornamental corners, square, card, panel, badge:1.6), text, logo, watermark, scenery, background pattern, collage, multiple objects, cropped",
+    "size": 768,
+    "steps": 22,
+    "retry_generated": true
+  },
+  {
+    "type": "powers",
+    "id": "status_draft_007",
+    "prompt": "one cyan luminous shield with a second thin shield outline, simple flat emblem, single object, centered, isolated on pure white background, hand painted fantasy item, detailed illustration, clean silhouette, empty margins",
+    "seed": 1060715,
+    "negative": "(frame, border, ornamental corners, square, card, panel, badge:1.6), text, logo, watermark, scenery, background pattern, collage, multiple objects, cropped",
+    "size": 768,
+    "steps": 22,
+    "retry_generated": true
+  },
+  {
+    "type": "powers",
+    "id": "status_draft_008",
+    "prompt": "one violet crystal inside a protective purple arc, simple strong flat emblem, single object, centered, isolated on pure white background, hand painted fantasy item, detailed illustration, clean silhouette, empty margins",
+    "seed": 1060716,
+    "negative": "(frame, border, ornamental corners, square, card, panel, badge:1.6), text, logo, watermark, scenery, background pattern, collage, multiple objects, cropped",
+    "size": 768,
+    "steps": 22,
+    "retry_generated": true
+  },
+  {
+    "type": "powers",
+    "id": "status_draft_011",
+    "prompt": "one golden droplet inside a cleansing white flame, simple strong flat emblem, single object, centered, isolated on pure white background, hand painted fantasy item, detailed illustration, clean silhouette, empty margins",
+    "seed": 1060717,
+    "negative": "(frame, border, ornamental corners, square, card, panel, badge:1.6), text, logo, watermark, scenery, background pattern, collage, multiple objects, cropped",
+    "size": 768,
+    "steps": 22,
+    "retry_generated": true
+  }
+]
