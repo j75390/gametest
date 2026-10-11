@@ -47,5 +47,5 @@
   "missing_media_paths": 0,
   "credential_candidates": 0,
   "full_suite_rerun": false,
-  "act_fights": "Claude reported25 fights PASS; local rerun in progress, not counted as passed"
+  "act_fights": "Claude reported25 fights PASS; local rerun did not finish and was stopped; not counted as passed"
 }
