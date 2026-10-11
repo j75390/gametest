@@ -1,0 +1,22 @@
+{
+  "id": "barrier",
+  "name": "barrier",
+  "path": "res://assets/relics/comfy_batch_20261009/barrier.png",
+  "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_status_cards_20261011\\barrier_a0.png",
+  "seed": 235554,
+  "attempt": 0,
+  "qa": {
+    "alpha_area": 0.2029,
+    "edge_occupancy": 0.0051,
+    "large_components": 1,
+    "visible_bounds": [
+      138,
+      0,
+      556,
+      483
+    ],
+    "flags": []
+  },
+  "state": "needs_review",
+  "object": "exactly ONE single glass kite shield, ONE complete shield silhouette, layered transparent glass surface, teal edge light"
+}

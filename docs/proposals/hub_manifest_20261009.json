@@ -1,0 +1,52 @@
+[
+  {
+    "id": "cards",
+    "path": "assets/ui/codex/hub/cards.png",
+    "size": [
+      1024,
+      768
+    ],
+    "status": "needs_review",
+    "note": "Illustration only. Dynamic title/description and hub frame are separate."
+  },
+  {
+    "id": "relics",
+    "path": "assets/ui/codex/hub/relics.png",
+    "size": [
+      1024,
+      768
+    ],
+    "status": "needs_review",
+    "note": "Illustration only. Dynamic title/description and hub frame are separate."
+  },
+  {
+    "id": "potions",
+    "path": "assets/ui/codex/hub/potions.png",
+    "size": [
+      1024,
+      768
+    ],
+    "status": "needs_review",
+    "note": "Illustration only. Dynamic title/description and hub frame are separate."
+  },
+  {
+    "id": "monsters",
+    "path": "assets/ui/codex/hub/monsters.png",
+    "size": [
+      1024,
+      768
+    ],
+    "status": "needs_review",
+    "note": "Illustration only. Dynamic title/description and hub frame are separate."
+  },
+  {
+    "id": "story",
+    "path": "assets/ui/codex/hub/story.png",
+    "size": [
+      1024,
+      768
+    ],
+    "status": "needs_review",
+    "note": "Illustration only. Dynamic title/description and hub frame are separate."
+  }
+]

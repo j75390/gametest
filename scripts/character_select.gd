@@ -206,3 +206,4 @@ func decoration(path: String, parent: Node, at: Vector2, dimensions: Vector2) ->
 	art.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	parent.add_child(art)
 	return art
+

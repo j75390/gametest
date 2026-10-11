@@ -1,0 +1,3212 @@
+[
+  {
+    "path": "scripts/act_arrival.gd",
+    "bytes": 7852,
+    "exists": true
+  },
+  {
+    "path": "scripts/battle_card.gd",
+    "bytes": 4789,
+    "exists": true
+  },
+  {
+    "path": "scripts/battle_fx.gd.uid",
+    "bytes": 20,
+    "exists": true
+  },
+  {
+    "path": "scripts/battle_hand.gd",
+    "bytes": 7200,
+    "exists": true
+  },
+  {
+    "path": "scripts/battle_scene.gd",
+    "bytes": 21290,
+    "exists": true
+  },
+  {
+    "path": "scripts/character_assets.gd.uid",
+    "bytes": 20,
+    "exists": true
+  },
+  {
+    "path": "scripts/character_select.gd",
+    "bytes": 10088,
+    "exists": true
+  },
+  {
+    "path": "scripts/character_visual.gd.uid",
+    "bytes": 20,
+    "exists": true
+  },
+  {
+    "path": "scripts/codex.gd",
+    "bytes": 28076,
+    "exists": true
+  },
+  {
+    "path": "scripts/codex.gd.uid",
+    "bytes": 19,
+    "exists": true
+  },
+  {
+    "path": "scripts/codex_cards.gd",
+    "bytes": 9729,
+    "exists": false
+  },
+  {
+    "path": "scripts/codex_cards.gd.uid",
+    "bytes": 19,
+    "exists": false
+  },
+  {
+    "path": "scripts/codex_characters.gd",
+    "bytes": 8963,
+    "exists": false
+  },
+  {
+    "path": "scripts/codex_characters.gd.uid",
+    "bytes": 19,
+    "exists": false
+  },
+  {
+    "path": "scripts/codex_collectibles.gd",
+    "bytes": 8193,
+    "exists": false
+  },
+  {
+    "path": "scripts/codex_collectibles.gd.uid",
+    "bytes": 20,
+    "exists": false
+  },
+  {
+    "path": "scripts/codex_data.gd",
+    "bytes": 6733,
+    "exists": false
+  },
+  {
+    "path": "scripts/codex_data.gd.uid",
+    "bytes": 19,
+    "exists": false
+  },
+  {
+    "path": "scripts/codex_hub.gd",
+    "bytes": 7167,
+    "exists": false
+  },
+  {
+    "path": "scripts/codex_hub.gd.uid",
+    "bytes": 19,
+    "exists": false
+  },
+  {
+    "path": "scripts/codex_lock_icon.gd",
+    "bytes": 676,
+    "exists": false
+  },
+  {
+    "path": "scripts/codex_lock_icon.gd.uid",
+    "bytes": 20,
+    "exists": false
+  },
+  {
+    "path": "scripts/codex_monsters.gd",
+    "bytes": 4698,
+    "exists": false
+  },
+  {
+    "path": "scripts/codex_monsters.gd.uid",
+    "bytes": 20,
+    "exists": false
+  },
+  {
+    "path": "scripts/codex_notes.gd",
+    "bytes": 8316,
+    "exists": false
+  },
+  {
+    "path": "scripts/codex_notes.gd.uid",
+    "bytes": 19,
+    "exists": false
+  },
+  {
+    "path": "scripts/codex_screen.gd",
+    "bytes": 9315,
+    "exists": false
+  },
+  {
+    "path": "scripts/codex_screen.gd.uid",
+    "bytes": 20,
+    "exists": false
+  },
+  {
+    "path": "scripts/codex_timeline.gd",
+    "bytes": 8453,
+    "exists": false
+  },
+  {
+    "path": "scripts/codex_timeline.gd.uid",
+    "bytes": 20,
+    "exists": false
+  },
+  {
+    "path": "scripts/deck_view.gd",
+    "bytes": 8019,
+    "exists": false
+  },
+  {
+    "path": "scripts/deck_view.gd.uid",
+    "bytes": 19,
+    "exists": false
+  },
+  {
+    "path": "scripts/expedition_map.gd",
+    "bytes": 5898,
+    "exists": true
+  },
+  {
+    "path": "scripts/expedition_map.gd.uid",
+    "bytes": 20,
+    "exists": true
+  },
+  {
+    "path": "scripts/game_data.gd",
+    "bytes": 4512,
+    "exists": true
+  },
+  {
+    "path": "scripts/game_data.gd.uid",
+    "bytes": 19,
+    "exists": true
+  },
+  {
+    "path": "scripts/main.gd",
+    "bytes": 87629,
+    "exists": true
+  },
+  {
+    "path": "scripts/main.gd.uid",
+    "bytes": 20,
+    "exists": true
+  },
+  {
+    "path": "scripts/map_node.gd.uid",
+    "bytes": 18,
+    "exists": true
+  },
+  {
+    "path": "scripts/map_view.gd.uid",
+    "bytes": 20,
+    "exists": true
+  },
+  {
+    "path": "scripts/monster_actions.gd",
+    "bytes": 3627,
+    "exists": false
+  },
+  {
+    "path": "scripts/monster_actions.gd.uid",
+    "bytes": 20,
+    "exists": false
+  },
+  {
+    "path": "scripts/music.gd",
+    "bytes": 4186,
+    "exists": false
+  },
+  {
+    "path": "scripts/music.gd.uid",
+    "bytes": 19,
+    "exists": false
+  },
+  {
+    "path": "scripts/potion_belt.gd",
+    "bytes": 2832,
+    "exists": false
+  },
+  {
+    "path": "scripts/potion_belt.gd.uid",
+    "bytes": 19,
+    "exists": false
+  },
+  {
+    "path": "scripts/relic_choice.gd",
+    "bytes": 3057,
+    "exists": false
+  },
+  {
+    "path": "scripts/relic_choice.gd.uid",
+    "bytes": 20,
+    "exists": false
+  },
+  {
+    "path": "scripts/relic_engine.gd",
+    "bytes": 10362,
+    "exists": false
+  },
+  {
+    "path": "scripts/relic_engine.gd.uid",
+    "bytes": 20,
+    "exists": false
+  },
+  {
+    "path": "scripts/rest_view.gd",
+    "bytes": 25537,
+    "exists": false
+  },
+  {
+    "path": "scripts/rest_view.gd.uid",
+    "bytes": 20,
+    "exists": false
+  },
+  {
+    "path": "scripts/reward_view.gd",
+    "bytes": 5869,
+    "exists": false
+  },
+  {
+    "path": "scripts/reward_view.gd.uid",
+    "bytes": 20,
+    "exists": false
+  },
+  {
+    "path": "scripts/shop_view.gd",
+    "bytes": 13695,
+    "exists": false
+  },
+  {
+    "path": "scripts/shop_view.gd.uid",
+    "bytes": 20,
+    "exists": false
+  },
+  {
+    "path": "scripts/story_rules.gd",
+    "bytes": 4342,
+    "exists": true
+  },
+  {
+    "path": "scripts/timeline.gd",
+    "bytes": 11837,
+    "exists": false
+  },
+  {
+    "path": "scripts/timeline.gd.uid",
+    "bytes": 20,
+    "exists": false
+  },
+  {
+    "path": "scripts/ui_font.gd.uid",
+    "bytes": 19,
+    "exists": false
+  },
+  {
+    "path": "scripts/unit_status.gd",
+    "bytes": 2111,
+    "exists": true
+  },
+  {
+    "path": "data/character_assets.json",
+    "bytes": 7067,
+    "exists": true
+  },
+  {
+    "path": "data/timeline.json",
+    "bytes": 24528,
+    "exists": false
+  },
+  {
+    "path": "data/content_tool/catalog.json",
+    "bytes": 1686945,
+    "exists": true
+  },
+  {
+    "path": "assets/test_comfy.png",
+    "bytes": 1490486,
+    "exists": false
+  },
+  {
+    "path": "assets/test_comfy.png.import",
+    "bytes": 940,
+    "exists": false
+  },
+  {
+    "path": "assets/events/act1_ledger_v1.png",
+    "bytes": 2248318,
+    "exists": false
+  },
+  {
+    "path": "assets/events/act1_ledger_v1.png.import",
+    "bytes": 960,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_01_v1.png",
+    "bytes": 1711898,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_01_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_02_v1.png",
+    "bytes": 1948226,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_02_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_03_v1.png",
+    "bytes": 1849810,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_03_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_04_v1.png",
+    "bytes": 2180410,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_04_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_05_v1.png",
+    "bytes": 2465067,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_05_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_06_v1.png",
+    "bytes": 2065074,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_06_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_07_v1.png",
+    "bytes": 1713135,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_07_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_08_v1.png",
+    "bytes": 1939984,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_08_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_09_v1.png",
+    "bytes": 1837362,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_09_v1.png.import",
+    "bytes": 968,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_10_v1.png",
+    "bytes": 1965038,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_10_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_11_v1.png",
+    "bytes": 2150901,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_11_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_12_v1.png",
+    "bytes": 1991688,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_12_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_13_v1.png",
+    "bytes": 2369528,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_13_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_14_v1.png",
+    "bytes": 2172664,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_14_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_15_v1.png",
+    "bytes": 2076260,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_15_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_16_v1.png",
+    "bytes": 1722424,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_16_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_17_v1.png",
+    "bytes": 2088439,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_17_v1.png.import",
+    "bytes": 968,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_18_v1.png",
+    "bytes": 2294895,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_18_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_19_v1.png",
+    "bytes": 2202578,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_19_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_20_v1.png",
+    "bytes": 1974683,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_20_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_21_v1.png",
+    "bytes": 2183516,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_21_v1.png.import",
+    "bytes": 968,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_22_v1.png",
+    "bytes": 2075088,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_22_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_23_v1.png",
+    "bytes": 1631369,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_23_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_24_v1.png",
+    "bytes": 2235663,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_24_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_25_v1.png",
+    "bytes": 1991110,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_25_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_26_v1.png",
+    "bytes": 2910879,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_26_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_27_v1.png",
+    "bytes": 1978335,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_27_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_28_v1.png",
+    "bytes": 2615756,
+    "exists": false
+  },
+  {
+    "path": "assets/events/common_act1_28_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/events/kalian_personal_1_v1.png",
+    "bytes": 1951500,
+    "exists": false
+  },
+  {
+    "path": "assets/events/kalian_personal_1_v1.png.import",
+    "bytes": 978,
+    "exists": false
+  },
+  {
+    "path": "assets/events/lucian_personal_1_v1.png",
+    "bytes": 1887442,
+    "exists": false
+  },
+  {
+    "path": "assets/events/lucian_personal_1_v1.png.import",
+    "bytes": 978,
+    "exists": false
+  },
+  {
+    "path": "assets/events/mira_coat_v1.png",
+    "bytes": 2178100,
+    "exists": false
+  },
+  {
+    "path": "assets/events/mira_coat_v1.png.import",
+    "bytes": 954,
+    "exists": false
+  },
+  {
+    "path": "assets/events/sera_personal_1_v1.png",
+    "bytes": 2119186,
+    "exists": false
+  },
+  {
+    "path": "assets/events/sera_personal_1_v1.png.import",
+    "bytes": 972,
+    "exists": false
+  },
+  {
+    "path": "assets/generated_icons/potion_text_03_comfy_v2.png.import",
+    "bytes": 996,
+    "exists": true
+  },
+  {
+    "path": "assets/generated_icons/potion_text_04_comfy_v2.png.import",
+    "bytes": 996,
+    "exists": true
+  },
+  {
+    "path": "assets/generated_icons/relic_uncommon_001_comfy_v2.png.import",
+    "bytes": 1008,
+    "exists": true
+  },
+  {
+    "path": "assets/generated_icons/relic_uncommon_005_comfy_v2.png.import",
+    "bytes": 1008,
+    "exists": true
+  },
+  {
+    "path": "assets/monsters/ash_warden_boss_v2.png",
+    "bytes": 1537233,
+    "exists": false
+  },
+  {
+    "path": "assets/monsters/ash_warden_boss_v2.png.import",
+    "bytes": 974,
+    "exists": false
+  },
+  {
+    "path": "assets/monsters/ash_warden_elite_v2.png",
+    "bytes": 1143982,
+    "exists": false
+  },
+  {
+    "path": "assets/monsters/ash_warden_elite_v2.png.import",
+    "bytes": 977,
+    "exists": false
+  },
+  {
+    "path": "assets/monsters/convoy_armor_v2.png",
+    "bytes": 1284502,
+    "exists": false
+  },
+  {
+    "path": "assets/monsters/convoy_armor_v2.png.import",
+    "bytes": 964,
+    "exists": false
+  },
+  {
+    "path": "assets/monsters/convoy_captain_v2.png",
+    "bytes": 1056518,
+    "exists": false
+  },
+  {
+    "path": "assets/monsters/convoy_captain_v2.png.import",
+    "bytes": 971,
+    "exists": false
+  },
+  {
+    "path": "assets/monsters/first_volunteer_v2.png",
+    "bytes": 857558,
+    "exists": false
+  },
+  {
+    "path": "assets/monsters/first_volunteer_v2.png.import",
+    "bytes": 974,
+    "exists": false
+  },
+  {
+    "path": "assets/monsters/head_nurse_v2.png",
+    "bytes": 951650,
+    "exists": false
+  },
+  {
+    "path": "assets/monsters/head_nurse_v2.png.import",
+    "bytes": 959,
+    "exists": false
+  },
+  {
+    "path": "assets/monsters/lamp_pilgrim_v2.png",
+    "bytes": 1304709,
+    "exists": false
+  },
+  {
+    "path": "assets/monsters/lamp_pilgrim_v2.png.import",
+    "bytes": 964,
+    "exists": false
+  },
+  {
+    "path": "assets/monsters/recovery_agent_v2.png",
+    "bytes": 994066,
+    "exists": false
+  },
+  {
+    "path": "assets/monsters/recovery_agent_v2.png.import",
+    "bytes": 971,
+    "exists": false
+  },
+  {
+    "path": "assets/monsters/round_doll_v2.png",
+    "bytes": 848716,
+    "exists": false
+  },
+  {
+    "path": "assets/monsters/round_doll_v2.png.import",
+    "bytes": 958,
+    "exists": false
+  },
+  {
+    "path": "assets/monsters/seal_clerk_v2.png",
+    "bytes": 921563,
+    "exists": false
+  },
+  {
+    "path": "assets/monsters/seal_clerk_v2.png.import",
+    "bytes": 959,
+    "exists": false
+  },
+  {
+    "path": "assets/monsters/shaft_keeper_v2.png",
+    "bytes": 1168312,
+    "exists": false
+  },
+  {
+    "path": "assets/monsters/shaft_keeper_v2.png.import",
+    "bytes": 964,
+    "exists": false
+  },
+  {
+    "path": "assets/monsters/waiting_patient_v2.png",
+    "bytes": 1008482,
+    "exists": false
+  },
+  {
+    "path": "assets/monsters/waiting_patient_v2.png.import",
+    "bytes": 974,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_007_v1.png",
+    "bytes": 230351,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_007_v1.png.import",
+    "bytes": 975,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_008_v1.png",
+    "bytes": 183747,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_008_v1.png.import",
+    "bytes": 975,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_010_v1.png",
+    "bytes": 254583,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_010_v1.png.import",
+    "bytes": 974,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_012_v1.png",
+    "bytes": 223732,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_012_v1.png.import",
+    "bytes": 975,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_013_v1.png",
+    "bytes": 255471,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_013_v1.png.import",
+    "bytes": 975,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_017_v1.png",
+    "bytes": 71996,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_017_v1.png.import",
+    "bytes": 975,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_018_v1.png",
+    "bytes": 195025,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_018_v1.png.import",
+    "bytes": 975,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_019_v1.png",
+    "bytes": 354029,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_019_v1.png.import",
+    "bytes": 974,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_022_v1.png",
+    "bytes": 132651,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_022_v1.png.import",
+    "bytes": 975,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_023_v1.png",
+    "bytes": 346624,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_023_v1.png.import",
+    "bytes": 974,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_024_v1.png",
+    "bytes": 86946,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_024_v1.png.import",
+    "bytes": 975,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_026_v1.png",
+    "bytes": 106855,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_026_v1.png.import",
+    "bytes": 975,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_028_v1.png",
+    "bytes": 105713,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_028_v1.png.import",
+    "bytes": 974,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_029_v1.png",
+    "bytes": 360967,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_029_v1.png.import",
+    "bytes": 975,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_030_v1.png",
+    "bytes": 347821,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_030_v1.png.import",
+    "bytes": 975,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_032_v1.png",
+    "bytes": 96505,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_032_v1.png.import",
+    "bytes": 975,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_033_v1.png",
+    "bytes": 248765,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_033_v1.png.import",
+    "bytes": 975,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_034_v1.png",
+    "bytes": 365883,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_034_v1.png.import",
+    "bytes": 975,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_035_v1.png",
+    "bytes": 110336,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_035_v1.png.import",
+    "bytes": 975,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_036_v1.png",
+    "bytes": 178293,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_036_v1.png.import",
+    "bytes": 974,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_037_v1.png",
+    "bytes": 252193,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_037_v1.png.import",
+    "bytes": 974,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_038_v1.png",
+    "bytes": 161659,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_038_v1.png.import",
+    "bytes": 974,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_042_v1.png",
+    "bytes": 135675,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_042_v1.png.import",
+    "bytes": 975,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_044_v1.png",
+    "bytes": 163469,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_044_v1.png.import",
+    "bytes": 975,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_045_v1.png",
+    "bytes": 168614,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_045_v1.png.import",
+    "bytes": 975,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_046_v1.png",
+    "bytes": 106013,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_046_v1.png.import",
+    "bytes": 975,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_047_v1.png",
+    "bytes": 312386,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_047_v1.png.import",
+    "bytes": 975,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_048_v1.png",
+    "bytes": 50019,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_048_v1.png.import",
+    "bytes": 974,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_049_v1.png",
+    "bytes": 204652,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_049_v1.png.import",
+    "bytes": 975,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_050_v1.png",
+    "bytes": 259797,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_050_v1.png.import",
+    "bytes": 975,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_051_v1.png",
+    "bytes": 84885,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_051_v1.png.import",
+    "bytes": 974,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_052_v1.png",
+    "bytes": 285762,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_052_v1.png.import",
+    "bytes": 974,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_053_v1.png",
+    "bytes": 303106,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_053_v1.png.import",
+    "bytes": 975,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_054_v1.png",
+    "bytes": 250113,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_054_v1.png.import",
+    "bytes": 975,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_055_v1.png",
+    "bytes": 134673,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_055_v1.png.import",
+    "bytes": 975,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_056_v1.png",
+    "bytes": 272236,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_056_v1.png.import",
+    "bytes": 975,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_057_v1.png",
+    "bytes": 181327,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_057_v1.png.import",
+    "bytes": 975,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_059_v1.png",
+    "bytes": 268330,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_common_059_v1.png.import",
+    "bytes": 975,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_epic_001_v1.png",
+    "bytes": 294890,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_epic_001_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_epic_002_v1.png",
+    "bytes": 127654,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_epic_002_v1.png.import",
+    "bytes": 968,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_epic_004_v1.png",
+    "bytes": 210408,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_epic_004_v1.png.import",
+    "bytes": 968,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_epic_011_v1.png",
+    "bytes": 253781,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_epic_011_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_epic_012_v1.png",
+    "bytes": 250418,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_epic_012_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_legend_001_v1.png",
+    "bytes": 163396,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_legend_001_v1.png.import",
+    "bytes": 975,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_legend_004_v1.png",
+    "bytes": 193767,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_legend_004_v1.png.import",
+    "bytes": 975,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_rare_001_v1.png",
+    "bytes": 250569,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_rare_001_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_rare_002_v1.png",
+    "bytes": 347217,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_rare_002_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_rare_003_v1.png",
+    "bytes": 104727,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_rare_003_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_rare_004_v1.png",
+    "bytes": 163181,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_rare_004_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_rare_005_v1.png",
+    "bytes": 142609,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_rare_005_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_rare_008_v1.png",
+    "bytes": 157647,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_rare_008_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_rare_010_v1.png",
+    "bytes": 243902,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_rare_010_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_rare_021_v1.png",
+    "bytes": 223089,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_rare_021_v1.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_rare_022_v1.png",
+    "bytes": 126234,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_rare_022_v1.png.import",
+    "bytes": 968,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_rare_024_v1.png",
+    "bytes": 192840,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_rare_024_v1.png.import",
+    "bytes": 968,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_002_v1.png",
+    "bytes": 152849,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_002_v1.png.import",
+    "bytes": 980,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_003_v1.png",
+    "bytes": 366870,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_003_v1.png.import",
+    "bytes": 981,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_004_v1.png",
+    "bytes": 277687,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_004_v1.png.import",
+    "bytes": 980,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_005_v1.png",
+    "bytes": 271165,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_005_v1.png.import",
+    "bytes": 981,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_006_v1.png",
+    "bytes": 224437,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_006_v1.png.import",
+    "bytes": 979,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_007_v1.png",
+    "bytes": 343585,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_007_v1.png.import",
+    "bytes": 981,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_008_v1.png",
+    "bytes": 291258,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_008_v1.png.import",
+    "bytes": 981,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_009_v1.png",
+    "bytes": 346578,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_009_v1.png.import",
+    "bytes": 981,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_010_v1.png",
+    "bytes": 107344,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_010_v1.png.import",
+    "bytes": 981,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_011_v1.png",
+    "bytes": 149258,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_011_v1.png.import",
+    "bytes": 981,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_012_v1.png",
+    "bytes": 339924,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_012_v1.png.import",
+    "bytes": 981,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_014_v1.png",
+    "bytes": 289945,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_014_v1.png.import",
+    "bytes": 981,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_015_v1.png",
+    "bytes": 310331,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_015_v1.png.import",
+    "bytes": 981,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_017_v1.png",
+    "bytes": 152835,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_017_v1.png.import",
+    "bytes": 980,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_018_v1.png",
+    "bytes": 227312,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_018_v1.png.import",
+    "bytes": 981,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_021_v1.png",
+    "bytes": 164909,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_021_v1.png.import",
+    "bytes": 981,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_023_v1.png",
+    "bytes": 171799,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_023_v1.png.import",
+    "bytes": 981,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_026_v1.png",
+    "bytes": 349632,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_026_v1.png.import",
+    "bytes": 981,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_027_v1.png",
+    "bytes": 248415,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_027_v1.png.import",
+    "bytes": 980,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_033_v1.png",
+    "bytes": 251621,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_033_v1.png.import",
+    "bytes": 980,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_035_v1.png",
+    "bytes": 172870,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_035_v1.png.import",
+    "bytes": 981,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_038_v1.png",
+    "bytes": 317410,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_038_v1.png.import",
+    "bytes": 980,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_039_v1.png",
+    "bytes": 148955,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_039_v1.png.import",
+    "bytes": 980,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_040_v1.png",
+    "bytes": 92492,
+    "exists": false
+  },
+  {
+    "path": "assets/relics/relic_uncommon_040_v1.png.import",
+    "bytes": 981,
+    "exists": false
+  },
+  {
+    "path": "assets/rest/campfire_logs_v1.png",
+    "bytes": 2125,
+    "exists": false
+  },
+  {
+    "path": "assets/rest/campfire_logs_v1.png.import",
+    "bytes": 964,
+    "exists": false
+  },
+  {
+    "path": "assets/rest/campfire_scene_v1.png",
+    "bytes": 170604,
+    "exists": false
+  },
+  {
+    "path": "assets/rest/campfire_scene_v1.png.import",
+    "bytes": 967,
+    "exists": false
+  },
+  {
+    "path": "assets/rest/campfire_scene_v2.png",
+    "bytes": 179178,
+    "exists": false
+  },
+  {
+    "path": "assets/rest/campfire_scene_v2.png.import",
+    "bytes": 967,
+    "exists": false
+  },
+  {
+    "path": "assets/rest/flame_1.png",
+    "bytes": 1443,
+    "exists": false
+  },
+  {
+    "path": "assets/rest/flame_1.png.import",
+    "bytes": 936,
+    "exists": false
+  },
+  {
+    "path": "assets/rest/flame_2.png",
+    "bytes": 1169,
+    "exists": false
+  },
+  {
+    "path": "assets/rest/flame_2.png.import",
+    "bytes": 937,
+    "exists": false
+  },
+  {
+    "path": "assets/rest/flame_3.png",
+    "bytes": 1417,
+    "exists": false
+  },
+  {
+    "path": "assets/rest/flame_3.png.import",
+    "bytes": 936,
+    "exists": false
+  },
+  {
+    "path": "assets/rest/flame_4.png",
+    "bytes": 1372,
+    "exists": false
+  },
+  {
+    "path": "assets/rest/flame_4.png.import",
+    "bytes": 937,
+    "exists": false
+  },
+  {
+    "path": "assets/rest/icon_rest_v1.png",
+    "bytes": 5233,
+    "exists": false
+  },
+  {
+    "path": "assets/rest/icon_rest_v1.png.import",
+    "bytes": 952,
+    "exists": false
+  },
+  {
+    "path": "assets/rest/icon_upgrade_v1.png",
+    "bytes": 6049,
+    "exists": false
+  },
+  {
+    "path": "assets/rest/icon_upgrade_v1.png.import",
+    "bytes": 961,
+    "exists": false
+  },
+  {
+    "path": "assets/shop/display_tray_v1.png",
+    "bytes": 1699342,
+    "exists": false
+  },
+  {
+    "path": "assets/shop/display_tray_v1.png.import",
+    "bytes": 961,
+    "exists": false
+  },
+  {
+    "path": "assets/shop/merchant_v1.png",
+    "bytes": 2110337,
+    "exists": false
+  },
+  {
+    "path": "assets/shop/merchant_v1.png.import",
+    "bytes": 949,
+    "exists": false
+  },
+  {
+    "path": "assets/shop/shop_bg_v1.png",
+    "bytes": 2308263,
+    "exists": false
+  },
+  {
+    "path": "assets/shop/shop_bg_v1.png.import",
+    "bytes": 946,
+    "exists": false
+  },
+  {
+    "path": "assets/status/barrier_v1.png",
+    "bytes": 248338,
+    "exists": false
+  },
+  {
+    "path": "assets/status/barrier_v1.png.import",
+    "bytes": 947,
+    "exists": false
+  },
+  {
+    "path": "assets/status/counter_v1.png",
+    "bytes": 274427,
+    "exists": false
+  },
+  {
+    "path": "assets/status/counter_v1.png.import",
+    "bytes": 948,
+    "exists": false
+  },
+  {
+    "path": "assets/status/ether_cycle_v1.png",
+    "bytes": 297492,
+    "exists": false
+  },
+  {
+    "path": "assets/status/ether_cycle_v1.png.import",
+    "bytes": 960,
+    "exists": false
+  },
+  {
+    "path": "assets/status/pain_ledger_v1.png",
+    "bytes": 182662,
+    "exists": false
+  },
+  {
+    "path": "assets/status/pain_ledger_v1.png.import",
+    "bytes": 960,
+    "exists": false
+  },
+  {
+    "path": "assets/status/pain_mirror_v1.png",
+    "bytes": 277524,
+    "exists": false
+  },
+  {
+    "path": "assets/status/pain_mirror_v1.png.import",
+    "bytes": 959,
+    "exists": false
+  },
+  {
+    "path": "assets/status/strength_v1.png",
+    "bytes": 4267,
+    "exists": false
+  },
+  {
+    "path": "assets/status/strength_v1.png.import",
+    "bytes": 951,
+    "exists": false
+  },
+  {
+    "path": "assets/status/strength_v2.png",
+    "bytes": 208786,
+    "exists": false
+  },
+  {
+    "path": "assets/status/strength_v2.png.import",
+    "bytes": 951,
+    "exists": false
+  },
+  {
+    "path": "assets/status/vulnerable_v1.png",
+    "bytes": 4265,
+    "exists": false
+  },
+  {
+    "path": "assets/status/vulnerable_v1.png.import",
+    "bytes": 956,
+    "exists": false
+  },
+  {
+    "path": "assets/status/vulnerable_v2.png",
+    "bytes": 226336,
+    "exists": false
+  },
+  {
+    "path": "assets/status/vulnerable_v2.png.import",
+    "bytes": 957,
+    "exists": false
+  },
+  {
+    "path": "assets/status/weak_v1.png",
+    "bytes": 3759,
+    "exists": false
+  },
+  {
+    "path": "assets/status/weak_v1.png.import",
+    "bytes": 939,
+    "exists": false
+  },
+  {
+    "path": "assets/status/weak_v2.png",
+    "bytes": 84489,
+    "exists": false
+  },
+  {
+    "path": "assets/status/weak_v2.png.import",
+    "bytes": 939,
+    "exists": false
+  },
+  {
+    "path": "assets/ui/codex/hub_cards_v1.png",
+    "bytes": 1011109,
+    "exists": false
+  },
+  {
+    "path": "assets/ui/codex/hub_cards_v1.png.import",
+    "bytes": 956,
+    "exists": false
+  },
+  {
+    "path": "assets/ui/codex/hub_monsters_v1.png",
+    "bytes": 1040883,
+    "exists": false
+  },
+  {
+    "path": "assets/ui/codex/hub_monsters_v1.png.import",
+    "bytes": 964,
+    "exists": false
+  },
+  {
+    "path": "assets/ui/codex/hub_potions_v1.png",
+    "bytes": 995924,
+    "exists": false
+  },
+  {
+    "path": "assets/ui/codex/hub_potions_v1.png.import",
+    "bytes": 961,
+    "exists": false
+  },
+  {
+    "path": "assets/ui/codex/hub_relics_v1.png",
+    "bytes": 1035060,
+    "exists": false
+  },
+  {
+    "path": "assets/ui/codex/hub_relics_v1.png.import",
+    "bytes": 959,
+    "exists": false
+  },
+  {
+    "path": "assets/ui/codex/hub_story_v1.png",
+    "bytes": 1009409,
+    "exists": false
+  },
+  {
+    "path": "assets/ui/codex/hub_story_v1.png.import",
+    "bytes": 955,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/illustration/mira_sd_idle_v4.png",
+    "bytes": 2313963,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/illustration/mira_sd_idle_v4.png.import",
+    "bytes": 985,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/pixel_sd_plague_v4/attack_prepare.png",
+    "bytes": 39941,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/pixel_sd_plague_v4/attack_prepare.png.import",
+    "bytes": 988,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/pixel_sd_plague_v4/attack_release.png",
+    "bytes": 47571,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/pixel_sd_plague_v4/attack_release.png.import",
+    "bytes": 988,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/pixel_sd_plague_v4/death_fall.png",
+    "bytes": 32250,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/pixel_sd_plague_v4/death_fall.png.import",
+    "bytes": 976,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/pixel_sd_plague_v4/death_rest.png",
+    "bytes": 20780,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/pixel_sd_plague_v4/death_rest.png.import",
+    "bytes": 975,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/pixel_sd_plague_v4/hurt.png",
+    "bytes": 39395,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/pixel_sd_plague_v4/hurt.png.import",
+    "bytes": 958,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/pixel_sd_plague_v4/idle.png",
+    "bytes": 44158,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/pixel_sd_plague_v4/idle.png.import",
+    "bytes": 958,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/pixel_sd_plague_v4/idle_blink.png",
+    "bytes": 43898,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/pixel_sd_plague_v4/idle_blink.png.import",
+    "bytes": 976,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/pixel_sd_plague_v4/skill_charge.png",
+    "bytes": 46369,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/pixel_sd_plague_v4/skill_charge.png.import",
+    "bytes": 982,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/pixel_sd_plague_v4/skill_release.png",
+    "bytes": 38012,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/pixel_sd_plague_v4/skill_release.png.import",
+    "bytes": 985,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/pixel_sd_plague_v4/walk_a.png",
+    "bytes": 42336,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/pixel_sd_plague_v4/walk_a.png.import",
+    "bytes": 964,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/pixel_sd_plague_v4/walk_b.png",
+    "bytes": 42297,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/pixel_sd_plague_v4/walk_b.png.import",
+    "bytes": 964,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/pixel_sd_plague_v4/walk_pass.png",
+    "bytes": 45902,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/pixel_sd_plague_v4/walk_pass.png.import",
+    "bytes": 972,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/rest/rest_doze_1.png",
+    "bytes": 24277,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/rest/rest_doze_1.png.import",
+    "bytes": 965,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/rest/rest_doze_2.png",
+    "bytes": 23550,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/rest/rest_doze_2.png.import",
+    "bytes": 965,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/rest/rest_sit.png",
+    "bytes": 26095,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/rest/rest_sit.png.import",
+    "bytes": 955,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/sd_motion_v5/attack_1.png",
+    "bytes": 1943126,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/sd_motion_v5/attack_1.png.import",
+    "bytes": 964,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/sd_motion_v5/attack_2.png",
+    "bytes": 2040814,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/sd_motion_v5/attack_2.png.import",
+    "bytes": 964,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/sd_motion_v5/attack_3.png",
+    "bytes": 1781113,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/sd_motion_v5/attack_3.png.import",
+    "bytes": 964,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/sd_motion_v5/death_1.png",
+    "bytes": 1576400,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/sd_motion_v5/death_1.png.import",
+    "bytes": 961,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/sd_motion_v5/death_2.png",
+    "bytes": 1464935,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/sd_motion_v5/death_2.png.import",
+    "bytes": 960,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/sd_motion_v5/hurt.png",
+    "bytes": 1906790,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/sd_motion_v5/hurt.png.import",
+    "bytes": 952,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/sd_motion_v5/idle.png",
+    "bytes": 1886334,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/sd_motion_v5/idle.png.import",
+    "bytes": 951,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/sd_motion_v5/idle_blink.png",
+    "bytes": 1806987,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/sd_motion_v5/idle_blink.png.import",
+    "bytes": 970,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/sd_motion_v5/skill_1.png",
+    "bytes": 1834269,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/sd_motion_v5/skill_1.png.import",
+    "bytes": 961,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/sd_motion_v5/skill_2.png",
+    "bytes": 2070734,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/sd_motion_v5/skill_2.png.import",
+    "bytes": 961,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/sd_motion_v5/skill_3.png",
+    "bytes": 1731219,
+    "exists": false
+  },
+  {
+    "path": "assets/characters/mira/sd_motion_v5/skill_3.png.import",
+    "bytes": 961,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/accumulated_pain_v2.png",
+    "bytes": 2661891,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/accumulated_pain_v2.png.import",
+    "bytes": 978,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/acid_splash_v3.png",
+    "bytes": 2758941,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/acid_splash_v3.png.import",
+    "bytes": 964,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/antiseptic_v2.png",
+    "bytes": 2380907,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/antiseptic_v2.png.import",
+    "bytes": 961,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/apothecary_feast_v3.png",
+    "bytes": 3049722,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/apothecary_feast_v3.png.import",
+    "bytes": 978,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/bear_the_pain_design_v3.png",
+    "bytes": 2751660,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/bear_the_pain_design_v3.png.import",
+    "bytes": 991,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/bear_the_pain_v2.png",
+    "bytes": 2476260,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/bear_the_pain_v2.png.import",
+    "bytes": 970,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/bitter_dose_v2.png",
+    "bytes": 2412378,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/bitter_dose_v2.png.import",
+    "bytes": 964,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/bitter_tonic_v3.png",
+    "bytes": 2945852,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/bitter_tonic_v3.png.import",
+    "bytes": 967,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/blood_for_medicine_v2.png",
+    "bytes": 2574044,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/blood_for_medicine_v2.png.import",
+    "bytes": 985,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/borrowed_pain_design_v3.png",
+    "bytes": 2514999,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/borrowed_pain_design_v3.png.import",
+    "bytes": 991,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/borrowed_pain_v2.png",
+    "bytes": 2761522,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/borrowed_pain_v2.png.import",
+    "bytes": 970,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/brewing_bench_v2.png",
+    "bytes": 2404967,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/brewing_bench_v2.png.import",
+    "bytes": 970,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/chain_reaction_v2.png",
+    "bytes": 2521623,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/chain_reaction_v2.png.import",
+    "bytes": 973,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/chemical_burst_v2.png",
+    "bytes": 2826184,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/chemical_burst_v2.png.import",
+    "bytes": 973,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/concentrate_v2.png",
+    "bytes": 2610629,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/concentrate_v2.png.import",
+    "bytes": 963,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/corrosive_vapor_v2.png",
+    "bytes": 2671372,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/corrosive_vapor_v2.png.import",
+    "bytes": 975,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/defend_design_v3.png",
+    "bytes": 3033815,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/defend_design_v3.png.import",
+    "bytes": 970,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/distill_v2.png",
+    "bytes": 2362106,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/distill_v2.png.import",
+    "bytes": 952,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/echo_dose_v2.png",
+    "bytes": 2292866,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/echo_dose_v2.png.import",
+    "bytes": 958,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/ether_cycle_v2.png",
+    "bytes": 2504756,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/ether_cycle_v2.png.import",
+    "bytes": 963,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/expose_weakness_v2.png",
+    "bytes": 2577049,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/expose_weakness_v2.png.import",
+    "bytes": 975,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/flask_barrage_v2.png",
+    "bytes": 2359621,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/flask_barrage_v2.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/flowering_toxin_v2.png",
+    "bytes": 2605319,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/flowering_toxin_v2.png.import",
+    "bytes": 976,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/fume_cloud_v2.png",
+    "bytes": 2547611,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/fume_cloud_v2.png.import",
+    "bytes": 960,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/glass_veil_v2.png",
+    "bytes": 2630297,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/glass_veil_v2.png.import",
+    "bytes": 960,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/grand_elixir_v3.png",
+    "bytes": 2813147,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/grand_elixir_v3.png.import",
+    "bytes": 967,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/hasty_remedy_v2.png",
+    "bytes": 2545105,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/hasty_remedy_v2.png.import",
+    "bytes": 967,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/herb_bundle_v3.png",
+    "bytes": 3049853,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/herb_bundle_v3.png.import",
+    "bytes": 964,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/lancet_v3.png",
+    "bytes": 2540232,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/lancet_v3.png.import",
+    "bytes": 948,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/lethal_dose_v3.png",
+    "bytes": 2793172,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/lethal_dose_v3.png.import",
+    "bytes": 964,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/lingering_flask_v2.png",
+    "bytes": 2344026,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/lingering_flask_v2.png.import",
+    "bytes": 975,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/masked_whisper_v2.png",
+    "bytes": 2601247,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/masked_whisper_v2.png.import",
+    "bytes": 973,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/needle_prick_v2.png",
+    "bytes": 2300591,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/needle_prick_v2.png.import",
+    "bytes": 967,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/numbing_salve_v3.png",
+    "bytes": 2656291,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/numbing_salve_v3.png.import",
+    "bytes": 970,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/overdose_v2.png",
+    "bytes": 2618311,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/overdose_v2.png.import",
+    "bytes": 955,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/pain_ledger_v2.png",
+    "bytes": 2665397,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/pain_ledger_v2.png.import",
+    "bytes": 964,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/pain_transfer_v2.png",
+    "bytes": 2493861,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/pain_transfer_v2.png.import",
+    "bytes": 970,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/patient_poison_v3.png",
+    "bytes": 2716571,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/patient_poison_v3.png.import",
+    "bytes": 972,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/plague_mist_v3.png",
+    "bytes": 2885187,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/plague_mist_v3.png.import",
+    "bytes": 964,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/plague_onset_v2.png",
+    "bytes": 2782009,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/plague_onset_v2.png.import",
+    "bytes": 967,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/purification_v2.png",
+    "bytes": 2718911,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/purification_v2.png.import",
+    "bytes": 967,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/quick_mix_v2.png",
+    "bytes": 2533186,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/quick_mix_v2.png.import",
+    "bytes": 958,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/rapid_brew_v2.png",
+    "bytes": 2605995,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/rapid_brew_v2.png.import",
+    "bytes": 960,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/rapid_poison_v3.png",
+    "bytes": 2860787,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/rapid_poison_v3.png.import",
+    "bytes": 967,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/rotten_fruit_v3.png",
+    "bytes": 3104443,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/rotten_fruit_v3.png.import",
+    "bytes": 967,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/scar_tissue_v3.png",
+    "bytes": 2617516,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/scar_tissue_v3.png.import",
+    "bytes": 964,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/side_effect_v2.png",
+    "bytes": 2770371,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/side_effect_v2.png.import",
+    "bytes": 964,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/siphon_vitality_v3.png",
+    "bytes": 2719361,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/siphon_vitality_v3.png.import",
+    "bytes": 976,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/slow_steep_v2.png",
+    "bytes": 2556308,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/slow_steep_v2.png.import",
+    "bytes": 960,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/soul_binding_design_v3.png",
+    "bytes": 2673381,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/soul_binding_design_v3.png.import",
+    "bytes": 988,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/steady_dose_v3.png",
+    "bytes": 2575177,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/steady_dose_v3.png.import",
+    "bytes": 964,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/strike_design_v3.png",
+    "bytes": 2731586,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/strike_design_v3.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/tainted_blade_v2.png",
+    "bytes": 2481584,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/tainted_blade_v2.png.import",
+    "bytes": 969,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/thorn_salve_v2.png",
+    "bytes": 2522002,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/thorn_salve_v2.png.import",
+    "bytes": 963,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/thorn_tincture_v3.png",
+    "bytes": 2665587,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/thorn_tincture_v3.png.import",
+    "bytes": 972,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/unstable_mixture_v3.png",
+    "bytes": 2827527,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/unstable_mixture_v3.png.import",
+    "bytes": 979,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/venom_chain_v3.png",
+    "bytes": 2983894,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/venom_chain_v3.png.import",
+    "bytes": 963,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/venom_pulse_v3.png",
+    "bytes": 3164214,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/venom_pulse_v3.png.import",
+    "bytes": 964,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/vial_throw_v2.png",
+    "bytes": 2666089,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/vial_throw_v2.png.import",
+    "bytes": 960,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/warm_decoction_v2.png",
+    "bytes": 2692963,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/warm_decoction_v2.png.import",
+    "bytes": 972,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/weakening_draught_v2.png",
+    "bytes": 2482167,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/weakening_draught_v2.png.import",
+    "bytes": 982,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/weak_point_injection_v2.png",
+    "bytes": 2561294,
+    "exists": false
+  },
+  {
+    "path": "assets/cards/mira/weak_point_injection_v2.png.import",
+    "bytes": 991,
+    "exists": false
+  },
+  {
+    "path": "assets/audio/bgm/battle_ledger.wav.import",
+    "bytes": 514,
+    "exists": false
+  },
+  {
+    "path": "assets/audio/bgm/boss_receiver.wav.import",
+    "bytes": 514,
+    "exists": false
+  },
+  {
+    "path": "assets/audio/bgm/map_fog.wav.import",
+    "bytes": 496,
+    "exists": false
+  },
+  {
+    "path": "assets/audio/bgm/shop_candle.wav.import",
+    "bytes": 508,
+    "exists": false
+  },
+  {
+    "path": "assets/audio/bgm/story_margin.wav.import",
+    "bytes": 511,
+    "exists": false
+  },
+  {
+    "path": "assets/audio/bgm/title_embers.wav.import",
+    "bytes": 510,
+    "exists": false
+  },
+  {
+    "path": "tools/act2_qa.gd",
+    "bytes": 7011,
+    "exists": false
+  },
+  {
+    "path": "tools/act2_qa.gd.uid",
+    "bytes": 20,
+    "exists": false
+  },
+  {
+    "path": "tools/act3_qa.gd",
+    "bytes": 5091,
+    "exists": false
+  },
+  {
+    "path": "tools/act3_qa.gd.uid",
+    "bytes": 20,
+    "exists": false
+  },
+  {
+    "path": "tools/act4_qa.gd",
+    "bytes": 5026,
+    "exists": false
+  },
+  {
+    "path": "tools/act4_qa.gd.uid",
+    "bytes": 20,
+    "exists": false
+  },
+  {
+    "path": "tools/act_arrival_qa.gd",
+    "bytes": 2550,
+    "exists": true
+  },
+  {
+    "path": "tools/act_fights_qa.gd",
+    "bytes": 3103,
+    "exists": false
+  },
+  {
+    "path": "tools/act_fights_qa.gd.uid",
+    "bytes": 20,
+    "exists": false
+  },
+  {
+    "path": "tools/apply_comfy_batch.py",
+    "bytes": 2884,
+    "exists": true
+  },
+  {
+    "path": "tools/author_story_content.py",
+    "bytes": 28424,
+    "exists": true
+  },
+  {
+    "path": "tools/bgm_qa.gd",
+    "bytes": 4342,
+    "exists": false
+  },
+  {
+    "path": "tools/bgm_qa.gd.uid",
+    "bytes": 20,
+    "exists": false
+  },
+  {
+    "path": "tools/codex_hub_qa.gd",
+    "bytes": 5390,
+    "exists": false
+  },
+  {
+    "path": "tools/codex_hub_qa.gd.uid",
+    "bytes": 19,
+    "exists": false
+  },
+  {
+    "path": "tools/comfy_batch_qa.gd",
+    "bytes": 2011,
+    "exists": true
+  },
+  {
+    "path": "tools/content_status_qa.gd",
+    "bytes": 682,
+    "exists": true
+  },
+  {
+    "path": "tools/damage_preview_qa.gd",
+    "bytes": 2798,
+    "exists": false
+  },
+  {
+    "path": "tools/damage_preview_qa.gd.uid",
+    "bytes": 20,
+    "exists": false
+  },
+  {
+    "path": "tools/deck_view_qa.gd",
+    "bytes": 2704,
+    "exists": false
+  },
+  {
+    "path": "tools/deck_view_qa.gd.uid",
+    "bytes": 20,
+    "exists": false
+  },
+  {
+    "path": "tools/event_art_shot_qa.gd",
+    "bytes": 891,
+    "exists": false
+  },
+  {
+    "path": "tools/event_art_shot_qa.gd.uid",
+    "bytes": 20,
+    "exists": false
+  },
+  {
+    "path": "tools/event_effects_qa.gd",
+    "bytes": 3149,
+    "exists": false
+  },
+  {
+    "path": "tools/event_effects_qa.gd.uid",
+    "bytes": 19,
+    "exists": false
+  },
+  {
+    "path": "tools/exhaust_view_qa.gd",
+    "bytes": 2776,
+    "exists": false
+  },
+  {
+    "path": "tools/exhaust_view_qa.gd.uid",
+    "bytes": 20,
+    "exists": false
+  },
+  {
+    "path": "tools/home_merge_qa.gd",
+    "bytes": 2654,
+    "exists": true
+  },
+  {
+    "path": "tools/map_icon_preview.gd.uid",
+    "bytes": 20,
+    "exists": true
+  },
+  {
+    "path": "tools/map_qa.gd",
+    "bytes": 8222,
+    "exists": true
+  },
+  {
+    "path": "tools/map_qa.gd.uid",
+    "bytes": 20,
+    "exists": true
+  },
+  {
+    "path": "tools/mira_cards_qa.gd",
+    "bytes": 17286,
+    "exists": false
+  },
+  {
+    "path": "tools/mira_cards_qa.gd.uid",
+    "bytes": 20,
+    "exists": false
+  },
+  {
+    "path": "tools/mira_cards_shot_qa.gd",
+    "bytes": 1493,
+    "exists": false
+  },
+  {
+    "path": "tools/mira_cards_shot_qa.gd.uid",
+    "bytes": 20,
+    "exists": false
+  },
+  {
+    "path": "tools/mira_cards_text_shot_qa.gd",
+    "bytes": 1082,
+    "exists": false
+  },
+  {
+    "path": "tools/mira_cards_text_shot_qa.gd.uid",
+    "bytes": 19,
+    "exists": false
+  },
+  {
+    "path": "tools/mira_card_art_review.gd.uid",
+    "bytes": 19,
+    "exists": true
+  },
+  {
+    "path": "tools/mira_hand_qa.gd",
+    "bytes": 5109,
+    "exists": true
+  },
+  {
+    "path": "tools/mira_hand_qa.gd.uid",
+    "bytes": 20,
+    "exists": true
+  },
+  {
+    "path": "tools/mira_hit_qa.gd",
+    "bytes": 4007,
+    "exists": true
+  },
+  {
+    "path": "tools/mira_hit_qa.gd.uid",
+    "bytes": 20,
+    "exists": true
+  },
+  {
+    "path": "tools/mira_motion_qa.gd",
+    "bytes": 7700,
+    "exists": true
+  },
+  {
+    "path": "tools/mira_motion_qa.gd.uid",
+    "bytes": 20,
+    "exists": true
+  },
+  {
+    "path": "tools/mira_story_qa.gd",
+    "bytes": 3596,
+    "exists": true
+  },
+  {
+    "path": "tools/mira_wave3_qa.gd",
+    "bytes": 7800,
+    "exists": false
+  },
+  {
+    "path": "tools/mira_wave3_qa.gd.uid",
+    "bytes": 20,
+    "exists": false
+  },
+  {
+    "path": "tools/monster_art_shot_qa.gd",
+    "bytes": 1020,
+    "exists": false
+  },
+  {
+    "path": "tools/monster_art_shot_qa.gd.uid",
+    "bytes": 19,
+    "exists": false
+  },
+  {
+    "path": "tools/monster_qa.gd",
+    "bytes": 9685,
+    "exists": false
+  },
+  {
+    "path": "tools/monster_qa.gd.uid",
+    "bytes": 19,
+    "exists": false
+  },
+  {
+    "path": "tools/pile_viewer_qa.gd.uid",
+    "bytes": 20,
+    "exists": true
+  },
+  {
+    "path": "tools/poison_split_qa.gd",
+    "bytes": 4685,
+    "exists": true
+  },
+  {
+    "path": "tools/poison_split_qa.gd.uid",
+    "bytes": 19,
+    "exists": true
+  },
+  {
+    "path": "tools/potion_qa.gd",
+    "bytes": 4994,
+    "exists": false
+  },
+  {
+    "path": "tools/potion_qa.gd.uid",
+    "bytes": 20,
+    "exists": false
+  },
+  {
+    "path": "tools/potion_shot_qa.gd",
+    "bytes": 986,
+    "exists": false
+  },
+  {
+    "path": "tools/potion_shot_qa.gd.uid",
+    "bytes": 20,
+    "exists": false
+  },
+  {
+    "path": "tools/potion_wave2_qa.gd",
+    "bytes": 2507,
+    "exists": false
+  },
+  {
+    "path": "tools/potion_wave2_qa.gd.uid",
+    "bytes": 20,
+    "exists": false
+  },
+  {
+    "path": "tools/promote_event_art.py",
+    "bytes": 2492,
+    "exists": false
+  },
+  {
+    "path": "tools/promote_relics.py",
+    "bytes": 6386,
+    "exists": false
+  },
+  {
+    "path": "tools/relic_art_qa.gd",
+    "bytes": 1954,
+    "exists": true
+  },
+  {
+    "path": "tools/relic_engine_qa.gd",
+    "bytes": 28203,
+    "exists": false
+  },
+  {
+    "path": "tools/relic_engine_qa.gd.uid",
+    "bytes": 20,
+    "exists": false
+  },
+  {
+    "path": "tools/relic_fuzz_qa.gd",
+    "bytes": 3601,
+    "exists": false
+  },
+  {
+    "path": "tools/relic_fuzz_qa.gd.uid",
+    "bytes": 19,
+    "exists": false
+  },
+  {
+    "path": "tools/rest_party_qa.gd",
+    "bytes": 2066,
+    "exists": false
+  },
+  {
+    "path": "tools/rest_party_qa.gd.uid",
+    "bytes": 20,
+    "exists": false
+  },
+  {
+    "path": "tools/rest_shot_qa.gd",
+    "bytes": 3383,
+    "exists": false
+  },
+  {
+    "path": "tools/rest_shot_qa.gd.uid",
+    "bytes": 19,
+    "exists": false
+  },
+  {
+    "path": "tools/selection_relic_qa.gd",
+    "bytes": 1930,
+    "exists": true
+  },
+  {
+    "path": "tools/shop_qa.gd",
+    "bytes": 4876,
+    "exists": false
+  },
+  {
+    "path": "tools/shop_qa.gd.uid",
+    "bytes": 19,
+    "exists": false
+  },
+  {
+    "path": "tools/story_content_qa.gd",
+    "bytes": 5908,
+    "exists": true
+  },
+  {
+    "path": "tools/story_engine_qa.gd",
+    "bytes": 7237,
+    "exists": false
+  },
+  {
+    "path": "tools/story_engine_qa.gd.uid",
+    "bytes": 20,
+    "exists": false
+  },
+  {
+    "path": "tools/story_reader_qa.gd",
+    "bytes": 3139,
+    "exists": true
+  },
+  {
+    "path": "tools/timeline_qa.gd",
+    "bytes": 8653,
+    "exists": false
+  },
+  {
+    "path": "tools/timeline_qa.gd.uid",
+    "bytes": 20,
+    "exists": false
+  },
+  {
+    "path": "tools/title_menu_qa.gd",
+    "bytes": 2616,
+    "exists": true
+  },
+  {
+    "path": "tools/content_tool/godot_bridge.py",
+    "bytes": 6452,
+    "exists": true
+  },
+  {
+    "path": "tools/content_tool/data/content.json",
+    "bytes": 1156674,
+    "exists": true
+  },
+  {
+    "path": "tools/content_tool/data/handover.json",
+    "bytes": 72,
+    "exists": true
+  }
+]

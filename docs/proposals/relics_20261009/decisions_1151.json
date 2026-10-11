@@ -1,0 +1,32 @@
+{
+  "relic_epic_011": {
+    "verdict": "reject",
+    "reason": "세 칸 용기는 있으나 가운데 한 칸만 채워져 불씨 세 개 누락",
+    "expected_seed": 1399014
+  },
+  "relic_epic_012": {
+    "verdict": "pass",
+    "reason": "가짜 글자 없는 낡은 대기표 종이, 온전한 외곽",
+    "expected_seed": 1400011
+  },
+  "relic_ancient_002": {
+    "verdict": "reject",
+    "reason": "맹세 두루마리와 봉인 대신 분리된 칼자루와 종이 콜라주",
+    "expected_seed": 1281539
+  },
+  "relic_ancient_005": {
+    "verdict": "reject",
+    "reason": "방패 외곽은 맞지만 핵심 문양인 문 형상이 없고 꽃 장식",
+    "expected_seed": 1284530
+  },
+  "relic_ancient_008": {
+    "verdict": "pass",
+    "reason": "탄환 없이 단일 금속 탄창 본체와 상단 개구부, 온전한 외곽",
+    "expected_seed": 1287521
+  },
+  "relic_ancient_009": {
+    "verdict": "reject",
+    "reason": "헌혈증 종이가 배경 제거로 사라지고 붉은 프레임만 남음",
+    "expected_seed": 1288518
+  }
+}

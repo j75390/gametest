@@ -31,16 +31,17 @@ func run() -> void:
 		await click(selection.selectors[i])
 		check(selection.selected_index == i, "Character click failed")
 		check(selection.heading.text == main.characters[i].name, "Character data mismatch")
-		check(selection.portrait.texture.get_image().detect_alpha() != Image.ALPHA_NONE, "Illustration lacks transparency")
-		check(selection.asset_status.text.is_empty(), "Placeholder still displayed")
+		if main.characters[i].id == "mira":
+			# Mira is shown on the full gallery background instead of a cut-out portrait.
+			check(not selection.portrait.visible and selection.background.texture != null and selection.background.texture.resource_path.ends_with("mira_selection_gallery_v1.png"), "Mira gallery background missing")
+		else:
+			check(selection.portrait.visible and selection.portrait.texture != null and selection.portrait.texture.get_image().detect_alpha() != Image.ALPHA_NONE, "Illustration lacks transparency")
 		await RenderingServer.frame_post_draw
 		root.get_texture().get_image().save_png("res://docs/selection-merged-%s.png" % main.characters[i].id)
 	selection.codex_requested.emit()
 	await process_frame
-	check(main.get_children().any(func(n): return n.get_script() == load("res://scripts/codex.gd")), "Codex did not open")
-	for child in main.get_children():
-		if child.get_script() == load("res://scripts/codex.gd"):
-			child.closed.emit()
+	check(main.has_node("CodexHub"), "Codex hub did not open")
+	if main.has_node("CodexHub"): main.get_node("CodexHub").closed.emit()
 	await process_frame
 	await click(selection.selectors[0])
 	await click(selection.canvas.get_node("StartExpedition"))

@@ -1,0 +1,14 @@
+[
+{"id":"bitter_dose","reason":"초록 약의 잔과 가시 약초 중심. 단일 손의 잔 잡는 접촉 확인."},
+{"id":"blood_for_medicine","reason":"맨손 검지의 한 방울과 열린 병. 별도 장갑은 작업대 물건으로 구분됨."},
+{"id":"brewing_bench","reason":"세 병과 각 주입 관, 약 색이 명확히 구분됨. 인물 없음."},
+{"id":"corrosive_vapor","reason":"녹슨 사슬과 갑옷에 초록 부식 안개. 효과 중심으로 구분됨."},
+{"id":"flowering_toxin","reason":"작은 적 위에 꽃 모양 초록 독 burst. 얼굴 반복 없이 독 개화 식별."},
+{"id":"hasty_remedy","reason":"빈 처방지, 잉크병과 약병을 향하는 한 손. 글자 없음."},
+{"id":"masked_whisper","reason":"상아 부리 가면과 내부 보라 연기. 인물 얼굴 없음."},
+{"id":"pain_transfer","reason":"한 손에서 적으로 가는 붉은 고통 실. 추가 인물 팔 없음."},
+{"id":"quick_mix","reason":"입 일부만 보이며 금빛 약병과 마시는 행동이 주역. 한 손의 잡기 확인."},
+{"id":"slow_steep","reason":"약초를 우려내는 보라 병, 정적인 분위기로 농축과 구분."},
+{"id":"tainted_blade","reason":"짧은 수술용 메스와 독액 베기. 장검 오류 없음. 한 손의 손목 연결."},
+{"id":"thorn_salve","reason":"소매에서 연결된 한 팔과 가시 보호 연고. 다섯 손가락 윤곽 확인."}
+]

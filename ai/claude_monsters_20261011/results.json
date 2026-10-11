@@ -1,0 +1,456 @@
+{
+  "round_doll": {
+    "id": "round_doll_v1",
+    "name": "round_doll",
+    "path": "res://assets/relics/comfy_batch_20261009/round_doll_v1.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_monsters_20261011\\round_doll_v1_a2.png",
+    "seed": 11386914,
+    "attempt": 2,
+    "qa": {
+      "alpha_area": 0.3417,
+      "edge_occupancy": 0.0345,
+      "large_components": 1,
+      "visible_bounds": [
+        162,
+        65,
+        619,
+        1152
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one full body articulated wooden nursing doll in faded grey night shift uniform and apron, cloth completely covering face, visible wooden joints, one hand holds a small wooden approval stamp, both feet visible, standing"
+  },
+  "waiting_patient": {
+    "id": "waiting_patient_v1",
+    "name": "waiting_patient",
+    "path": "res://assets/relics/comfy_batch_20261009/waiting_patient_v1.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_monsters_20261011\\waiting_patient_v1_a2.png",
+    "seed": 11387911,
+    "attempt": 2,
+    "qa": {
+      "alpha_area": 0.2739,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        205,
+        92,
+        595,
+        1050
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one full body stooped elderly hospital patient in worn long grey gown, covered face, one arm extended gently forward with ash in palm, tired posture, two feet in worn slippers visible"
+  },
+  "lamp_pilgrim": {
+    "id": "lamp_pilgrim_v1",
+    "name": "lamp_pilgrim",
+    "path": "res://assets/relics/comfy_batch_20261009/lamp_pilgrim_v1.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_monsters_20261011\\lamp_pilgrim_v1_a2.png",
+    "seed": 11388908,
+    "attempt": 2,
+    "qa": {
+      "alpha_area": 0.2815,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        64,
+        117,
+        625,
+        1054
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one full body hooded pilgrim in repaired dark grey cloak, face hidden, cradling a small lit warm lantern at chest in one hand, simple walking staff in other hand, boots visible"
+  },
+  "recovery_agent": {
+    "id": "recovery_agent_v1",
+    "name": "recovery_agent",
+    "path": "res://assets/relics/comfy_batch_20261009/recovery_agent_v1.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_monsters_20261011\\recovery_agent_v1_a2.png",
+    "seed": 11389905,
+    "attempt": 2,
+    "qa": {
+      "alpha_area": 0.3821,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        49,
+        37,
+        756,
+        1115
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one full body medieval bureaucratic investigator wearing a long dark grey coat and broad hat hiding face, heavy ledger satchel with paper protruding, holds confiscation stamp and a cord, worn boots visible"
+  },
+  "seal_clerk": {
+    "id": "seal_clerk_v1",
+    "name": "seal_clerk",
+    "path": "res://assets/relics/comfy_batch_20261009/seal_clerk_v1.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_monsters_20261011\\seal_clerk_v1_a2.png",
+    "seed": 11390902,
+    "attempt": 2,
+    "qa": {
+      "alpha_area": 0.305,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        150,
+        13,
+        558,
+        1147
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one full body gaunt clerk in faded grey medieval uniform, very long thin arms, holding a single oversized wooden stamp, ink stains on sleeve, obscured face, worn shoes visible"
+  },
+  "convoy_armor": {
+    "id": "convoy_armor_v1",
+    "name": "convoy_armor",
+    "path": "res://assets/relics/comfy_batch_20261009/convoy_armor_v1.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_monsters_20261011\\convoy_armor_v1_a2.png",
+    "seed": 11391899,
+    "attempt": 2,
+    "qa": {
+      "alpha_area": 0.3897,
+      "edge_occupancy": 0.018,
+      "large_components": 1,
+      "visible_bounds": [
+        130,
+        19,
+        629,
+        1152
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one full body hollow medieval convoy armor, empty black visor, asymmetrical rusty shield, plain worn shoulder insignia, heavy boots visible, standing guard"
+  },
+  "ash_warden_elite": {
+    "id": "ash_warden_elite_v1",
+    "name": "ash_warden_elite",
+    "path": "res://assets/relics/comfy_batch_20261009/ash_warden_elite_v1.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_monsters_20261011\\ash_warden_elite_v1_a2.png",
+    "seed": 11392896,
+    "attempt": 2,
+    "qa": {
+      "alpha_area": 0.3942,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        119,
+        62,
+        681,
+        1131
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one full body tall gothic armored cathedral veteran guard, dark old plate armor covered with grey incense ash, carrying a heavy brass censer, red faded torn cloth, boots visible, upright guard stance"
+  },
+  "convoy_captain": {
+    "id": "convoy_captain_v1",
+    "name": "convoy_captain",
+    "path": "res://assets/relics/comfy_batch_20261009/convoy_captain_v1.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_monsters_20261011\\convoy_captain_v1_a1.png",
+    "seed": 11270436,
+    "attempt": 1,
+    "qa": {
+      "alpha_area": 0.3714,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        69,
+        5,
+        732,
+        1140
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one full body medieval convoy captain, bent feather on closed helmet, holds a plain ledger board in one hand and broad shield in the other, dark grey armor and worn brown boots"
+  },
+  "first_volunteer": {
+    "id": "first_volunteer_v1",
+    "name": "first_volunteer",
+    "path": "res://assets/relics/comfy_batch_20261009/first_volunteer_v1.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_monsters_20261011\\first_volunteer_v1_a1.png",
+    "seed": 11271433,
+    "attempt": 1,
+    "qa": {
+      "alpha_area": 0.4272,
+      "edge_occupancy": 0.1133,
+      "large_components": 1,
+      "visible_bounds": [
+        0,
+        52,
+        768,
+        1152
+      ],
+      "flags": [
+        "possible_edge_crop"
+      ]
+    },
+    "state": "needs_review",
+    "object": "one full body elderly priest in worn ash grey vestments, hands clasped in prayer, ash trickling from cloth, peaceful sad partly hidden face, dark boots visible, no gore"
+  },
+  "head_nurse": {
+    "id": "head_nurse_v1",
+    "name": "head_nurse",
+    "path": "res://assets/relics/comfy_batch_20261009/head_nurse_v1.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_monsters_20261011\\head_nurse_v1_a1.png",
+    "seed": 11272430,
+    "attempt": 1,
+    "qa": {
+      "alpha_area": 0.2505,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        77,
+        59,
+        538,
+        1112
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one full body head nurse wearing angular grey linen hood and long apron, rigid straight posture, prescription board in one hand and large antique scissors in other, face obscured, shoes visible"
+  },
+  "shaft_keeper": {
+    "id": "shaft_keeper_v1",
+    "name": "shaft_keeper",
+    "path": "res://assets/relics/comfy_batch_20261009/shaft_keeper_v1.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_monsters_20261011\\shaft_keeper_v1_a1.png",
+    "seed": 11273427,
+    "attempt": 1,
+    "qa": {
+      "alpha_area": 0.3883,
+      "edge_occupancy": 0.0454,
+      "large_components": 1,
+      "visible_bounds": [
+        95,
+        35,
+        632,
+        1152
+      ],
+      "flags": [
+        "possible_edge_crop"
+      ]
+    },
+    "state": "needs_review",
+    "object": "one full body bulky medieval freight elevator worker, heavy brown work clothes wrapped with rusty chains, one hand holding an iron ventilation valve wheel, face shadowed, large boots visible"
+  },
+  "ash_warden_boss": {
+    "id": "ash_warden_boss_v1",
+    "name": "ash_warden_boss",
+    "path": "res://assets/relics/comfy_batch_20261009/ash_warden_boss_v1.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_monsters_20261011\\ash_warden_boss_v1_a1.png",
+    "seed": 11274424,
+    "attempt": 1,
+    "qa": {
+      "alpha_area": 0.2874,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        161,
+        85,
+        622,
+        1131
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one full body massive cathedral gatekeeper in black gothic plate armor, carrying a whole heavy ancient door as a shield, dead embers trapped in armor joints, dark red cloak, massive boots visible"
+  },
+  "weak": {
+    "id": "weak_v1",
+    "name": "weak",
+    "path": "res://assets/relics/comfy_batch_20261009/weak_v1.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_monsters_20261011\\weak_v1_a3.png",
+    "seed": 11522335,
+    "attempt": 3,
+    "qa": {
+      "alpha_area": 0.0958,
+      "edge_occupancy": 0.0,
+      "large_components": 3,
+      "visible_bounds": [
+        135,
+        14,
+        618,
+        753
+      ],
+      "flags": [
+        "multiple_disconnected_objects"
+      ]
+    },
+    "state": "needs_review",
+    "object": "one single old bent sword with curved drooping blade, intact dull sword, tired sagging cloth wrapped around hilt, single object, muted dusty purple and grey"
+  },
+  "vulnerable": {
+    "id": "vulnerable_v1",
+    "name": "vulnerable",
+    "path": "res://assets/relics/comfy_batch_20261009/vulnerable_v1.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_monsters_20261011\\vulnerable_v1_a2.png",
+    "seed": 11399875,
+    "attempt": 2,
+    "qa": {
+      "alpha_area": 0.4427,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        75,
+        42,
+        691,
+        718
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "(one shattered plain shield split by a huge jagged crack:1.8), no coat of arms, single object, aged brass and dark grey metal"
+  },
+  "strength": {
+    "id": "strength_v1",
+    "name": "strength",
+    "path": "res://assets/relics/comfy_batch_20261009/strength_v1.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_monsters_20261011\\strength_v1_a1.png",
+    "seed": 11277415,
+    "attempt": 1,
+    "qa": {
+      "alpha_area": 0.2411,
+      "edge_occupancy": 0.0557,
+      "large_components": 1,
+      "visible_bounds": [
+        204,
+        186,
+        563,
+        768
+      ],
+      "flags": [
+        "possible_edge_crop"
+      ]
+    },
+    "state": "needs_review",
+    "object": "one tightly clenched armored gauntlet fist, warm amber glow between fingers, single object, aged bronze and dark metal"
+  },
+  "relic_uncommon_002": {
+    "id": "relic_uncommon_002_v1",
+    "name": "relic_uncommon_002",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_002_v1.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_monsters_20261011\\relic_uncommon_002_v1_a1.png",
+    "seed": 11278412,
+    "attempt": 1,
+    "qa": {
+      "alpha_area": 0.2962,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        86,
+        35,
+        714,
+        722
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one small antique bronze shift bell with a short wooden handle and faded purple cord, blank undecorated surface, entire bell visible"
+  },
+  "relic_uncommon_005": {
+    "id": "relic_uncommon_005_v1",
+    "name": "relic_uncommon_005",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_005_v1.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_monsters_20261011\\relic_uncommon_005_v1_a3.png",
+    "seed": 11526323,
+    "attempt": 3,
+    "qa": {
+      "alpha_area": 0.5378,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        22,
+        47,
+        738,
+        728
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one single circular brass pocket watch with white clock face and two dark hands, closed case, front view, no numerals"
+  },
+  "relic_uncommon_007": {
+    "id": "relic_uncommon_007_v1",
+    "name": "relic_uncommon_007",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_007_v1.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_monsters_20261011\\relic_uncommon_007_v1_a1.png",
+    "seed": 11280406,
+    "attempt": 1,
+    "qa": {
+      "alpha_area": 0.8778,
+      "edge_occupancy": 0.2829,
+      "large_components": 1,
+      "visible_bounds": [
+        0,
+        0,
+        759,
+        768
+      ],
+      "flags": [
+        "background_not_removed",
+        "possible_edge_crop"
+      ]
+    },
+    "state": "needs_review",
+    "object": "one hinged double-sided antique brass prescription plate opened like a diptych, two ivory panels, abstract plant engraving on one and short tally strokes on other, purple worn cord"
+  },
+  "relic_uncommon_010": {
+    "id": "relic_uncommon_010_v1",
+    "name": "relic_uncommon_010",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_010_v1.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_monsters_20261011\\relic_uncommon_010_v1_a2.png",
+    "seed": 11404860,
+    "attempt": 2,
+    "qa": {
+      "alpha_area": 0.15,
+      "edge_occupancy": 0.0133,
+      "large_components": 1,
+      "visible_bounds": [
+        117,
+        0,
+        429,
+        653
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one conical pointed iron plumb bob suspended from one short rope, pointed tip facing down"
+  },
+  "relic_uncommon_018": {
+    "id": "relic_uncommon_018_v1",
+    "name": "relic_uncommon_018",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_018_v1.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_monsters_20261011\\relic_uncommon_018_v1_a2.png",
+    "seed": 11405857,
+    "attempt": 2,
+    "qa": {
+      "alpha_area": 0.9306,
+      "edge_occupancy": 0.0672,
+      "large_components": 1,
+      "visible_bounds": [
+        0,
+        3,
+        759,
+        768
+      ],
+      "flags": [
+        "background_not_removed",
+        "possible_edge_crop"
+      ]
+    },
+    "state": "needs_review",
+    "object": "(one folded sheet of solid black paper:1.8), opaque charcoal paper, torn fibrous edges, no holes, no frame"
+  }
+}

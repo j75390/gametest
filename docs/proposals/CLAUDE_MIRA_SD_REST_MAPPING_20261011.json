@@ -1,0 +1,84 @@
+{
+  "scope": "mira_only",
+  "pixel_art": false,
+  "canvas": [
+    1254,
+    1254
+  ],
+  "ground_y": 1175,
+  "motions": {
+    "idle": [
+      {
+        "path": "res://assets/delivery/claude_20261011/mira_sd_motion/idle.png",
+        "duration": 2.4
+      },
+      {
+        "path": "res://assets/delivery/claude_20261011/mira_sd_motion/idle_blink.png",
+        "duration": 0.13
+      }
+    ],
+    "attack": [
+      {
+        "path": "res://assets/delivery/claude_20261011/mira_sd_motion/attack_1.png",
+        "duration": 0.18
+      },
+      {
+        "path": "res://assets/delivery/claude_20261011/mira_sd_motion/attack_2.png",
+        "duration": 0.3
+      },
+      {
+        "path": "res://assets/delivery/claude_20261011/mira_sd_motion/attack_3.png",
+        "duration": 0.18
+      }
+    ],
+    "skill": [
+      {
+        "path": "res://assets/delivery/claude_20261011/mira_sd_motion/skill_1.png",
+        "duration": 0.32
+      },
+      {
+        "path": "res://assets/delivery/claude_20261011/mira_sd_motion/skill_2.png",
+        "duration": 0.48
+      },
+      {
+        "path": "res://assets/delivery/claude_20261011/mira_sd_motion/skill_3.png",
+        "duration": 0.18
+      }
+    ],
+    "hurt": [
+      {
+        "path": "res://assets/delivery/claude_20261011/mira_sd_motion/hurt.png",
+        "duration": 0.26
+      }
+    ],
+    "death": [
+      {
+        "path": "res://assets/delivery/claude_20261011/mira_sd_motion/death_1.png",
+        "duration": 0.3
+      },
+      {
+        "path": "res://assets/delivery/claude_20261011/mira_sd_motion/death_2.png",
+        "duration": 1.2
+      }
+    ]
+  },
+  "rest": {
+    "pixel_art": true,
+    "canvas": [
+      128,
+      128
+    ],
+    "frames": [
+      "rest_sit",
+      "rest_doze_1",
+      "rest_doze_2"
+    ],
+    "folder": "res://assets/delivery/claude_20261011/rest/characters/mira/"
+  },
+  "notes": [
+    "Latest human instruction: Mira only; other characters unconfirmed and excluded.",
+    "Battle handdrawn only, old pixel battle frames remain backups.",
+    "Independent keyframes, not high-frame-count animation; runtime transitions require Claude QA.",
+    "Skill effect baked into frame; not separate FX layer."
+  ]
+}

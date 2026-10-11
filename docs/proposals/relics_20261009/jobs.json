@@ -1,0 +1,1226 @@
+[
+  {
+    "id": "relic_common_007",
+    "name": "종지기 귀마개",
+    "object": "two small conical beige felt ear plugs joined by one short curved brown cord, ear protection, complete connecting string visible",
+    "prompt": "(two small conical beige felt ear plugs joined by one short curved brown cord, ear protection, complete connecting string visible:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 910000,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_008",
+    "name": "붉은 재봉실",
+    "object": "a simple small wooden sewing thread bobbin, crimson thread tightly wound around a cylinder between two plain wooden disks, loose thread end, no machinery",
+    "prompt": "(a simple small wooden sewing thread bobbin, crimson thread tightly wound around a cylinder between two plain wooden disks, loose thread end, no machinery:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 910997,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_009",
+    "name": "돌아온 단추",
+    "object": "a flat circular brown horn sewing button, exactly four small sewing holes in the middle, plain unadorned surface, coat fastener, top view",
+    "prompt": "(a flat circular brown horn sewing button, exactly four small sewing holes in the middle, plain unadorned surface, coat fastener, top view:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 911994,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_010",
+    "name": "찬물 대야",
+    "object": "a loose shallow old pewter bowl, wide round lip, hammered grey metal, empty bowl, medieval wash bowl with no plumbing, three quarter view",
+    "prompt": "(a loose shallow old pewter bowl, wide round lip, hammered grey metal, empty bowl, medieval wash bowl with no plumbing, three quarter view:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 912991,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_011",
+    "name": "닳은 문고리",
+    "object": "one worn brass door handle with a round backplate",
+    "prompt": "(one worn brass door handle with a round backplate:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 913988,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_012",
+    "name": "간호 순번표",
+    "object": "one small ivory nurse shift rota card with a brass clip, blank grid marks no letters",
+    "prompt": "(one small ivory nurse shift rota card with a brass clip, blank grid marks no letters:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 914985,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_013",
+    "name": "작은 발받침",
+    "object": "one small low wooden footstool",
+    "prompt": "(one small low wooden footstool:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 915982,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_014",
+    "name": "빛가림 천",
+    "object": "a neatly folded rectangular piece of dark linen cloth, layered fabric edges, simple cloth square",
+    "prompt": "(a neatly folded rectangular piece of dark linen cloth, layered fabric edges, simple cloth square:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 916979,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_015",
+    "name": "약병 마개",
+    "object": "a plain conical cork stopper, rough tan cork texture, three shallow grooves, solid cylindrical plug without writing",
+    "prompt": "(a plain conical cork stopper, rough tan cork texture, three shallow grooves, solid cylindrical plug without writing:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 917976,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_016",
+    "name": "밀랍 귀퉁이",
+    "object": "a single solid small red beeswax block with one chipped corner, one unlit wax chunk, no wick",
+    "prompt": "(a single solid small red beeswax block with one chipped corner, one unlit wax chunk, no wick:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 918973,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_017",
+    "name": "부두 못",
+    "object": "a single long rusty black iron nail, square flat head and long pointed shaft, old forged metal",
+    "prompt": "(a single long rusty black iron nail, square flat head and long pointed shaft, old forged metal:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 919970,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_018",
+    "name": "수로 분필",
+    "object": "a single short white cylindrical chalk stick, powdery rough surface, a narrow blue string tied around its middle",
+    "prompt": "(a single short white cylindrical chalk stick, powdery rough surface, a narrow blue string tied around its middle:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 920967,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_019",
+    "name": "접은 돛천",
+    "object": "a folded thick beige canvas fabric bundle, frayed cloth edge, simple folded cloth",
+    "prompt": "(a folded thick beige canvas fabric bundle, frayed cloth edge, simple folded cloth:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 921964,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_020",
+    "name": "빈 통행표",
+    "object": "a small blank rectangular ochre parchment slip with clipped corners and one punched round hole, empty tan paper surface",
+    "prompt": "(a small blank rectangular ochre parchment slip with clipped corners and one punched round hole, empty tan paper surface:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 922961,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_021",
+    "name": "낚싯줄 고리",
+    "object": "one small brass fishing line reel ring with coiled line",
+    "prompt": "(one small brass fishing line reel ring with coiled line:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 923958,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_022",
+    "name": "젖지 않는 성냥",
+    "object": "one small open wooden matchbox holding dry wooden matches",
+    "prompt": "(one small open wooden matchbox holding dry wooden matches:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 924955,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_023",
+    "name": "밧줄 토막",
+    "object": "one short thick frayed hemp rope with a knot",
+    "prompt": "(one short thick frayed hemp rope with a knot:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 925952,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_024",
+    "name": "저울 바늘",
+    "object": "a detached long flat brass pointer, narrow triangular strip, round base with one large circular mounting hole, entire isolated metal strip",
+    "prompt": "(a detached long flat brass pointer, narrow triangular strip, round base with one large circular mounting hole, entire isolated metal strip:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 926949,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_025",
+    "name": "선원 호루라기",
+    "object": "a small old brass pea whistle with short mouthpiece and round sound chamber, ring attachment",
+    "prompt": "(a small old brass pea whistle with short mouthpiece and round sound chamber, ring attachment:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 927946,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_026",
+    "name": "검표 가위",
+    "object": "a single pair of small iron scissors, two blades and two finger loops, isolated scissors without case",
+    "prompt": "(a single pair of small iron scissors, two blades and two finger loops, isolated scissors without case:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 928943,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_027",
+    "name": "녹슨 방향침",
+    "object": "one rusty navigation compass with a red needle under glass",
+    "prompt": "(one rusty navigation compass with a red needle under glass:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 929940,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_028",
+    "name": "선실 찻숟가락",
+    "object": "one small tarnished silver teaspoon, horizontal diagonal orientation",
+    "prompt": "(one small tarnished silver teaspoon, horizontal diagonal orientation:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 930937,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_029",
+    "name": "온실 끈",
+    "object": "one neatly coiled green garden twine tied in a knot",
+    "prompt": "(one neatly coiled green garden twine tied in a knot:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 931934,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_030",
+    "name": "씨앗 봉투",
+    "object": "one brown paper seed envelope with a small seed emblem, no letters",
+    "prompt": "(one brown paper seed envelope with a small seed emblem, no letters:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 932931,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_031",
+    "name": "찻잔 받침",
+    "object": "a single shallow flat ivory porcelain dish, small chipped rim with blue line, empty flat plate without cup",
+    "prompt": "(a single shallow flat ivory porcelain dish, small chipped rim with blue line, empty flat plate without cup:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 933928,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_032",
+    "name": "무딘 전지가위",
+    "object": "one worn garden pruning shears with dark wooden handles",
+    "prompt": "(one worn garden pruning shears with dark wooden handles:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 934925,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_033",
+    "name": "약초 압착판",
+    "object": "a small square wooden book press, two flat wooden boards joined by two metal screw clamps, a dried fern between boards",
+    "prompt": "(a small square wooden book press, two flat wooden boards joined by two metal screw clamps, a dried fern between boards:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 935922,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_034",
+    "name": "갈색 여과천",
+    "object": "one complete small folded square brown linen rag, visible four cloth edges, rag lying alone",
+    "prompt": "(one complete small folded square brown linen rag, visible four cloth edges, rag lying alone:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 936919,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_035",
+    "name": "작은 유리추",
+    "object": "one small transparent glass plumb bob on a thin cord",
+    "prompt": "(one small transparent glass plumb bob on a thin cord:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 937916,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_036",
+    "name": "깨진 물뿌리개",
+    "object": "one dented copper watering can with a small hole near its base",
+    "prompt": "(one dented copper watering can with a small hole near its base:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 938913,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_037",
+    "name": "흙 묻은 장갑",
+    "object": "one single brown leather glove with five finger sleeves, no second glove, entire glove visible",
+    "prompt": "(one single brown leather glove with five finger sleeves, no second glove, entire glove visible:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 939910,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_038",
+    "name": "식물 이름표",
+    "object": "one flat wooden garden label stake, rectangular writing surface above a pointed bottom, one continuous plank",
+    "prompt": "(one flat wooden garden label stake, rectangular writing surface above a pointed bottom, one continuous plank:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 940907,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_039",
+    "name": "작업용 앞치마",
+    "object": "one folded work apron with a stitched pale patch",
+    "prompt": "(one folded work apron with a stitched pale patch:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 941904,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_040",
+    "name": "온도계 덮개",
+    "object": "one narrow wooden thermometer protective sleeve with dark metal end cap",
+    "prompt": "(one narrow wooden thermometer protective sleeve with dark metal end cap:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 942901,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_041",
+    "name": "서고 책갈피",
+    "object": "one slim dark red leather bookmark with a tassel",
+    "prompt": "(one slim dark red leather bookmark with a tassel:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 943898,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_042",
+    "name": "연필 깎는 칼",
+    "object": "a single small utility knife with short straight iron blade and plain wooden handle, simple old craft knife",
+    "prompt": "(a single small utility knife with short straight iron blade and plain wooden handle, simple old craft knife:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 944895,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_043",
+    "name": "사서의 먼지솔",
+    "object": "one soft librarian dusting brush with wooden handle",
+    "prompt": "(one soft librarian dusting brush with wooden handle:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 945892,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_044",
+    "name": "납작한 잉크병",
+    "object": "one squat flattened glass ink bottle with black liquid and cork",
+    "prompt": "(one squat flattened glass ink bottle with black liquid and cork:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 946889,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_045",
+    "name": "대출 확인끈",
+    "object": "a short red braided string tied in a simple bow, only string with two loops and two loose ends",
+    "prompt": "(a short red braided string tied in a simple bow, only string with two loops and two loose ends:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 947886,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_046",
+    "name": "반쪽 독서경",
+    "object": "a single monocle glass lens in a gold wire rim, one short bent wire arm on its right edge, only one circular lens",
+    "prompt": "(a single monocle glass lens in a gold wire rim, one short bent wire arm on its right edge, only one circular lens:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 948883,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_047",
+    "name": "서류 받침",
+    "object": "one smooth dark stone paperweight with subtle veins",
+    "prompt": "(one smooth dark stone paperweight with subtle veins:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 949880,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_048",
+    "name": "봉투 칼",
+    "object": "one narrow ornate brass letter opener",
+    "prompt": "(one narrow ornate brass letter opener:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 950877,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_049",
+    "name": "백지 묶음",
+    "object": "a compact rectangular pile of blank cream paper pages, visible thick stacked paper edges, tied together with a thin brown cord",
+    "prompt": "(a compact rectangular pile of blank cream paper pages, visible thick stacked paper edges, tied together with a thin brown cord:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 951874,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_050",
+    "name": "정정 도장",
+    "object": "one small wooden correction stamp with brass base and no letters",
+    "prompt": "(one small wooden correction stamp with brass base and no letters:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 952871,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_051",
+    "name": "등불 손잡이",
+    "object": "a loose thin curved metal carrying bail, narrow brass wire formed into a semicircle, a small hook at each end",
+    "prompt": "(a loose thin curved metal carrying bail, narrow brass wire formed into a semicircle, a small hook at each end:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 953868,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_052",
+    "name": "성소 물동이",
+    "object": "one worn ceramic water jar with two side handles",
+    "prompt": "(one worn ceramic water jar with two side handles:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 954865,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_053",
+    "name": "은빛 재받이",
+    "object": "one shallow silver ash collection dish containing pale ash",
+    "prompt": "(one shallow silver ash collection dish containing pale ash:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 955862,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_054",
+    "name": "기도 시간표",
+    "object": "one rolled cream prayer schedule with blank grid and dark ribbon",
+    "prompt": "(one rolled cream prayer schedule with blank grid and dark ribbon:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 956859,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_055",
+    "name": "문지기의 열쇠끈",
+    "object": "a single old iron key tied to a short brown leather cord, one key with simple square bow, no other keys",
+    "prompt": "(a single old iron key tied to a short brown leather cord, one key with simple square bow, no other keys:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 957856,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_056",
+    "name": "돌계단 조각",
+    "object": "a single loose rectangular chunk of chipped pale stone, flat worn top and broken rough side, detached masonry block",
+    "prompt": "(a single loose rectangular chunk of chipped pale stone, flat worn top and broken rough side, detached masonry block:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 958853,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_057",
+    "name": "작은 배급등",
+    "object": "one small plain brass ration lantern with warm amber flame",
+    "prompt": "(one small plain brass ration lantern with warm amber flame:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 959850,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_058",
+    "name": "이름표 실핀",
+    "object": "one silver safety pin holding a blank cloth name tag",
+    "prompt": "(one silver safety pin holding a blank cloth name tag:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 960847,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_common_059",
+    "name": "불씨 덮개",
+    "object": "a small black iron hemisphere cage with a round base and ventilation holes, domed stove cover",
+    "prompt": "(a small black iron hemisphere cage with a round base and ventilation holes, domed stove cover:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 961844,
+    "rarity": "일반",
+    "state": "queued"
+  },
+  {
+    "id": "relic_uncommon_003",
+    "name": "봉합 상자",
+    "object": "one open compact wooden suture kit with neatly secured needle and thread inside",
+    "prompt": "(one open compact wooden suture kit with neatly secured needle and thread inside:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 962841,
+    "rarity": "고급",
+    "state": "queued"
+  },
+  {
+    "id": "relic_uncommon_004",
+    "name": "남겨 둔 식권",
+    "object": "a blank rectangular ochre parchment slip with scalloped edges, a tiny red wax blob stuck on the corner, unmarked tan paper",
+    "prompt": "(a blank rectangular ochre parchment slip with scalloped edges, a tiny red wax blob stuck on the corner, unmarked tan paper:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 963838,
+    "rarity": "고급",
+    "state": "queued"
+  },
+  {
+    "id": "relic_uncommon_006",
+    "name": "붉은 선 장부",
+    "object": "a closed rectangular brown leather book with thick page edges and one red ribbon wrapped across its cover",
+    "prompt": "(a closed rectangular brown leather book with thick page edges and one red ribbon wrapped across its cover:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 964835,
+    "rarity": "고급",
+    "state": "queued"
+  },
+  {
+    "id": "relic_uncommon_008",
+    "name": "반납 상자",
+    "object": "one small open wooden return box with an empty plum cloth interior",
+    "prompt": "(one small open wooden return box with an empty plum cloth interior:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 965832,
+    "rarity": "고급",
+    "state": "queued"
+  },
+  {
+    "id": "relic_uncommon_009",
+    "name": "밀랍 수송인",
+    "object": "one single red wax shipping seal medallion with abstract ship mark",
+    "prompt": "(one single red wax shipping seal medallion with abstract ship mark:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 966829,
+    "rarity": "고급",
+    "state": "queued"
+  },
+  {
+    "id": "relic_uncommon_011",
+    "name": "수문 회전축",
+    "object": "a single old iron crank shaft with one attached small turning wheel, entire mechanism visible",
+    "prompt": "(a single old iron crank shaft with one attached small turning wheel, entire mechanism visible:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 967826,
+    "rarity": "고급",
+    "state": "queued"
+  },
+  {
+    "id": "relic_uncommon_012",
+    "name": "선장 없는 항해일지",
+    "object": "a closed brown leather book with thick paper edges, small brass anchor embossed on its cover",
+    "prompt": "(a closed brown leather book with thick paper edges, small brass anchor embossed on its cover:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 968823,
+    "rarity": "고급",
+    "state": "queued"
+  },
+  {
+    "id": "relic_uncommon_013",
+    "name": "이중 바닥 상자",
+    "object": "one small wooden double-bottom cargo box with inner compartment revealed",
+    "prompt": "(one small wooden double-bottom cargo box with inner compartment revealed:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 969820,
+    "rarity": "고급",
+    "state": "queued"
+  },
+  {
+    "id": "relic_uncommon_014",
+    "name": "뱃사공의 손목띠",
+    "object": "one boatman's wide leather wrist strap with a tied rope loop",
+    "prompt": "(one boatman's wide leather wrist strap with a tied rope loop:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 970817,
+    "rarity": "고급",
+    "state": "queued"
+  },
+  {
+    "id": "relic_uncommon_015",
+    "name": "해진 구조망",
+    "object": "one compact folded torn rescue net with knots visible",
+    "prompt": "(one compact folded torn rescue net with knots visible:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 971814,
+    "rarity": "고급",
+    "state": "queued"
+  },
+  {
+    "id": "relic_uncommon_016",
+    "name": "검표원의 인장",
+    "object": "a single wooden hand stamp, short brown handle and circular brass bottom, small anchor engraved into its brass face",
+    "prompt": "(a single wooden hand stamp, short brown handle and circular brass bottom, small anchor engraved into its brass face:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 972811,
+    "rarity": "고급",
+    "state": "queued"
+  },
+  {
+    "id": "relic_uncommon_017",
+    "name": "두 잔의 찻잔",
+    "object": "two plain ivory ceramic cups side by side joined by a short brown cord, complete pair of cups only",
+    "prompt": "(two plain ivory ceramic cups side by side joined by a short brown cord, complete pair of cups only:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 973808,
+    "rarity": "고급",
+    "state": "queued"
+  },
+  {
+    "id": "relic_uncommon_019",
+    "name": "거꾸로 쓴 처방전",
+    "object": "one small folded dark brown parchment prescription, clearly visible complete torn paper edges, small purple wax dot on lower corner, paper is solid dark ochre",
+    "prompt": "(one small folded dark brown parchment prescription, clearly visible complete torn paper edges, small purple wax dot on lower corner, paper is solid dark ochre:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 974805,
+    "rarity": "고급",
+    "state": "queued"
+  },
+  {
+    "id": "relic_uncommon_020",
+    "name": "접목용 은사",
+    "object": "a single small wooden bobbin wound with shining thin silver wire, one tiny green sprig tucked into the wire",
+    "prompt": "(a single small wooden bobbin wound with shining thin silver wire, one tiny green sprig tucked into the wire:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 975802,
+    "rarity": "고급",
+    "state": "queued"
+  },
+  {
+    "id": "relic_uncommon_021",
+    "name": "해독 유리종",
+    "object": "one empty clear glass bell dome on a brass base",
+    "prompt": "(one empty clear glass bell dome on a brass base:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 976799,
+    "rarity": "고급",
+    "state": "queued"
+  },
+  {
+    "id": "relic_uncommon_023",
+    "name": "연금술 저울",
+    "object": "one compact alchemist balance scale with two shallow pans",
+    "prompt": "(one compact alchemist balance scale with two shallow pans:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 977796,
+    "rarity": "고급",
+    "state": "queued"
+  },
+  {
+    "id": "relic_uncommon_024",
+    "name": "봉인된 뿌리",
+    "object": "one sealed small glass specimen vial, a brown branching root entirely enclosed inside, cork stopper, one vial only",
+    "prompt": "(one sealed small glass specimen vial, a brown branching root entirely enclosed inside, cork stopper, one vial only:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 978793,
+    "rarity": "고급",
+    "state": "queued"
+  },
+  {
+    "id": "relic_uncommon_025",
+    "name": "이름을 남기는 바늘",
+    "object": "one silver sewing needle with a clearly visible oval hole at the blunt end, one thin purple thread passes through the hole",
+    "prompt": "(one silver sewing needle with a clearly visible oval hole at the blunt end, one thin purple thread passes through the hole:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 979790,
+    "rarity": "고급",
+    "state": "queued"
+  },
+  {
+    "id": "relic_uncommon_026",
+    "name": "서고 대조경",
+    "object": "two small rectangular mirrors joined by a brass hinge, folded open like a book",
+    "prompt": "(two small rectangular mirrors joined by a brass hinge, folded open like a book:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 980787,
+    "rarity": "고급",
+    "state": "queued"
+  },
+  {
+    "id": "relic_uncommon_027",
+    "name": "수정된 목록",
+    "object": "one folded list document with a red correction ribbon, no writing",
+    "prompt": "(one folded list document with a red correction ribbon, no writing:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 981784,
+    "rarity": "고급",
+    "state": "queued"
+  },
+  {
+    "id": "relic_uncommon_028",
+    "name": "빈 서명란",
+    "object": "one blank cream signature form with empty ruled box and black wax seal",
+    "prompt": "(one blank cream signature form with empty ruled box and black wax seal:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 982781,
+    "rarity": "고급",
+    "state": "queued"
+  },
+  {
+    "id": "relic_uncommon_029",
+    "name": "붉은 색인",
+    "object": "a flat narrow red rectangular paper divider, a small brass tab protruding from its top edge, plain red paper",
+    "prompt": "(a flat narrow red rectangular paper divider, a small brass tab protruding from its top edge, plain red paper:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 983778,
+    "rarity": "고급",
+    "state": "queued"
+  },
+  {
+    "id": "relic_uncommon_030",
+    "name": "봉인문 복사본",
+    "object": "a folded brown parchment packet, two small black wax dots stuck on its folded corners, solid paper body",
+    "prompt": "(a folded brown parchment packet, two small black wax dots stuck on its folded corners, solid paper body:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 984775,
+    "rarity": "고급",
+    "state": "queued"
+  },
+  {
+    "id": "relic_uncommon_031",
+    "name": "두 번째 필적",
+    "object": "a folded blank ochre parchment sheet with two tiny purple wax dots stuck to paper, plain flat paper body",
+    "prompt": "(a folded blank ochre parchment sheet with two tiny purple wax dots stuck to paper, plain flat paper body:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 985772,
+    "rarity": "고급",
+    "state": "queued"
+  },
+  {
+    "id": "relic_uncommon_032",
+    "name": "사서의 여행증",
+    "object": "one small leather travel permit wallet with brass librarian symbol",
+    "prompt": "(one small leather travel permit wallet with brass librarian symbol:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 986769,
+    "rarity": "고급",
+    "state": "queued"
+  },
+  {
+    "id": "relic_uncommon_033",
+    "name": "재 분리접시",
+    "object": "one shallow ceramic dish split into two equal compartments by a raised straight ceramic ridge across the center",
+    "prompt": "(one shallow ceramic dish split into two equal compartments by a raised straight ceramic ridge across the center:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 987766,
+    "rarity": "고급",
+    "state": "queued"
+  },
+  {
+    "id": "relic_uncommon_034",
+    "name": "배급 한도표",
+    "object": "one thick rectangular wooden tablet, exactly ten short scratched tally marks carved on its face, solid wooden board",
+    "prompt": "(one thick rectangular wooden tablet, exactly ten short scratched tally marks carved on its face, solid wooden board:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 988763,
+    "rarity": "고급",
+    "state": "queued"
+  },
+  {
+    "id": "relic_uncommon_035",
+    "name": "돌아온 기도문",
+    "object": "one folded returned prayer paper wrapped with a faded red ribbon",
+    "prompt": "(one folded returned prayer paper wrapped with a faded red ribbon:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 989760,
+    "rarity": "고급",
+    "state": "queued"
+  },
+  {
+    "id": "relic_uncommon_036",
+    "name": "분배관 손잡이",
+    "object": "one small brass T-shaped tap key, horizontal bar directly attached to short vertical stem, detached handle only",
+    "prompt": "(one small brass T-shaped tap key, horizontal bar directly attached to short vertical stem, detached handle only:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 990757,
+    "rarity": "고급",
+    "state": "queued"
+  },
+  {
+    "id": "relic_uncommon_037",
+    "name": "손으로 적은 한도",
+    "object": "one small dark ochre parchment card, complete paper surface and all edges, few short ink strokes on solid paper",
+    "prompt": "(one small dark ochre parchment card, complete paper surface and all edges, few short ink strokes on solid paper:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 991754,
+    "rarity": "고급",
+    "state": "queued"
+  },
+  {
+    "id": "relic_uncommon_038",
+    "name": "야간 구호표",
+    "object": "one dark blue night relief token with a small crescent emblem",
+    "prompt": "(one dark blue night relief token with a small crescent emblem:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 992751,
+    "rarity": "고급",
+    "state": "queued"
+  },
+  {
+    "id": "relic_uncommon_039",
+    "name": "소형 축열병",
+    "object": "one small insulated copper heat storage bottle with cork cap",
+    "prompt": "(one small insulated copper heat storage bottle with cork cap:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 993748,
+    "rarity": "고급",
+    "state": "queued"
+  },
+  {
+    "id": "relic_uncommon_040",
+    "name": "서로 다른 심지",
+    "object": "one small two-armed antique candleholder holding exactly two candles, one red candle and one blue candle",
+    "prompt": "(one small two-armed antique candleholder holding exactly two candles, one red candle and one blue candle:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 994745,
+    "rarity": "고급",
+    "state": "queued"
+  },
+  {
+    "id": "relic_rare_001",
+    "name": "환자 없는 퇴원장",
+    "object": "a folded blank hospital parchment sheet with a pale violet wax seal, blank oval watermark in paper",
+    "prompt": "(a folded blank hospital parchment sheet with a pale violet wax seal, blank oval watermark in paper:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 995742,
+    "rarity": "희귀",
+    "state": "queued"
+  },
+  {
+    "id": "relic_rare_002",
+    "name": "역순 맥박계",
+    "object": "a single antique brass instrument, round ivory face with only a red pointer, otherwise blank dial, short metal stem below",
+    "prompt": "(a single antique brass instrument, round ivory face with only a red pointer, otherwise blank dial, short metal stem below:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 996739,
+    "rarity": "희귀",
+    "state": "queued"
+  },
+  {
+    "id": "relic_rare_003",
+    "name": "에델의 예비 열쇠",
+    "object": "a single long iron key with a short red ribbon tied into its round bow, entire key visible",
+    "prompt": "(a single long iron key with a short red ribbon tied into its round bow, entire key visible:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 997736,
+    "rarity": "희귀",
+    "state": "queued"
+  },
+  {
+    "id": "relic_rare_004",
+    "name": "무명 구호단 완장",
+    "object": "a folded black fabric armband, soft cloth loop with a small white cross patch, no shield",
+    "prompt": "(a folded black fabric armband, soft cloth loop with a small white cross patch, no shield:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 998733,
+    "rarity": "희귀",
+    "state": "queued"
+  },
+  {
+    "id": "relic_rare_005",
+    "name": "여섯 번째 침대",
+    "object": "one miniature empty iron hospital bed with folded ivory blanket, full bed visible",
+    "prompt": "(one miniature empty iron hospital bed with folded ivory blanket, full bed visible:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 999730,
+    "rarity": "희귀",
+    "state": "queued"
+  },
+  {
+    "id": "relic_rare_006",
+    "name": "돌아오는 선적표",
+    "object": "one complete dark brown folded paper shipping document with a small anchor ink stamp on its lower corner, the paper sheet fills most of the object",
+    "prompt": "(one complete dark brown folded paper shipping document with a small anchor ink stamp on its lower corner, the paper sheet fills most of the object:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1000727,
+    "rarity": "희귀",
+    "state": "queued"
+  },
+  {
+    "id": "relic_rare_007",
+    "name": "수심 없는 해도",
+    "object": "one complete dark ochre parchment nautical map, all four paper edges visible, small simple blue coastlines drawn on paper",
+    "prompt": "(one complete dark ochre parchment nautical map, all four paper edges visible, small simple blue coastlines drawn on paper:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1001724,
+    "rarity": "희귀",
+    "state": "queued"
+  },
+  {
+    "id": "relic_rare_008",
+    "name": "잠긴 구조정",
+    "object": "one miniature wooden rowboat with one prominent brass padlock and chain fastened across its seats",
+    "prompt": "(one miniature wooden rowboat with one prominent brass padlock and chain fastened across its seats:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1002721,
+    "rarity": "희귀",
+    "state": "queued"
+  },
+  {
+    "id": "relic_rare_009",
+    "name": "분리된 수문추",
+    "object": "one detached heavy iron sluice counterweight with broken chain link",
+    "prompt": "(one detached heavy iron sluice counterweight with broken chain link:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1003718,
+    "rarity": "희귀",
+    "state": "queued"
+  },
+  {
+    "id": "relic_rare_010",
+    "name": "살아 있는 화물증",
+    "object": "one complete dark brown parchment cargo certificate with one small red heart-shaped wax seal attached to corner, solid paper document",
+    "prompt": "(one complete dark brown parchment cargo certificate with one small red heart-shaped wax seal attached to corner, solid paper document:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1004715,
+    "rarity": "희귀",
+    "state": "queued"
+  },
+  {
+    "id": "relic_rare_011",
+    "name": "로엔의 두 번째 잔",
+    "object": "one solitary worn porcelain teacup with a green leaf pattern",
+    "prompt": "(one solitary worn porcelain teacup with a green leaf pattern:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1005712,
+    "rarity": "희귀",
+    "state": "queued"
+  },
+  {
+    "id": "relic_rare_012",
+    "name": "미완성 안정제",
+    "object": "a single small sealed glass bottle half filled with clear amber liquid, attached cork stopper, no loose objects",
+    "prompt": "(a single small sealed glass bottle half filled with clear amber liquid, attached cork stopper, no loose objects:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1006709,
+    "rarity": "희귀",
+    "state": "queued"
+  },
+  {
+    "id": "relic_rare_013",
+    "name": "투명한 폐엽",
+    "object": "a translucent glass leaf with two broad lobes shaped like human lungs, central stem and branching veins, botanical sculpture",
+    "prompt": "(a translucent glass leaf with two broad lobes shaped like human lungs, central stem and branching veins, botanical sculpture:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1007706,
+    "rarity": "희귀",
+    "state": "queued"
+  },
+  {
+    "id": "relic_rare_014",
+    "name": "원장의 접목도",
+    "object": "one complete brown parchment diagram page, branching black lines drawn on paper, small red seal attached to corner, solid brown paper",
+    "prompt": "(one complete brown parchment diagram page, branching black lines drawn on paper, small red seal attached to corner, solid brown paper:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1008703,
+    "rarity": "희귀",
+    "state": "queued"
+  },
+  {
+    "id": "relic_rare_016",
+    "name": "삭제관의 백묵",
+    "object": "one short white chalk stick partly inserted inside one short black metal sleeve, white solid chalk tip protruding from black holder",
+    "prompt": "(one short white chalk stick partly inserted inside one short black metal sleeve, white solid chalk tip protruding from black holder:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1009700,
+    "rarity": "희귀",
+    "state": "queued"
+  },
+  {
+    "id": "relic_rare_017",
+    "name": "원본 대조인",
+    "object": "one single antique rubber stamp with rounded wooden handle, short stem, flat circular black rubber base attached, no decorative image",
+    "prompt": "(one single antique rubber stamp with rounded wooden handle, short stem, flat circular black rubber base attached, no decorative image:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1010697,
+    "rarity": "희귀",
+    "state": "queued"
+  },
+  {
+    "id": "relic_rare_018",
+    "name": "이안의 봉투",
+    "object": "a closed rectangular tan paper envelope, triangular folded flap held shut by a single dark violet wax seal",
+    "prompt": "(a closed rectangular tan paper envelope, triangular folded flap held shut by a single dark violet wax seal:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1011694,
+    "rarity": "희귀",
+    "state": "queued"
+  },
+  {
+    "id": "relic_rare_019",
+    "name": "사라지지 않는 색인",
+    "object": "a closed small brown paper file folder, thick stacked index cards inside and red and ivory tabs protruding",
+    "prompt": "(a closed small brown paper file folder, thick stacked index cards inside and red and ivory tabs protruding:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1012691,
+    "rarity": "희귀",
+    "state": "queued"
+  },
+  {
+    "id": "relic_rare_020",
+    "name": "수령 거부서",
+    "object": "one folded refusal document with a clean empty signature box and broken black wax seal",
+    "prompt": "(one folded refusal document with a clean empty signature box and broken black wax seal:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1013688,
+    "rarity": "희귀",
+    "state": "queued"
+  },
+  {
+    "id": "relic_rare_021",
+    "name": "한도 있는 성배",
+    "object": "one silver chalice with clearly etched horizontal fill-limit line",
+    "prompt": "(one silver chalice with clearly etched horizontal fill-limit line:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1014685,
+    "rarity": "희귀",
+    "state": "queued"
+  },
+  {
+    "id": "relic_rare_022",
+    "name": "에델의 등불",
+    "object": "one worn tall iron lantern with amber flame and paper strips wrapped on handle, no writing",
+    "prompt": "(one worn tall iron lantern with amber flame and paper strips wrapped on handle, no writing:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1015682,
+    "rarity": "희귀",
+    "state": "queued"
+  },
+  {
+    "id": "relic_rare_023",
+    "name": "작은 분배기",
+    "object": "one compact brass manifold distributor with three short pipes and violet core",
+    "prompt": "(one compact brass manifold distributor with three short pipes and violet core:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1016679,
+    "rarity": "희귀",
+    "state": "queued"
+  },
+  {
+    "id": "relic_rare_024",
+    "name": "이주 명부",
+    "object": "a closed brown leather book with paper edges and a travel ribbon tied around its cover",
+    "prompt": "(a closed brown leather book with paper edges and a travel ribbon tied around its cover:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1017676,
+    "rarity": "희귀",
+    "state": "queued"
+  },
+  {
+    "id": "relic_epic_001",
+    "name": "서명 없는 면죄부",
+    "object": "one partially unrolled dark ochre parchment scroll, solid paper connecting both curled ends, tiny gold wax seal attached to paper",
+    "prompt": "(one partially unrolled dark ochre parchment scroll, solid paper connecting both curled ends, tiny gold wax seal attached to paper:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1018673,
+    "rarity": "영웅",
+    "state": "queued"
+  },
+  {
+    "id": "relic_epic_002",
+    "name": "여섯 사람의 종",
+    "object": "one bronze handbell, six dark engraved vertical tally lines around its flared lower rim, wooden handle above",
+    "prompt": "(one bronze handbell, six dark engraved vertical tally lines around its flared lower rim, wooden handle above:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1019670,
+    "rarity": "영웅",
+    "state": "queued"
+  },
+  {
+    "id": "relic_epic_003",
+    "name": "멈춘 수송로",
+    "object": "one compact broken waterway mechanical gear assembly with a stopped iron wheel",
+    "prompt": "(one compact broken waterway mechanical gear assembly with a stopped iron wheel:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1020667,
+    "rarity": "영웅",
+    "state": "queued"
+  },
+  {
+    "id": "relic_epic_004",
+    "name": "선장의 마지막 매듭",
+    "object": "a thick compact hemp knot tightly tied around a visible brass ring",
+    "prompt": "(a thick compact hemp knot tightly tied around a visible brass ring:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1021664,
+    "rarity": "영웅",
+    "state": "queued"
+  },
+  {
+    "id": "relic_epic_005",
+    "name": "검은 온실핵",
+    "object": "one black glass greenhouse seed core with subtle green roots encircling it",
+    "prompt": "(one black glass greenhouse seed core with subtle green roots encircling it:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1022661,
+    "rarity": "영웅",
+    "state": "queued"
+  },
+  {
+    "id": "relic_epic_006",
+    "name": "반증된 제조식",
+    "object": "one whole dark brown parchment formula page with three simple geometric ink diagrams, solid intact paper",
+    "prompt": "(one whole dark brown parchment formula page with three simple geometric ink diagrams, solid intact paper:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1023658,
+    "rarity": "영웅",
+    "state": "queued"
+  },
+  {
+    "id": "relic_epic_007",
+    "name": "이름의 여백",
+    "object": "a single torn tan paper scrap, solid blank paper center, violet pigment along its ragged outer edge",
+    "prompt": "(a single torn tan paper scrap, solid blank paper center, violet pigment along its ragged outer edge:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1024655,
+    "rarity": "영웅",
+    "state": "queued"
+  },
+  {
+    "id": "relic_epic_008",
+    "name": "연결을 끊는 칼",
+    "object": "a single silver knife with a short cut rope end draped over its wooden handle",
+    "prompt": "(a single silver knife with a short cut rope end draped over its wooden handle:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1025652,
+    "rarity": "영웅",
+    "state": "queued"
+  },
+  {
+    "id": "relic_epic_009",
+    "name": "공개된 장부",
+    "object": "one single open thick leather bookkeeping book, tan blank pages and one red ribbon bookmark",
+    "prompt": "(one single open thick leather bookkeeping book, tan blank pages and one red ribbon bookmark:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1026649,
+    "rarity": "영웅",
+    "state": "queued"
+  },
+  {
+    "id": "relic_epic_010",
+    "name": "성가대의 쉼표",
+    "object": "one round bronze medallion engraved with a single wide rectangular horizontal bar at the center, musical whole rest symbol",
+    "prompt": "(one round bronze medallion engraved with a single wide rectangular horizontal bar at the center, musical whole rest symbol:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1027646,
+    "rarity": "영웅",
+    "state": "queued"
+  },
+  {
+    "id": "relic_epic_011",
+    "name": "분산된 불씨",
+    "object": "one wide rectangular glass bottle divided vertically into exactly three glass compartments, each compartment contains one glowing orange ember",
+    "prompt": "(one wide rectangular glass bottle divided vertically into exactly three glass compartments, each compartment contains one glowing orange ember:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1028643,
+    "rarity": "영웅",
+    "state": "queued"
+  },
+  {
+    "id": "relic_epic_012",
+    "name": "마지막 대기표",
+    "object": "one small flat ochre paper slip, one punched corner and a ragged edge, blank unmarked paper",
+    "prompt": "(one small flat ochre paper slip, one punched corner and a ragged edge, blank unmarked paper:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1029640,
+    "rarity": "영웅",
+    "state": "queued"
+  },
+  {
+    "id": "relic_legend_001",
+    "name": "첫 수령인의 계약",
+    "object": "one ancient ivory contract scroll with two gold wax seals and a dark red ribbon, no writing",
+    "prompt": "(one ancient ivory contract scroll with two gold wax seals and a dark red ribbon, no writing:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1030637,
+    "rarity": "전설",
+    "state": "queued"
+  },
+  {
+    "id": "relic_legend_002",
+    "name": "검은 운하의 심장",
+    "object": "one compact black iron canal pump core with visible brass gears and a violet glowing heart chamber",
+    "prompt": "(one compact black iron canal pump core with visible brass gears and a violet glowing heart chamber:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1031634,
+    "rarity": "전설",
+    "state": "queued"
+  },
+  {
+    "id": "relic_legend_003",
+    "name": "원본의 무게",
+    "object": "one thick original archive tome chained to a heavy brass weight as a single bound object",
+    "prompt": "(one thick original archive tome chained to a heavy brass weight as a single bound object:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1032631,
+    "rarity": "전설",
+    "state": "queued"
+  },
+  {
+    "id": "relic_legend_004",
+    "name": "각자의 등불",
+    "object": "a brass lantern with triangular cross section, three visible glass windows each holding a separate glowing amber candle",
+    "prompt": "(a brass lantern with triangular cross section, three visible glass windows each holding a separate glowing amber candle:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1033628,
+    "rarity": "전설",
+    "state": "queued"
+  },
+  {
+    "id": "relic_ancient_002",
+    "name": "풀어 쓴 맹세",
+    "object": "one complete unrolled dark brown parchment oath document, small silver wax seal bearing tiny sword engraving attached on corner",
+    "prompt": "(one complete unrolled dark brown parchment oath document, small silver wax seal bearing tiny sword engraving attached on corner:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1034625,
+    "rarity": "고대",
+    "state": "queued"
+  },
+  {
+    "id": "relic_ancient_003",
+    "name": "발음되지 않은 별",
+    "object": "one deep blue star-shaped crystal pendant with silver rim and faint violet center",
+    "prompt": "(one deep blue star-shaped crystal pendant with silver rim and faint violet center:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1035622,
+    "rarity": "고대",
+    "state": "queued"
+  },
+  {
+    "id": "relic_ancient_004",
+    "name": "거절하는 성유",
+    "object": "one sealed ivory holy oil flask with gold filigree and closed stopper",
+    "prompt": "(one sealed ivory holy oil flask with gold filigree and closed stopper:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1036619,
+    "rarity": "고대",
+    "state": "queued"
+  },
+  {
+    "id": "relic_ancient_005",
+    "name": "문밖의 방패",
+    "object": "one dark iron kite shield, centered raised gold engraving shaped like a small arched doorway",
+    "prompt": "(one dark iron kite shield, centered raised gold engraving shaped like a small arched doorway:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1037616,
+    "rarity": "고대",
+    "state": "queued"
+  },
+  {
+    "id": "relic_ancient_006",
+    "name": "돌아갈 표식",
+    "object": "one ranger leather return marker medallion with leaf and home-shaped motif",
+    "prompt": "(one ranger leather return marker medallion with leaf and home-shaped motif:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1038613,
+    "rarity": "고대",
+    "state": "queued"
+  },
+  {
+    "id": "relic_ancient_007",
+    "name": "빈 의자 인형",
+    "object": "one small cloth doll resting on a miniature empty wooden chair as one bound relic",
+    "prompt": "(one small cloth doll resting on a miniature empty wooden chair as one bound relic:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1039610,
+    "rarity": "고대",
+    "state": "queued"
+  },
+  {
+    "id": "relic_ancient_008",
+    "name": "반납된 탄창",
+    "object": "one box shaped dark steel gun magazine, flat metal sides with long vertical ribs, closed bottom and slightly open top",
+    "prompt": "(one box shaped dark steel gun magazine, flat metal sides with long vertical ribs, closed bottom and slightly open top:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1040607,
+    "rarity": "고대",
+    "state": "queued"
+  },
+  {
+    "id": "relic_ancient_009",
+    "name": "자필 헌혈증",
+    "object": "one complete dark brown parchment certificate, a small red droplet wax seal on its lower corner, solid paper visible",
+    "prompt": "(one complete dark brown parchment certificate, a small red droplet wax seal on its lower corner, solid paper visible:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1041604,
+    "rarity": "고대",
+    "state": "queued"
+  },
+  {
+    "id": "relic_ancient_010",
+    "name": "꺼질 수 있는 심장",
+    "object": "a small brass mechanical heart, exposed gears around its edge and a short stop lever projecting from its side, violet core",
+    "prompt": "(a small brass mechanical heart, exposed gears around its edge and a short stop lever projecting from its side, violet core:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1042601,
+    "rarity": "고대",
+    "state": "queued"
+  },
+  {
+    "id": "relic_ancient_011",
+    "name": "해빙의 서약",
+    "object": "one pale blue ice crystal oath medallion with thawing water droplet and silver chain",
+    "prompt": "(one pale blue ice crystal oath medallion with thawing water droplet and silver chain:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1043598,
+    "rarity": "고대",
+    "state": "queued"
+  },
+  {
+    "id": "relic_ancient_012",
+    "name": "매듭 푼 목줄",
+    "object": "one open dark leather collar with a loosened rope knot, no animal or body",
+    "prompt": "(one open dark leather collar with a loosened rope knot, no animal or body:1.45), (single isolated object:1.35), centered, entire object visible, empty margins, pure white background, hand painted fantasy illustration, aged materials, detailed craftsmanship, clean silhouette",
+    "seed": 1044595,
+    "rarity": "고대",
+    "state": "queued"
+  }
+]

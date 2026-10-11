@@ -1,0 +1,38 @@
+[
+  {
+    "id": "strength",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\status\\strength_v2.png",
+    "seed": 11277415,
+    "reason": "Single intact armored fist; readable silhouette"
+  },
+  {
+    "id": "relic_uncommon_002",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\relics\\relic_uncommon_002.png",
+    "seed": 11278412,
+    "reason": "Bronze hand bell with wooden handle and purple cord"
+  },
+  {
+    "id": "relic_uncommon_007",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\relics\\relic_uncommon_007.png",
+    "seed": 11280406,
+    "reason": "Hinged two-panel prescription plate with botanical decoration"
+  },
+  {
+    "id": "vulnerable",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\status\\vulnerable_v2.png",
+    "seed": 11399875,
+    "reason": "Single shield with a deep diagonal fracture"
+  },
+  {
+    "id": "relic_uncommon_010",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\relics\\relic_uncommon_010.png",
+    "seed": 11404860,
+    "reason": "Single pointed plumb weight with rope"
+  },
+  {
+    "id": "relic_uncommon_018",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\relics\\relic_uncommon_018.png",
+    "seed": 11405857,
+    "reason": "Solid black paper sheet with worn edges"
+  }
+]

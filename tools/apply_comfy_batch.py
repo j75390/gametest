@@ -21,3 +21,4 @@ for j in jobs:
  assert ct.upsert_item(j['type'],{'id':j['id'],'approval_state':old.get('approval_state','draft')})[0]
  print(key,'linked')
 print(export_catalog(ct.load_data(),p)['counts'])
+

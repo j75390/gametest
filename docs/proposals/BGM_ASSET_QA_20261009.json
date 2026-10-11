@@ -1,0 +1,60 @@
+{
+  "checks": "WAV structure, stereo, sample rate, non-silence, no clipping, boundary continuity",
+  "not_checked": "human listening quality and Godot scene integration",
+  "tracks": [
+    {
+      "id": "title_embers",
+      "frames": 2565818,
+      "duration": 58.182,
+      "peak": 0.62,
+      "rms": 0.133,
+      "boundary_difference": 0.0,
+      "clipped_samples": 0
+    },
+    {
+      "id": "map_fog",
+      "frames": 2228211,
+      "duration": 50.526,
+      "peak": 0.62,
+      "rms": 0.1598,
+      "boundary_difference": 0.0,
+      "clipped_samples": 0
+    },
+    {
+      "id": "battle_ledger",
+      "frames": 1512000,
+      "duration": 34.286,
+      "peak": 0.62,
+      "rms": 0.1172,
+      "boundary_difference": 0.0,
+      "clipped_samples": 0
+    },
+    {
+      "id": "boss_receiver",
+      "frames": 1764000,
+      "duration": 40.0,
+      "peak": 0.62,
+      "rms": 0.1203,
+      "boundary_difference": 0.0,
+      "clipped_samples": 0
+    },
+    {
+      "id": "shop_candle",
+      "frames": 2065171,
+      "duration": 46.829,
+      "peak": 0.62,
+      "rms": 0.1448,
+      "boundary_difference": 0.0,
+      "clipped_samples": 0
+    },
+    {
+      "id": "story_margin",
+      "frames": 2822400,
+      "duration": 64.0,
+      "peak": 0.62,
+      "rms": 0.1397,
+      "boundary_difference": 0.0,
+      "clipped_samples": 0
+    }
+  ]
+}

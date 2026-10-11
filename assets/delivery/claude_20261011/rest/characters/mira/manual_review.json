@@ -1,0 +1,32 @@
+[
+  {
+    "path": "res://assets/delivery/claude_20261011/rest/characters/mira/rest_sit.png",
+    "verdict": "pass",
+    "reason": "미라 옆 까마귀 가면·상아 소매·검정 긴 치마·약병 통일, 자연스러운 접힌 무릎 및 두 손, 도트 휴식 자세.",
+    "size": [
+      128,
+      128
+    ],
+    "sha256": "60e33163f1770a532c7e712bb44c579cc90d9b811e77b9c5b318353cbc61b518"
+  },
+  {
+    "path": "res://assets/delivery/claude_20261011/rest/characters/mira/rest_doze_1.png",
+    "verdict": "pass",
+    "reason": "미라 옆 까마귀 가면·상아 소매·검정 긴 치마·약병 통일, 자연스러운 접힌 무릎 및 두 손, 도트 휴식 자세.",
+    "size": [
+      128,
+      128
+    ],
+    "sha256": "f8b4a3624bdd911b1c2d67ce90d19e54b4d639d8f31595cca33dce6ded57e481"
+  },
+  {
+    "path": "res://assets/delivery/claude_20261011/rest/characters/mira/rest_doze_2.png",
+    "verdict": "pass",
+    "reason": "미라 옆 까마귀 가면·상아 소매·검정 긴 치마·약병 통일, 자연스러운 접힌 무릎 및 두 손, 도트 휴식 자세.",
+    "size": [
+      128,
+      128
+    ],
+    "sha256": "7e1950f24e46097e75af0d0f926de91c570c3d391419312c5a5b2e4acd4bcb29"
+  }
+]

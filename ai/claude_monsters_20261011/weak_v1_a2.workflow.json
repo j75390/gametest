@@ -1,0 +1,127 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "sd_xl_base_1.0.safetensors"
+    }
+  },
+  "2": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "((one broken sword with a snapped blade and visible jagged fracture:1.8), tired sagging cloth wrapped around hilt, single object, muted dusty purple and grey:1.8), single isolated object, centered on plain white background, complete object with empty margins, detailed hand painted gothic fantasy inventory icon Exactly one complete object, distant enough for all edges to fit, empty background.",
+      "clip": [
+        "1",
+        1
+      ]
+    }
+  },
+  "3": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "(text, letters, numbers, logo, watermark:2), (cartoon, comic, anime, thick outlines:1.6), cropped feet, cropped head, portrait, multiple figures, extra limbs, extra hands, malformed fingers, gore, scenery, border, collage, person, human, standing figure, body, legs, clothing, scenery, duplicate objects, gems, jewel",
+      "clip": [
+        "1",
+        1
+      ]
+    }
+  },
+  "4": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 768,
+      "height": 768,
+      "batch_size": 1
+    }
+  },
+  "5": {
+    "class_type": "KSampler",
+    "inputs": {
+      "seed": 11398878,
+      "steps": 25,
+      "cfg": 6.0,
+      "sampler_name": "dpmpp_2m",
+      "scheduler": "karras",
+      "denoise": 1.0,
+      "model": [
+        "1",
+        0
+      ],
+      "positive": [
+        "2",
+        0
+      ],
+      "negative": [
+        "3",
+        0
+      ],
+      "latent_image": [
+        "4",
+        0
+      ]
+    }
+  },
+  "6": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "5",
+        0
+      ],
+      "vae": [
+        "1",
+        2
+      ]
+    }
+  },
+  "7": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "filename_prefix": "relics_20261009/weak_v1",
+      "images": [
+        "11",
+        0
+      ]
+    }
+  },
+  "8": {
+    "class_type": "LoadBackgroundRemovalModel",
+    "inputs": {
+      "bg_removal_name": "birefnet.safetensors"
+    }
+  },
+  "9": {
+    "class_type": "RemoveBackground",
+    "inputs": {
+      "bg_removal_model": [
+        "8",
+        0
+      ],
+      "image": [
+        "6",
+        0
+      ]
+    }
+  },
+  "10": {
+    "class_type": "InvertMask",
+    "inputs": {
+      "mask": [
+        "9",
+        0
+      ]
+    }
+  },
+  "11": {
+    "class_type": "JoinImageWithAlpha",
+    "inputs": {
+      "image": [
+        "6",
+        0
+      ],
+      "alpha": [
+        "10",
+        0
+      ]
+    }
+  }
+}

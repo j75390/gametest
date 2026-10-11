@@ -41,11 +41,11 @@ func run() -> void:
 	root.size = Vector2i(1440,900)
 	await create_timer(0.3).timeout
 	await click(main.title_menu.buttons[2])
-	check(main.has_node("Codex"), "Codex click failed")
-	if not main.has_node("Codex"):
+	check(main.has_node("CodexHub"), "Codex hub click failed")
+	if not main.has_node("CodexHub"):
 		quit(1)
 		return
-	main.get_node("Codex").closed.emit()
+	main.get_node("CodexHub").closed.emit()
 	await process_frame
 	await process_frame
 	await click(main.title_menu.buttons[1])

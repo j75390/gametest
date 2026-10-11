@@ -1,0 +1,102 @@
+{
+  "relic_common_038": {
+    "reason": "구조·온전한 외곽과 재질 음영을 현재seed에서 육안 확인. 글자/콜라주 없음",
+    "verdict": "pass",
+    "expected_seed": 1928563
+  },
+  "relic_uncommon_019": {
+    "reason": "질감 보강 재생성 검수: 필수 문양/분리벽/색상/종이 표시 일부 누락",
+    "verdict": "reject",
+    "expected_seed": 2579746
+  },
+  "relic_uncommon_033": {
+    "reason": "질감 보강 재생성 검수: 필수 문양/분리벽/색상/종이 표시 일부 누락",
+    "verdict": "reject",
+    "expected_seed": 1975422
+  },
+  "relic_uncommon_034": {
+    "reason": "구조·온전한 외곽과 재질 음영을 현재seed에서 육안 확인. 글자/콜라주 없음",
+    "verdict": "pass",
+    "expected_seed": 2470247
+  },
+  "relic_uncommon_036": {
+    "reason": "구조·온전한 외곽과 재질 음영을 현재seed에서 육안 확인. 글자/콜라주 없음",
+    "verdict": "pass",
+    "expected_seed": 2101870
+  },
+  "relic_uncommon_037": {
+    "reason": "질감 보강 재생성 검수: 필수 문양/분리벽/색상/종이 표시 일부 누락",
+    "verdict": "reject",
+    "expected_seed": 2226324
+  },
+  "relic_uncommon_040": {
+    "reason": "질감 보강 재생성 검수: 필수 문양/분리벽/색상/종이 표시 일부 누락",
+    "verdict": "reject",
+    "expected_seed": 1982401
+  },
+  "relic_rare_006": {
+    "reason": "질감 보강 재생성 검수: 필수 문양/분리벽/색상/종이 표시 일부 누락",
+    "verdict": "reject",
+    "expected_seed": 2111840
+  },
+  "relic_rare_007": {
+    "reason": "질감 보강 재생성 검수: 필수 문양/분리벽/색상/종이 표시 일부 누락",
+    "verdict": "reject",
+    "expected_seed": 2112837
+  },
+  "relic_rare_008": {
+    "reason": "질감 보강 재생성 검수: 필수 문양/분리벽/색상/종이 표시 일부 누락",
+    "verdict": "reject",
+    "expected_seed": 1866920
+  },
+  "relic_rare_010": {
+    "reason": "질감 보강 재생성 검수: 필수 문양/분리벽/색상/종이 표시 일부 누락",
+    "verdict": "reject",
+    "expected_seed": 1745457
+  },
+  "relic_rare_014": {
+    "reason": "질감 보강 재생성 검수: 필수 문양/분리벽/색상/종이 표시 일부 누락",
+    "verdict": "reject",
+    "expected_seed": 1996359
+  },
+  "relic_rare_016": {
+    "reason": "구조·온전한 외곽과 재질 음영을 현재seed에서 육안 확인. 글자/콜라주 없음",
+    "verdict": "pass",
+    "expected_seed": 1873899
+  },
+  "relic_rare_017": {
+    "reason": "구조·온전한 외곽과 재질 음영을 현재seed에서 육안 확인. 글자/콜라주 없음",
+    "verdict": "pass",
+    "expected_seed": 1874896
+  },
+  "relic_epic_001": {
+    "reason": "구조·온전한 외곽과 재질 음영을 현재seed에서 육안 확인. 글자/콜라주 없음",
+    "verdict": "pass",
+    "expected_seed": 1882872
+  },
+  "relic_epic_002": {
+    "reason": "질감 보강 재생성 검수: 필수 문양/분리벽/색상/종이 표시 일부 누락",
+    "verdict": "reject",
+    "expected_seed": 1883869
+  },
+  "relic_epic_006": {
+    "reason": "구조·온전한 외곽과 재질 음영을 현재seed에서 육안 확인. 글자/콜라주 없음",
+    "verdict": "pass",
+    "expected_seed": 2258228
+  },
+  "relic_epic_010": {
+    "reason": "질감 보강 재생성 검수: 필수 문양/분리벽/색상/종이 표시 일부 누락",
+    "verdict": "reject",
+    "expected_seed": 2138759
+  },
+  "relic_ancient_002": {
+    "reason": "질감 보강 재생성 검수: 필수 문양/분리벽/색상/종이 표시 일부 누락",
+    "verdict": "reject",
+    "expected_seed": 1898824
+  },
+  "relic_ancient_005": {
+    "reason": "질감 보강 재생성 검수: 필수 문양/분리벽/색상/종이 표시 일부 누락",
+    "verdict": "reject",
+    "expected_seed": 1778358
+  }
+}

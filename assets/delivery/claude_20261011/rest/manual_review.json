@@ -1,0 +1,98 @@
+[
+  {
+    "path": "res://assets/delivery/claude_20261011/rest/campfire_scene_v1.png",
+    "verdict": "pass",
+    "reason": "고딕 회랑 야간 배경, 불 자체 없음, 캐릭터/하단 UI 자리 확보.",
+    "size": [
+      360,
+      225
+    ],
+    "sha256": "79c177610a3605dc570cdae925349a6c34956730534c7685517c50a5df5f9c3a"
+  },
+  {
+    "path": "res://assets/delivery/claude_20261011/rest/flame_1.png",
+    "verdict": "pass",
+    "reason": "독립 생성 불꽃 프레임, 불똥 포함, 투명 외곽.",
+    "size": [
+      28,
+      40
+    ],
+    "sha256": "7d9b3d2b482f2eaf0500338a698a45c1d26e8c74a2855962e7a2feb4f354e68d"
+  },
+  {
+    "path": "res://assets/delivery/claude_20261011/rest/flame_2.png",
+    "verdict": "pass",
+    "reason": "독립 생성 불꽃 프레임, 불똥 포함, 투명 외곽.",
+    "size": [
+      28,
+      40
+    ],
+    "sha256": "59b597d721db4e932f56ae9b0da3dfa55ed34b062d91452709842be5b6f4ef0f"
+  },
+  {
+    "path": "res://assets/delivery/claude_20261011/rest/flame_3.png",
+    "verdict": "pass",
+    "reason": "독립 생성 불꽃 프레임, 불똥 포함, 투명 외곽.",
+    "size": [
+      28,
+      40
+    ],
+    "sha256": "ae983fc2ac43aaf3cf448f2a7371adc8f6880d93efe9175683bf5456652c398d"
+  },
+  {
+    "path": "res://assets/delivery/claude_20261011/rest/flame_4.png",
+    "verdict": "pass",
+    "reason": "독립 생성 불꽃 프레임, 불똥 포함, 투명 외곽.",
+    "size": [
+      28,
+      40
+    ],
+    "sha256": "171e5adc0279d1c29768c7e1514cf99501c8efe9102e27c93987c02a9907c06c"
+  },
+  {
+    "path": "res://assets/delivery/claude_20261011/rest/campfire_logs_v1.png",
+    "verdict": "pass",
+    "reason": "명확한 단일 물건, 글자·테두리 없음, 도트풍 및 투명 여백 확인.",
+    "size": [
+      64,
+      24
+    ],
+    "sha256": "8aac4b7c901dab58a570b152a920a9ae31176c54c9869c073d34442a0e29e3eb"
+  },
+  {
+    "path": "res://assets/delivery/claude_20261011/rest/icon_rest_v1.png",
+    "verdict": "pass",
+    "reason": "명확한 단일 물건, 글자·테두리 없음, 도트풍 및 투명 여백 확인.",
+    "size": [
+      64,
+      64
+    ],
+    "sha256": "042c0f5580d968562d6d640fa105625ef9f189292580d98f2f716280d7da991d"
+  },
+  {
+    "path": "res://assets/delivery/claude_20261011/rest/icon_upgrade_v1.png",
+    "verdict": "pass",
+    "reason": "명확한 단일 물건, 글자·테두리 없음, 도트풍 및 투명 여백 확인.",
+    "size": [
+      64,
+      64
+    ],
+    "sha256": "07531be687cee5dc7dca41fabd65520879a127d22017bbff06d0bc0cb068f0d9"
+  },
+  {
+    "path": "res://assets/delivery/claude_20261011/rest/campfire_scene_v2.png",
+    "verdict": "pass",
+    "reason": "육안검수: 중앙 대칭 불빛, 불·장작·인물 없는 배경. 불중심(180,152) 및 4인 좌석 바닥 확보, 중앙 기둥 없음. 기존 도트 화풍 유지. UI/말풍선은 코드로 덮는 영역이며 그림에 없음.",
+    "size": [
+      360,
+      225
+    ],
+    "sha256": "fa6bcfce88f955af84a0fb121318fee79b0786aff2af08de71a1711b3f4465e3",
+    "four_x": "campfire_scene_v2_4x.png",
+    "runtime_qa": "pending Claude integration",
+    "review_previews": [
+      "campfire_scene_v2_mira_preview.png",
+      "campfire_scene_v2_layout_QA.png"
+    ]
+  }
+]

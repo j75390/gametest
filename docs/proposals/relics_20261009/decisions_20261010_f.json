@@ -1,0 +1,17 @@
+{
+  "relic_uncommon_037": {
+    "reason": "육안검수: 낡은 한도 종이에 세 개의 짧은 검은 획, 가짜 글자 없음",
+    "verdict": "pass",
+    "expected_seed": 2596695
+  },
+  "relic_ancient_002": {
+    "reason": "육안검수: 온전한 맹세 종이와 원형 봉인의 검 손잡이·가드·칼날 문양 확인",
+    "verdict": "pass",
+    "expected_seed": 2269195
+  },
+  "relic_epic_010": {
+    "reason": "육안검수: 청동 원판에 수평선 아래 매달린 직사각형 온쉼표 형상 확인",
+    "verdict": "pass",
+    "expected_seed": 2509130
+  }
+}

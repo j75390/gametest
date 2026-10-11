@@ -1,0 +1,202 @@
+{
+  "relic_uncommon_029": {
+    "verdict": "reject",
+    "reason": "붉은 색인 종이 없이 금속 장식만",
+    "expected_seed": 1230692
+  },
+  "relic_uncommon_030": {
+    "verdict": "reject",
+    "reason": "종이 없이 검은 밀랍만",
+    "expected_seed": 1231689
+  },
+  "relic_uncommon_031": {
+    "verdict": "reject",
+    "reason": "처방전 없이 깃털만",
+    "expected_seed": 1109229
+  },
+  "relic_uncommon_033": {
+    "verdict": "reject",
+    "reason": "접시의 두 구획 누락",
+    "expected_seed": 1111223
+  },
+  "relic_uncommon_034": {
+    "verdict": "reject",
+    "reason": "목재표 대신 잘린 목재 패턴",
+    "expected_seed": 1359134
+  },
+  "relic_uncommon_036": {
+    "verdict": "reject",
+    "reason": "손잡이 아닌 나사 두 개",
+    "expected_seed": 1237671
+  },
+  "relic_uncommon_037": {
+    "verdict": "reject",
+    "reason": "종이 한도표 아닌 깃털",
+    "expected_seed": 1238668
+  },
+  "relic_uncommon_040": {
+    "verdict": "reject",
+    "reason": "두 심지 대신 한 불꽃",
+    "expected_seed": 1118202
+  },
+  "relic_rare_001": {
+    "verdict": "pass",
+    "reason": "온전한 빈 종이 문서와 보라 밀랍 봉인",
+    "expected_seed": 1119199
+  },
+  "relic_rare_002": {
+    "verdict": "reject",
+    "reason": "맥박계에 가짜 문자와 숫자",
+    "expected_seed": 1120196
+  },
+  "relic_rare_003": {
+    "verdict": "pass",
+    "reason": "단일 예비 열쇠와 붉은 끈",
+    "expected_seed": 1244650
+  },
+  "relic_rare_004": {
+    "verdict": "pass",
+    "reason": "천 완장 형태와 흰 십자가",
+    "expected_seed": 1245647
+  },
+  "relic_rare_006": {
+    "verdict": "reject",
+    "reason": "선적표 없이 닻 토큰만",
+    "expected_seed": 1247641
+  },
+  "relic_rare_007": {
+    "verdict": "reject",
+    "reason": "해도 옆 분리된 막대, 말린 종이 외곽 불명확",
+    "expected_seed": 1125181
+  },
+  "relic_rare_008": {
+    "verdict": "reject",
+    "reason": "구조정 두 개",
+    "expected_seed": 1126178
+  },
+  "relic_rare_010": {
+    "verdict": "reject",
+    "reason": "화물증 없이 하트 토큰",
+    "expected_seed": 1128172
+  },
+  "relic_rare_012": {
+    "verdict": "pass",
+    "reason": "단일 코르크 유리 약병과 황색 액체",
+    "expected_seed": 1253623
+  },
+  "relic_rare_013": {
+    "verdict": "pass",
+    "reason": "투명한 양쪽 폐/분지 형태 확인",
+    "expected_seed": 1131163
+  },
+  "relic_rare_014": {
+    "verdict": "reject",
+    "reason": "접목도 종이 없이 가지와 봉인",
+    "expected_seed": 1132160
+  },
+  "relic_rare_016": {
+    "verdict": "reject",
+    "reason": "홀더만 있고 백묵 누락",
+    "expected_seed": 1133157
+  },
+  "relic_rare_017": {
+    "verdict": "reject",
+    "reason": "도장 본체 없이 원형 판만",
+    "expected_seed": 1257611
+  },
+  "relic_rare_018": {
+    "verdict": "pass",
+    "reason": "단일 종이 봉투와 보라 봉인",
+    "expected_seed": 1135151
+  },
+  "relic_rare_019": {
+    "verdict": "pass",
+    "reason": "폴더와 붉은 색인 탭 형태 명확",
+    "expected_seed": 1259605
+  },
+  "relic_rare_024": {
+    "verdict": "pass",
+    "reason": "단일 가죽 명부와 이동 끈, 불투명 배경/가짜 문자 해소",
+    "expected_seed": 1264590
+  },
+  "relic_epic_001": {
+    "verdict": "reject",
+    "reason": "두루마리 옆 금화 복수와 불규칙 종이",
+    "expected_seed": 1265587
+  },
+  "relic_epic_002": {
+    "verdict": "reject",
+    "reason": "손종 형태 불명확/6홈 누락",
+    "expected_seed": 1266584
+  },
+  "relic_epic_004": {
+    "verdict": "pass",
+    "reason": "단일 고리와 굵은 매듭 결합",
+    "expected_seed": 1145121
+  },
+  "relic_epic_006": {
+    "verdict": "reject",
+    "reason": "종이 없는 작고 희미한 심볼",
+    "expected_seed": 1394029
+  },
+  "relic_epic_007": {
+    "verdict": "pass",
+    "reason": "온전한 빈 종이 중심과 보라 가장자리",
+    "expected_seed": 1148112
+  },
+  "relic_epic_008": {
+    "verdict": "pass",
+    "reason": "온전한 단일 칼과 짧은 밧줄 결합",
+    "expected_seed": 1272566
+  },
+  "relic_epic_009": {
+    "verdict": "reject",
+    "reason": "장부 없이 리본/파편",
+    "expected_seed": 1273563
+  },
+  "relic_epic_010": {
+    "verdict": "reject",
+    "reason": "쉼표 대신 높은음자리표",
+    "expected_seed": 1274560
+  },
+  "relic_epic_011": {
+    "verdict": "reject",
+    "reason": "3구획 병 대신 불병 두 개",
+    "expected_seed": 1275557
+  },
+  "relic_epic_012": {
+    "verdict": "reject",
+    "reason": "가짜 글자",
+    "expected_seed": 1276554
+  },
+  "relic_legend_004": {
+    "verdict": "pass",
+    "reason": "여러 유리면과 분리된 촛불의 단일 등불",
+    "expected_seed": 1157085
+  },
+  "relic_ancient_002": {
+    "verdict": "reject",
+    "reason": "맹세 문서 대신 접시와 칼",
+    "expected_seed": 1158082
+  },
+  "relic_ancient_005": {
+    "verdict": "reject",
+    "reason": "방패 없이 문 전체",
+    "expected_seed": 1161073
+  },
+  "relic_ancient_008": {
+    "verdict": "reject",
+    "reason": "탄창 없이 총알 세 개",
+    "expected_seed": 1164064
+  },
+  "relic_ancient_009": {
+    "verdict": "reject",
+    "reason": "헌혈 문서 없이 밀랍 봉인",
+    "expected_seed": 1165061
+  },
+  "relic_ancient_010": {
+    "verdict": "pass",
+    "reason": "기계 심장/노출 기어/작동 레버 형태 확인",
+    "expected_seed": 1166058
+  }
+}

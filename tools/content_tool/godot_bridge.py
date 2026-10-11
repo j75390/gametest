@@ -59,10 +59,11 @@ def export_catalog(data, project):
                 assets.append((project/target,raw));row['art']='res://'+target.as_posix()
             if kind=='cards':
                 if not isinstance(row['cost'],(int,float)) or row['cost']<0:raise ValueError('Invalid card cost')
-                if not any(k in row for k in ('damage','block','heal','bleed','poison','next_attack','venom_turns')):raise ValueError('Card needs executable runtime effects')
-                for k in ('damage','block','heal','bleed','poison','next_attack','venom_turns'):
+                EFFECTS=('damage','block','heal','bleed','poison','next_attack','venom_turns','venom_extend','weak','vulnerable','poison_mult','poison_burst','draw','energy','brew','drink_potion','power','per_potion_damage','counter','barrier','side_effect','drink_all','transmute','conjure','echo','purge','per_energy_poison','per_energy_damage','pain_damage')
+                if not any(k in row for k in EFFECTS):raise ValueError('Card needs executable runtime effects')
+                for k in ('damage','block','heal','bleed','poison','next_attack','venom_turns','venom_extend','weak','vulnerable','poison_mult','draw','energy','hp_cost','per_potion_damage'):
                     if k in row and (not isinstance(row[k],(int,float)) or row[k]<0):raise ValueError('Invalid numeric effect: '+k)
-            if kind=='monsters' and (row['hp']<=0 or not row.get('pattern') or any('damage' not in a or 'name' not in a for a in row['pattern'])):raise ValueError('Monster HP/pattern invalid')
+            if kind=='monsters' and (row['hp']<=0 or not row.get('pattern') or any('name' not in a or not any(k in a for k in ('damage','block','heal','buff','apply_statuses','rest','cleanse','side_effect')) for a in row['pattern']+list(row.get('opener',[]))+[x for ph in row.get('phases',[]) for x in ph.get('pattern',[])])):raise ValueError('Monster HP/pattern invalid')
             rows.append(row)
         result[ALIASES.get(kind,kind)]=rows
     pools={}

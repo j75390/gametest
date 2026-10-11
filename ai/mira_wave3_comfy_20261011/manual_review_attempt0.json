@@ -1,0 +1,116 @@
+[
+  {
+    "id": "acid_splash",
+    "verdict": "fail",
+    "reason": "닫힌 병만 있고 갑옷 부식·산 튀김 없음",
+    "seed": 731100
+  },
+  {
+    "id": "steady_dose",
+    "verdict": "fail",
+    "reason": "점적기 없음, 금지된 장식 프레임",
+    "seed": 732097
+  },
+  {
+    "id": "lancet",
+    "verdict": "fail",
+    "reason": "란셋/공구주머니 없음, 프레임",
+    "seed": 733094
+  },
+  {
+    "id": "herb_bundle",
+    "verdict": "fail",
+    "reason": "약초다발 없음, 병 선반 반복",
+    "seed": 734091
+  },
+  {
+    "id": "bitter_tonic",
+    "verdict": "fail",
+    "reason": "가득 찬 잔, 빈 잔/핏줄 현상 없음",
+    "seed": 735088
+  },
+  {
+    "id": "numbing_salve",
+    "verdict": "fail",
+    "reason": "푸른연고/붕대손 없음, 가짜글자",
+    "seed": 736085
+  },
+  {
+    "id": "rotten_fruit",
+    "verdict": "fail",
+    "reason": "멀쩡한 열매, 갈라짐/곰팡이/포자 없음",
+    "seed": 737082
+  },
+  {
+    "id": "venom_chain",
+    "verdict": "fail",
+    "reason": "사슬없음, 뱀/프레임",
+    "seed": 738079
+  },
+  {
+    "id": "plague_mist",
+    "verdict": "fail",
+    "reason": "안개와 까마귀가면 불명확, 평면화풍 불일치",
+    "seed": 739076
+  },
+  {
+    "id": "thorn_tincture",
+    "verdict": "fail",
+    "reason": "가시덩굴 없음, 가짜글자",
+    "seed": 740073
+  },
+  {
+    "id": "patient_poison",
+    "verdict": "fail",
+    "reason": "독액 흐름 없음, 가짜글자",
+    "seed": 741070
+  },
+  {
+    "id": "siphon_vitality",
+    "verdict": "fail",
+    "reason": "생명관/흡수 없음",
+    "seed": 742067
+  },
+  {
+    "id": "scar_tissue",
+    "verdict": "fail",
+    "reason": "팔/흉터/막 없음, 프레임",
+    "seed": 743064
+  },
+  {
+    "id": "rapid_poison",
+    "verdict": "fail",
+    "reason": "침/독 대신 괴물",
+    "seed": 744061
+  },
+  {
+    "id": "unstable_mixture",
+    "verdict": "fail",
+    "reason": "끓는 두액체 혼합 없음, 가짜서명",
+    "seed": 745058
+  },
+  {
+    "id": "lethal_dose",
+    "verdict": "fail",
+    "reason": "주사기 대신 해골장식/프레임",
+    "seed": 746055
+  },
+  {
+    "id": "grand_elixir",
+    "verdict": "fail",
+    "reason": "금빛영약/방패 없음, 프레임",
+    "seed": 747052
+  },
+  {
+    "id": "apothecary_feast",
+    "verdict": "fail",
+    "reason": "가면 대신 실제까마귀, 약병 없음",
+    "seed": 748049
+  },
+  {
+    "id": "venom_pulse",
+    "verdict": "fail",
+    "reason": "독구체/파문 대신 하트장식/프레임",
+    "seed": 749046
+  }
+]

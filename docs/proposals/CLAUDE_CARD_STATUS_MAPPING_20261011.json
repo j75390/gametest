@@ -1,0 +1,62 @@
+[
+  {
+    "id": "counter",
+    "seed": 111100,
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\status\\claude_cards_20261011\\counter.png",
+    "source_sha256": "96a1000dbce02e7558374b29b11d2de9091539be173af93ac08d902e5c05da0d",
+    "verdict": "pass",
+    "reason": "Single thorn shield, readable gold violet silhouette, complete edge.",
+    "method": "local_comfyui",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\status\\counter_v1.png",
+    "size": [
+      512,
+      512
+    ],
+    "sha256": "96a1000dbce02e7558374b29b11d2de9091539be173af93ac08d902e5c05da0d"
+  },
+  {
+    "id": "pain_ledger",
+    "seed": 246524,
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\status\\claude_cards_20261011\\pain_ledger.png",
+    "source_sha256": "88091cfa034945ee258c1fb0b84e729e31e8a86c4ef26e1fb64f8c9feac9f1b8",
+    "verdict": "pass",
+    "reason": "Closed leather book with one small blood droplet, no lettering, complete silhouette.",
+    "method": "local_comfyui",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\status\\pain_ledger_v1.png",
+    "size": [
+      512,
+      512
+    ],
+    "sha256": "88091cfa034945ee258c1fb0b84e729e31e8a86c4ef26e1fb64f8c9feac9f1b8"
+  },
+  {
+    "id": "pain_mirror",
+    "seed": 114091,
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\status\\claude_cards_20261011\\pain_mirror.png",
+    "source_sha256": "8411c2e36058a1b0096b07870cdf9a3509aa28d28de5f57b9d9d4cd6f2b4b04a",
+    "verdict": "pass",
+    "reason": "Single antique mirror with complete gilded frame, cracked red reflection.",
+    "method": "local_comfyui",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\status\\pain_mirror_v1.png",
+    "size": [
+      512,
+      512
+    ],
+    "sha256": "8411c2e36058a1b0096b07870cdf9a3509aa28d28de5f57b9d9d4cd6f2b4b04a"
+  },
+  {
+    "id": "ether_cycle",
+    "seed": 115088,
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\status\\claude_cards_20261011\\ether_cycle.png",
+    "source_sha256": "17eb1685362e886dca0538c9b358b23906ca0650850bfd598d41bfd5754a4edd",
+    "verdict": "pass",
+    "reason": "Single purple vapour ring, full perimeter, readable circular movement.",
+    "method": "local_comfyui",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\status\\ether_cycle_v1.png",
+    "size": [
+      512,
+      512
+    ],
+    "sha256": "17eb1685362e886dca0538c9b358b23906ca0650850bfd598d41bfd5754a4edd"
+  }
+]

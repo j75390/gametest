@@ -25,3 +25,11 @@ tools/content_tool/generated/
 
 # Local ComfyUI intermediate generations; approved art lives in assets.
 ai/*_output/
+
+# Local generation originals and publishing cache (delivery art stays tracked).
+ai/**/*.png
+ai/**/*.jpg
+ai/**/*.webp
+ai/**/*.err
+work/
+

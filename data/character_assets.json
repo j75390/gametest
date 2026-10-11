@@ -13,106 +13,190 @@
         "path": "res://assets/characters/mira/full_02_plague_v2.png"
       },
       {
-        "name": "도트 SD · 기본",
-        "path": "res://assets/characters/mira/pixel_sd_plague_v2/idle.png"
+        "name": "손그림 SD · 기본",
+        "path": "res://assets/characters/mira/illustration/mira_sd_idle_v4.png"
       },
       {
-        "name": "도트 SD · 주술",
-        "path": "res://assets/characters/mira/pixel_sd_plague_v2/skill_release.png"
+        "name": "손그림 SD · 공격",
+        "path": "res://assets/characters/mira/sd_motion_v5/attack_2.png"
+      },
+      {
+        "name": "손그림 SD · 주술",
+        "path": "res://assets/characters/mira/sd_motion_v5/skill_2.png"
       }
     ],
     "motions": {
       "idle": [
         {
-          "path": "res://assets/characters/mira/pixel_sd_plague_v2/idle.png",
+          "path": "res://assets/characters/mira/sd_motion_v5/idle.png",
           "duration": 2.4
         },
         {
-          "path": "res://assets/characters/mira/pixel_sd_plague_v2/idle_blink.png",
+          "path": "res://assets/characters/mira/sd_motion_v5/idle_blink.png",
           "duration": 0.13
-        }
-      ],
-      "walk": [
-        {
-          "path": "res://assets/characters/mira/pixel_sd_plague_v2/walk_a.png",
-          "duration": 0.16
-        },
-        {
-          "path": "res://assets/characters/mira/pixel_sd_plague_v2/walk_pass.png",
-          "duration": 0.12
-        },
-        {
-          "path": "res://assets/characters/mira/pixel_sd_plague_v2/walk_b.png",
-          "duration": 0.16
-        },
-        {
-          "path": "res://assets/characters/mira/pixel_sd_plague_v2/idle.png",
-          "duration": 0.12
         }
       ],
       "attack": [
         {
-          "path": "res://assets/characters/mira/pixel_sd_plague_v2/attack_prepare.png",
+          "path": "res://assets/characters/mira/sd_motion_v5/attack_1.png",
           "duration": 0.18
         },
         {
-          "path": "res://assets/characters/mira/pixel_sd_plague_v2/attack_release.png",
+          "path": "res://assets/characters/mira/sd_motion_v5/attack_2.png",
           "duration": 0.3
         },
         {
-          "path": "res://assets/characters/mira/pixel_sd_plague_v2/idle.png",
+          "path": "res://assets/characters/mira/sd_motion_v5/attack_3.png",
           "duration": 0.18
         }
       ],
       "skill": [
         {
-          "path": "res://assets/characters/mira/pixel_sd_plague_v2/skill_charge.png",
+          "path": "res://assets/characters/mira/sd_motion_v5/skill_1.png",
           "duration": 0.32
         },
         {
-          "path": "res://assets/characters/mira/pixel_sd_plague_v2/skill_release.png",
+          "path": "res://assets/characters/mira/sd_motion_v5/skill_2.png",
           "duration": 0.48
         },
         {
-          "path": "res://assets/characters/mira/pixel_sd_plague_v2/idle.png",
+          "path": "res://assets/characters/mira/sd_motion_v5/skill_3.png",
           "duration": 0.18
         }
       ],
       "hurt": [
         {
-          "path": "res://assets/characters/mira/pixel_sd_plague_v2/hurt.png",
+          "path": "res://assets/characters/mira/sd_motion_v5/hurt.png",
           "duration": 0.26
+        }
+      ],
+      "death": [
+        {
+          "path": "res://assets/characters/mira/sd_motion_v5/death_1.png",
+          "duration": 0.3
         },
         {
-          "path": "res://assets/characters/mira/pixel_sd_plague_v2/idle_blink.png",
+          "path": "res://assets/characters/mira/sd_motion_v5/death_2.png",
+          "duration": 1.2
+        }
+      ],
+      "walk": [
+        {
+          "path": "res://assets/characters/mira/sd_motion_v5/idle.png",
+          "duration": 0.3
+        }
+      ]
+    },
+    "status": "전투: 손그림 SD 11장(sd_motion_v5, 선형). 휴식: 앉기/졸기 도트(rest_frames). 구 도트 프레임은 pixel_motions_backup",
+    "selection_panorama": "res://assets/characters/mira/selection_panorama_plague_v2.png",
+    "illustration": "res://assets/characters/mira/illustration/mira_character_select_plague_v2.png",
+    "needs_transparent_art": false,
+    "map_portrait": "res://assets/characters/mira/portrait/mira_map_portrait_plague_v2.png",
+    "pixel_art": false,
+    "pixel_motions_backup": {
+      "idle": [
+        {
+          "path": "res://assets/characters/mira/pixel_sd_plague_v4/idle.png",
+          "duration": 2.4
+        },
+        {
+          "path": "res://assets/characters/mira/pixel_sd_plague_v4/idle_blink.png",
+          "duration": 0.13
+        }
+      ],
+      "walk": [
+        {
+          "path": "res://assets/characters/mira/pixel_sd_plague_v4/walk_a.png",
+          "duration": 0.16
+        },
+        {
+          "path": "res://assets/characters/mira/pixel_sd_plague_v4/walk_pass.png",
           "duration": 0.12
         },
         {
-          "path": "res://assets/characters/mira/pixel_sd_plague_v2/idle.png",
+          "path": "res://assets/characters/mira/pixel_sd_plague_v4/walk_b.png",
+          "duration": 0.16
+        },
+        {
+          "path": "res://assets/characters/mira/pixel_sd_plague_v4/walk_pass.png",
+          "duration": 0.12
+        }
+      ],
+      "attack": [
+        {
+          "path": "res://assets/characters/mira/pixel_sd_plague_v4/attack_prepare.png",
+          "duration": 0.18
+        },
+        {
+          "path": "res://assets/characters/mira/pixel_sd_plague_v4/attack_release.png",
+          "duration": 0.3
+        },
+        {
+          "path": "res://assets/characters/mira/pixel_sd_plague_v4/idle.png",
+          "duration": 0.18
+        }
+      ],
+      "skill": [
+        {
+          "path": "res://assets/characters/mira/pixel_sd_plague_v4/skill_charge.png",
+          "duration": 0.32
+        },
+        {
+          "path": "res://assets/characters/mira/pixel_sd_plague_v4/skill_release.png",
+          "duration": 0.48
+        },
+        {
+          "path": "res://assets/characters/mira/pixel_sd_plague_v4/idle.png",
+          "duration": 0.18
+        }
+      ],
+      "hurt": [
+        {
+          "path": "res://assets/characters/mira/pixel_sd_plague_v4/hurt.png",
+          "duration": 0.26
+        },
+        {
+          "path": "res://assets/characters/mira/pixel_sd_plague_v4/idle_blink.png",
+          "duration": 0.12
+        },
+        {
+          "path": "res://assets/characters/mira/pixel_sd_plague_v4/idle.png",
           "duration": 0.14
         }
       ],
       "death": [
         {
-          "path": "res://assets/characters/mira/pixel_sd_plague_v2/hurt.png",
+          "path": "res://assets/characters/mira/pixel_sd_plague_v4/hurt.png",
           "duration": 0.16
         },
         {
-          "path": "res://assets/characters/mira/pixel_sd_plague_v2/death_fall.png",
+          "path": "res://assets/characters/mira/pixel_sd_plague_v4/death_fall.png",
           "duration": 0.3
         },
         {
-          "path": "res://assets/characters/mira/pixel_sd_plague_v2/death_rest.png",
+          "path": "res://assets/characters/mira/pixel_sd_plague_v4/death_rest.png",
           "duration": 1.2
         }
       ]
     },
-    "status": "도트 SD 기본·이동·공격·스킬·피격·사망 독립 프레임 적용",
-    "selection_panorama": "res://assets/characters/mira/selection_panorama_plague_v2.png",
-    "illustration": "res://assets/characters/mira/illustration/mira_character_select_plague_v2.png",
-    "needs_transparent_art": false,
-    "map_portrait": "res://assets/characters/mira/portrait/mira_map_portrait_plague_v2.png",
-    "pixel_art": true
+    "rest_frames": [
+      {
+        "path": "res://assets/characters/mira/rest/rest_sit.png",
+        "duration": 3.2
+      },
+      {
+        "path": "res://assets/characters/mira/rest/rest_doze_1.png",
+        "duration": 1.5
+      },
+      {
+        "path": "res://assets/characters/mira/rest/rest_doze_2.png",
+        "duration": 1.5
+      },
+      {
+        "path": "res://assets/characters/mira/rest/rest_doze_1.png",
+        "duration": 1.5
+      }
+    ]
   },
   "kalian": {
     "illustration": "res://assets/characters/kalian/illustration/kalian_character_select_builtin_v1.png",

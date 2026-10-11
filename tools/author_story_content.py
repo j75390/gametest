@@ -175,3 +175,4 @@ report=ct.validate_all();assert report.get('invalid',0)==0,report
 result=export_catalog(ct.load_data(),ROOT)
 counts={k:len([r for r in v if r.get('text_ready') and not r.get('archived')]) for k,v in ct.load_data().items()}
 print(json.dumps({'text_ready':counts,'export_counts':result['counts']},ensure_ascii=False))
+

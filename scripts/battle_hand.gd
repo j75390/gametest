@@ -1,5 +1,10 @@
 extends Control
 const Data = preload("res://scripts/game_data.gd")
+## How far the resting hand is pushed below its fitted position so the card
+## bottoms (effect text) sit past the screen edge, like a tucked fan of cards.
+const HAND_DROP := 105
+## Focused card: scale and the y that keeps the whole card on screen.
+const FOCUS_SCALE := 1.06
 signal card_requested(index: int)
 var cards: Array = []
 var views: Array[Control] = []
@@ -14,6 +19,8 @@ var pointer := Vector2.ZERO
 var hovered := -1
 var homes: Array[Vector2] = []
 var angles: Array[float] = []
+## Optional: Callable(card) -> int giving the damage the card would deal now.
+var damage_preview := Callable()
 
 class AimOverlay extends Control:
 	var hand
@@ -53,6 +60,9 @@ func setup(values: Array, available: int, busy: bool, enemy: Control) -> void:
 		var panel = preload("res://scripts/battle_card.gd").new()
 		panel.name = "Card%d" % i
 		panel.setup(cards[i])
+		panel.set_peek(true)
+		if damage_preview.is_valid() and cards[i].type == "공격": panel.show_damage(int(damage_preview.call(cards[i])))
+		if i < 9: panel.set_hotkey(i + 1)
 		add_child(panel)
 		views.append(panel)
 		panel.modulate = Color(0.48, 0.48, 0.48) if locked or cards[i].cost > energy else Color.WHITE
@@ -74,12 +84,12 @@ func _layout():
 	if views.is_empty(): return
 	homes.clear()
 	angles.clear()
-	var step := minf(140, maxf(38, (size.x - 300) / maxf(1, views.size() - 1)))
+	var step := minf(150, maxf(38, (size.x - 300) / maxf(1, views.size() - 1)))
 	var left := (size.x - (views.size() - 1) * step - 220) / 2
 	for i in range(views.size()):
 		var spread := (i - (views.size() - 1) / 2.0) / maxf(1, (views.size() - 1) / 2.0)
-		homes.append(Vector2(left + step * i, size.y - 355 + absf(spread) * 12))
-		angles.append(deg_to_rad(spread * 8))
+		homes.append(Vector2(left + step * i, size.y - 355 + HAND_DROP + absf(spread) * 14))
+		angles.append(deg_to_rad(spread * 7))
 		views[i].pivot_offset = Vector2(110, 300)
 		views[i].position = homes[i]
 		views[i].rotation = angles[i]
@@ -99,11 +109,16 @@ func _process(delta):
 	for i in range(views.size()):
 		var focused: bool = selected == i or (selected < 0 and hovered == i)
 		var weight := minf(delta * 20, 1)
-		views[i].scale = views[i].scale.lerp(Vector2.ONE * (1.06 if focused else 0.88), weight)
+		views[i].scale = views[i].scale.lerp(Vector2.ONE * (FOCUS_SCALE if focused else 0.88), weight)
 		views[i].rotation = lerp_angle(views[i].rotation, 0.0 if focused else angles[i], weight)
-		views[i].position = views[i].position.lerp(homes[i] + Vector2(0, -46 if focused else 0), weight)
+		var rest: Vector2 = homes[i]
+		if focused:
+			# Raise so the full card (top actual = size.y - 372) is visible above the screen edge.
+			rest = Vector2(homes[i].x, size.y - 372 + views[i].pivot_offset.y * (FOCUS_SCALE - 1.0))
+		views[i].position = views[i].position.lerp(rest, weight)
 		views[i].z_index = 30 if focused else i
 		views[i].set_active(focused and not locked)
+		views[i].set_expanded(focused)
 	if is_instance_valid(aiming): aiming.queue_redraw()
 
 func _card_input(event: InputEvent, index: int):
@@ -129,6 +144,17 @@ func _input(event: InputEvent):
 	if event is InputEventMouse:
 		pointer = event.position
 		if event is InputEventMouseMotion and selected < 0: hovered = _hit_index(pointer)
+	if event is InputEventKey and event.pressed and not event.echo and not locked and event.keycode >= KEY_1 and event.keycode <= KEY_9:
+		# Number key: first press selects the card, pressing it again plays it.
+		var number: int = event.keycode - KEY_1
+		if number < views.size() and cards[number].cost <= energy:
+			if selected == number:
+				commit()
+			else:
+				cancel()
+				selected = number
+			get_viewport().set_input_as_handled()
+			return
 	if selected < 0 and not locked and event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT:
 		var index := _hit_index(pointer)
 		if index >= 0:

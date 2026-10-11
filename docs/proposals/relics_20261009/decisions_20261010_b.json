@@ -1,0 +1,127 @@
+{
+  "relic_common_024": {
+    "verdict": "pass",
+    "reason": "새 seed 육안검수: 지정한 물건 구조, 연결 부품 및 재질 음영 확인, 외곽 온전",
+    "expected_seed": 2038062
+  },
+  "relic_common_038": {
+    "verdict": "reject",
+    "reason": "구조 안내 재생성 검수: 구조는 개선됐으나 평면 재질 또는 핵심 부품/문양 미달, 추가 질감 생성 필요",
+    "expected_seed": 1805106
+  },
+  "relic_common_046": {
+    "verdict": "pass",
+    "reason": "새 seed 육안검수: 지정한 물건 구조, 연결 부품 및 재질 음영 확인, 외곽 온전",
+    "expected_seed": 1936539
+  },
+  "relic_uncommon_019": {
+    "verdict": "reject",
+    "reason": "구조 안내 재생성 검수: 구조는 개선됐으나 평면 재질 또는 핵심 부품/문양 미달, 추가 질감 생성 필요",
+    "expected_seed": 2456289
+  },
+  "relic_uncommon_025": {
+    "verdict": "pass",
+    "reason": "새 seed 육안검수: 지정한 물건 구조, 연결 부품 및 재질 음영 확인, 외곽 온전",
+    "expected_seed": 2584731
+  },
+  "relic_uncommon_033": {
+    "verdict": "reject",
+    "reason": "구조 안내 재생성 검수: 구조는 개선됐으나 평면 재질 또는 핵심 부품/문양 미달, 추가 질감 생성 필요",
+    "expected_seed": 1851965
+  },
+  "relic_uncommon_034": {
+    "verdict": "reject",
+    "reason": "구조 안내 재생성 검수: 구조는 개선됐으나 평면 재질 또는 핵심 부품/문양 미달, 추가 질감 생성 필요",
+    "expected_seed": 2346790
+  },
+  "relic_uncommon_036": {
+    "verdict": "reject",
+    "reason": "구조 안내 재생성 검수: 구조는 개선됐으나 평면 재질 또는 핵심 부품/문양 미달, 추가 질감 생성 필요",
+    "expected_seed": 1978413
+  },
+  "relic_uncommon_037": {
+    "verdict": "reject",
+    "reason": "구조 안내 재생성 검수: 구조는 개선됐으나 평면 재질 또는 핵심 부품/문양 미달, 추가 질감 생성 필요",
+    "expected_seed": 2102867
+  },
+  "relic_uncommon_040": {
+    "verdict": "reject",
+    "reason": "구조 안내 재생성 검수: 구조는 개선됐으나 평면 재질 또는 핵심 부품/문양 미달, 추가 질감 생성 필요",
+    "expected_seed": 1858944
+  },
+  "relic_rare_006": {
+    "verdict": "reject",
+    "reason": "구조 안내 재생성 검수: 구조는 개선됐으나 평면 재질 또는 핵심 부품/문양 미달, 추가 질감 생성 필요",
+    "expected_seed": 1988383
+  },
+  "relic_rare_007": {
+    "verdict": "reject",
+    "reason": "구조 안내 재생성 검수: 구조는 개선됐으나 평면 재질 또는 핵심 부품/문양 미달, 추가 질감 생성 필요",
+    "expected_seed": 1989380
+  },
+  "relic_rare_008": {
+    "verdict": "reject",
+    "reason": "구조 안내 재생성 검수: 구조는 개선됐으나 평면 재질 또는 핵심 부품/문양 미달, 추가 질감 생성 필요",
+    "expected_seed": 1743463
+  },
+  "relic_rare_010": {
+    "verdict": "reject",
+    "reason": "구조 안내 재생성 검수: 구조는 개선됐으나 평면 재질 또는 핵심 부품/문양 미달, 추가 질감 생성 필요",
+    "expected_seed": 1622000
+  },
+  "relic_rare_014": {
+    "verdict": "reject",
+    "reason": "구조 안내 재생성 검수: 구조는 개선됐으나 평면 재질 또는 핵심 부품/문양 미달, 추가 질감 생성 필요",
+    "expected_seed": 1872902
+  },
+  "relic_rare_016": {
+    "verdict": "reject",
+    "reason": "구조 안내 재생성 검수: 구조는 개선됐으나 평면 재질 또는 핵심 부품/문양 미달, 추가 질감 생성 필요",
+    "expected_seed": 1750442
+  },
+  "relic_rare_017": {
+    "verdict": "reject",
+    "reason": "구조 안내 재생성 검수: 구조는 개선됐으나 평면 재질 또는 핵심 부품/문양 미달, 추가 질감 생성 필요",
+    "expected_seed": 1751439
+  },
+  "relic_epic_001": {
+    "verdict": "reject",
+    "reason": "구조 안내 재생성 검수: 구조는 개선됐으나 평면 재질 또는 핵심 부품/문양 미달, 추가 질감 생성 필요",
+    "expected_seed": 1759415
+  },
+  "relic_epic_002": {
+    "verdict": "reject",
+    "reason": "구조 안내 재생성 검수: 구조는 개선됐으나 평면 재질 또는 핵심 부품/문양 미달, 추가 질감 생성 필요",
+    "expected_seed": 1760412
+  },
+  "relic_epic_006": {
+    "verdict": "reject",
+    "reason": "구조 안내 재생성 검수: 구조는 개선됐으나 평면 재질 또는 핵심 부품/문양 미달, 추가 질감 생성 필요",
+    "expected_seed": 2134771
+  },
+  "relic_epic_010": {
+    "verdict": "reject",
+    "reason": "구조 안내 재생성 검수: 구조는 개선됐으나 평면 재질 또는 핵심 부품/문양 미달, 추가 질감 생성 필요",
+    "expected_seed": 2015302
+  },
+  "relic_epic_011": {
+    "verdict": "pass",
+    "reason": "새 seed 육안검수: 지정한 물건 구조, 연결 부품 및 재질 음영 확인, 외곽 온전",
+    "expected_seed": 1769385
+  },
+  "relic_ancient_002": {
+    "verdict": "reject",
+    "reason": "구조 안내 재생성 검수: 구조는 개선됐으나 평면 재질 또는 핵심 부품/문양 미달, 추가 질감 생성 필요",
+    "expected_seed": 1775367
+  },
+  "relic_ancient_005": {
+    "verdict": "reject",
+    "reason": "구조 안내 재생성 검수: 구조는 개선됐으나 평면 재질 또는 핵심 부품/문양 미달, 추가 질감 생성 필요",
+    "expected_seed": 1654901
+  },
+  "relic_ancient_009": {
+    "verdict": "pass",
+    "reason": "새 seed 육안검수: 지정한 물건 구조, 연결 부품 및 재질 음영 확인, 외곽 온전",
+    "expected_seed": 1782346
+  }
+}

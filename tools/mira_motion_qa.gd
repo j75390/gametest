@@ -31,15 +31,21 @@ func capture(name: String) -> void:
 func run() -> void:
 	root.size = Vector2i(1440, 900)
 	var unique: Dictionary = {}
+	var canvas_size := Vector2.ZERO
+	var frame_total := 0
 	for motion in Assets.KEYS:
-		check(Assets.count("mira", motion) >= 2, "Missing motion: " + motion)
+		check(Assets.count("mira", motion) >= 1, "Missing motion: " + motion)
 		for i in range(Assets.count("mira", motion)):
 			var texture := Assets.frame("mira", motion, i)
 			check(texture != null and not texture is AtlasTexture, "Whole frame required: " + motion)
-			check(texture.get_size() == Vector2(1254, 1254), "Inconsistent frame canvas")
+			frame_total += 1
+			# the hand-drawn SD set shares one square canvas for every pose, lying ones included
+			if canvas_size == Vector2.ZERO: canvas_size = texture.get_size()
+			check(texture.get_size() == canvas_size, "Inconsistent frame canvas")
 			check(texture.get_image().detect_alpha() != Image.ALPHA_NONE, "Missing transparency")
 			unique[texture.resource_path] = true
-	check(unique.size() == 12, "Expected 12 independently generated poses")
+	# Frames may share a file (walk reuses idle); the hand-drawn SD set has 11 distinct independently drawn poses.
+	check(unique.size() >= 11 and frame_total >= 12, "Expected the 11 distinct SD poses: %d files over %d frames" % [unique.size(), frame_total])
 	var actor := Visual.new()
 	root.add_child(actor)
 	actor.setup("mira")
@@ -48,11 +54,11 @@ func run() -> void:
 		actor.play(motion)
 		var before := actor.texture
 		actor._process(Assets.duration("mira", motion, 0) + 0.01)
-		check(actor.texture != before, "Animation failed to change pose: " + motion)
+		if Assets.count("mira", motion) > 1: check(actor.texture != before, "Animation failed to change pose: " + motion)
 		actor.play(motion)
 		actor._process(Assets.motion_duration("mira", motion) + 0.01)
 		if motion == "death":
-			check(actor.finished and actor.texture.resource_path.ends_with("death_rest.png"), "Death must hold final pose")
+			check(actor.finished and actor.texture.resource_path.ends_with("death_2.png"), "Death must hold final pose")
 			actor._process(5.0)
 			check(actor.motion == "death", "Dead character returned to idle")
 		elif motion not in ["idle", "walk"]:
@@ -63,10 +69,13 @@ func run() -> void:
 	var main = load("res://scenes/Main.tscn").instantiate()
 	root.add_child(main)
 	current_scene = main
-	main.show_codex()
+	main.show_codex_hub()
+	await process_frame
+	var hub = main.get_node("CodexHub")
+	hub.open_characters()
 	await process_frame
 	await process_frame
-	var codex = main.get_node("Codex")
+	var codex = hub.child_screen
 	check(codex.selected_id == "mira", "Mira not selected")
 	check(codex.sprite_preview.get_global_rect().end.y <= 884, "Motion preview clipped at 1440x900")
 	for i in range(6):
@@ -81,19 +90,36 @@ func run() -> void:
 		if i == 0 or i == 3:
 			await capture("codex-" + Assets.KEYS[i])
 		await click(codex.pause_button)
-		check(codex.playing, "Resume failed")
+		check(codex.playing and codex.sprite_preview.is_processing(), "Resume failed")
+	# Playback really advances frames after resuming (the 3-frame attack changes pose within 0.2s).
+	await click(codex.motion_buttons[2])
+	var first_walk: Texture2D = codex.sprite_preview.texture
+	await create_timer(0.2).timeout
+	check(codex.playing and codex.sprite_preview.texture != first_walk, "Preview frames do not advance after resume")
+	# Switching to a character without motion frames stops the hidden preview, and Mira restarts cleanly.
+	codex.select("kalian")
+	await process_frame
+	check(not codex.sprite_preview.is_processing() and not codex.sprite_preview.visible, "Hidden preview keeps running")
+	codex.select("mira")
+	await process_frame
+	check(codex.sprite_preview.is_processing() and codex.playing and codex.motion_index == 0, "Mira preview did not restart")
 	# Independent frame previews must retain their layout in a smaller window.
 	root.size = Vector2i(1280, 720)
 	await process_frame
 	await process_frame
-	check(codex.sprite_preview.size.x >= 210, "Preview collapsed at smaller resolution")
+	check(codex.sprite_preview.get_global_rect().size.x >= 210, "Preview collapsed at smaller resolution")
 	root.size = Vector2i(1440, 900)
-	codex.closed.emit()
+	hub.closed.emit()
 	await process_frame
 	main.choose_character(main.characters[0])
 	main.take_arrival_reward(0)
 	main.finish_arrival()
 	main.start_battle("전투")
+	# the opening monster is random now; pin one whose first move is a plain hit
+	main.enemy = main.Data.find_record("monsters", "ash_warden")
+	main.enemy_hp = int(main.enemy.hp)
+	main.enemy_max_hp = main.enemy_hp
+	main.show_battle()
 	await process_frame
 	await process_frame
 	check(main.content.get_node("BattleStage/Hero").texture.resource_path == Assets.profile("mira").motions.idle[0].path, "Battle does not use the active Mira asset profile")
@@ -128,7 +154,7 @@ func run() -> void:
 	main.end_turn()
 	await create_timer(1.0).timeout
 	check(main.hp == 0, "Lethal hit displayed negative HP")
-	check(main.content.get_node("BattleStage/Hero").texture.resource_path.ends_with("death_rest.png"), "Lethal hit did not reach final death pose")
+	check(main.content.get_node("BattleStage/Hero").texture.resource_path.ends_with("death_2.png"), "Lethal hit did not reach final death pose")
 	await capture("battle-death")
 	await create_timer(1.3).timeout
 	check(main.title.text == "원정 실패", "Death did not finish battle")
@@ -142,7 +168,7 @@ func run() -> void:
 		await process_frame
 		var stage = main.content.get_node("BattleStage")
 		check(stage.get_child(0) is TextureRect and stage.get_child(0).texture != null, "Other character battle art disappeared")
-	print("MIRA_MOTION_QA frames=12 motions=6 battle=attack/skill/hurt/death failures=", failures.size())
+	print("MIRA_MOTION_QA poses=11 motions=6 battle=attack/skill/hurt/death failures=", failures.size())
 	main.queue_free()
 	await process_frame
 	quit(0 if failures.is_empty() else 1)

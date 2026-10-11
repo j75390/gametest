@@ -1,0 +1,154 @@
+[
+  {
+    "id": "lancet",
+    "prompt": "one tiny sharply pointed silver medical lancet with a single crimson droplet, resting across an open dark leather instrument pouch. One standalone square game card illustration, match attached approved painted brush style and deep black-violet palette. Strong focal composition, readable physical tools at small card size. Lancet must be a practical thin sharp silver surgical blade with simple handle, NOT jewel, NOT spoon; blood droplet is liquid at blade tip. Complete blade lies diagonally on open leather pouch. No letters, numbers, labels, frames, UI, decorative border, watermarks, no faces. High quality expressive chunky brushstrokes, dark gothic atmosphere, colored accents.",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-a25b5414-0634-46dc-83c1-86849ef6ee28.png",
+    "path": "C:/Users/j9357/Documents/Codex/2026-09-29/godot-comfyui-codex-agents-md-codex/gametest/ai/mira_wave3_comfy_20261011/lancet_builtin.png",
+    "reason": "실용 은빛 란셋과 피 한 방울, 가죽 주머니가 명확함",
+    "verdict": "pass"
+  },
+  {
+    "id": "herb_bundle",
+    "prompt": "bound medicinal herb bundle and one small amber mixing vial on an old alchemist workbench. One standalone square game card illustration, match attached approved painted brush style and deep black-violet palette. Strong focal composition, readable physical tools at small card size. Main subject is ONE generous tied bundle of recognizable green medicinal stems and leaves, clearly visible twine bow. Only one small amber bottle behind, simple tabletop. No letters, numbers, labels, frames, UI, decorative border, watermarks, no faces. High quality expressive chunky brushstrokes, dark gothic atmosphere, colored accents.",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-50c3a64c-3654-4583-b545-d8c13b1c80da.png",
+    "path": "C:/Users/j9357/Documents/Codex/2026-09-29/godot-comfyui-codex-agents-md-codex/gametest/ai/mira_wave3_comfy_20261011/herb_bundle_builtin.png",
+    "reason": "끈으로 묶은 약초와 조제병, 읽히는 물건 구도",
+    "verdict": "pass"
+  },
+  {
+    "id": "bitter_tonic",
+    "prompt": "tipped empty dark drinking cup with black tonic residue, violet vein-like magical lines spread over tabletop, ominous energizing glow. Standalone square fantasy game CARD ART, use attached approved image only for painted style and dark black-violet palette. Bold expressive chunky brushwork with sharp edges, NOT photographic. Empty cup tipped on its side, black residue running along rim, branching violet life-vein lines surge over stone table, empty interior visible. Dynamic diagonal pose. No portrait, no lettering, no labels, no frames, no UI, no borders. Effect readable at small card size, high quality cohesive gothic painted art.",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-326e71dd-5f32-4238-9834-706766602e31.png",
+    "path": "C:/Users/j9357/Documents/Codex/2026-09-29/godot-comfyui-codex-agents-md-codex/gametest/ai/mira_wave3_comfy_20261011/bitter_tonic_builtin.png",
+    "reason": "기울어진 빈 잔과 검은 잔액, 보라 혈관빛",
+    "verdict": "pass"
+  },
+  {
+    "id": "numbing_salve",
+    "prompt": "open small blue salve jar beside one naturally connected bandaged forearm and hand, cool blue healing sheen on bandage. Standalone square fantasy game CARD ART, use attached approved image only for painted style and dark black-violet palette. Bold expressive chunky brushwork with sharp edges, NOT photographic. ONE forearm from left edge with ONE anatomically correct attached hand palm-down, bandages at wrist. A separate open BLUE salve jar on table at lower right, cool blue healing sheen on bandage. Hand is NOT holding jar. Exactly one connected arm, one hand, five naturally placed fingers, no extra arm entering right. No portrait, no lettering, no labels, no frames, no UI, no borders. Effect readable at small card size, high quality cohesive gothic painted art.",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-3d17545e-a4db-444b-bfea-048decd40828.png",
+    "path": "C:/Users/j9357/Documents/Codex/2026-09-29/godot-comfyui-codex-agents-md-codex/gametest/ai/mira_wave3_comfy_20261011/numbing_salve_builtin.png",
+    "reason": "단일 팔과 손 연결 및 다섯 손가락 확인, 붕대·푸른 연고",
+    "verdict": "pass"
+  },
+  {
+    "id": "rotten_fruit",
+    "prompt": "one split rotten fruit covered with green mildew releasing visible violet spores. ONE standalone square fantasy game card illustration. Match attached approved game painting: bold expressive chunky painted brushstrokes, sharp highlights, deep black violet atmospheric background, alchemical color accents. Dynamic readable scene dominated by described focal object/action, not a portrait. No labels, writing, numbers, symbols that resemble writing, border, frame, UI, card layout. No photorealism or 3D render. One rotting apple torn open with visible green mold crusts and tiny violet spore cloud, not many healthy fruits.",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-e15d920e-35f1-427c-8b2f-c7bac869bfda.png",
+    "path": "C:/Users/j9357/Documents/Codex/2026-09-29/godot-comfyui-codex-agents-md-codex/gametest/ai/mira_wave3_comfy_20261011/rotten_fruit_builtin.png",
+    "reason": "갈라진 썩은 열매와 곰팡이·퍼지는 포자",
+    "verdict": "pass"
+  },
+  {
+    "id": "venom_chain",
+    "prompt": "green venom dripping from metal chain coiled tightly around a single armored enemy silhouette, chain trapping enemy. ONE standalone square fantasy game card illustration. Match attached approved game painting: bold expressive chunky painted brushstrokes, sharp highlights, deep black violet atmospheric background, alchemical color accents. Dynamic readable scene dominated by described focal object/action, not a portrait. No labels, writing, numbers, symbols that resemble writing, border, frame, UI, card layout. No photorealism or 3D render. Enemy is a small dark helmeted silhouette trapped by clearly connected green-wet chains, poison drips off links, natural two arms two legs.",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-548e2711-5a0c-4f86-8139-d5d7d783f387.png",
+    "path": "C:/Users/j9357/Documents/Codex/2026-09-29/godot-comfyui-codex-agents-md-codex/gametest/ai/mira_wave3_comfy_20261011/venom_chain_builtin.png",
+    "reason": "정상 두 팔·두 다리 갑옷 적을 독액 사슬이 휘감음",
+    "verdict": "pass"
+  },
+  {
+    "id": "plague_mist",
+    "prompt": "pale violet toxic fog fills ruined gothic corridor, tiny distant silhouette in plague mask, fog dominant. ONE standalone square fantasy game card illustration. Match attached approved game painting: bold expressive chunky painted brushstrokes, sharp highlights, deep black violet atmospheric background, alchemical color accents. Dynamic readable scene dominated by described focal object/action, not a portrait. No labels, writing, numbers, symbols that resemble writing, border, frame, UI, card layout. No photorealism or 3D render. Billowing dense pale violet toxic mist is dominant, tiny distant crow-beak plague mask silhouette in corridor, no distinct character portrait.",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-943df58b-c636-447c-9b50-8f6a3a0ed41c.png",
+    "path": "C:/Users/j9357/Documents/Codex/2026-09-29/godot-comfyui-codex-agents-md-codex/gametest/ai/mira_wave3_comfy_20261011/plague_mist_builtin.png",
+    "reason": "폐허 복도 가득 독 안개, 작게 떨어진 실루엣",
+    "verdict": "pass"
+  },
+  {
+    "id": "thorn_tincture",
+    "prompt": "one violet tincture vial tightly wrapped by thorny bramble vines, thorns pointing outward defensively. ONE standalone square fantasy game card illustration. Match attached approved game painting: bold expressive chunky painted brushstrokes, sharp highlights, deep black violet atmospheric background, alchemical color accents. Dynamic readable scene dominated by described focal object/action, not a portrait. No labels, writing, numbers, symbols that resemble writing, border, frame, UI, card layout. No photorealism or 3D render. One bottle with actual brown thorny brambles hugging OUTSIDE bottle, no grape fruit.",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-91875e6d-c8e8-4ad7-b843-062f66bc6efd.png",
+    "path": "C:/Users/j9357/Documents/Codex/2026-09-29/godot-comfyui-codex-agents-md-codex/gametest/ai/mira_wave3_comfy_20261011/thorn_tincture_builtin.png",
+    "reason": "약병 외부를 실제 뾰족한 가시 덩굴이 감쌈",
+    "verdict": "pass"
+  },
+  {
+    "id": "patient_poison",
+    "prompt": "one antique hourglass with green venom slowly trickling through narrow neck into lower chamber, patient ominous liquid flow. ONE standalone square fantasy game card illustration. Match attached approved game painting: bold expressive chunky painted brushstrokes, sharp highlights, deep black violet atmospheric background, alchemical color accents. Dynamic readable scene dominated by described focal object/action, not a portrait. No labels, writing, numbers, symbols that resemble writing, border, frame, UI, card layout. No photorealism or 3D render. Hourglass fills main diagonal picture, narrow continuous green liquid thread between chambers, dark misty background.",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-8a972e0c-b36c-42dc-a6bc-d1846b67a72c.png",
+    "path": "C:/Users/j9357/Documents/Codex/2026-09-29/godot-comfyui-codex-agents-md-codex/gametest/ai/mira_wave3_comfy_20261011/patient_poison_builtin.png",
+    "reason": "모래시계 좁은 목을 통해 독액이 떨어짐",
+    "verdict": "pass"
+  },
+  {
+    "id": "acid_splash",
+    "prompt": "Create ONE standalone square fantasy game CARD ART SCENE, use attached approved painting only for brush style/palette. broken glass vial splashing bright green acid onto ONE steel armor plate, corroding glowing holes in the metal. Make the described action unmistakable, show all required objects and their physical interaction in bold dynamic diagonal composition. Deep black-violet atmospheric background, colored chemical accent. Expressive chunky painted brush strokes and crisp highlights, illustrative not photograph. No ornate decorative borders, no frame, no UI, no letters/numbers, no mana, no collage, no character face. Entire essential objects inside canvas. Not a potion inventory portrait: show the ACTION. Broken vial horizontal upper left, splashing acid diagonally down onto clearly recognizable steel armor plate lower right, bubbling melted holes.",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-20f7b228-0e7f-4096-a520-edf2911a7aa4.png",
+    "path": "C:/Users/j9357/Documents/Codex/2026-09-29/godot-comfyui-codex-agents-md-codex/gametest/ai/mira_wave3_comfy_20261011/acid_splash_builtin.png",
+    "reason": "깨진 약병 산성액이 갑옷 판금을 녹이는 동작",
+    "verdict": "pass"
+  },
+  {
+    "id": "steady_dose",
+    "prompt": "Create ONE standalone square fantasy game CARD ART SCENE, use attached approved painting only for brush style/palette. antique glass dropper above a small cup, one green poisonous drop falling, spreading green ripples inside the cup. Make the described action unmistakable, show all required objects and their physical interaction in bold dynamic diagonal composition. Deep black-violet atmospheric background, colored chemical accent. Expressive chunky painted brush strokes and crisp highlights, illustrative not photograph. No ornate decorative borders, no frame, no UI, no letters/numbers, no mana, no collage, no character face. Entire essential objects inside canvas. Not a potion inventory portrait: show the ACTION. A clear antique glass pipette tilted above cup, visibly one drop midair between tip and rippling green liquid. Plain cup no gems, pipette occupies upper half.",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-d7f90b62-90c5-4aa9-a03f-17deae95998b.png",
+    "path": "C:/Users/j9357/Documents/Codex/2026-09-29/godot-comfyui-codex-agents-md-codex/gametest/ai/mira_wave3_comfy_20261011/steady_dose_builtin.png",
+    "reason": "점적기 한 방울과 잔 위 독 파문",
+    "verdict": "pass"
+  },
+  {
+    "id": "siphon_vitality",
+    "prompt": "Create a borderless square fantasy game CARD ART illustration, matching the attached approved card's bold painterly brushwork, high contrast and dark black-violet color scheme with a vivid chemical accent. Effect readable at thumbnail size, not photorealistic, no UI, letters, numbers, frame or portrait. Crimson luminous life energy visibly travels from the left through one curved transparent glass tube into a small alchemist flask on the right; a strong red current connects the source and filling flask.",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-a84678fd-b4a7-4a08-9762-4c2a358da5db.png",
+    "path": "C:/Users/j9357/Documents/Codex/2026-09-29/godot-comfyui-codex-agents-md-codex/gametest/ai/mira_wave3_comfy_20261011/siphon_vitality_builtin.png",
+    "reason": "붉은 생명빛이 유리 관을 통해 플라스크로 흐르는 연결 동작",
+    "verdict": "pass"
+  },
+  {
+    "id": "scar_tissue",
+    "prompt": "Edit this fantasy card illustration. Keep the anatomy, single hand, forearm, brush style, palette, workbench and blue translucent protective membrane unchanged. Remove ALL ornate spiral or floral tattoo patterns from the skin. Replace them with just three short irregular pale old healed scar lines, subtle and closed, no fresh injury, no blood, no wound. Make it look like weathered skin protected by a glass magical barrier, not a tattoo card. No text.",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-f4453162-a2db-4a36-8c83-bd9b12be856f.png",
+    "path": "C:/Users/j9357/Documents/Codex/2026-09-29/godot-comfyui-codex-agents-md-codex/gametest/ai/mira_wave3_comfy_20261011/scar_tissue_builtin.png",
+    "reason": "문신 오류 제거 후 오래된 세 흔적·자연스러운 단일 팔손·유리 보호막 확인",
+    "verdict": "pass"
+  },
+  {
+    "id": "rapid_poison",
+    "prompt": "Create borderless square fantasy game CARD ART matching attached approved card bold painterly brushwork, high contrast, dark black-violet palette, vivid chemical accents. Effect readable at thumbnail size, not photorealistic. No UI, letters, numbers, frame or portrait. One fine antique silver needle points diagonally across the scene; from its sharp tip lime green alchemical liquid erupts in fast branching lightning streaks. Needle and toxic lightning are dominant subjects. No person, monster, face or body.",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-2d402e95-dd32-47a1-a685-632800b53804.png",
+    "path": "C:/Users/j9357/Documents/Codex/2026-09-29/godot-comfyui-codex-agents-md-codex/gametest/ai/mira_wave3_comfy_20261011/rapid_poison_builtin.png",
+    "reason": "침과 독액의 빠른 번개 확산이 분명함",
+    "verdict": "pass"
+  },
+  {
+    "id": "unstable_mixture",
+    "prompt": "Create borderless square fantasy game CARD ART matching attached approved card bold painterly brushwork, high contrast, dark black-violet palette, vivid chemical accents. Effect readable at thumbnail size, not photorealistic. No UI, letters, numbers, frame or portrait. One clear round laboratory flask contains two unmistakably different violet and lime green liquids twisting together. Vigorous bubbles and two-colored foam boil over its neck. No fruit or drink garnish.",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-ab4e9fcb-46cd-4407-b556-a16b650480a6.png",
+    "path": "C:/Users/j9357/Documents/Codex/2026-09-29/godot-comfyui-codex-agents-md-codex/gametest/ai/mira_wave3_comfy_20261011/unstable_mixture_builtin.png",
+    "reason": "두 색 액체가 한 플라스크에서 혼합·기포·넘침",
+    "verdict": "pass"
+  },
+  {
+    "id": "lethal_dose",
+    "prompt": "Create borderless square fantasy game CARD ART matching attached approved card bold painterly brushwork, high contrast, dark black-violet palette, vivid chemical accents. Effect readable at thumbnail size, not photorealistic. No UI, letters, numbers, frame or portrait. One antique brass and transparent glass alchemical syringe diagonally fills the scene. Visible narrow steel needle, finger grips, plunger, glass barrel full of emerald liquid, small simple skull emblem on brass collar. An isolated fantasy prop, nobody using it, no body. No numbers or lettering, no decorative bottle.",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-2a82f3ec-c440-4c23-bb7e-851e2d8c07fc.png",
+    "path": "C:/Users/j9357/Documents/Codex/2026-09-29/godot-comfyui-codex-agents-md-codex/gametest/ai/mira_wave3_comfy_20261011/lethal_dose_builtin.png",
+    "reason": "주사기 바늘·손잡이·피스톤·독액·해골 표식 확인",
+    "verdict": "pass"
+  },
+  {
+    "id": "grand_elixir",
+    "prompt": "Create borderless square fantasy game CARD ART matching attached approved card bold painterly brushwork, high contrast, dark black-violet palette, vivid chemical accents. Effect readable at thumbnail size, not photorealistic. No UI, letters, numbers, frame or portrait. One large golden glowing elixir flask with three overlapping translucent glass shield shapes floating around it and warm healing rays. Clearly show both flask and protective shields.",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-d0bfcb47-ce9a-46b8-a452-9dc65cc0014f.png",
+    "path": "C:/Users/j9357/Documents/Codex/2026-09-29/godot-comfyui-codex-agents-md-codex/gametest/ai/mira_wave3_comfy_20261011/grand_elixir_builtin.png",
+    "reason": "금빛 영약과 겹치는 세 유리 방패·회복광",
+    "verdict": "pass"
+  },
+  {
+    "id": "apothecary_feast",
+    "prompt": "Create borderless square fantasy game CARD ART matching attached approved card bold painterly brushwork, high contrast, dark black-violet palette, vivid chemical accents. Effect readable at thumbnail size, not photorealistic. No UI, letters, numbers, frame or portrait. Empty alchemist supper table with few potion bottles, tied herb bundle, candles and an ivory crow-beak plague doctor MASK lying flat on table. Empty wearable mask object, nobody wearing it. No people or birds.",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-a863e695-cf63-4e0f-b4a4-de08c5a630bb.png",
+    "path": "C:/Users/j9357/Documents/Codex/2026-09-29/godot-comfyui-codex-agents-md-codex/gametest/ai/mira_wave3_comfy_20261011/apothecary_feast_builtin.png",
+    "reason": "인물 없이 까마귀 가면 소품·약초·병·촛불 식탁",
+    "verdict": "pass"
+  },
+  {
+    "id": "venom_pulse",
+    "prompt": "Create borderless square fantasy game CARD ART matching attached approved card bold painterly brushwork, high contrast, dark black-violet palette, vivid chemical accents. Effect readable at thumbnail size, not photorealistic. No UI, letters, numbers, frame or portrait. One irregular heart-shaped luminous violet poison orb sends clearly separated concentric purple shockwave rings through dark space. Bright pulsing toxic core, forceful radial wave action, no featureless sphere.",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-5c8a7580-2f37-4cee-a644-b1541521aa1a.png",
+    "path": "C:/Users/j9357/Documents/Codex/2026-09-29/godot-comfyui-codex-agents-md-codex/gametest/ai/mira_wave3_comfy_20261011/venom_pulse_builtin.png",
+    "reason": "심장형 독 구체와 독립된 동심 맥동 파문",
+    "verdict": "pass"
+  }
+]

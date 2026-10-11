@@ -1,0 +1,533 @@
+[
+  {
+    "id": "vial_throw",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-3556bab9-5bf2-4b50-8276-3495ea2eb938.png",
+    "source_sha256": "9c25ecf23a0fb781bba7a59f744ee1b7b502e9060a106d9695caec13b4fa5114",
+    "verdict": "pass",
+    "reason": "Throwing hand has five distinct digits; crow mask and costume match; broken green poison vial strikes enemy; square scene no lettering.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\vial_throw_v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "8c5c85ce94db98c46d659c790ba2240d241b8d73d971b47497a4b5311fb4c42f"
+  },
+  {
+    "id": "needle_prick",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-e94ca28f-4d58-4ac3-835c-34d25123f451.png",
+    "source_sha256": "e5018719820ddc1e06c05673924ad6c1b0a103f08aa2bf58fd8e69a1bb458bdd",
+    "verdict": "pass",
+    "reason": "New top-down needle prick composition; natural pen grip; one green drop, costume sleeve and fantasy painted style match; no text.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\needle_prick_v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "6f92833ee9f61ab88cdc2d1be03d5059d4ff44da9c3d00e64381ea220cd477cc"
+  },
+  {
+    "id": "antiseptic",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-2908c34d-ca96-47c6-9aea-91018c098bc3.png",
+    "source_sha256": "423142f3ba0edfc8bc7c6182cb8a03fe736e01905900c67559dd2e9a6e0b25dd",
+    "verdict": "pass",
+    "reason": "Two natural gloved hands, one pours teal disinfectant and one applies gauze; readable minor wound; new medical composition; no text or frame.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\antiseptic_v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "12bb4cf77624d09dec55e9e828df94d4bf0c0c9696c9a1c5fb0822797d74b4b1"
+  },
+  {
+    "id": "weakening_draught",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-ada271fc-55e5-4c36-8caa-cd08cbc2e04d.png",
+    "source_sha256": "78b535b83e8ed93661513dc6b981537642e5bb23737595772655b045e179e3c0",
+    "verdict": "pass",
+    "reason": "Violet medicine pours continuously onto wilted flower over stone dish; coherent two-hand action; identity and crow mask match; no frame/text.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\weakening_draught_v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "bfa51c3f15c5281fb3531ab5906ecdba1fafc3a04ed9729550658ad2516afe4c"
+  },
+  {
+    "id": "expose_weakness",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-24cf2906-bbd3-4de2-bc85-3f11a2fceff7.png",
+    "source_sha256": "d896729c8f7a26d43ec3eb89dafc57290a78b9317a3d5162552cefea0910f22f",
+    "verdict": "pass",
+    "reason": "Teal lantern highlights breastplate cracks on empty pedestal; coherent two hands; crow mask face and painted style match; no lettering.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\expose_weakness_v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "bdc45fe026008e324dde46f38c5dcc6191d7eadbdca67080cb5c40a4bbe9882c"
+  },
+  {
+    "id": "distill",
+    "source": "ai\\claude_mira_cards_20261011\\distill_raw.png",
+    "source_sha256": "e8d47afdf42dac378f46b13847ebeab690d53ba95d677e5f95c0e5e0b886d5fc",
+    "verdict": "pass",
+    "reason": "Coherent fantasy distiller outlet dripping teal medicine into receiving vial, natural two hands, matching identity and no text.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\distill_v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "c54a9c596741d2c06259b07560027f5558034576f4a6f0264459d32bd7440fff"
+  },
+  {
+    "id": "bear_the_pain",
+    "source": "ai\\claude_mira_cards_20261011\\bear_the_pain_raw.png",
+    "source_sha256": "aea393fc6f72b22f93dacc3786c4b40aa80bd8e0d2e9f8d7d96e30a2df898c59",
+    "verdict": "pass",
+    "reason": "Two hands on chest absorb light threads from suffering spectral figures; clear inward direction, identity and anatomy consistent; no text.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\bear_the_pain_v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "717adbc62e8a491bd477742c694104d902c5d45d22157b9137b2a5acd0f74f0c"
+  },
+  {
+    "id": "concentrate",
+    "source": "ai\\claude_mira_cards_20261011\\concentrate_raw.png",
+    "source_sha256": "f48029424cbb9451e32a2b466e169705515bd8b13b236b2a4d21e0f272d820c2",
+    "verdict": "pass",
+    "reason": "Thick green liquid boiling in large flask, steam and small remaining pool; coherent two gloved hands and identity.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\concentrate_v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "e895b341f053919bdd6e2e7453b09ef32a8cb792602bd7d4e9899eb0d6fec20b"
+  },
+  {
+    "id": "lingering_flask",
+    "source": "ai\\claude_mira_cards_20261011\\lingering_flask_raw.png",
+    "source_sha256": "bffe9cc8496eeedd49bef84a1fcd360c857cee75845256d5e4a9b4fbe1fa8ad5",
+    "verdict": "reject",
+    "reason": "Liquid appears to enter sealed hourglass top; unclear bottle opening, needs physically coherent slow dripping vessel.",
+    "prompt": "",
+    "method": "built_in_imagegen"
+  },
+  {
+    "id": "fume_cloud",
+    "source": "ai\\claude_mira_cards_20261011\\fume_cloud_raw.png",
+    "source_sha256": "ee0bb48b6a31bc9f485ea291d9ec4245b35694042b9867891a4292a33c862492",
+    "verdict": "pass",
+    "reason": "Two distinct green and violet medicines mixed into rising fumes with mask silhouette; natural hands and unique action.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\fume_cloud_v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "db4fd20916fda08e6acf9710f069618d24c0462d57252c5ffa2fc6a446e5788c"
+  },
+  {
+    "id": "flask_barrage",
+    "source": "ai\\claude_mira_cards_20261011\\flask_barrage_raw.png",
+    "source_sha256": "abf12c3b1203ff368accea7da09f20de29795cdd8762286152822dba17b50992",
+    "verdict": "reject",
+    "reason": "Throwing pose repeats vial_throw; belt-drawing action is not visible, needs side view and second hand pulling vial.",
+    "prompt": "",
+    "method": "built_in_imagegen"
+  },
+  {
+    "id": "pain_transfer",
+    "source": "ai\\claude_mira_cards_20261011\\pain_transfer_raw.png",
+    "source_sha256": "c941fb11f49890daf85d0d17c5915e31d56863c3199c245f56b462d6220438b4",
+    "verdict": "pass",
+    "reason": "Red violet threads extend from Mira fingers onto an armored enemy, clear transfer action, no lettering.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\pain_transfer_v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "5410c70e989b1bdf6e31424703613f8787fc1076e6b7f234c537541706e850e8"
+  },
+  {
+    "id": "quick_mix",
+    "source": "ai\\claude_mira_cards_20261011\\quick_mix_raw.png",
+    "source_sha256": "bbcb8e5066a6d1f3e56a46ac6f251da4d997fb108dda236532bb46ea0a7a97f2",
+    "verdict": "pass",
+    "reason": "Mira drinks one open vial, golden flashes, correct raised arm and consistent identity.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\quick_mix_v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "bc5e8f15fffe544d98993d7fff8f9073279194d44478ca6c85c2af195fdbc440"
+  },
+  {
+    "id": "blood_for_medicine",
+    "source": "ai\\claude_mira_cards_20261011\\blood_for_medicine_raw.png",
+    "source_sha256": "28fbd316b8a09ab1000dc454da33258b51b40b718b757f6a7dae44b8ecc06fed",
+    "verdict": "reject",
+    "reason": "Three physical arms: needle hand, exposed raised wrist and bottle-holding hand; anatomy invalid.",
+    "prompt": "",
+    "method": "built_in_imagegen"
+  },
+  {
+    "id": "flowering_toxin",
+    "source": "ai\\claude_mira_cards_20261011\\flowering_toxin_raw.png",
+    "source_sha256": "4f8840fcd9cc5985488baeea33119aa9dead9efc255ec158853b657b7a1c7ac7",
+    "verdict": "pass",
+    "reason": "Green poison blooms as large flower over armored enemy; full coherent two-arm casting action.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\flowering_toxin_v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "1264e97751c32bf0544da439494117896627ca4d54dfbce797b801d74e249a4a"
+  },
+  {
+    "id": "corrosive_vapor",
+    "source": "ai\\claude_mira_cards_20261011\\corrosive_vapor_raw.png",
+    "source_sha256": "682eb5a04f94f60252c7367ca1c63820d97838a11feace7486a8d4989389471e",
+    "verdict": "pass",
+    "reason": "Green vapour surrounds Mira and aged metal apparatus, clear poisonous aura; natural hands, no text.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\corrosive_vapor_v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "d7c629873fad3af45d9118bbba40367004d066e2ea82becbe3186043d1c2e391"
+  },
+  {
+    "id": "slow_steep",
+    "source": "ai\\claude_mira_cards_20261011\\slow_steep_raw.png",
+    "source_sha256": "5325c0351e549a624494de1009128206889caeaa0da050ed81a11ef4dc114aa8",
+    "verdict": "pass",
+    "reason": "Slow purple infusion in dark flask, precise dropper action and consistent identity; no lettering.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\slow_steep_v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "9ca0af5470777013940febe6376569678d61d61327be2c36753aef2b11fa1e60"
+  },
+  {
+    "id": "brewing_bench",
+    "source": "ai\\claude_mira_cards_20261011\\brewing_bench_raw.png",
+    "source_sha256": "451b2dc8da7ff324e85f2db1c37e59ccb6f9f0612eda003fd5866372fc924dd1",
+    "verdict": "pass",
+    "reason": "Three separate medicine bottles filling at workbench; coherent two hands and open funnel; no lettering.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\brewing_bench_v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "6aeb4a19abe6a10bc1e156953bc8614675503e97738ffb3e31cfcbbffa466b68"
+  },
+  {
+    "id": "thorn_salve",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_20261011\\thorn_salve_raw.png",
+    "source_sha256": "7c1a4fc120e73f50ba6c79505f4e67b9d7a8e8f06b7b011321aacca71cb2cc3c",
+    "verdict": "pass",
+    "reason": "Crossed forearms with thorn salve repel an approaching hand; coherent anatomy and identity.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\thorn_salve_v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "d3bf77c4334b5b7982f49316645a4c29b9b2313a86119b2bd88b61d594efc772"
+  },
+  {
+    "id": "tainted_blade",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_20261011\\tainted_blade_raw.png",
+    "source_sha256": "b3a124d8803542f5530ed7b6710e2027f50f2426befa59f651c7dc7f97b8a2c5",
+    "verdict": "reject",
+    "reason": "Blade is a fantasy dagger rather than a slender surgical scalpel; regenerate correct medical tool.",
+    "prompt": "",
+    "method": "built_in_imagegen"
+  },
+  {
+    "id": "hasty_remedy",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_20261011\\hasty_remedy_raw.png",
+    "source_sha256": "b38f291b28b139a1990734ab12ca2640cb86da2110bdb7b53afbd6313eae7836",
+    "verdict": "pass",
+    "reason": "Overhead two hands writing abstract prescription marks and reaching vial, clear hurried scene, no readable words.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\hasty_remedy_v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "d154c9bbb6a0bb5db61b3bf0a7a03b48af5d34e2b1e7428ba4bf21df3ae99065"
+  },
+  {
+    "id": "warm_decoction",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_20261011\\warm_decoction_raw.png",
+    "source_sha256": "9d17dab2292f7e47694a52045d567b12e2ded0da768c61665d4f2633cadd71dd",
+    "verdict": "pass",
+    "reason": "Two hands cradle steaming medicinal pot in warm golden light, correct hands and identity.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\warm_decoction_v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "e09fbb7191f726d44739ee8453f1759867d7ce4820e0eec026be3afde40d8ad4"
+  },
+  {
+    "id": "bitter_dose",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_20261011\\bitter_dose_raw.png",
+    "source_sha256": "50f1e2753c0a461d2c44d79fb73597e55d37acf787f747eafb590b69645675d7",
+    "verdict": "pass",
+    "reason": "Mira grimaces and sips thick green medicine, two natural arms and clear drinking action.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\bitter_dose_v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "0a064faae4879969820ca295f9539d51e6b45f59cb800d7405bd6c7df8dc7067"
+  },
+  {
+    "id": "masked_whisper",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_20261011\\masked_whisper_raw.png",
+    "source_sha256": "839a7eab12240e893c0d143710730e29b5374fae2397837119a9e1b76fb829f2",
+    "verdict": "pass",
+    "reason": "Crow mask interior emits abstract violet flecks, face and hand consistent, no readable glyphs.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\masked_whisper_v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "a3b1e5a97d2fa050edbc7cdafb256b7c11961db2dc015fdc507a4653912ce0d9"
+  },
+  {
+    "id": "weak_point_injection",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_20261011\\weak_point_injection_raw.png",
+    "source_sha256": "ac6ef9ae031b8333c9efcc856bcf183c15f32896312d22729f8654d72aa6d66d",
+    "verdict": "pass",
+    "reason": "Glass syringe presses into armor gap, natural gripping hand and five-finger resting hand, no frame.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\weak_point_injection_v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "2e2044fe38db75b385d41b627dd1be40c3b2219ad2cbbe1a2f95f18b36ded40b"
+  },
+  {
+    "id": "overdose",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_20261011\\overdose_raw.png",
+    "source_sha256": "1f2d516dc33d285f5d1bb668dc1df968b575da29a40f1dc7635798cc09877af1",
+    "verdict": "pass",
+    "reason": "Many green vials pour into one vessel, unique wide composition and coherent two-arm action.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\overdose_v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "36c6215b4d9f95e863029e856904599a63fd5110a1ca500b4090ce6cce2075f6"
+  },
+  {
+    "id": "glass_veil",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_20261011\\glass_veil_raw.png",
+    "source_sha256": "d2ae28eb977a43517149a16f3de89ecf604c39c940468fab47d598d4155b0c2f",
+    "verdict": "pass",
+    "reason": "Large transparent glass membrane and shards surround Mira; exactly five fingers on each hand verified in full-size image.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\glass_veil_v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "bae608513ce7a2c22d926113c1b254982cb589d9369e4f6f46883e704cd187a2"
+  },
+  {
+    "id": "accumulated_pain",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_20261011\\accumulated_pain_raw.png",
+    "source_sha256": "4012245e62cd6673e21ed3cca70ba780c6fb5c1c036fec1ec27e4a0ea5d933b3",
+    "verdict": "pass",
+    "reason": "One red violet pain sphere gathered above bandaged forearm, coherent side pose, identity consistent.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\accumulated_pain_v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "3372924f6b9d377d4c7581e7ccbc7bc2ca6be396e06440f2570f92ef3e21a6a8"
+  },
+  {
+    "id": "echo_dose",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_20261011\\echo_dose_raw.png",
+    "source_sha256": "ea7caaedcc849793ac0dd5ee44400124fba430858ad3357fa4daf8b3147c7ec3",
+    "verdict": "pass",
+    "reason": "Exactly two physical arms plus clearly translucent offset echo figure repeats vial raising action; anatomy checked full size.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\echo_dose_v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "0b1ca397876fa2ee8a5c03391188da9abd6c5a905fd8b0800f8c52f143298111"
+  },
+  {
+    "id": "purification",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_20261011\\purification_raw.png",
+    "source_sha256": "2a1174647aa3e65ed876898f305d838f5ca03272f3d35f1a41f2ee53aed3f9dd",
+    "verdict": "pass",
+    "reason": "Two natural hands pour clear water into dark stained ritual dish, coherent cleansing action and candle flames.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\purification_v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "c3943514f87f8e262d193e5091e68f5ab61984c984c922331ccbd5bc13b77a5f"
+  },
+  {
+    "id": "chain_reaction",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_20261011\\chain_reaction_raw.png",
+    "source_sha256": "96e860a93e138a829b6dcb2ace6a8bfa24ed009b79c164e718eefe990026e05f",
+    "verdict": "pass",
+    "reason": "Distinct foreground row of vials burst sequentially with visible wave, natural foreground hand.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\chain_reaction_v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "e116e62209cf5404a38e59d921ec15915bd35136f0f7318e3578c9bceec28429"
+  },
+  {
+    "id": "rapid_brew",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_20261011\\rapid_brew_raw.png",
+    "source_sha256": "b59397d76035db40fd1a3e0e964cb7b74ca82b8c77ecdd5d0754a3412f89ccc1",
+    "verdict": "pass",
+    "reason": "Rotating distillation device with surrounding medicine vials, distinct apparatus composition and consistent identity.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\rapid_brew_v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "177fe86127605c7f81c6a507ac53e4bf53bfef3c7b88f1bc90cb48b64e84b0de"
+  },
+  {
+    "id": "pain_ledger",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_20261011\\pain_ledger_raw.png",
+    "source_sha256": "24bc4826a9792b0c569d59eb3917f52fcdc798a7c5a51495d266817c70a44329",
+    "verdict": "pass",
+    "reason": "Single red droplet spreads gold light across open ruled ledger, no readable writing, two hands checked full size.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\pain_ledger_v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "8c157ca90b97b370766ed1881580c217996da6764ab8828bafe9005c993d32d2"
+  },
+  {
+    "id": "ether_cycle",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_20261011\\ether_cycle_raw.png",
+    "source_sha256": "f32db73f751834abe34f02584962a41c3f866a68a5b6cbb495c9efc86b6a70ce",
+    "verdict": "pass",
+    "reason": "Large complete purple vapour ring with vials surrounding small Mira, readable circular energy flow.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\ether_cycle_v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "a4d0d3e500c9d91e7a30081f20ea1fff7233bcc1ed0eadd8bd765fc1bfd4dd70"
+  },
+  {
+    "id": "plague_onset",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_20261011\\plague_onset_raw.png",
+    "source_sha256": "f94438f83b308ae05717c408da1cede1eb0b2311a54a74f37a5f4fe2177dbe71",
+    "verdict": "pass",
+    "reason": "Overhead green point spreads web across cathedral floor; unique high angle scene, no lettering.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\plague_onset_v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "aa4e4fefe80a7150403fff33e50480e7fa61c7a210ca35a250e60680d2c5169c"
+  },
+  {
+    "id": "chemical_burst",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_20261011\\chemical_burst_raw.png",
+    "source_sha256": "58a551ccd9ad4b7fa953901256cada76392fd729866ce75e677f06fdfce90fe3",
+    "verdict": "pass",
+    "reason": "Exactly three belt vials burst teal gold, two anatomically correct hands, distinct action.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\chemical_burst_v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "6906b23695f00fe2b109a7e02f8a09d0e8bc061986f16241aba76c42573c3b30"
+  },
+  {
+    "id": "borrowed_pain",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_20261011\\borrowed_pain_raw.png",
+    "source_sha256": "6b7e4d9102891f74dc68829b539a24c6a83e84b0ffa18c721d39a7f838f2e16e",
+    "verdict": "pass",
+    "reason": "Heroic scene threads move from Mira chest to armored shadow, two natural arms, clear transfer direction.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\borrowed_pain_v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "d8e428dcd2f0c9b58cd3f320c370b9df883bb9dc77daba7b66cf6ce859c627aa"
+  }
+]

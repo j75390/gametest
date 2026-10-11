@@ -1,0 +1,5 @@
+local_shared:
+  base_path: D:/Comfy-Desktop/ComfyUI-Shared/models
+  checkpoints: checkpoints
+  background_removal: background_removal
+

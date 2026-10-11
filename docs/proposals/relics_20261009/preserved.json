@@ -1,0 +1,92 @@
+[
+  {
+    "id": "explorer_map",
+    "name": "탐험가의 지도",
+    "path": "res://assets/cards/explorer_map.png"
+  },
+  {
+    "id": "blood_contract",
+    "name": "핏빛 계약서",
+    "path": "res://assets/cards/blood_contract.png"
+  },
+  {
+    "id": "mira_crescent",
+    "name": "빛바랜 초승달",
+    "path": "res://assets/relics/mira_crescent_v1.png"
+  },
+  {
+    "id": "relic_common_001",
+    "name": "간병인의 골무",
+    "path": "res://assets/relics/caregiver_thimble_v1.png"
+  },
+  {
+    "id": "relic_common_002",
+    "name": "접힌 담요",
+    "path": "res://assets/relics/folded_blanket_v1.png"
+  },
+  {
+    "id": "relic_common_003",
+    "name": "배급 주머니",
+    "path": "res://assets/relics/ration_pouch_v1.png"
+  },
+  {
+    "id": "relic_common_004",
+    "name": "소독 집게",
+    "path": "res://assets/relics/disinfecting_forceps_v1.png"
+  },
+  {
+    "id": "relic_common_005",
+    "name": "잔불 심지",
+    "path": "res://assets/relics/ember_wick_v1.png"
+  },
+  {
+    "id": "relic_common_006",
+    "name": "나무 수저",
+    "path": "res://assets/relics/wooden_spoon_v1.png"
+  },
+  {
+    "id": "relic_uncommon_001",
+    "name": "빈 침대의 명패",
+    "path": "res://assets/generated_icons/relic_uncommon_001_comfy_v2.png"
+  },
+  {
+    "id": "relic_uncommon_002",
+    "name": "교대 종",
+    "path": "res://assets/generated_icons/relic_uncommon_002_comfy_v2.png"
+  },
+  {
+    "id": "relic_uncommon_005",
+    "name": "간호장의 회중시계",
+    "path": "res://assets/generated_icons/relic_uncommon_005_comfy_v2.png"
+  },
+  {
+    "id": "relic_uncommon_007",
+    "name": "양면 처방판",
+    "path": "res://assets/relics/dual_prescription_plate_v1.png"
+  },
+  {
+    "id": "relic_uncommon_010",
+    "name": "가라앉지 않는 추",
+    "path": "res://assets/generated_icons/relic_uncommon_010_comfy_v2.png"
+  },
+  {
+    "id": "relic_uncommon_018",
+    "name": "검은 여과지",
+    "path": "res://assets/generated_icons/relic_uncommon_018_comfy_v2.png"
+  },
+  {
+    "id": "relic_uncommon_022",
+    "name": "푸른 조제등",
+    "path": "res://assets/generated_icons/relic_uncommon_022_comfy_v2.png"
+  },
+  {
+    "id": "relic_rare_015",
+    "name": "공동 서명 처방전",
+    "path": "res://assets/relics/joint_prescription_v1.png"
+  },
+  {
+    "id": "relic_ancient_001",
+    "name": "돌려받은 초승달",
+    "path": "res://assets/relics/returned_crescent_v1.png"
+  }
+]

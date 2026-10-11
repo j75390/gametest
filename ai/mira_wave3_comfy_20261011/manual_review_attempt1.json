@@ -1,0 +1,121 @@
+[
+  {
+    "id": "lancet",
+    "verdict": "fail",
+    "reason": "보석 펜던트로 변형, 실용 란셋 아님",
+    "seed": 832267,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\lancet_832267.png"
+  },
+  {
+    "id": "herb_bundle",
+    "verdict": "fail",
+    "reason": "약초가 묶이지 않고 다수 병 반복·백색 테두리",
+    "seed": 833264,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\herb_bundle_833264.png"
+  },
+  {
+    "id": "bitter_tonic",
+    "verdict": "fail",
+    "reason": "현대 플라스틱 직립 컵, 빈 기울어진 잔 아님",
+    "seed": 834261,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\bitter_tonic_834261.png"
+  },
+  {
+    "id": "numbing_salve",
+    "verdict": "fail",
+    "reason": "여러 팔이 한 손에 합쳐지는 인체 오류",
+    "seed": 835258,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\numbing_salve_835258.png"
+  },
+  {
+    "id": "rotten_fruit",
+    "verdict": "fail",
+    "reason": "사진풍 과일, 포자 효과 없음",
+    "seed": 836255,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\rotten_fruit_836255.png"
+  },
+  {
+    "id": "venom_chain",
+    "verdict": "fail",
+    "reason": "코믹 화풍과 물건 표현 불일치",
+    "seed": 837252,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\venom_chain_837252.png"
+  },
+  {
+    "id": "plague_mist",
+    "verdict": "fail",
+    "reason": "독 안개 누락",
+    "seed": 838249,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\plague_mist_838249.png"
+  },
+  {
+    "id": "thorn_tincture",
+    "verdict": "fail",
+    "reason": "가시 대신 포도와 백색 배경",
+    "seed": 839246,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\thorn_tincture_839246.png"
+  },
+  {
+    "id": "patient_poison",
+    "verdict": "fail",
+    "reason": "백색 배경 3D 화풍 불일치",
+    "seed": 840243,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\patient_poison_840243.png"
+  },
+  {
+    "id": "siphon_vitality",
+    "verdict": "fail",
+    "reason": "관과 흡수 동작 없음",
+    "seed": 841240,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\siphon_vitality_841240.png"
+  },
+  {
+    "id": "scar_tissue",
+    "verdict": "fail",
+    "reason": "보호막 없음·인체 크롭 불량",
+    "seed": 842237,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\scar_tissue_842237.png"
+  },
+  {
+    "id": "rapid_poison",
+    "verdict": "fail",
+    "reason": "침 대신 괴물 얼굴",
+    "seed": 843234,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\rapid_poison_843234.png"
+  },
+  {
+    "id": "unstable_mixture",
+    "verdict": "fail",
+    "reason": "라임 장식 음료병, 혼합 및 끓어넘침 누락",
+    "seed": 844231,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\unstable_mixture_844231.png"
+  },
+  {
+    "id": "lethal_dose",
+    "verdict": "fail",
+    "reason": "주사기 대신 병",
+    "seed": 845228,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\lethal_dose_845228.png"
+  },
+  {
+    "id": "grand_elixir",
+    "verdict": "fail",
+    "reason": "유리 방패 누락",
+    "seed": 846225,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\grand_elixir_846225.png"
+  },
+  {
+    "id": "apothecary_feast",
+    "verdict": "fail",
+    "reason": "가면 소품 대신 인물",
+    "seed": 847222,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\apothecary_feast_847222.png"
+  },
+  {
+    "id": "venom_pulse",
+    "verdict": "fail",
+    "reason": "심장 형태 및 맥동 파문 누락",
+    "seed": 848219,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\venom_pulse_848219.png"
+  }
+]

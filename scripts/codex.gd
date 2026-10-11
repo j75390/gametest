@@ -116,8 +116,15 @@ func _entry(item: Dictionary, kind: String) -> Dictionary:
 		r.stats.append("저주 / " + ("있음" if item.get("cursed", false) else "없음"))
 	if kind == "몬스터":
 		r.stats.append("HP / %d · ACT %d · %s" % [item.hp, item.act, item.type])
+		var Actions = preload("res://scripts/monster_actions.gd")
+		for action in item.get("opener", []):
+			r.stats.append("첫 행동 / %s · %s" % [action.name, Actions.text(action)])
 		for action in item.pattern:
-			r.stats.append("행동 / %s · 피해 %d" % [action.name, action.damage])
+			r.stats.append("행동 / %s · %s" % [action.name, Actions.text(action)])
+		for phase in item.get("phases", []):
+			r.stats.append("HP %d%% 이하 · %s" % [int(phase.below_pct), str(phase.get("name", ""))])
+			for action in phase.pattern:
+				r.stats.append("  행동 / %s · %s" % [action.name, Actions.text(action)])
 
 	if kind == "이벤트" and review_mode:
 		for choice in item.choices:

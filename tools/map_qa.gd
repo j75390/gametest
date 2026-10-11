@@ -54,6 +54,29 @@ func run() -> void:
 			graph.resolve()
 		check(graph.available().is_empty(), "Boss replay possible")
 	check(fingerprints.size() == 200, "New seed failed to change route")
+	# room mix: every seed has a varied map, never a wall of fights
+	var fight_share := 0.0
+	var seeds_with_event_row_one := 0
+	for seed_value in range(200):
+		var graph = Graph.new()
+		graph.generate(seed_value)
+		var counts := {}
+		for node in graph.nodes: counts[node.type] = int(counts.get(node.type, 0)) + 1
+		check(int(counts.get("상점", 0)) >= 1 and int(counts.get("보물", 0)) >= 1 and int(counts.get("엘리트", 0)) >= 2 and int(counts.get("이벤트", 0)) >= 3, "Seed %d lacks a guaranteed room: %s" % [seed_value, str(counts)])
+		fight_share += float(counts.get("전투", 0)) / float(graph.nodes.size() - 2)
+		for node in graph.nodes:
+			if node.row == 1 and node.type == "이벤트": seeds_with_event_row_one += 1
+			if node.type in ["상점", "휴식", "엘리트", "보물"] or node.type == "이벤트":
+				for target in node.next: check(graph.nodes[target].type != node.type, "Seed %d repeats %s back to back" % [seed_value, node.type])
+			if node.type == "전투":
+				for target in node.next:
+					if graph.nodes[target].type != "전투": continue
+					for third in graph.nodes[target].next: check(graph.nodes[third].type != "전투" or node.row == 0, "Seed %d has three fights in a row" % seed_value)
+			if node.type == "엘리트": check(node.row >= 4, "Early elite")
+			if node.type == "상점": check(node.row >= 3, "Early shop")
+	fight_share /= 200.0
+	check(fight_share < 0.55 and fight_share > 0.25, "Fights should be a minority of rooms: %.2f" % fight_share)
+	print("MAP_MIX fight_share=%.2f row_one_events=%d" % [fight_share, seeds_with_event_row_one])
 	print("MAP_GRAPH_QA seeds=200 failures=", failures.size())
 	if DisplayServer.get_name() == "headless":
 		quit(0 if failures.is_empty() else 1)
@@ -93,6 +116,7 @@ func run() -> void:
 	map_scroll.scroll_vertical = scroll_before
 	await process_frame
 	var id: int = main.expedition.available()[0]
+	main.expedition.nodes[id].type = "전투"  # room types are random now; this test walks into a fight
 	var original_seed: int = main.expedition.run_seed
 	check(view.player_markers.has("local"), "Current player face missing")
 	check(view.player_markers["local"].get_meta("node_id") == main.expedition.current_id, "Player marker on wrong start node")

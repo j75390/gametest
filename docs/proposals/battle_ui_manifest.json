@@ -1,0 +1,137 @@
+{
+  "energy_orb": {
+    "path": "res://assets/ui/battle/energy_orb.png",
+    "size": [
+      512,
+      512
+    ],
+    "state": "needs_review",
+    "source": "COMFYUI",
+    "seed": 1008100
+  },
+  "pile_draw": {
+    "path": "res://assets/ui/battle/pile_draw.png",
+    "size": [
+      256,
+      256
+    ],
+    "state": "needs_review",
+    "source": "COMFYUI",
+    "seed": 1008841
+  },
+  "pile_discard": {
+    "path": "res://assets/ui/battle/pile_discard.png",
+    "size": [
+      256,
+      256
+    ],
+    "state": "needs_review",
+    "source": "COMFYUI",
+    "seed": 1008102
+  },
+  "intent_attack": {
+    "path": "res://assets/ui/battle/intent_attack.png",
+    "size": [
+      128,
+      128
+    ],
+    "state": "needs_review",
+    "source": "COMFYUI",
+    "seed": 1008103
+  },
+  "intent_defend": {
+    "path": "res://assets/ui/battle/intent_defend.png",
+    "size": [
+      128,
+      128
+    ],
+    "state": "needs_review",
+    "source": "COMFYUI",
+    "seed": 1008104
+  },
+  "intent_buff": {
+    "path": "res://assets/ui/battle/intent_buff.png",
+    "size": [
+      128,
+      128
+    ],
+    "state": "needs_review",
+    "source": "COMFYUI",
+    "seed": 1008105
+  },
+  "intent_debuff": {
+    "path": "res://assets/ui/battle/intent_debuff.png",
+    "size": [
+      128,
+      128
+    ],
+    "state": "needs_review",
+    "source": "COMFYUI",
+    "seed": 1009771
+  },
+  "intent_unknown": {
+    "path": "res://assets/ui/battle/intent_unknown.png",
+    "size": [
+      128,
+      128
+    ],
+    "state": "needs_review",
+    "source": "COMFYUI",
+    "seed": 1008847
+  },
+  "block_shield": {
+    "path": "res://assets/ui/battle/block_shield.png",
+    "size": [
+      128,
+      128
+    ],
+    "state": "needs_review",
+    "source": "COMFYUI",
+    "seed": 1008848
+  },
+  "end_turn_normal": {
+    "path": "res://assets/ui/battle/end_turn_normal.png",
+    "size": [
+      360,
+      120
+    ],
+    "state": "needs_review",
+    "source": "authored_ui",
+    "text_safe_rect": [
+      54,
+      32,
+      252,
+      56
+    ]
+  },
+  "end_turn_hover": {
+    "path": "res://assets/ui/battle/end_turn_hover.png",
+    "size": [
+      360,
+      120
+    ],
+    "state": "needs_review",
+    "source": "authored_ui",
+    "text_safe_rect": [
+      54,
+      32,
+      252,
+      56
+    ]
+  },
+  "end_turn_disabled": {
+    "path": "res://assets/ui/battle/end_turn_disabled.png",
+    "size": [
+      360,
+      120
+    ],
+    "state": "needs_review",
+    "source": "authored_ui",
+    "text_safe_rect": [
+      54,
+      32,
+      252,
+      56
+    ]
+  }
+}

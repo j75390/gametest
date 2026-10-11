@@ -1,0 +1,24 @@
+{
+  "potions": {
+    "id": "hub_potions",
+    "name": "potions",
+    "path": "res://assets/relics/comfy_batch_20261009/hub_potions.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_hub_20261010\\hub_potions_a1.png",
+    "seed": 10226451,
+    "attempt": 1,
+    "qa": {
+      "alpha_area": 0.2492,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        135,
+        53,
+        612,
+        681
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one compact antique alchemical distillation apparatus, glass flask of purple liquid connected by a curved glass tube to a green glass receiver, brass stand, medieval laboratory equipment"
+  }
+}

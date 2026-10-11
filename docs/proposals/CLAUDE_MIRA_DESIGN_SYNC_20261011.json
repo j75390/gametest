@@ -1,0 +1,393 @@
+{
+  "character": "mira",
+  "runtime_applied": false,
+  "cards": [
+    {
+      "id": "strike",
+      "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\mira_design_sync\\cards\\strike_design_v3.png",
+      "resource_path": "res://assets/delivery/claude_20261011/mira_design_sync/cards/strike_design_v3.png",
+      "sha256": "57d03d46b7d7bb265041494c1c55e5bb52f3c2f36202f4d9b2ac0b866151feb3",
+      "reason": "상아 블라우스와 검정 목깃/장갑, 두 허리 약병. 공격 손의 다섯 손가락과 손목 연결, 기존 효과 구도 확인.",
+      "verdict": "pass",
+      "replaces": "assets/cards/mira/strike_scene_v2.png",
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "id": "defend",
+      "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\mira_design_sync\\cards\\defend_design_v3.png",
+      "resource_path": "res://assets/delivery/claude_20261011/mira_design_sync/cards/defend_design_v3.png",
+      "sha256": "1ebefc8cd15a7133581c649e9750616c8374ff4dcb82c28a954627afc4a52412",
+      "reason": "정면 원형 결계와 정면 손 유지. 상아 블라우스·높은 검정 목깃, 검정 장갑 다섯 손가락 확인.",
+      "verdict": "pass",
+      "replaces": "assets/cards/mira/defend_scene_v4.png",
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "id": "soul_binding",
+      "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\mira_design_sync\\cards\\soul_binding_design_v3.png",
+      "resource_path": "res://assets/delivery/claude_20261011/mira_design_sync/cards/soul_binding_design_v3.png",
+      "sha256": "8c226f7b4db982b62383e2ec802ba2a9b0f72c5b7737461a879b5a03b45414c6",
+      "reason": "작은 미라와 사슬/유령의 넓은 구도 보존. 긴 치마로 허벅지 노출 제거, 양 팔·부츠 연결 확인.",
+      "verdict": "pass",
+      "replaces": "assets/cards/mira/soul_binding_wide_v4.png",
+      "size": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "id": "bear_the_pain",
+      "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\mira_design_sync\\cards\\bear_the_pain_design_v3.png",
+      "resource_path": "res://assets/delivery/claude_20261011/mira_design_sync/cards/bear_the_pain_design_v3.png",
+      "sha256": "f328ae6802156f12db496988bd5e3c9f58da6134cfc552a5fa6f3b7cb90b6745",
+      "reason": "얼굴 없는 가슴을 짚는 손 구도 유지. 가슴 상아 블라우스·검정 목깃·검정 코르셋. 다섯 손가락·소매 연결 확인.",
+      "verdict": "pass",
+      "replaces": "assets/delivery/claude_20261011/cards/bear_the_pain_v2.png",
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "id": "borrowed_pain",
+      "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\mira_design_sync\\cards\\borrowed_pain_design_v3.png",
+      "resource_path": "res://assets/delivery/claude_20261011/mira_design_sync/cards/borrowed_pain_design_v3.png",
+      "sha256": "7f2301dabd4f47be6656932ee3295c0d3a5aa02f7d5f9784dae94ae217695eb2",
+      "reason": "작은 후면 미라와 갑옷으로 옮기는 고통 효과 유지. 노출 어깨 대신 상아 블라우스. 옆 가면·어두운 머리·손목 연결 확인.",
+      "verdict": "pass",
+      "replaces": "assets/delivery/claude_20261011/cards/borrowed_pain_v2.png",
+      "size": [
+        1254,
+        1254
+      ]
+    }
+  ],
+  "pixel_frames": [
+    {
+      "id": "idle",
+      "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\idle.png",
+      "resource_path": "res://assets/delivery/claude_20261011/mira_design_sync/pixel/idle.png",
+      "sha256": "14b3508c643e44c545d22f6f2d2d0f9a5f06db032d641549221162b2a3900b23",
+      "raw_sha256": "84c3254b2d6a0930500f5848077c97416acaa5f8f8f68056e96fe9b066e9708e",
+      "reason": "기본 자세의 의상·가면·두 손/두 부츠 연결과 투명 외곽 확인.",
+      "verdict": "pass",
+      "size": [
+        320,
+        192
+      ],
+      "bounds": [
+        74,
+        22,
+        214,
+        179
+      ]
+    },
+    {
+      "id": "idle_blink",
+      "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\idle_blink.png",
+      "resource_path": "res://assets/delivery/claude_20261011/mira_design_sync/pixel/idle_blink.png",
+      "sha256": "60d7a68733d599f970c7f0c5dddb50aa1fe7a4a5bcc422adf2bd1b5045466207",
+      "raw_sha256": "6dcaff47887460eeed36553ac8904dfdc449ea782453a9f26a270a23caed7746",
+      "reason": "기본 자세를 유지한 눈 감김, 의상과 손발 연결 일치.",
+      "verdict": "pass",
+      "size": [
+        320,
+        192
+      ],
+      "bounds": [
+        78,
+        22,
+        209,
+        179
+      ]
+    },
+    {
+      "id": "walk_a",
+      "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\walk_a.png",
+      "resource_path": "res://assets/delivery/claude_20261011/mira_design_sync/pixel/walk_a.png",
+      "sha256": "174e4c3b4068d959349d04b5e05dce40b83360396d57b205834a0caefd5e7131",
+      "raw_sha256": "7329d737c35025262e325b5793bdafb25545ebfbf58c18dc25f05f4857cec3ff",
+      "reason": "재제작: 낮게 든 약병을 유지한 전진 걸음. 두 장갑·부츠와 정강이 연결, 긴 치마 확인.",
+      "verdict": "pass",
+      "size": [
+        320,
+        192
+      ],
+      "bounds": [
+        70,
+        12,
+        211,
+        174
+      ]
+    },
+    {
+      "id": "walk_pass",
+      "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\walk_pass.png",
+      "resource_path": "res://assets/delivery/claude_20261011/mira_design_sync/pixel/walk_pass.png",
+      "sha256": "d6db7ec04070f0a445ac8c146378ce59eab5ec7ce8cae4a7769a61ed688a508d",
+      "raw_sha256": "65939436bfd3141722c89928310378c6b40882c2e03962238e47676ff766d245",
+      "reason": "재제작: 두 발이 가까운 통과 자세와 들어 올린 후행 부츠. 가면·상의·치마·약병 유지.",
+      "verdict": "pass",
+      "size": [
+        320,
+        192
+      ],
+      "bounds": [
+        81,
+        12,
+        218,
+        180
+      ]
+    },
+    {
+      "id": "walk_b",
+      "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\walk_b.png",
+      "resource_path": "res://assets/delivery/claude_20261011/mira_design_sync/pixel/walk_b.png",
+      "sha256": "c433ce47c03623ed693fd1d812182f791450392a7907f5b40f8cdbaab9498bb6",
+      "raw_sha256": "dc6bb8c9770441f74645a97092abb5d1e3f5de38dba36106e3ec59002c953e23",
+      "reason": "세 번째 수정: 지지 부츠와 앞으로 들어 올린 부츠가 구분되는 들린 발걸음. 굽힌 무릎/정강이가 치마 아래 이어짐. 낮게 든 약병 유지.",
+      "verdict": "pass",
+      "size": [
+        320,
+        192
+      ],
+      "bounds": [
+        75,
+        19,
+        212,
+        178
+      ]
+    },
+    {
+      "id": "attack_prepare",
+      "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\attack_prepare.png",
+      "resource_path": "res://assets/delivery/claude_20261011/mira_design_sync/pixel/attack_prepare.png",
+      "sha256": "d237e681070e3e41621fea304be72a659d151143dd7f8c1b6582d5de30744353",
+      "raw_sha256": "9510f96f95940f48ce21b28e8009ff63e85bbdf03cdd7418964e46dc41c4a591",
+      "reason": "투척 준비로 뒤로 든 약병, 양 팔의 어깨/팔꿈치 연결과 두 부츠 확인.",
+      "verdict": "pass",
+      "size": [
+        320,
+        192
+      ],
+      "bounds": [
+        83,
+        12,
+        217,
+        179
+      ]
+    },
+    {
+      "id": "attack_release",
+      "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\attack_release.png",
+      "resource_path": "res://assets/delivery/claude_20261011/mira_design_sync/pixel/attack_release.png",
+      "sha256": "a7dfc28d0c50be0ab1615e4265f2a00faf4b4f1252d8b4fff7bff379d00dde7c",
+      "raw_sha256": "14684b652a4f8f5024ef65e0cd458cff30169acd394ad9af193ee15f6d7cf1a9",
+      "reason": "재제작: 날아가는 약병 전체와 마개/효과가 화면 안에 있음. 앞으로 뻗은 팔의 소매/손목 연결 확인.",
+      "verdict": "pass",
+      "size": [
+        320,
+        192
+      ],
+      "bounds": [
+        71,
+        15,
+        265,
+        180
+      ]
+    },
+    {
+      "id": "skill_charge",
+      "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\skill_charge.png",
+      "resource_path": "res://assets/delivery/claude_20261011/mira_design_sync/pixel/skill_charge.png",
+      "sha256": "c6070d62e65bdd5ea264649fda98442bbe97b3f307c50ba0fb3b8d379c1b3618",
+      "raw_sha256": "9c4ae17dfee4f5feb2346db1dffbfe375f8e9aa99e87275b59ce54edc394df8e",
+      "reason": "양 손 사이에 모으는 작은 효과. 두 손목과 팔꿈치 연결, 소매·허리 약병·가슴을 덮는 블라우스 유지.",
+      "verdict": "pass",
+      "size": [
+        320,
+        192
+      ],
+      "bounds": [
+        72,
+        21,
+        207,
+        180
+      ]
+    },
+    {
+      "id": "skill_release",
+      "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\skill_release.png",
+      "resource_path": "res://assets/delivery/claude_20261011/mira_design_sync/pixel/skill_release.png",
+      "sha256": "17d49e41bae323df476230090bf15fc3543be0adade0b7e5f3ca57d7753fa05f",
+      "raw_sha256": "643595a0805b898bdb53064a7aab7363ef6e387ef09750bb4470591743c45531",
+      "reason": "재제작: 효과 전체 외곽이 보이며 양 팔/손목 연결 확인. 동일 의상 유지.",
+      "verdict": "pass",
+      "size": [
+        320,
+        192
+      ],
+      "bounds": [
+        96,
+        15,
+        236,
+        176
+      ]
+    },
+    {
+      "id": "hurt",
+      "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\hurt.png",
+      "resource_path": "res://assets/delivery/claude_20261011/mira_design_sync/pixel/hurt.png",
+      "sha256": "2c15b8b1158e229f6753fd34cc65df7936355cf103942121e3f870e341e6b600",
+      "raw_sha256": "6ce1a99afadc3f4f67c602e932c11828d02ac46799acdb2b626c01064933bb33",
+      "reason": "고통 표정과 가슴을 짚는 손, 내려진 손. 두 팔/다리 연결과 블라우스·긴 치마 유지.",
+      "verdict": "pass",
+      "size": [
+        320,
+        192
+      ],
+      "bounds": [
+        81,
+        12,
+        215,
+        174
+      ]
+    },
+    {
+      "id": "death_fall",
+      "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\death_fall.png",
+      "resource_path": "res://assets/delivery/claude_20261011/mira_design_sync/pixel/death_fall.png",
+      "sha256": "6194ae556697151f7a99709e8ba29b6ba2a73f743a7f4bacd95dff7373295568",
+      "raw_sha256": "675049ae64dd20761256315ee3c1df6e00620bcfd180362ed383b04dc1f39b8d",
+      "reason": "무릎을 꿇고 한 손으로 바닥을 짚음. 다른 손은 몸 근처, 두 다리는 치마 아래 접힘. 부품 누락 없음.",
+      "verdict": "pass",
+      "size": [
+        320,
+        192
+      ],
+      "bounds": [
+        65,
+        41,
+        205,
+        169
+      ]
+    },
+    {
+      "id": "death_rest",
+      "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\death_rest.png",
+      "resource_path": "res://assets/delivery/claude_20261011/mira_design_sync/pixel/death_rest.png",
+      "sha256": "19a3b87040dec08a88c0b0cf39c20b59f19df7be8f51daa53729a731fc18bfc9",
+      "raw_sha256": "9976fccbe848bd2cc25191d16b3c05b7db82d6809994e31624cff70c05de3f29",
+      "reason": "바닥에 옆으로 누운 자세, 팔 둘과 두 부츠 및 긴 치마 확인. 가면은 머리 옆 유지.",
+      "verdict": "pass",
+      "size": [
+        320,
+        192
+      ],
+      "bounds": [
+        83,
+        79,
+        217,
+        176
+      ]
+    }
+  ],
+  "proposed_motions": {
+    "idle": [
+      {
+        "path": "res://assets/delivery/claude_20261011/mira_design_sync/pixel/idle.png",
+        "duration": 2.4
+      },
+      {
+        "path": "res://assets/delivery/claude_20261011/mira_design_sync/pixel/idle_blink.png",
+        "duration": 0.13
+      }
+    ],
+    "walk": [
+      {
+        "path": "res://assets/delivery/claude_20261011/mira_design_sync/pixel/walk_a.png",
+        "duration": 0.16
+      },
+      {
+        "path": "res://assets/delivery/claude_20261011/mira_design_sync/pixel/walk_pass.png",
+        "duration": 0.12
+      },
+      {
+        "path": "res://assets/delivery/claude_20261011/mira_design_sync/pixel/walk_b.png",
+        "duration": 0.16
+      },
+      {
+        "path": "res://assets/delivery/claude_20261011/mira_design_sync/pixel/walk_pass.png",
+        "duration": 0.12
+      }
+    ],
+    "attack": [
+      {
+        "path": "res://assets/delivery/claude_20261011/mira_design_sync/pixel/attack_prepare.png",
+        "duration": 0.18
+      },
+      {
+        "path": "res://assets/delivery/claude_20261011/mira_design_sync/pixel/attack_release.png",
+        "duration": 0.3
+      },
+      {
+        "path": "res://assets/delivery/claude_20261011/mira_design_sync/pixel/idle.png",
+        "duration": 0.18
+      }
+    ],
+    "skill": [
+      {
+        "path": "res://assets/delivery/claude_20261011/mira_design_sync/pixel/skill_charge.png",
+        "duration": 0.32
+      },
+      {
+        "path": "res://assets/delivery/claude_20261011/mira_design_sync/pixel/skill_release.png",
+        "duration": 0.48
+      },
+      {
+        "path": "res://assets/delivery/claude_20261011/mira_design_sync/pixel/idle.png",
+        "duration": 0.18
+      }
+    ],
+    "hurt": [
+      {
+        "path": "res://assets/delivery/claude_20261011/mira_design_sync/pixel/hurt.png",
+        "duration": 0.26
+      },
+      {
+        "path": "res://assets/delivery/claude_20261011/mira_design_sync/pixel/idle_blink.png",
+        "duration": 0.12
+      },
+      {
+        "path": "res://assets/delivery/claude_20261011/mira_design_sync/pixel/idle.png",
+        "duration": 0.14
+      }
+    ],
+    "death": [
+      {
+        "path": "res://assets/delivery/claude_20261011/mira_design_sync/pixel/hurt.png",
+        "duration": 0.16
+      },
+      {
+        "path": "res://assets/delivery/claude_20261011/mira_design_sync/pixel/death_fall.png",
+        "duration": 0.3
+      },
+      {
+        "path": "res://assets/delivery/claude_20261011/mira_design_sync/pixel/death_rest.png",
+        "duration": 1.2
+      }
+    ]
+  },
+  "sd_reference": {
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\mira_design_sync\\sd\\idle_v4.png",
+    "sha256": "a7a56ed98c5a66911d3c1eeed2d33a707c8069c424ae7077de8ead4279398951",
+    "verdict": "pass"
+  },
+  "renderer_notes": "Common 320x192 alpha canvas. Nearest filtering; keep aspect and ground pivot y=180. Do not trim per-frame alpha or independently scale frames. These are six short key-pose timelines, not smooth high-frame animation."
+}

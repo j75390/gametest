@@ -1,0 +1,51 @@
+[
+  {
+    "name": "topbar_frame",
+    "width": 1440,
+    "height": 76,
+    "prompt": "Extremely wide thin horizontal HUD header strip, 19:1 aspect ratio. Opaque near-black plum iron interior, very subtle velvet grain. Thin tarnished gold metal lower edge and tiny restrained gothic corner filigree. All central area flat dark empty for many readable labels. No compartments, no icons, no text. Entire complete strip.",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-57c8393c-b1b1-41a0-8c2d-b0c51d01fc9d.png"
+  },
+  {
+    "name": "portrait_ring",
+    "width": 88,
+    "height": 88,
+    "prompt": "One circular portrait frame ring, hollow fully transparent center, thin tarnished gold sculpted metal, tiny violet amethyst at top and bottom, restrained gothic engraving. Large opening 72 percent diameter. No portrait or backing disk.",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-69aad4b1-7754-4bc4-a2dc-fe2042e08dff.png"
+  },
+  {
+    "name": "icon_hp",
+    "width": 64,
+    "height": 64,
+    "prompt": "One easily readable crimson faceted heart gem in thin tarnished gold bezel, simple strong heart silhouette, three large facets, restrained gothic metal detail.",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-7cd362ec-ffad-4a63-a73a-4b83cc355b81.png"
+  },
+  {
+    "name": "icon_gold",
+    "width": 64,
+    "height": 64,
+    "prompt": "One thick antique gold coin shown nearly face on with small crescent embossed symbol, strong circular silhouette, warm polished rim, no letters numbers.",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-be2fa5e0-4e5a-49ba-a74d-6d6baf147bb1.png"
+  },
+  {
+    "name": "icon_floor",
+    "width": 64,
+    "height": 64,
+    "prompt": "One short gothic stone staircase of four broad clearly readable steps leading upward to a small pointed arch, compact single object, dark slate stone gold accents, simple silhouette.",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-8fc837e2-191a-4655-a67c-661d7a250225.png"
+  },
+  {
+    "name": "icon_deck",
+    "width": 80,
+    "height": 80,
+    "prompt": "One closed upright dark violet grimoire with thick ivory page block, tarnished gold crescent clasp and metal corner mounts, obvious readable book silhouette distinct from loose card piles.",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-b54ffe0f-af39-47af-907a-4bf0317de0f0.png"
+  },
+  {
+    "name": "relic_slot",
+    "width": 72,
+    "height": 72,
+    "prompt": "One hollow octagonal inventory frame, fully transparent large empty center, thin aged gold bevelled rim and dark iron edge, tiny violet corner accents, no object inside. Strong simple border.",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-3efd5ff9-4a72-4a04-a323-3c33c8214252.png"
+  }
+]

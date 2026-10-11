@@ -36,10 +36,13 @@ func run():
 	root.add_child(main)
 	main.choose_character(main.characters[0])
 	main.show_shop()
+	await process_frame
 	var icons := 0
-	for child in main.content.get_children():
-		if child is Button and child.icon != null:
-			icons += 1
+	for slot in main.shop_view.shelf.get_children():
+		if slot is Panel:
+			for part in slot.get_children():
+				if part is TextureRect and part.texture != null:
+					icons += 1
 	assert(icons >= 6)
 	main.queue_free()
 	await process_frame

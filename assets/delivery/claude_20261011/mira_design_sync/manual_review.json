@@ -1,0 +1,252 @@
+[
+  {
+    "path": "sd/idle_v4.png",
+    "verdict": "pass",
+    "reason": "상아 블라우스·긴 치마·검정 장갑/부츠·옆 가면·허리 약병 일치. 팔 둘과 다리 둘, 발끝 외곽 확인.",
+    "sha256": "a7a56ed98c5a66911d3c1eeed2d33a707c8069c424ae7077de8ead4279398951",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "path": "pixel/idle_raw.png",
+    "verdict": "pass",
+    "reason": "기본 자세의 의상·가면·두 손/두 부츠 연결과 투명 외곽 확인.",
+    "sha256": "84c3254b2d6a0930500f5848077c97416acaa5f8f8f68056e96fe9b066e9708e",
+    "size": [
+      1145,
+      1374
+    ]
+  },
+  {
+    "path": "pixel/idle_blink_raw.png",
+    "verdict": "pass",
+    "reason": "기본 자세를 유지한 눈 감김, 의상과 손발 연결 일치.",
+    "sha256": "6dcaff47887460eeed36553ac8904dfdc449ea782453a9f26a270a23caed7746",
+    "size": [
+      1145,
+      1374
+    ]
+  },
+  {
+    "path": "pixel/walk_pass_rejected_01.png",
+    "verdict": "reject",
+    "reason": "발이 넓게 벌어져 통과 자세가 아니며 walk_a와 걸음 차이 부족.",
+    "sha256": "a4f999384582c01e156fdd220dbb5b2b19fd508ce5651bff058d491614c04cb2",
+    "size": [
+      1145,
+      1374
+    ]
+  },
+  {
+    "path": "pixel/walk_b_rejected_01.png",
+    "verdict": "reject",
+    "reason": "walk_a와 같은 발걸음 방향, 반대 발걸음 구분 부족.",
+    "sha256": "2f367dbe198aeb0a23b97ad3a95d70887f3883230ef1363c48f2536c1f80eddc",
+    "size": [
+      1145,
+      1374
+    ]
+  },
+  {
+    "path": "cards/strike_design_v3.png",
+    "verdict": "pass",
+    "reason": "상아 블라우스와 검정 목깃/장갑, 두 허리 약병. 공격 손의 다섯 손가락과 손목 연결, 기존 효과 구도 확인.",
+    "sha256": "57d03d46b7d7bb265041494c1c55e5bb52f3c2f36202f4d9b2ac0b866151feb3",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "path": "cards/defend_design_v3.png",
+    "verdict": "pass",
+    "reason": "정면 원형 결계와 정면 손 유지. 상아 블라우스·높은 검정 목깃, 검정 장갑 다섯 손가락 확인.",
+    "sha256": "1ebefc8cd15a7133581c649e9750616c8374ff4dcb82c28a954627afc4a52412",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "path": "cards/soul_binding_design_v3.png",
+    "verdict": "pass",
+    "reason": "작은 미라와 사슬/유령의 넓은 구도 보존. 긴 치마로 허벅지 노출 제거, 양 팔·부츠 연결 확인.",
+    "sha256": "8c226f7b4db982b62383e2ec802ba2a9b0f72c5b7737461a879b5a03b45414c6",
+    "size": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "path": "cards/bear_the_pain_design_v3.png",
+    "verdict": "pass",
+    "reason": "얼굴 없는 가슴을 짚는 손 구도 유지. 가슴 상아 블라우스·검정 목깃·검정 코르셋. 다섯 손가락·소매 연결 확인.",
+    "sha256": "f328ae6802156f12db496988bd5e3c9f58da6134cfc552a5fa6f3b7cb90b6745",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "path": "cards/borrowed_pain_design_v3.png",
+    "verdict": "pass",
+    "reason": "작은 후면 미라와 갑옷으로 옮기는 고통 효과 유지. 노출 어깨 대신 상아 블라우스. 옆 가면·어두운 머리·손목 연결 확인.",
+    "sha256": "7f2301dabd4f47be6656932ee3295c0d3a5aa02f7d5f9784dae94ae217695eb2",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "path": "pixel/walk_pass_raw.png",
+    "verdict": "pass",
+    "reason": "재제작: 두 발이 가까운 통과 자세와 들어 올린 후행 부츠. 가면·상의·치마·약병 유지.",
+    "sha256": "65939436bfd3141722c89928310378c6b40882c2e03962238e47676ff766d245",
+    "size": [
+      1145,
+      1374
+    ]
+  },
+  {
+    "path": "pixel/attack_prepare_raw.png",
+    "verdict": "pass",
+    "reason": "투척 준비로 뒤로 든 약병, 양 팔의 어깨/팔꿈치 연결과 두 부츠 확인.",
+    "sha256": "9510f96f95940f48ce21b28e8009ff63e85bbdf03cdd7418964e46dc41c4a591",
+    "size": [
+      1145,
+      1374
+    ]
+  },
+  {
+    "path": "pixel/attack_release_raw.png",
+    "verdict": "pass",
+    "reason": "재제작: 날아가는 약병 전체와 마개/효과가 화면 안에 있음. 앞으로 뻗은 팔의 소매/손목 연결 확인.",
+    "sha256": "14684b652a4f8f5024ef65e0cd458cff30169acd394ad9af193ee15f6d7cf1a9",
+    "size": [
+      1366,
+      1151
+    ]
+  },
+  {
+    "path": "pixel/skill_charge_raw.png",
+    "verdict": "pass",
+    "reason": "양 손 사이에 모으는 작은 효과. 두 손목과 팔꿈치 연결, 소매·허리 약병·가슴을 덮는 블라우스 유지.",
+    "sha256": "9c4ae17dfee4f5feb2346db1dffbfe375f8e9aa99e87275b59ce54edc394df8e",
+    "size": [
+      1145,
+      1374
+    ]
+  },
+  {
+    "path": "pixel/skill_release_raw.png",
+    "verdict": "pass",
+    "reason": "재제작: 효과 전체 외곽이 보이며 양 팔/손목 연결 확인. 동일 의상 유지.",
+    "sha256": "643595a0805b898bdb53064a7aab7363ef6e387ef09750bb4470591743c45531",
+    "size": [
+      1145,
+      1374
+    ]
+  },
+  {
+    "path": "pixel/hurt_raw.png",
+    "verdict": "pass",
+    "reason": "고통 표정과 가슴을 짚는 손, 내려진 손. 두 팔/다리 연결과 블라우스·긴 치마 유지.",
+    "sha256": "6ce1a99afadc3f4f67c602e932c11828d02ac46799acdb2b626c01064933bb33",
+    "size": [
+      1145,
+      1374
+    ]
+  },
+  {
+    "path": "pixel/death_fall_raw.png",
+    "verdict": "pass",
+    "reason": "무릎을 꿇고 한 손으로 바닥을 짚음. 다른 손은 몸 근처, 두 다리는 치마 아래 접힘. 부품 누락 없음.",
+    "sha256": "675049ae64dd20761256315ee3c1df6e00620bcfd180362ed383b04dc1f39b8d",
+    "size": [
+      1145,
+      1374
+    ]
+  },
+  {
+    "path": "pixel/death_rest_raw.png",
+    "verdict": "pass",
+    "reason": "바닥에 옆으로 누운 자세, 팔 둘과 두 부츠 및 긴 치마 확인. 가면은 머리 옆 유지.",
+    "sha256": "9976fccbe848bd2cc25191d16b3c05b7db82d6809994e31624cff70c05de3f29",
+    "size": [
+      1145,
+      1374
+    ]
+  },
+  {
+    "path": "pixel/attack_release_rejected_02.png",
+    "verdict": "reject",
+    "reason": "투척 약병 마개와 우측 효과가 원본 끝에서 잘림.",
+    "sha256": "4ed236ea006598d5d1c9da1c00464ee45441ac0f549d2ba5000e01f7af0534f5",
+    "size": [
+      1145,
+      1374
+    ]
+  },
+  {
+    "path": "pixel/skill_release_rejected_02.png",
+    "verdict": "reject",
+    "reason": "우측 마법 효과 외곽이 원본 끝에서 잘림.",
+    "sha256": "35cd6ca54d0eec199a4df95fd5bfcdaa27c1115dcf1db18ee05c4678e9094c53",
+    "size": [
+      1145,
+      1374
+    ]
+  },
+  {
+    "path": "pixel/walk_a_raw.png",
+    "verdict": "pass",
+    "reason": "재제작: 낮게 든 약병을 유지한 전진 걸음. 두 장갑·부츠와 정강이 연결, 긴 치마 확인.",
+    "sha256": "7329d737c35025262e325b5793bdafb25545ebfbf58c18dc25f05f4857cec3ff",
+    "size": [
+      1145,
+      1374
+    ]
+  },
+  {
+    "path": "pixel/walk_b_raw.png",
+    "verdict": "pass",
+    "reason": "세 번째 수정: 지지 부츠와 앞으로 들어 올린 부츠가 구분되는 들린 발걸음. 굽힌 무릎/정강이가 치마 아래 이어짐. 낮게 든 약병 유지.",
+    "sha256": "dc6bb8c9770441f74645a97092abb5d1e3f5de38dba36106e3ec59002c953e23",
+    "size": [
+      1145,
+      1374
+    ]
+  },
+  {
+    "path": "pixel/walk_b_rejected_02.png",
+    "verdict": "reject",
+    "reason": "재제작했지만 walk_a와 같은 다리 배치로 걸음 구분이 부족.",
+    "sha256": "12ad039393caf15517e20db809063dc5728e01938454b0b3b00e3a26e191622a",
+    "size": [
+      1145,
+      1374
+    ]
+  },
+  {
+    "path": "pixel/walk_b_rejected_03.png",
+    "verdict": "reject",
+    "reason": "반대 발걸음 지시를 반영하지 않아 들어 올린 발걸음으로 다시 수정.",
+    "sha256": "c7f4e3e1e57e2afe0333e38c6f6fe8979753c7e82382f6cff394d1e1fdd05103",
+    "size": [
+      1145,
+      1374
+    ]
+  },
+  {
+    "path": "pixel/walk_a_rejected_02.png",
+    "verdict": "reject",
+    "reason": "걸을 때 손에 든 약병이 사라짐. 약병을 유지하도록 수정.",
+    "sha256": "5a29a0f3e0c97f67dac4f3c20ce2cd7df38f3c14a65ad9af224fea125af07cc6",
+    "size": [
+      1145,
+      1374
+    ]
+  }
+]

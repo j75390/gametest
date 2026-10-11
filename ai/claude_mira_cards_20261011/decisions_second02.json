@@ -1,0 +1,52 @@
+[
+  {
+    "id": "accumulated_pain",
+    "verdict": "pass",
+    "reason": "One red violet pain sphere gathered above bandaged forearm, coherent side pose, identity consistent."
+  },
+  {
+    "id": "echo_dose",
+    "verdict": "pass",
+    "reason": "Exactly two physical arms plus clearly translucent offset echo figure repeats vial raising action; anatomy checked full size."
+  },
+  {
+    "id": "purification",
+    "verdict": "pass",
+    "reason": "Two natural hands pour clear water into dark stained ritual dish, coherent cleansing action and candle flames."
+  },
+  {
+    "id": "chain_reaction",
+    "verdict": "pass",
+    "reason": "Distinct foreground row of vials burst sequentially with visible wave, natural foreground hand."
+  },
+  {
+    "id": "rapid_brew",
+    "verdict": "pass",
+    "reason": "Rotating distillation device with surrounding medicine vials, distinct apparatus composition and consistent identity."
+  },
+  {
+    "id": "pain_ledger",
+    "verdict": "pass",
+    "reason": "Single red droplet spreads gold light across open ruled ledger, no readable writing, two hands checked full size."
+  },
+  {
+    "id": "ether_cycle",
+    "verdict": "pass",
+    "reason": "Large complete purple vapour ring with vials surrounding small Mira, readable circular energy flow."
+  },
+  {
+    "id": "plague_onset",
+    "verdict": "pass",
+    "reason": "Overhead green point spreads web across cathedral floor; unique high angle scene, no lettering."
+  },
+  {
+    "id": "chemical_burst",
+    "verdict": "pass",
+    "reason": "Exactly three belt vials burst teal gold, two anatomically correct hands, distinct action."
+  },
+  {
+    "id": "borrowed_pain",
+    "verdict": "pass",
+    "reason": "Heroic scene threads move from Mira chest to armored shadow, two natural arms, clear transfer direction."
+  }
+]

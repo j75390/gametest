@@ -44,6 +44,13 @@ func tick_details(max_hp: int) -> Array:
 			set_amount(id, amount(id) - 1)
 	return receipts
 
+## Same total as consume_attack() without spending it (for damage previews).
+func peek_attack() -> int:
+	var bonus := 0
+	for id in entries.keys():
+		if Data.find_record("powers", id).get("behavior") == "next_attack": bonus += amount(id)
+	return bonus
+
 func consume_attack() -> int:
 	var bonus := 0
 	for id in entries.keys():
@@ -51,3 +58,7 @@ func consume_attack() -> int:
 			bonus += amount(id)
 			entries.erase(id)
 	return bonus
+
+## Runs a duration status down by one turn (removed at zero).
+func decay(id: String) -> void:
+	if amount(id) > 0: set_amount(id, amount(id) - 1)

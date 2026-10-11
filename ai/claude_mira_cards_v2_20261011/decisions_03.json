@@ -1,0 +1,7 @@
+[
+{"id":"weak_point_injection","reason":"주사침이 빈 갑옷 틈에 접촉. 손과 손목 연결 확인."},
+{"id":"overdose","verdict":"reject","reason":"마개가 닫힌 병에서 액체가 쏟아지는 물리적 오류. 열린 병으로 재생성 필요."},
+{"id":"glass_veil","reason":"유리 곡면과 화살 충돌, 파편이 선명함. 얼굴 없음."},
+{"id":"accumulated_pain","reason":"붕대 감은 단일 팔과 주먹, 붉은 통증 집중. 손목 연결 확인."},
+{"id":"echo_dose","reason":"실체 약병과 투명 잔상을 분명히 구분. 추가 팔 오류 없음."}
+]

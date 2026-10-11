@@ -6,7 +6,7 @@ func run():
 	main.show_character_select()
 	await create_timer(0.3).timeout
 	var view = main.get_node("CharacterSelection")
-	assert(view.relic_art.texture != null)
+	assert(view.relic_icon.texture != null)
 	assert(view.relic_name.text.contains("빛바랜 초승달"))
 	for dimensions in [Vector2i(1440,900), Vector2i(1280,720)]:
 		root.size = dimensions
@@ -29,7 +29,7 @@ func run():
 		await RenderingServer.frame_post_draw
 		root.get_texture().get_image().save_png("res://docs/selection-relic-%d.png" % dimensions.x)
 	view._select(1)
-	assert(view.relic_art.texture == null)
+	assert(view.relic_icon.texture == null)
 	view._select(0)
 	view.character_chosen.emit(main.characters[0])
 	main.take_arrival_reward(0)

@@ -1,0 +1,127 @@
+[
+  {
+    "path": "sd/idle_v4.png",
+    "verdict": "pass",
+    "reason": "상아 블라우스·긴 치마·검정 장갑/부츠·옆 가면·허리 약병 일치. 팔 둘과 다리 둘, 발끝 외곽 확인."
+  },
+  {
+    "path": "pixel/idle_raw.png",
+    "verdict": "pass",
+    "reason": "기본 자세의 의상·가면·두 손/두 부츠 연결과 투명 외곽 확인."
+  },
+  {
+    "path": "pixel/idle_blink_raw.png",
+    "verdict": "pass",
+    "reason": "기본 자세를 유지한 눈 감김, 의상과 손발 연결 일치."
+  },
+  {
+    "path": "pixel/walk_pass_rejected_01.png",
+    "verdict": "reject",
+    "reason": "발이 넓게 벌어져 통과 자세가 아니며 walk_a와 걸음 차이 부족."
+  },
+  {
+    "path": "pixel/walk_b_rejected_01.png",
+    "verdict": "reject",
+    "reason": "walk_a와 같은 발걸음 방향, 반대 발걸음 구분 부족."
+  },
+  {
+    "path": "cards/strike_design_v3.png",
+    "verdict": "pass",
+    "reason": "상아 블라우스와 검정 목깃/장갑, 두 허리 약병. 공격 손의 다섯 손가락과 손목 연결, 기존 효과 구도 확인."
+  },
+  {
+    "path": "cards/defend_design_v3.png",
+    "verdict": "pass",
+    "reason": "정면 원형 결계와 정면 손 유지. 상아 블라우스·높은 검정 목깃, 검정 장갑 다섯 손가락 확인."
+  },
+  {
+    "path": "cards/soul_binding_design_v3.png",
+    "verdict": "pass",
+    "reason": "작은 미라와 사슬/유령의 넓은 구도 보존. 긴 치마로 허벅지 노출 제거, 양 팔·부츠 연결 확인."
+  },
+  {
+    "path": "cards/bear_the_pain_design_v3.png",
+    "verdict": "pass",
+    "reason": "얼굴 없는 가슴을 짚는 손 구도 유지. 가슴 상아 블라우스·검정 목깃·검정 코르셋. 다섯 손가락·소매 연결 확인."
+  },
+  {
+    "path": "cards/borrowed_pain_design_v3.png",
+    "verdict": "pass",
+    "reason": "작은 후면 미라와 갑옷으로 옮기는 고통 효과 유지. 노출 어깨 대신 상아 블라우스. 옆 가면·어두운 머리·손목 연결 확인."
+  },
+  {
+    "path": "pixel/walk_pass_raw.png",
+    "verdict": "pass",
+    "reason": "재제작: 두 발이 가까운 통과 자세와 들어 올린 후행 부츠. 가면·상의·치마·약병 유지."
+  },
+  {
+    "path": "pixel/attack_prepare_raw.png",
+    "verdict": "pass",
+    "reason": "투척 준비로 뒤로 든 약병, 양 팔의 어깨/팔꿈치 연결과 두 부츠 확인."
+  },
+  {
+    "path": "pixel/attack_release_raw.png",
+    "verdict": "pass",
+    "reason": "재제작: 날아가는 약병 전체와 마개/효과가 화면 안에 있음. 앞으로 뻗은 팔의 소매/손목 연결 확인."
+  },
+  {
+    "path": "pixel/skill_charge_raw.png",
+    "verdict": "pass",
+    "reason": "양 손 사이에 모으는 작은 효과. 두 손목과 팔꿈치 연결, 소매·허리 약병·가슴을 덮는 블라우스 유지."
+  },
+  {
+    "path": "pixel/skill_release_raw.png",
+    "verdict": "pass",
+    "reason": "재제작: 효과 전체 외곽이 보이며 양 팔/손목 연결 확인. 동일 의상 유지."
+  },
+  {
+    "path": "pixel/hurt_raw.png",
+    "verdict": "pass",
+    "reason": "고통 표정과 가슴을 짚는 손, 내려진 손. 두 팔/다리 연결과 블라우스·긴 치마 유지."
+  },
+  {
+    "path": "pixel/death_fall_raw.png",
+    "verdict": "pass",
+    "reason": "무릎을 꿇고 한 손으로 바닥을 짚음. 다른 손은 몸 근처, 두 다리는 치마 아래 접힘. 부품 누락 없음."
+  },
+  {
+    "path": "pixel/death_rest_raw.png",
+    "verdict": "pass",
+    "reason": "바닥에 옆으로 누운 자세, 팔 둘과 두 부츠 및 긴 치마 확인. 가면은 머리 옆 유지."
+  },
+  {
+    "path": "pixel/attack_release_rejected_02.png",
+    "verdict": "reject",
+    "reason": "투척 약병 마개와 우측 효과가 원본 끝에서 잘림."
+  },
+  {
+    "path": "pixel/skill_release_rejected_02.png",
+    "verdict": "reject",
+    "reason": "우측 마법 효과 외곽이 원본 끝에서 잘림."
+  },
+  {
+    "path": "pixel/walk_a_raw.png",
+    "verdict": "pass",
+    "reason": "재제작: 낮게 든 약병을 유지한 전진 걸음. 두 장갑·부츠와 정강이 연결, 긴 치마 확인."
+  },
+  {
+    "path": "pixel/walk_b_raw.png",
+    "verdict": "pass",
+    "reason": "세 번째 수정: 지지 부츠와 앞으로 들어 올린 부츠가 구분되는 들린 발걸음. 굽힌 무릎/정강이가 치마 아래 이어짐. 낮게 든 약병 유지."
+  },
+  {
+    "path": "pixel/walk_b_rejected_02.png",
+    "verdict": "reject",
+    "reason": "재제작했지만 walk_a와 같은 다리 배치로 걸음 구분이 부족."
+  },
+  {
+    "path": "pixel/walk_b_rejected_03.png",
+    "verdict": "reject",
+    "reason": "반대 발걸음 지시를 반영하지 않아 들어 올린 발걸음으로 다시 수정."
+  },
+  {
+    "path": "pixel/walk_a_rejected_02.png",
+    "verdict": "reject",
+    "reason": "걸을 때 손에 든 약병이 사라짐. 약병을 유지하도록 수정."
+  }
+]

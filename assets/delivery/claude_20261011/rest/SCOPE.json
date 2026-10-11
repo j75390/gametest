@@ -1,0 +1,7 @@
+{
+  "character_scope": "mira_only",
+  "excluded": [
+    "raw/kalian_rest_sit.png"
+  ],
+  "reason": "사용자: 다른 캐릭터 확정 아님. 미라만."
+}

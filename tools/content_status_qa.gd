@@ -10,6 +10,6 @@ func _initialize():
 		assert(unit.amount("bleed")==2 and unit.amount("venom")==1)
 		assert(unit.consume_attack()==4 and unit.consume_attack()==0)
 	assert(Data.cards().common[0].cost==1)
-	assert(Data.read("monsters").size()==3)
+	assert(Data.read("monsters").size()==38)  # 13 in ACT I + 9 in ACT II + 8 in ACT III + 8 in ACT IV
 	print("CONTENT_STATUS_QA units=2 shared_catalog=true failures=0")
 	quit()

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "thorn_salve",
+    "verdict": "pass",
+    "reason": "Crossed forearms with thorn salve repel an approaching hand; coherent anatomy and identity."
+  },
+  {
+    "id": "tainted_blade",
+    "verdict": "reject",
+    "reason": "Blade is a fantasy dagger rather than a slender surgical scalpel; regenerate correct medical tool."
+  },
+  {
+    "id": "hasty_remedy",
+    "verdict": "pass",
+    "reason": "Overhead two hands writing abstract prescription marks and reaching vial, clear hurried scene, no readable words."
+  },
+  {
+    "id": "warm_decoction",
+    "verdict": "pass",
+    "reason": "Two hands cradle steaming medicinal pot in warm golden light, correct hands and identity."
+  },
+  {
+    "id": "bitter_dose",
+    "verdict": "pass",
+    "reason": "Mira grimaces and sips thick green medicine, two natural arms and clear drinking action."
+  },
+  {
+    "id": "masked_whisper",
+    "verdict": "pass",
+    "reason": "Crow mask interior emits abstract violet flecks, face and hand consistent, no readable glyphs."
+  },
+  {
+    "id": "weak_point_injection",
+    "verdict": "pass",
+    "reason": "Glass syringe presses into armor gap, natural gripping hand and five-finger resting hand, no frame."
+  },
+  {
+    "id": "overdose",
+    "verdict": "pass",
+    "reason": "Many green vials pour into one vessel, unique wide composition and coherent two-arm action."
+  },
+  {
+    "id": "glass_veil",
+    "verdict": "pass",
+    "reason": "Large transparent glass membrane and shards surround Mira; exactly five fingers on each hand verified in full-size image."
+  }
+]

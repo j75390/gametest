@@ -1,0 +1,1362 @@
+{
+  "relic_common_007": {
+    "id": "relic_common_007",
+    "name": "종지기 귀마개",
+    "seed": 2021113,
+    "attempt": 9,
+    "verdict": "pass",
+    "reason": "두 펠트 귀마개와 연결 끈 외곽 온전",
+    "reviewed_at": "2026-10-09T12:01:45.951430+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_007.png"
+  },
+  "relic_common_008": {
+    "id": "relic_common_008",
+    "name": "붉은 재봉실",
+    "seed": 1157911,
+    "attempt": 2,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_008.png"
+  },
+  "relic_common_009": {
+    "id": "relic_common_009",
+    "name": "돌아온 단추",
+    "seed": 1158908,
+    "attempt": 2,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_009.png"
+  },
+  "relic_common_010": {
+    "id": "relic_common_010",
+    "name": "찬물 대야",
+    "seed": 1036448,
+    "attempt": 1,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_010.png"
+  },
+  "relic_common_011": {
+    "id": "relic_common_011",
+    "name": "닳은 문고리",
+    "seed": 913988,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_011.png"
+  },
+  "relic_common_012": {
+    "id": "relic_common_012",
+    "name": "간호 순번표",
+    "seed": 914985,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_012.png"
+  },
+  "relic_common_013": {
+    "id": "relic_common_013",
+    "name": "작은 발받침",
+    "seed": 915982,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_013.png"
+  },
+  "relic_common_014": {
+    "id": "relic_common_014",
+    "name": "빛가림 천",
+    "seed": 1163893,
+    "attempt": 2,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_014.png"
+  },
+  "relic_common_015": {
+    "id": "relic_common_015",
+    "name": "약병 마개",
+    "seed": 1288347,
+    "attempt": 3,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_015.png"
+  },
+  "relic_common_016": {
+    "id": "relic_common_016",
+    "name": "밀랍 귀퉁이",
+    "seed": 2153543,
+    "attempt": 10,
+    "verdict": "pass",
+    "reason": "심지 없는 단일 붉은 밀랍 덩어리",
+    "reviewed_at": "2026-10-09T12:01:45.951450+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_016.png"
+  },
+  "relic_common_017": {
+    "id": "relic_common_017",
+    "name": "부두 못",
+    "seed": 1043427,
+    "attempt": 1,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_017.png"
+  },
+  "relic_common_018": {
+    "id": "relic_common_018",
+    "name": "수로 분필",
+    "seed": 1167881,
+    "attempt": 2,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_018.png"
+  },
+  "relic_common_019": {
+    "id": "relic_common_019",
+    "name": "접은 돛천",
+    "seed": 1168878,
+    "attempt": 2,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_019.png"
+  },
+  "relic_common_020": {
+    "id": "relic_common_020",
+    "name": "빈 통행표",
+    "seed": 1540246,
+    "attempt": 5,
+    "verdict": "pass",
+    "reason": "가짜 글자 없이 온전한 빈 종이 통행표 형태",
+    "reviewed_at": "2026-10-09T11:25:53.123682+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_020.png"
+  },
+  "relic_common_021": {
+    "id": "relic_common_021",
+    "name": "낚싯줄 고리",
+    "seed": 923958,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_021.png"
+  },
+  "relic_common_022": {
+    "id": "relic_common_022",
+    "name": "젖지 않는 성냥",
+    "seed": 924955,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_022.png"
+  },
+  "relic_common_023": {
+    "id": "relic_common_023",
+    "name": "밧줄 토막",
+    "seed": 1296323,
+    "attempt": 3,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_023.png"
+  },
+  "relic_common_024": {
+    "id": "relic_common_024",
+    "name": "저울 바늘",
+    "seed": 2038062,
+    "attempt": 9,
+    "verdict": "pass",
+    "reason": "새 seed 육안검수: 지정한 물건 구조, 연결 부품 및 재질 음영 확인, 외곽 온전",
+    "reviewed_at": "2026-10-10T14:17:59.416421+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_024.png"
+  },
+  "relic_common_025": {
+    "id": "relic_common_025",
+    "name": "선원 호루라기",
+    "seed": 1174860,
+    "attempt": 2,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_025.png"
+  },
+  "relic_common_026": {
+    "id": "relic_common_026",
+    "name": "검표 가위",
+    "seed": 1299314,
+    "attempt": 3,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_026.png"
+  },
+  "relic_common_027": {
+    "id": "relic_common_027",
+    "name": "녹슨 방향침",
+    "seed": 929940,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_027.png"
+  },
+  "relic_common_028": {
+    "id": "relic_common_028",
+    "name": "선실 찻숟가락",
+    "seed": 930937,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_028.png"
+  },
+  "relic_common_029": {
+    "id": "relic_common_029",
+    "name": "온실 끈",
+    "seed": 1055391,
+    "attempt": 1,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_029.png"
+  },
+  "relic_common_030": {
+    "id": "relic_common_030",
+    "name": "씨앗 봉투",
+    "seed": 932931,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_030.png"
+  },
+  "relic_common_031": {
+    "id": "relic_common_031",
+    "name": "찻잔 받침",
+    "seed": 1057385,
+    "attempt": 1,
+    "verdict": "pass",
+    "reason": "찻잔 없는 단일 받침과 청색 테두리 확인",
+    "reviewed_at": "2026-10-09T10:56:01.818589+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_031.png"
+  },
+  "relic_common_032": {
+    "id": "relic_common_032",
+    "name": "무딘 전지가위",
+    "seed": 934925,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_032.png"
+  },
+  "relic_common_033": {
+    "id": "relic_common_033",
+    "name": "약초 압착판",
+    "seed": 1059379,
+    "attempt": 1,
+    "verdict": "pass",
+    "reason": "목재 압착 장치/누름판 형태 확인",
+    "reviewed_at": "2026-10-09T10:56:01.818594+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_033.png"
+  },
+  "relic_common_034": {
+    "id": "relic_common_034",
+    "name": "갈색 여과천",
+    "seed": 1801118,
+    "attempt": 7,
+    "verdict": "pass",
+    "reason": "네 외곽과 접힌 부분이 온전한 갈색 린넨 여과천",
+    "reviewed_at": "2026-10-09T11:41:44.335855+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_034.png"
+  },
+  "relic_common_035": {
+    "id": "relic_common_035",
+    "name": "작은 유리추",
+    "seed": 937916,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_035.png"
+  },
+  "relic_common_036": {
+    "id": "relic_common_036",
+    "name": "깨진 물뿌리개",
+    "seed": 938913,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_036.png"
+  },
+  "relic_common_037": {
+    "id": "relic_common_037",
+    "name": "흙 묻은 장갑",
+    "seed": 1186824,
+    "attempt": 2,
+    "verdict": "pass",
+    "reason": "다섯 손가락과 손목이 온전한 단일 가죽 장갑",
+    "reviewed_at": "2026-10-09T11:25:53.123693+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_037.png"
+  },
+  "relic_common_038": {
+    "id": "relic_common_038",
+    "name": "식물 이름표",
+    "seed": 1928563,
+    "attempt": 8,
+    "verdict": "pass",
+    "reason": "구조·온전한 외곽과 재질 음영을 현재seed에서 육안 확인. 글자/콜라주 없음",
+    "reviewed_at": "2026-10-10T14:23:16.130910+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_038.png"
+  },
+  "relic_common_039": {
+    "id": "relic_common_039",
+    "name": "작업용 앞치마",
+    "seed": 941904,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_039.png"
+  },
+  "relic_common_040": {
+    "id": "relic_common_040",
+    "name": "온도계 덮개",
+    "seed": 1066358,
+    "attempt": 1,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_040.png"
+  },
+  "relic_common_041": {
+    "id": "relic_common_041",
+    "name": "서고 책갈피",
+    "seed": 943898,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_041.png"
+  },
+  "relic_common_042": {
+    "id": "relic_common_042",
+    "name": "연필 깎는 칼",
+    "seed": 1068352,
+    "attempt": 1,
+    "verdict": "pass",
+    "reason": "단일 짧은 칼/목재 손잡이/온전한 외곽",
+    "reviewed_at": "2026-10-09T10:56:01.818613+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_042.png"
+  },
+  "relic_common_043": {
+    "id": "relic_common_043",
+    "name": "사서의 먼지솔",
+    "seed": 945892,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_043.png"
+  },
+  "relic_common_044": {
+    "id": "relic_common_044",
+    "name": "납작한 잉크병",
+    "seed": 946889,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_044.png"
+  },
+  "relic_common_045": {
+    "id": "relic_common_045",
+    "name": "대출 확인끈",
+    "seed": 1071343,
+    "attempt": 1,
+    "verdict": "pass",
+    "reason": "책 없는 붉은 매듭 끈",
+    "reviewed_at": "2026-10-09T10:56:01.818618+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_045.png"
+  },
+  "relic_common_046": {
+    "id": "relic_common_046",
+    "name": "반쪽 독서경",
+    "seed": 1936539,
+    "attempt": 8,
+    "verdict": "pass",
+    "reason": "새 seed 육안검수: 지정한 물건 구조, 연결 부품 및 재질 음영 확인, 외곽 온전",
+    "reviewed_at": "2026-10-10T14:17:59.416447+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_046.png"
+  },
+  "relic_common_047": {
+    "id": "relic_common_047",
+    "name": "서류 받침",
+    "seed": 949880,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_047.png"
+  },
+  "relic_common_048": {
+    "id": "relic_common_048",
+    "name": "봉투 칼",
+    "seed": 950877,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_048.png"
+  },
+  "relic_common_049": {
+    "id": "relic_common_049",
+    "name": "백지 묶음",
+    "seed": 1075331,
+    "attempt": 1,
+    "verdict": "pass",
+    "reason": "두꺼운 빈 종이 묶음 형태 확인",
+    "reviewed_at": "2026-10-09T10:56:01.818628+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_049.png"
+  },
+  "relic_common_050": {
+    "id": "relic_common_050",
+    "name": "정정 도장",
+    "seed": 952871,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_050.png"
+  },
+  "relic_common_051": {
+    "id": "relic_common_051",
+    "name": "등불 손잡이",
+    "seed": 1200782,
+    "attempt": 2,
+    "verdict": "pass",
+    "reason": "등불 본체 없이 두 고리 끝이 있는 분리된 금속 손잡이",
+    "reviewed_at": "2026-10-09T11:25:53.123704+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_051.png"
+  },
+  "relic_common_052": {
+    "id": "relic_common_052",
+    "name": "성소 물동이",
+    "seed": 954865,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_052.png"
+  },
+  "relic_common_053": {
+    "id": "relic_common_053",
+    "name": "은빛 재받이",
+    "seed": 955862,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_053.png"
+  },
+  "relic_common_054": {
+    "id": "relic_common_054",
+    "name": "기도 시간표",
+    "seed": 956859,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_054.png"
+  },
+  "relic_common_055": {
+    "id": "relic_common_055",
+    "name": "문지기의 열쇠끈",
+    "seed": 1204770,
+    "attempt": 2,
+    "verdict": "pass",
+    "reason": "단일 오래된 열쇠와 갈색 매듭",
+    "reviewed_at": "2026-10-09T10:56:01.818637+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_055.png"
+  },
+  "relic_common_056": {
+    "id": "relic_common_056",
+    "name": "돌계단 조각",
+    "seed": 1082310,
+    "attempt": 1,
+    "verdict": "pass",
+    "reason": "계단 전체 대신 마모된 돌 조각",
+    "reviewed_at": "2026-10-09T10:56:01.818642+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_056.png"
+  },
+  "relic_common_057": {
+    "id": "relic_common_057",
+    "name": "작은 배급등",
+    "seed": 1083307,
+    "attempt": 1,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_057.png"
+  },
+  "relic_common_058": {
+    "id": "relic_common_058",
+    "name": "이름표 실핀",
+    "seed": 960847,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_058.png"
+  },
+  "relic_common_059": {
+    "id": "relic_common_059",
+    "name": "불씨 덮개",
+    "seed": 1208758,
+    "attempt": 2,
+    "verdict": "pass",
+    "reason": "환기 구멍 있는 반구 덮개",
+    "reviewed_at": "2026-10-09T10:56:01.818647+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_059.png"
+  },
+  "relic_uncommon_003": {
+    "id": "relic_uncommon_003",
+    "name": "봉합 상자",
+    "seed": 962841,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_003.png"
+  },
+  "relic_uncommon_004": {
+    "id": "relic_uncommon_004",
+    "name": "남겨 둔 식권",
+    "seed": 1334209,
+    "attempt": 3,
+    "verdict": "pass",
+    "reason": "글자 없는 온전한 낡은 식권 종이",
+    "reviewed_at": "2026-10-09T11:25:53.123707+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_004.png"
+  },
+  "relic_uncommon_006": {
+    "id": "relic_uncommon_006",
+    "name": "붉은 선 장부",
+    "seed": 1088292,
+    "attempt": 1,
+    "verdict": "pass",
+    "reason": "붉은 끈으로 묶인 가죽 장부",
+    "reviewed_at": "2026-10-09T10:56:01.818656+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_006.png"
+  },
+  "relic_uncommon_008": {
+    "id": "relic_uncommon_008",
+    "name": "반납 상자",
+    "seed": 965832,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_008.png"
+  },
+  "relic_uncommon_009": {
+    "id": "relic_uncommon_009",
+    "name": "밀랍 수송인",
+    "seed": 1213743,
+    "attempt": 2,
+    "verdict": "pass",
+    "reason": "배 문양 있는 단일 적색 밀랍 봉인, 잘림 해소",
+    "reviewed_at": "2026-10-09T10:56:01.818661+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_009.png"
+  },
+  "relic_uncommon_011": {
+    "id": "relic_uncommon_011",
+    "name": "수문 회전축",
+    "seed": 1091283,
+    "attempt": 1,
+    "verdict": "pass",
+    "reason": "단일 회전륜과 크랭크 축 구조",
+    "reviewed_at": "2026-10-09T10:56:01.818665+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_011.png"
+  },
+  "relic_uncommon_012": {
+    "id": "relic_uncommon_012",
+    "name": "선장 없는 항해일지",
+    "seed": 1215737,
+    "attempt": 2,
+    "verdict": "pass",
+    "reason": "배 대신 닻 문양 가죽 책",
+    "reviewed_at": "2026-10-09T10:56:01.818670+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_012.png"
+  },
+  "relic_uncommon_013": {
+    "id": "relic_uncommon_013",
+    "name": "이중 바닥 상자",
+    "seed": 969820,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_013.png"
+  },
+  "relic_uncommon_014": {
+    "id": "relic_uncommon_014",
+    "name": "뱃사공의 손목띠",
+    "seed": 1094274,
+    "attempt": 1,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_014.png"
+  },
+  "relic_uncommon_015": {
+    "id": "relic_uncommon_015",
+    "name": "해진 구조망",
+    "seed": 971814,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_015.png"
+  },
+  "relic_uncommon_016": {
+    "id": "relic_uncommon_016",
+    "name": "검표원의 인장",
+    "seed": 1466639,
+    "attempt": 4,
+    "verdict": "pass",
+    "reason": "단일 목제 손잡이와 황동 검표 도장 면",
+    "reviewed_at": "2026-10-09T12:01:45.951469+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_016.png"
+  },
+  "relic_uncommon_017": {
+    "id": "relic_uncommon_017",
+    "name": "두 잔의 찻잔",
+    "seed": 1344179,
+    "attempt": 3,
+    "verdict": "pass",
+    "reason": "정확히 두 잔과 연결 끈, 콜라주 없음",
+    "reviewed_at": "2026-10-09T11:25:53.123714+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_017.png"
+  },
+  "relic_uncommon_019": {
+    "id": "relic_uncommon_019",
+    "name": "거꾸로 쓴 처방전",
+    "seed": 2826660,
+    "attempt": 15,
+    "verdict": "pass",
+    "reason": "육안검수: 완전한 낡은 종이와 보라색 밀랍 봉인, 외곽 및 단일 물건 유지",
+    "reviewed_at": "2026-10-10T14:32:47.245834+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_019.png"
+  },
+  "relic_uncommon_020": {
+    "id": "relic_uncommon_020",
+    "name": "접목용 은사",
+    "seed": 1346173,
+    "attempt": 3,
+    "verdict": "pass",
+    "reason": "단일 은색 철사 실패와 접목용 작은 식물 가지",
+    "reviewed_at": "2026-10-09T11:25:53.123720+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_020.png"
+  },
+  "relic_uncommon_021": {
+    "id": "relic_uncommon_021",
+    "name": "해독 유리종",
+    "seed": 976799,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_021.png"
+  },
+  "relic_uncommon_023": {
+    "id": "relic_uncommon_023",
+    "name": "연금술 저울",
+    "seed": 977796,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_023.png"
+  },
+  "relic_uncommon_024": {
+    "id": "relic_uncommon_024",
+    "name": "봉인된 뿌리",
+    "seed": 1596078,
+    "attempt": 5,
+    "verdict": "pass",
+    "reason": "하나의 코르크 마개 유리병 내부에 갈라진 갈색 뿌리, 외곽 온전",
+    "reviewed_at": "2026-10-10T14:08:34.262924+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_024.png"
+  },
+  "relic_uncommon_025": {
+    "id": "relic_uncommon_025",
+    "name": "이름을 남기는 바늘",
+    "seed": 2584731,
+    "attempt": 13,
+    "verdict": "pass",
+    "reason": "새 seed 육안검수: 지정한 물건 구조, 연결 부품 및 재질 음영 확인, 외곽 온전",
+    "reviewed_at": "2026-10-10T14:17:59.416457+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_025.png"
+  },
+  "relic_uncommon_026": {
+    "id": "relic_uncommon_026",
+    "name": "서고 대조경",
+    "seed": 1104244,
+    "attempt": 1,
+    "verdict": "pass",
+    "reason": "경첩으로 연결된 이중 거울",
+    "reviewed_at": "2026-10-09T10:56:01.818703+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_026.png"
+  },
+  "relic_uncommon_027": {
+    "id": "relic_uncommon_027",
+    "name": "수정된 목록",
+    "seed": 981784,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_027.png"
+  },
+  "relic_uncommon_028": {
+    "id": "relic_uncommon_028",
+    "name": "빈 서명란",
+    "seed": 982781,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_028.png"
+  },
+  "relic_uncommon_029": {
+    "id": "relic_uncommon_029",
+    "name": "붉은 색인",
+    "seed": 1601063,
+    "attempt": 5,
+    "verdict": "pass",
+    "reason": "온전한 붉은 직사각 색인과 황동 가장자리, 가짜 글자 없음",
+    "reviewed_at": "2026-10-09T11:41:44.335885+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_029.png"
+  },
+  "relic_uncommon_030": {
+    "id": "relic_uncommon_030",
+    "name": "봉인문 복사본",
+    "seed": 1725517,
+    "attempt": 6,
+    "verdict": "pass",
+    "reason": "온전한 접힌 종이 복사본과 검은 봉인 점",
+    "reviewed_at": "2026-10-09T12:01:45.951483+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_030.png"
+  },
+  "relic_uncommon_031": {
+    "id": "relic_uncommon_031",
+    "name": "두 번째 필적",
+    "seed": 1356143,
+    "attempt": 3,
+    "verdict": "pass",
+    "reason": "온전한 낡은 종이에 옅은 두 번째 필적 흔적, 별도 깃펜 없음",
+    "reviewed_at": "2026-10-09T11:25:53.123736+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_031.png"
+  },
+  "relic_uncommon_032": {
+    "id": "relic_uncommon_032",
+    "name": "사서의 여행증",
+    "seed": 986769,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_032.png"
+  },
+  "relic_uncommon_033": {
+    "id": "relic_uncommon_033",
+    "name": "재 분리접시",
+    "seed": 2222336,
+    "attempt": 10,
+    "verdict": "pass",
+    "reason": "육안검수: 접시 안 중앙 분리벽과 두 칸 명확, 잘림 없음",
+    "reviewed_at": "2026-10-10T14:32:47.245864+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_033.png"
+  },
+  "relic_uncommon_034": {
+    "id": "relic_uncommon_034",
+    "name": "배급 한도표",
+    "seed": 2470247,
+    "attempt": 12,
+    "verdict": "pass",
+    "reason": "구조·온전한 외곽과 재질 음영을 현재seed에서 육안 확인. 글자/콜라주 없음",
+    "reviewed_at": "2026-10-10T14:23:16.130938+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_034.png"
+  },
+  "relic_uncommon_035": {
+    "id": "relic_uncommon_035",
+    "name": "돌아온 기도문",
+    "seed": 989760,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_035.png"
+  },
+  "relic_uncommon_036": {
+    "id": "relic_uncommon_036",
+    "name": "분배관 손잡이",
+    "seed": 2101870,
+    "attempt": 9,
+    "verdict": "pass",
+    "reason": "구조·온전한 외곽과 재질 음영을 현재seed에서 육안 확인. 글자/콜라주 없음",
+    "reviewed_at": "2026-10-10T14:23:16.130941+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_036.png"
+  },
+  "relic_uncommon_037": {
+    "id": "relic_uncommon_037",
+    "name": "손으로 적은 한도",
+    "seed": 2596695,
+    "attempt": 13,
+    "verdict": "pass",
+    "reason": "육안검수: 낡은 한도 종이에 세 개의 짧은 검은 획, 가짜 글자 없음",
+    "reviewed_at": "2026-10-10T14:33:37.455469+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_037.png"
+  },
+  "relic_uncommon_038": {
+    "id": "relic_uncommon_038",
+    "name": "야간 구호표",
+    "seed": 1116208,
+    "attempt": 1,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_038.png"
+  },
+  "relic_uncommon_039": {
+    "id": "relic_uncommon_039",
+    "name": "소형 축열병",
+    "seed": 1117205,
+    "attempt": 1,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_039.png"
+  },
+  "relic_uncommon_040": {
+    "id": "relic_uncommon_040",
+    "name": "서로 다른 심지",
+    "seed": 2105858,
+    "attempt": 9,
+    "verdict": "pass",
+    "reason": "육안검수: 해당 유물의 핵심 구성과 재질·외곽 유지, 글자와 콜라주 없음",
+    "reviewed_at": "2026-10-10T14:27:15.366309+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_040.png"
+  },
+  "relic_rare_001": {
+    "id": "relic_rare_001",
+    "name": "환자 없는 퇴원장",
+    "seed": 1119199,
+    "attempt": 1,
+    "verdict": "pass",
+    "reason": "온전한 빈 종이 문서와 보라 밀랍 봉인",
+    "reviewed_at": "2026-10-09T11:04:31.633810+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_001.png"
+  },
+  "relic_rare_002": {
+    "id": "relic_rare_002",
+    "name": "역순 맥박계",
+    "seed": 1243653,
+    "attempt": 2,
+    "verdict": "pass",
+    "reason": "가짜 문자 없이 온전한 황동 계기와 붉은 맥박 표시",
+    "reviewed_at": "2026-10-09T11:25:53.123753+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_002.png"
+  },
+  "relic_rare_003": {
+    "id": "relic_rare_003",
+    "name": "에델의 예비 열쇠",
+    "seed": 1244650,
+    "attempt": 2,
+    "verdict": "pass",
+    "reason": "단일 예비 열쇠와 붉은 끈",
+    "reviewed_at": "2026-10-09T11:04:31.633817+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_003.png"
+  },
+  "relic_rare_004": {
+    "id": "relic_rare_004",
+    "name": "무명 구호단 완장",
+    "seed": 1245647,
+    "attempt": 2,
+    "verdict": "pass",
+    "reason": "천 완장 형태와 흰 십자가",
+    "reviewed_at": "2026-10-09T11:04:31.633820+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_004.png"
+  },
+  "relic_rare_005": {
+    "id": "relic_rare_005",
+    "name": "여섯 번째 침대",
+    "seed": 999730,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_005.png"
+  },
+  "relic_rare_006": {
+    "id": "relic_rare_006",
+    "name": "돌아오는 선적표",
+    "seed": 2235297,
+    "attempt": 10,
+    "verdict": "pass",
+    "reason": "육안검수: 해당 유물의 핵심 구성과 재질·외곽 유지, 글자와 콜라주 없음",
+    "reviewed_at": "2026-10-10T14:27:15.366313+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_006.png"
+  },
+  "relic_rare_007": {
+    "id": "relic_rare_007",
+    "name": "수심 없는 해도",
+    "seed": 2236294,
+    "attempt": 10,
+    "verdict": "pass",
+    "reason": "육안검수: 해당 유물의 핵심 구성과 재질·외곽 유지, 글자와 콜라주 없음",
+    "reviewed_at": "2026-10-10T14:27:15.366316+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_007.png"
+  },
+  "relic_rare_008": {
+    "id": "relic_rare_008",
+    "name": "잠긴 구조정",
+    "seed": 1990377,
+    "attempt": 8,
+    "verdict": "pass",
+    "reason": "육안검수: 해당 유물의 핵심 구성과 재질·외곽 유지, 글자와 콜라주 없음",
+    "reviewed_at": "2026-10-10T14:27:15.366319+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_008.png"
+  },
+  "relic_rare_009": {
+    "id": "relic_rare_009",
+    "name": "분리된 수문추",
+    "seed": 1003718,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_009.png"
+  },
+  "relic_rare_010": {
+    "id": "relic_rare_010",
+    "name": "살아 있는 화물증",
+    "seed": 1868914,
+    "attempt": 7,
+    "verdict": "pass",
+    "reason": "육안검수: 해당 유물의 핵심 구성과 재질·외곽 유지, 글자와 콜라주 없음",
+    "reviewed_at": "2026-10-10T14:27:15.366322+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_010.png"
+  },
+  "relic_rare_011": {
+    "id": "relic_rare_011",
+    "name": "로엔의 두 번째 잔",
+    "seed": 1005712,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_011.png"
+  },
+  "relic_rare_012": {
+    "id": "relic_rare_012",
+    "name": "미완성 안정제",
+    "seed": 1253623,
+    "attempt": 2,
+    "verdict": "pass",
+    "reason": "단일 코르크 유리 약병과 황색 액체",
+    "reviewed_at": "2026-10-09T11:04:31.633842+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_012.png"
+  },
+  "relic_rare_013": {
+    "id": "relic_rare_013",
+    "name": "투명한 폐엽",
+    "seed": 1131163,
+    "attempt": 1,
+    "verdict": "pass",
+    "reason": "투명한 양쪽 폐/분지 형태 확인",
+    "reviewed_at": "2026-10-09T11:04:31.633847+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_013.png"
+  },
+  "relic_rare_014": {
+    "id": "relic_rare_014",
+    "name": "원장의 접목도",
+    "seed": 2119816,
+    "attempt": 9,
+    "verdict": "pass",
+    "reason": "육안검수: 해당 유물의 핵심 구성과 재질·외곽 유지, 글자와 콜라주 없음",
+    "reviewed_at": "2026-10-10T14:27:15.366325+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_014.png"
+  },
+  "relic_rare_016": {
+    "id": "relic_rare_016",
+    "name": "삭제관의 백묵",
+    "seed": 1873899,
+    "attempt": 7,
+    "verdict": "pass",
+    "reason": "구조·온전한 외곽과 재질 음영을 현재seed에서 육안 확인. 글자/콜라주 없음",
+    "reviewed_at": "2026-10-10T14:23:16.130968+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_016.png"
+  },
+  "relic_rare_017": {
+    "id": "relic_rare_017",
+    "name": "원본 대조인",
+    "seed": 1874896,
+    "attempt": 7,
+    "verdict": "pass",
+    "reason": "구조·온전한 외곽과 재질 음영을 현재seed에서 육안 확인. 글자/콜라주 없음",
+    "reviewed_at": "2026-10-10T14:23:16.130971+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_017.png"
+  },
+  "relic_rare_018": {
+    "id": "relic_rare_018",
+    "name": "이안의 봉투",
+    "seed": 1135151,
+    "attempt": 1,
+    "verdict": "pass",
+    "reason": "단일 종이 봉투와 보라 봉인",
+    "reviewed_at": "2026-10-09T11:04:31.633864+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_018.png"
+  },
+  "relic_rare_019": {
+    "id": "relic_rare_019",
+    "name": "사라지지 않는 색인",
+    "seed": 1259605,
+    "attempt": 2,
+    "verdict": "pass",
+    "reason": "폴더와 붉은 색인 탭 형태 명확",
+    "reviewed_at": "2026-10-09T11:04:31.633868+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_019.png"
+  },
+  "relic_rare_020": {
+    "id": "relic_rare_020",
+    "name": "수령 거부서",
+    "seed": 1013688,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_020.png"
+  },
+  "relic_rare_021": {
+    "id": "relic_rare_021",
+    "name": "한도 있는 성배",
+    "seed": 1014685,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_021.png"
+  },
+  "relic_rare_022": {
+    "id": "relic_rare_022",
+    "name": "에델의 등불",
+    "seed": 1015682,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_022.png"
+  },
+  "relic_rare_023": {
+    "id": "relic_rare_023",
+    "name": "작은 분배기",
+    "seed": 1016679,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_023.png"
+  },
+  "relic_rare_024": {
+    "id": "relic_rare_024",
+    "name": "이주 명부",
+    "seed": 1264590,
+    "attempt": 2,
+    "verdict": "pass",
+    "reason": "단일 가죽 명부와 이동 끈, 불투명 배경/가짜 문자 해소",
+    "reviewed_at": "2026-10-09T11:04:31.633871+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_024.png"
+  },
+  "relic_epic_001": {
+    "id": "relic_epic_001",
+    "name": "서명 없는 면죄부",
+    "seed": 1882872,
+    "attempt": 7,
+    "verdict": "pass",
+    "reason": "구조·온전한 외곽과 재질 음영을 현재seed에서 육안 확인. 글자/콜라주 없음",
+    "reviewed_at": "2026-10-10T14:23:16.130974+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_epic_001.png"
+  },
+  "relic_epic_002": {
+    "id": "relic_epic_002",
+    "name": "여섯 사람의 종",
+    "seed": 2130783,
+    "attempt": 9,
+    "verdict": "pass",
+    "reason": "육안검수: 손잡이 달린 청동 종과 몸체의 여섯 홈 확인",
+    "reviewed_at": "2026-10-10T14:32:47.245856+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_epic_002.png"
+  },
+  "relic_epic_003": {
+    "id": "relic_epic_003",
+    "name": "멈춘 수송로",
+    "seed": 1020667,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_epic_003.png"
+  },
+  "relic_epic_004": {
+    "id": "relic_epic_004",
+    "name": "선장의 마지막 매듭",
+    "seed": 1145121,
+    "attempt": 1,
+    "verdict": "pass",
+    "reason": "단일 고리와 굵은 매듭 결합",
+    "reviewed_at": "2026-10-09T11:04:31.633885+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_epic_004.png"
+  },
+  "relic_epic_005": {
+    "id": "relic_epic_005",
+    "name": "검은 온실핵",
+    "seed": 1022661,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_epic_005.png"
+  },
+  "relic_epic_006": {
+    "id": "relic_epic_006",
+    "name": "반증된 제조식",
+    "seed": 2258228,
+    "attempt": 10,
+    "verdict": "pass",
+    "reason": "구조·온전한 외곽과 재질 음영을 현재seed에서 육안 확인. 글자/콜라주 없음",
+    "reviewed_at": "2026-10-10T14:23:16.130981+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_epic_006.png"
+  },
+  "relic_epic_007": {
+    "id": "relic_epic_007",
+    "name": "이름의 여백",
+    "seed": 1148112,
+    "attempt": 1,
+    "verdict": "pass",
+    "reason": "온전한 빈 종이 중심과 보라 가장자리",
+    "reviewed_at": "2026-10-09T11:04:31.633894+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_epic_007.png"
+  },
+  "relic_epic_008": {
+    "id": "relic_epic_008",
+    "name": "연결을 끊는 칼",
+    "seed": 1272566,
+    "attempt": 2,
+    "verdict": "pass",
+    "reason": "온전한 단일 칼과 짧은 밧줄 결합",
+    "reviewed_at": "2026-10-09T11:04:31.633899+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_epic_008.png"
+  },
+  "relic_epic_009": {
+    "id": "relic_epic_009",
+    "name": "공개된 장부",
+    "seed": 1643934,
+    "attempt": 5,
+    "verdict": "pass",
+    "reason": "단일 열린 장부와 붉은 리본, 글자 없음",
+    "reviewed_at": "2026-10-09T12:01:45.951536+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_epic_009.png"
+  },
+  "relic_epic_010": {
+    "id": "relic_epic_010",
+    "name": "성가대의 쉼표",
+    "seed": 2509130,
+    "attempt": 12,
+    "verdict": "pass",
+    "reason": "육안검수: 청동 원판에 수평선 아래 매달린 직사각형 온쉼표 형상 확인",
+    "reviewed_at": "2026-10-10T14:33:37.455499+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_epic_010.png"
+  },
+  "relic_epic_011": {
+    "id": "relic_epic_011",
+    "name": "분산된 불씨",
+    "seed": 1769385,
+    "attempt": 6,
+    "verdict": "pass",
+    "reason": "새 seed 육안검수: 지정한 물건 구조, 연결 부품 및 재질 음영 확인, 외곽 온전",
+    "reviewed_at": "2026-10-10T14:17:59.416519+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_epic_011.png"
+  },
+  "relic_epic_012": {
+    "id": "relic_epic_012",
+    "name": "마지막 대기표",
+    "seed": 1400011,
+    "attempt": 3,
+    "verdict": "pass",
+    "reason": "가짜 글자 없는 낡은 대기표 종이, 온전한 외곽",
+    "reviewed_at": "2026-10-09T11:51:03.632768+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_epic_012.png"
+  },
+  "relic_legend_001": {
+    "id": "relic_legend_001",
+    "name": "첫 수령인의 계약",
+    "seed": 1030637,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_legend_001.png"
+  },
+  "relic_legend_002": {
+    "id": "relic_legend_002",
+    "name": "검은 운하의 심장",
+    "seed": 1031634,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_legend_002.png"
+  },
+  "relic_legend_003": {
+    "id": "relic_legend_003",
+    "name": "원본의 무게",
+    "seed": 1032631,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_legend_003.png"
+  },
+  "relic_legend_004": {
+    "id": "relic_legend_004",
+    "name": "각자의 등불",
+    "seed": 1157085,
+    "attempt": 1,
+    "verdict": "pass",
+    "reason": "여러 유리면과 분리된 촛불의 단일 등불",
+    "reviewed_at": "2026-10-09T11:04:31.633920+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_legend_004.png"
+  },
+  "relic_ancient_002": {
+    "id": "relic_ancient_002",
+    "name": "풀어 쓴 맹세",
+    "seed": 2269195,
+    "attempt": 10,
+    "verdict": "pass",
+    "reason": "육안검수: 온전한 맹세 종이와 원형 봉인의 검 손잡이·가드·칼날 문양 확인",
+    "reviewed_at": "2026-10-10T14:33:37.455492+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_ancient_002.png"
+  },
+  "relic_ancient_003": {
+    "id": "relic_ancient_003",
+    "name": "발음되지 않은 별",
+    "seed": 1035622,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_ancient_003.png"
+  },
+  "relic_ancient_004": {
+    "id": "relic_ancient_004",
+    "name": "거절하는 성유",
+    "seed": 1036619,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_ancient_004.png"
+  },
+  "relic_ancient_005": {
+    "id": "relic_ancient_005",
+    "name": "문밖의 방패",
+    "seed": 1901815,
+    "attempt": 7,
+    "verdict": "pass",
+    "reason": "육안검수: 해당 유물의 핵심 구성과 재질·외곽 유지, 글자와 콜라주 없음",
+    "reviewed_at": "2026-10-10T14:27:15.366338+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_ancient_005.png"
+  },
+  "relic_ancient_006": {
+    "id": "relic_ancient_006",
+    "name": "돌아갈 표식",
+    "seed": 1038613,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_ancient_006.png"
+  },
+  "relic_ancient_007": {
+    "id": "relic_ancient_007",
+    "name": "빈 의자 인형",
+    "seed": 1039610,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_ancient_007.png"
+  },
+  "relic_ancient_008": {
+    "id": "relic_ancient_008",
+    "name": "반납된 탄창",
+    "seed": 1287521,
+    "attempt": 2,
+    "verdict": "pass",
+    "reason": "탄환 없이 단일 금속 탄창 본체와 상단 개구부, 온전한 외곽",
+    "reviewed_at": "2026-10-09T11:51:03.632780+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_ancient_008.png"
+  },
+  "relic_ancient_009": {
+    "id": "relic_ancient_009",
+    "name": "자필 헌혈증",
+    "seed": 1782346,
+    "attempt": 6,
+    "verdict": "pass",
+    "reason": "새 seed 육안검수: 지정한 물건 구조, 연결 부품 및 재질 음영 확인, 외곽 온전",
+    "reviewed_at": "2026-10-10T14:17:59.416530+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_ancient_009.png"
+  },
+  "relic_ancient_010": {
+    "id": "relic_ancient_010",
+    "name": "꺼질 수 있는 심장",
+    "seed": 1166058,
+    "attempt": 1,
+    "verdict": "pass",
+    "reason": "기계 심장/노출 기어/작동 레버 형태 확인",
+    "reviewed_at": "2026-10-09T11:04:31.633946+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_ancient_010.png"
+  },
+  "relic_ancient_011": {
+    "id": "relic_ancient_011",
+    "name": "해빙의 서약",
+    "seed": 1043598,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_ancient_011.png"
+  },
+  "relic_ancient_012": {
+    "id": "relic_ancient_012",
+    "name": "매듭 푼 목줄",
+    "seed": 1044595,
+    "attempt": 0,
+    "verdict": "pass",
+    "reason": "육안 검수: 물건 종류, 외곽, 투명 배경 확인",
+    "reviewed_at": "2026-10-09T10:35:00+09:00",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_ancient_012.png"
+  }
+}

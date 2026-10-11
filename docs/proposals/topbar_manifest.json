@@ -1,0 +1,100 @@
+[
+  {
+    "name": "topbar_frame",
+    "path": "assets/ui/topbar/topbar_frame.png",
+    "size": [
+      1440,
+      76
+    ],
+    "alpha_range": [
+      0,
+      255
+    ],
+    "center_alpha": 253,
+    "status": "needs_review"
+  },
+  {
+    "name": "portrait_ring",
+    "path": "assets/ui/topbar/portrait_ring.png",
+    "size": [
+      88,
+      88
+    ],
+    "alpha_range": [
+      0,
+      255
+    ],
+    "center_alpha": 0,
+    "status": "needs_review"
+  },
+  {
+    "name": "icon_hp",
+    "path": "assets/ui/topbar/icon_hp.png",
+    "size": [
+      64,
+      64
+    ],
+    "alpha_range": [
+      0,
+      255
+    ],
+    "center_alpha": 253,
+    "status": "needs_review"
+  },
+  {
+    "name": "icon_gold",
+    "path": "assets/ui/topbar/icon_gold.png",
+    "size": [
+      64,
+      64
+    ],
+    "alpha_range": [
+      0,
+      255
+    ],
+    "center_alpha": 252,
+    "status": "needs_review"
+  },
+  {
+    "name": "icon_floor",
+    "path": "assets/ui/topbar/icon_floor.png",
+    "size": [
+      64,
+      64
+    ],
+    "alpha_range": [
+      0,
+      255
+    ],
+    "center_alpha": 10,
+    "status": "needs_review"
+  },
+  {
+    "name": "icon_deck",
+    "path": "assets/ui/topbar/icon_deck.png",
+    "size": [
+      80,
+      80
+    ],
+    "alpha_range": [
+      0,
+      255
+    ],
+    "center_alpha": 253,
+    "status": "needs_review"
+  },
+  {
+    "name": "relic_slot",
+    "path": "assets/ui/topbar/relic_slot.png",
+    "size": [
+      72,
+      72
+    ],
+    "alpha_range": [
+      0,
+      255
+    ],
+    "center_alpha": 0,
+    "status": "needs_review"
+  }
+]

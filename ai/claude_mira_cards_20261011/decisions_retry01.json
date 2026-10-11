@@ -1,0 +1,32 @@
+[
+  {
+    "id": "lingering_flask",
+    "verdict": "pass",
+    "reason": "Open vial mouth slowly releases stretched violet drop into open stone dish; sealed-hourglass error fixed.",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_20261011\\lingering_flask_retry_raw.png"
+  },
+  {
+    "id": "flask_barrage",
+    "verdict": "pass",
+    "reason": "Distinct side-facing pose, one hand clearly draws hip vial while other holds throwing vial; two physical arms.",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_20261011\\flask_barrage_retry_raw.png"
+  },
+  {
+    "id": "blood_for_medicine",
+    "verdict": "pass",
+    "reason": "Exactly two hands and one tiny blood drop above open teal vial; three-arm defect removed.",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_20261011\\blood_for_medicine_retry_raw.png"
+  },
+  {
+    "id": "tainted_blade",
+    "verdict": "pass",
+    "reason": "Correct small medical scalpel with straight slim handle and rounded short blade, one natural gripping hand.",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_20261011\\tainted_blade_retry_raw.png"
+  },
+  {
+    "id": "side_effect",
+    "verdict": "pass",
+    "reason": "Exhausted Mira resting temple on one hand, dark violet magical aftermath stain, restrained sickly tone, correct anatomy.",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_20261011\\side_effect_retry_raw.png"
+  }
+]

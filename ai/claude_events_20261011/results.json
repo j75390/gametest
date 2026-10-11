@@ -1,0 +1,233 @@
+{
+  "common_act1_01": {
+    "seed": 11223457,
+    "attempt": 1,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\events\\claude_20261011\\common_act1_01.png",
+    "state": "needs_review",
+    "scene": "A hooded peddler at a small wooden stall examining empty glass medicine bottles, brown sediment in the bottles, hospital corridor behind, side view"
+  },
+  "common_act1_02": {
+    "seed": 11347911,
+    "attempt": 2,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\events\\claude_20261011\\common_act1_02.png",
+    "state": "needs_review",
+    "scene": "Close view of a pile of white rolled bandages with a large blank parchment tag, a square hole visibly cut through the tag, on a wooden cart in a medieval ward"
+  },
+  "common_act1_03": {
+    "seed": 11348908,
+    "attempt": 2,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\events\\claude_20261011\\common_act1_03.png",
+    "state": "needs_review",
+    "scene": "Close view of one elderly caregiver sewing a worn grey coat sleeve by candlelight, needle and thread touching the sleeve, identical coats hanging behind"
+  },
+  "common_act1_04": {
+    "seed": 11226448,
+    "attempt": 1,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\events\\claude_20261011\\common_act1_04.png",
+    "state": "needs_review",
+    "scene": "Close still life of one neatly folded tiny patchwork blanket made from many sewn cloth squares, under an empty iron hospital bed, low perspective"
+  },
+  "common_act1_05": {
+    "seed": 11721273,
+    "attempt": 5,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\events\\claude_20261011\\common_act1_05.png",
+    "state": "needs_review",
+    "scene": "One simple antique brass balance scale standing on a dark wooden table, exactly two hanging pans attached to one straight horizontal crossbar, bread loaf beside its base, a plain metal tag on table"
+  },
+  "common_act1_06": {
+    "seed": 11351899,
+    "attempt": 2,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\events\\claude_20261011\\common_act1_06.png",
+    "state": "needs_review",
+    "scene": "Close still life of a round antique copper cauldron filled with bubbling cold water, long iron forceps resting across its rim, old stone disinfection room, cauldron sitting directly on wooden table"
+  },
+  "common_act1_07": {
+    "seed": 11105982,
+    "attempt": 0,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\events\\claude_20261011\\common_act1_07.png",
+    "state": "needs_review",
+    "scene": "A woman in side profile sharing candle flames in a small chapel, many short and long candles, one small warm flame"
+  },
+  "common_act1_08": {
+    "seed": 11230436,
+    "attempt": 1,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\events\\claude_20261011\\common_act1_08.png",
+    "state": "needs_review",
+    "scene": "A nun stirring thick soup inside a large black cooking pot with a wooden spoon, three bowls of soup on the counter, medieval stone kitchen, no flames above pot"
+  },
+  "common_act1_09": {
+    "seed": 11231433,
+    "attempt": 1,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\events\\claude_20261011\\common_act1_09.png",
+    "state": "needs_review",
+    "scene": "An empty wooden confessional booth with a lattice divider, one empty chair on each side, a faint shadow through the lattice, quiet candle"
+  },
+  "common_act1_10": {
+    "seed": 11355887,
+    "attempt": 2,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\events\\claude_20261011\\common_act1_10.png",
+    "state": "needs_review",
+    "scene": "Close still life on a medieval hospital wooden return counter, pile of worn walking sticks and two round brass spectacles together, empty chair behind"
+  },
+  "common_act1_11": {
+    "seed": 11356884,
+    "attempt": 2,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\events\\claude_20261011\\common_act1_11.png",
+    "state": "needs_review",
+    "scene": "One elderly bell keeper alone in an ancient stone bell tower, hands held open at chest, staring at his empty palm, untouched rope hanging far behind him"
+  },
+  "common_act1_12": {
+    "seed": 11110967,
+    "attempt": 0,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\events\\claude_20261011\\common_act1_12.png",
+    "state": "needs_review",
+    "scene": "Many different sizes of worn shoes arranged in pairs on a hospital threshold, soles worn on the same side, low perspective"
+  },
+  "common_act1_13": {
+    "seed": 11358878,
+    "attempt": 2,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\events\\claude_20261011\\common_act1_13.png",
+    "state": "needs_review",
+    "scene": "One blank folded ivory parchment sheet sitting alone on a dark worn wooden tabletop, one small red wax seal on each side of the paper, simple still life, no other documents"
+  },
+  "common_act1_14": {
+    "seed": 11236418,
+    "attempt": 1,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\events\\claude_20261011\\common_act1_14.png",
+    "state": "needs_review",
+    "scene": "Close still life of a narrow horizontal dark mail slit in an old brick wall, wet folded blank envelopes piled underneath, no exposed pages"
+  },
+  "common_act1_15": {
+    "seed": 11113958,
+    "attempt": 0,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\events\\claude_20261011\\common_act1_15.png",
+    "state": "needs_review",
+    "scene": "A locked wooden medicine cabinet filled with identical purple glass bottles, rusty key hanging beside the lock, old ward"
+  },
+  "common_act1_16": {
+    "seed": 11114955,
+    "attempt": 0,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\events\\claude_20261011\\common_act1_16.png",
+    "state": "needs_review",
+    "scene": "A few worn metal tokens on the hospital floor, blank faceless circular surfaces, caregiver shadow nearby, close view"
+  },
+  "common_act1_17": {
+    "seed": 11239409,
+    "attempt": 1,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\events\\claude_20261011\\common_act1_17.png",
+    "state": "needs_review",
+    "scene": "A quiet medieval infirmary inside an old stone cathedral, three patients with cloth wrapped mouths seated separately on wooden benches, holding blank paper, candles only, gothic arches"
+  },
+  "common_act1_18": {
+    "seed": 11116949,
+    "attempt": 0,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\events\\claude_20261011\\common_act1_18.png",
+    "state": "needs_review",
+    "scene": "A half burned blank prescription sheet in cold fireplace ashes, edges curling inward, one dying ember, close still life"
+  },
+  "common_act1_19": {
+    "seed": 11241403,
+    "attempt": 1,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\events\\claude_20261011\\common_act1_19.png",
+    "state": "needs_review",
+    "scene": "One antique brass clock with entirely blank worn dial and faded white patch hanging on a rough stone cathedral infirmary wall, empty wooden visitor bench underneath, candlelight"
+  },
+  "common_act1_20": {
+    "seed": 11242400,
+    "attempt": 1,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\events\\claude_20261011\\common_act1_20.png",
+    "state": "needs_review",
+    "scene": "A small medieval healer tent outside an old gothic cathedral, repaired canvas awning, wooden table with tiny antique glass potion vials and earthenware water pitcher, hooded healer in side view"
+  },
+  "act1_ledger": {
+    "seed": 11119940,
+    "attempt": 0,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\events\\claude_20261011\\act1_ledger.png",
+    "state": "needs_review",
+    "scene": "Behind a hospital guard station an industrial medieval freight elevator with rusty chains, open blank ledger and six plain bed tokens, no people"
+  },
+  "mira_coat": {
+    "seed": 11120937,
+    "attempt": 0,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\events\\claude_20261011\\mira_coat.png",
+    "state": "needs_review",
+    "scene": "An old repaired coat hung inside a ward, turned out lining with small purple alchemical stains and careful stitching, candlelight, no text"
+  },
+  "kalian_personal_1": {
+    "seed": 11121934,
+    "attempt": 0,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\events\\claude_20261011\\kalian_personal_1.png",
+    "state": "needs_review",
+    "scene": "At the foot of a ruined fortress a refugee holding a torn blank travel pass with a simple sword wax seal, face in shadow"
+  },
+  "sera_personal_1": {
+    "seed": 11122931,
+    "attempt": 0,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\events\\claude_20261011\\sera_personal_1.png",
+    "state": "needs_review",
+    "scene": "An astronomer desk with a blank star chart drawn only with points and connecting lines, one disconnected point, parchment corner mysteriously folded"
+  },
+  "lucian_personal_1": {
+    "seed": 11123928,
+    "attempt": 0,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\events\\claude_20261011\\lucian_personal_1.png",
+    "state": "needs_review",
+    "scene": "A traveling caregiver wrapping a patient arm with clean bandage, plain oil bottle left unopened, patient turning away from a small sacred emblem"
+  },
+  "common_act1_21": {
+    "seed": 11371839,
+    "attempt": 2,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\events\\claude_20261011\\common_act1_21.png",
+    "state": "needs_review",
+    "scene": "A pile of snapped wooden beams and splintered planks on an old cathedral floor, blank ivory paper sheets caught among the broken wood, low close perspective, dark arches in background"
+  },
+  "common_act1_22": {
+    "seed": 11125922,
+    "attempt": 0,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\events\\claude_20261011\\common_act1_22.png",
+    "state": "needs_review",
+    "scene": "An abandoned ash-covered pulpit with an open blank sermon manuscript, trailing ash across the pages, dark gothic nave"
+  },
+  "common_act1_23": {
+    "seed": 11373833,
+    "attempt": 2,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\events\\claude_20261011\\common_act1_23.png",
+    "state": "needs_review",
+    "scene": "One antique wooden apothecary chest with six large plain drawers, completely blank drawer fronts with simple brass handles, one open drawer filled with dried herbs, dark stone storeroom"
+  },
+  "common_act1_24": {
+    "seed": 11127916,
+    "attempt": 0,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\events\\claude_20261011\\common_act1_24.png",
+    "state": "needs_review",
+    "scene": "A rusted half erased heraldic shield above a stone gateway, humble bundles and worn blankets at the base, cold dusk"
+  },
+  "common_act1_25": {
+    "seed": 11128913,
+    "attempt": 0,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\events\\claude_20261011\\common_act1_25.png",
+    "state": "needs_review",
+    "scene": "A dry courtyard well behind a cathedral, wet bucket rope glistening though no water below, one nearby lantern"
+  },
+  "common_act1_26": {
+    "seed": 11500281,
+    "attempt": 3,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\events\\claude_20261011\\common_act1_26.png",
+    "state": "needs_review",
+    "scene": "Broken wooden wagon wreckage with two detached wheels and scattered cloth relief bundles on cathedral courtyard paving, bread fallen onto ground, low close view, ruined cart frame tilted sideways"
+  },
+  "common_act1_27": {
+    "seed": 11130907,
+    "attempt": 0,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\events\\claude_20261011\\common_act1_27.png",
+    "state": "needs_review",
+    "scene": "A silent armored patrol standing motionless like a statue before a fortress gate, dark visor, no weapon raised, tall full scene"
+  },
+  "common_act1_28": {
+    "seed": 11502275,
+    "attempt": 3,
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\events\\claude_20261011\\common_act1_28.png",
+    "state": "needs_review",
+    "scene": "A monk praying in a dark stone chapel before an extinguished brass candleholder, melted wax stump, short black wick, no flames anywhere, moonlight only"
+  }
+}

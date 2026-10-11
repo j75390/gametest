@@ -1,0 +1,84 @@
+{
+  "verdict": "pass",
+  "count": 19,
+  "unique_ids": 19,
+  "sizes": {
+    "lancet": [
+      1254,
+      1254
+    ],
+    "herb_bundle": [
+      1254,
+      1254
+    ],
+    "bitter_tonic": [
+      1254,
+      1254
+    ],
+    "numbing_salve": [
+      1254,
+      1254
+    ],
+    "rotten_fruit": [
+      1254,
+      1254
+    ],
+    "venom_chain": [
+      1254,
+      1254
+    ],
+    "plague_mist": [
+      1254,
+      1254
+    ],
+    "thorn_tincture": [
+      1254,
+      1254
+    ],
+    "patient_poison": [
+      1254,
+      1254
+    ],
+    "acid_splash": [
+      1254,
+      1254
+    ],
+    "steady_dose": [
+      1254,
+      1254
+    ],
+    "siphon_vitality": [
+      1254,
+      1254
+    ],
+    "scar_tissue": [
+      1254,
+      1254
+    ],
+    "rapid_poison": [
+      1254,
+      1254
+    ],
+    "unstable_mixture": [
+      1254,
+      1254
+    ],
+    "lethal_dose": [
+      1254,
+      1254
+    ],
+    "grand_elixir": [
+      1254,
+      1254
+    ],
+    "apothecary_feast": [
+      1254,
+      1254
+    ],
+    "venom_pulse": [
+      1254,
+      1254
+    ]
+  },
+  "game_integration": "pending_claude"
+}

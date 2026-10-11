@@ -1,0 +1,86 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "sd_xl_base_1.0.safetensors"
+    }
+  },
+  "2": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "(One antique brass clock with entirely blank worn dial and faded white patch hanging on a rough stone cathedral infirmary wall, empty wooden visitor bench underneath, candlelight:1.5), (realistic oil painting:1.3), dark gothic fantasy, intricate material textures, ash grey and desaturated violet shadows, one small warm light accent, quiet subtle unease, vertical composition, blank unmarked objects",
+      "clip": [
+        "1",
+        1
+      ]
+    }
+  },
+  "3": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "(text, lettering, words, numbers, watermark, signature, artist signature, logo, caption, writing, bottle labels:2.3), (cartoon, comic, anime, cel shading, flat vector, line drawing, thick outlines:1.6), UI, frame, border, collage, split panels, modern hospital, modern plumbing, faucet, electrical equipment, gore, blood, front portrait, extra limbs, deformed hands, blurry",
+      "clip": [
+        "1",
+        1
+      ]
+    }
+  },
+  "4": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 768,
+      "height": 1152,
+      "batch_size": 1
+    }
+  },
+  "5": {
+    "class_type": "KSampler",
+    "inputs": {
+      "seed": 11241403,
+      "steps": 28,
+      "cfg": 6,
+      "sampler_name": "dpmpp_2m",
+      "scheduler": "karras",
+      "denoise": 1.0,
+      "model": [
+        "1",
+        0
+      ],
+      "positive": [
+        "2",
+        0
+      ],
+      "negative": [
+        "3",
+        0
+      ],
+      "latent_image": [
+        "4",
+        0
+      ]
+    }
+  },
+  "6": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "5",
+        0
+      ],
+      "vae": [
+        "1",
+        2
+      ]
+    }
+  },
+  "7": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "filename_prefix": "claude_events_20261011/common_act1_19",
+      "images": [
+        "6",
+        0
+      ]
+    }
+  }
+}

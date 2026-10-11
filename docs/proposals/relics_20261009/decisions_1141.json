@@ -1,0 +1,107 @@
+{
+  "relic_common_007": {
+    "verdict": "reject",
+    "reason": "두 실뭉치만 보이며 귀마개 연결 끈 누락",
+    "expected_seed": 1897656
+  },
+  "relic_common_016": {
+    "verdict": "reject",
+    "reason": "단일 밀랍 귀퉁이 대신 여러 조각 콜라주",
+    "expected_seed": 1906629
+  },
+  "relic_common_024": {
+    "verdict": "reject",
+    "reason": "가느다란 저울 바늘 대신 넓은 삼각 금속판, 축 구멍 누락",
+    "expected_seed": 1544234
+  },
+  "relic_common_034": {
+    "verdict": "pass",
+    "reason": "네 외곽과 접힌 부분이 온전한 갈색 린넨 여과천",
+    "expected_seed": 1801118
+  },
+  "relic_common_038": {
+    "verdict": "reject",
+    "reason": "단독 식물 이름표 대신 화분과 식물 포함",
+    "expected_seed": 1311278
+  },
+  "relic_common_046": {
+    "verdict": "reject",
+    "reason": "안경 반쪽 대신 둥근 거울, 안경 옆다리 누락",
+    "expected_seed": 1442711
+  },
+  "relic_uncommon_016": {
+    "verdict": "reject",
+    "reason": "검표 도장 대신 별도 닻과 원통 구성, 도장 손잡이 없음",
+    "expected_seed": 1343182
+  },
+  "relic_uncommon_019": {
+    "verdict": "reject",
+    "reason": "종이 근접 구도 잘림, 처방전 외곽과 봉인 없음",
+    "expected_seed": 1715547
+  },
+  "relic_uncommon_024": {
+    "verdict": "reject",
+    "reason": "뿌리 없이 큰 빈 관과 별도 작은 관 두 개",
+    "expected_seed": 1349164
+  },
+  "relic_uncommon_025": {
+    "verdict": "reject",
+    "reason": "바느질 바늘의 실구멍과 보라색 실 누락, 양끝 뾰족한 금속봉",
+    "expected_seed": 1597075
+  },
+  "relic_uncommon_029": {
+    "verdict": "pass",
+    "reason": "온전한 붉은 직사각 색인과 황동 가장자리, 가짜 글자 없음",
+    "expected_seed": 1601063
+  },
+  "relic_uncommon_030": {
+    "verdict": "reject",
+    "reason": "복사본 종이 대신 꽃 또는 부채 형태로 분리",
+    "expected_seed": 1602060
+  },
+  "relic_uncommon_033": {
+    "verdict": "reject",
+    "reason": "분리벽 없는 그릇, 재를 나누는 접시 구성 누락",
+    "expected_seed": 1358137
+  },
+  "relic_uncommon_034": {
+    "verdict": "reject",
+    "reason": "배급 한도 표시 홈 없이 장식 원판 달린 목판",
+    "expected_seed": 1852962
+  },
+  "relic_uncommon_036": {
+    "verdict": "reject",
+    "reason": "분배관 손잡이 대신 배관 전체와 호스 포함",
+    "expected_seed": 1484585
+  },
+  "relic_uncommon_037": {
+    "verdict": "reject",
+    "reason": "종이 한도표 대신 빈 검은 사각 프레임",
+    "expected_seed": 1485582
+  },
+  "relic_uncommon_040": {
+    "verdict": "reject",
+    "reason": "서로 다른 두 심지 대신 세 개 붉은 촛불",
+    "expected_seed": 1365116
+  },
+  "relic_rare_006": {
+    "verdict": "reject",
+    "reason": "선적 문서 종이 누락, 닻과 네 모서리 프레임만 남음",
+    "expected_seed": 1618012
+  },
+  "relic_rare_007": {
+    "verdict": "reject",
+    "reason": "종이 지도 외곽이 잘렸고 해도 대신 풍경 조각",
+    "expected_seed": 1372095
+  },
+  "relic_rare_008": {
+    "verdict": "reject",
+    "reason": "보트는 온전하나 잠금 장치와 사슬 누락",
+    "expected_seed": 1249635
+  },
+  "relic_rare_010": {
+    "verdict": "reject",
+    "reason": "화물 문서 외곽 잘림, 하트와 장식만 강조",
+    "expected_seed": 1251629
+  }
+}

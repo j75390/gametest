@@ -1,0 +1,26 @@
+[
+  {
+    "name": "shop_background",
+    "w": 1440,
+    "h": 900,
+    "alpha": false,
+    "prompt": "Premium production background painting for dark gothic fantasy anime deckbuilding roguelike. A discreet traveling merchant stall inside side chapel of ruined ash cathedral. Wide 16:10 composition. Painterly highly detailed stone vaulted arches, aged dark oak shelves at LEFT EDGE, brass scales, covered small bottles, folded cloth, restrained candlelight warm amber contrasting violet moonlight stained glass. Merchant place at far left lower quarter left EMPTY for a separate sprite; broad elegant dark oak counter and quiet dark uncluttered central/right sales display space for game cards. Top 85 pixels dark subdued for HUD; center right 65 percent clean shadowed tabletop/wall low visual noise. Rich handcrafted plausible materials, coherent gothic anime illustration matching purple/gold game art. No people, no text, no letters, no price labels, no UI, no embedded cards, no rewards, no skeleton ornament overload. This is a real atmospheric location, not a mockup.",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-29c6a786-d507-456d-a726-0ceed17ecd31.png"
+  },
+  {
+    "name": "merchant",
+    "w": 440,
+    "h": 620,
+    "alpha": true,
+    "prompt": "One independent full-body adult elderly traveling merchant character sprite for gothic anime fantasy roguelike, premium clean hand-painted anime design, front three-quarter view facing right. Warm weathered face, silver hair, dark plum hooded long coat, worn charcoal leather apron, subtle muted brass clasps. Standing comfortably behind an implied counter, two anatomically correct arms and hands holding one closed ledger at waist, two natural legs and sturdy boots fully visible. Quiet observant expression, restrained mystery, no sinister villain pose. Clear silhouette, soft amber candlelight from left violet edge light. High quality consistent detailed illustration at game sprite scale, natural anatomy, no extra fingers, no extreme stylized proportions. No backdrop, no floor, no props outside character, no text, no numbers. Fully transparent background.",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-fe9930d7-6682-4a07-b9ea-d91a1cb78afb.png"
+  },
+  {
+    "name": "display_tray",
+    "w": 520,
+    "h": 180,
+    "alpha": true,
+    "prompt": "Single empty wide 3:1 tabletop merchandise display tray for premium gothic fantasy game UI. Low profile dark polished walnut wood shallow tray, thin aged gold metal mounts at corners, deep plum velvet lining, restrained tiny carved crescent detail, physically crafted elegant material. Slight overhead perspective, large empty interior for separate relic or potion icons, no contents. Complete symmetric silhouette, clean fine edges, subtle highlights. No text, no numbers, no coins, no potions, no embedded icons, no scene. Isolated transparent background.",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-ec4dc61f-7a66-411b-9f2d-b876e10bcdb3.png"
+  }
+]

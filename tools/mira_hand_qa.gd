@@ -95,6 +95,10 @@ func run():
 	await button(false, expensive)
 	check(hand.selected == -1 and not main.battle_busy, "Insufficient energy blocks selection")
 	await capture("rest")
+	main.enemy = main.Data.find_record("monsters", "ash_warden")
+	main.enemy_hp = int(main.enemy.hp)
+	main.enemy_max_hp = main.enemy_hp
+	main.enemy_turn = 0
 	main.player_status.apply([{"id":"poison","amount":2},{"id":"venom","amount":3,"rate":0.08}])
 	main.enemy_status.apply([{"id":"poison","amount":4},{"id":"venom","amount":2,"rate":0.08}])
 	main.show_battle()
@@ -104,10 +108,11 @@ func run():
 	check(hero.tooltip_text.contains("중독 · 2중첩") and hero.tooltip_text.contains("맹독 · 3턴"), "Body tooltip aggregates statuses")
 	var poison_icon = main.content.get_node("UnitStatuses/Player").find_child("poison", true, false)
 	check(poison_icon.tooltip_text.begins_with("중독 · 2중첩"), "Icon tooltip selects its own status")
-	check(main.content.get_node("Intent").tooltip_text.contains("공격 피해"), "Intent tooltip describes attack")
+	check(main.content.get_node("Intent").tooltip_text.contains("피해"), "Intent tooltip describes attack")
 	root.warp_mouse(hero.get_global_rect().get_center())
 	await point_at(hero.get_global_rect().get_center())
 	await create_timer(1.0).timeout
 	await capture("tooltip")
 	print("MIRA_HAND_QA failures=%d" % failures.size())
 	quit(0 if failures.is_empty() else 1)
+

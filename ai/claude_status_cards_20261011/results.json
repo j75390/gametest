@@ -1,0 +1,112 @@
+{
+  "counter": {
+    "id": "counter",
+    "name": "counter",
+    "path": "res://assets/relics/comfy_batch_20261009/counter.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_status_cards_20261011\\counter_a0.png",
+    "seed": 111100,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.4915,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        37,
+        29,
+        729,
+        725
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one ancient dark metal shield with outward thorns, muted gold rim, violet reflection"
+  },
+  "barrier": {
+    "id": "barrier",
+    "name": "barrier",
+    "path": "res://assets/relics/comfy_batch_20261009/barrier.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_status_cards_20261011\\barrier_a0.png",
+    "seed": 245527,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.2724,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        209,
+        43,
+        561,
+        713
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one medieval heater shield, pointed bottom, silver metal rim, translucent cyan glass shield face, upright front view, violet magic light"
+  },
+  "pain_ledger": {
+    "id": "pain_ledger",
+    "name": "pain_ledger",
+    "path": "res://assets/relics/comfy_batch_20261009/pain_ledger.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_status_cards_20261011\\pain_ledger_a0.png",
+    "seed": 246524,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.3236,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        76,
+        126,
+        692,
+        680
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a closed leather journal, a closed book seen from front at slight angle, dark brown cover with a small red droplet symbol, one single solid rectangular book block"
+  },
+  "pain_mirror": {
+    "id": "pain_mirror",
+    "name": "pain_mirror",
+    "path": "res://assets/relics/comfy_batch_20261009/pain_mirror.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_status_cards_20261011\\pain_mirror_a0.png",
+    "seed": 114091,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.6085,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        84,
+        4,
+        672,
+        761
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one complete antique handheld cracked mirror, aged gold frame, red magical light reflected inside"
+  },
+  "ether_cycle": {
+    "id": "ether_cycle",
+    "name": "ether_cycle",
+    "path": "res://assets/relics/comfy_batch_20261009/ether_cycle.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_status_cards_20261011\\ether_cycle_a0.png",
+    "seed": 115088,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.4532,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        75,
+        75,
+        680,
+        654
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one circular ring of purple luminous vapour, complete continuous vortex, empty center"
+  }
+}

@@ -16,6 +16,9 @@ func run():
 	main.take_arrival_reward(0)
 	main.finish_arrival()
 	main.start_battle("전투")
+	main.enemy = main.Data.find_record("monsters", "ash_warden")
+	main.enemy_hp = int(main.enemy.hp)
+	main.enemy_max_hp = main.enemy_hp
 	main.enemy_hp = 100
 	main.enemy_max_hp = 100
 	main.hand = [main.card_db.common[0].duplicate(true)]
@@ -54,6 +57,9 @@ func run():
 	await main.end_turn()
 	check(main.screen == "reward" and main.hp == hp_before and main.enemy_turn == turn_before, "DOT kill skips enemy attack")
 	main.start_battle("전투")
+	main.enemy = main.Data.find_record("monsters", "ash_warden")
+	main.enemy_hp = int(main.enemy.hp)
+	main.enemy_max_hp = main.enemy_hp
 	main.hp = 1
 	main.block = 0
 	await main.end_turn()
@@ -61,6 +67,9 @@ func run():
 	# New battle: resizing and repeated input must not duplicate hits or leave transforms behind.
 	main.hp = main.max_hp
 	main.start_battle("전투")
+	main.enemy = main.Data.find_record("monsters", "ash_warden")
+	main.enemy_hp = int(main.enemy.hp)
+	main.enemy_max_hp = main.enemy_hp
 	main.enemy_hp = 200
 	main.enemy_max_hp = 200
 	main.hand = [main.card_db.common[0].duplicate(true)]

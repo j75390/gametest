@@ -1,0 +1,117 @@
+[
+  {
+    "path": "res://assets/delivery/claude_20261011/mira_sd_motion/idle.png",
+    "verdict": "pass",
+    "reason": "육안검수: 같은 손그림 의상·가면·팔/다리 연결, 완전한 외곽. 1254 공통 캔버스, 바닥 y1175.",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "74645dbb46198d4ce98937db20d1d7854ae5b4fd0cdf648fe531a67fb2044acb"
+  },
+  {
+    "path": "res://assets/delivery/claude_20261011/mira_sd_motion/idle_blink.png",
+    "verdict": "pass",
+    "reason": "육안검수: 같은 손그림 의상·가면·팔/다리 연결, 완전한 외곽. 1254 공통 캔버스, 바닥 y1175.",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "276a41b6e9b1565f77fe81f444fc183f3d1ac03a728ef0a47a872b87cb13184e"
+  },
+  {
+    "path": "res://assets/delivery/claude_20261011/mira_sd_motion/attack_1.png",
+    "verdict": "pass",
+    "reason": "육안검수: 같은 손그림 의상·가면·팔/다리 연결, 완전한 외곽. 1254 공통 캔버스, 바닥 y1175.",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "5f59883a252606334af2f6f1544dad3d6c18fb5ef5c378e0d5c3bdf4b472c120"
+  },
+  {
+    "path": "res://assets/delivery/claude_20261011/mira_sd_motion/attack_2.png",
+    "verdict": "pass",
+    "reason": "육안검수: 같은 손그림 의상·가면·팔/다리 연결, 완전한 외곽. 1254 공통 캔버스, 바닥 y1175.",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "b91e00972382195b4d6157f6e00a75cddc22f1c4434147668bf3c75808adfff9"
+  },
+  {
+    "path": "res://assets/delivery/claude_20261011/mira_sd_motion/attack_3.png",
+    "verdict": "pass",
+    "reason": "육안검수: 같은 손그림 의상·가면·팔/다리 연결, 완전한 외곽. 1254 공통 캔버스, 바닥 y1175.",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "443764edb4b861b21354219bb8a7b132faac6b1c721f02656009439a125b2ab3"
+  },
+  {
+    "path": "res://assets/delivery/claude_20261011/mira_sd_motion/skill_1.png",
+    "verdict": "pass",
+    "reason": "육안검수: 같은 손그림 의상·가면·팔/다리 연결, 완전한 외곽. 1254 공통 캔버스, 바닥 y1175.",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "ba345be066f042b6b2af5f771302ba5c6889cfa012fafd5c2d8d77bcc1f8e4e6"
+  },
+  {
+    "path": "res://assets/delivery/claude_20261011/mira_sd_motion/skill_2.png",
+    "verdict": "pass",
+    "reason": "육안검수: 같은 손그림 의상·가면·팔/다리 연결, 완전한 외곽. 1254 공통 캔버스, 바닥 y1175.",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "a0c7944f38b62aeba2e917662319ffe3d43801d48b99c9daac1fad6086b09e86"
+  },
+  {
+    "path": "res://assets/delivery/claude_20261011/mira_sd_motion/skill_3.png",
+    "verdict": "pass",
+    "reason": "육안검수: 같은 손그림 의상·가면·팔/다리 연결, 완전한 외곽. 1254 공통 캔버스, 바닥 y1175.",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "371d47e3bc538206383b966a4c19edb6d85b488eabc247cdb687b1646101da4f"
+  },
+  {
+    "path": "res://assets/delivery/claude_20261011/mira_sd_motion/hurt.png",
+    "verdict": "pass",
+    "reason": "육안검수: 같은 손그림 의상·가면·팔/다리 연결, 완전한 외곽. 1254 공통 캔버스, 바닥 y1175.",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "74703c3d328b36f3925a4fc8d1c295c75cc2c304297bd3757c1cea189f0cce33"
+  },
+  {
+    "path": "res://assets/delivery/claude_20261011/mira_sd_motion/death_1.png",
+    "verdict": "pass",
+    "reason": "육안검수: 같은 손그림 의상·가면·팔/다리 연결, 완전한 외곽. 1254 공통 캔버스, 바닥 y1175.",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "44bfc6bcec22794b37785dbc8ab3e319f5e80cac2b61420063c732b88a2a0de9"
+  },
+  {
+    "path": "res://assets/delivery/claude_20261011/mira_sd_motion/death_2.png",
+    "verdict": "pass",
+    "reason": "육안검수: 같은 손그림 의상·가면·팔/다리 연결, 완전한 외곽. 1254 공통 캔버스, 바닥 y1175.",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "2d73f55d580b3f1d0ae9827dcc566c506b74378c1c8bfbd6c88b2c4bf27632db"
+  },
+  {
+    "path": "raw/skill_2.png",
+    "verdict": "fail",
+    "reason": "마법 오른쪽 외곽 잘림. fixed 결과만 사용."
+  }
+]

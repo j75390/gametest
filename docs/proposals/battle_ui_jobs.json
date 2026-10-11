@@ -1,0 +1,56 @@
+[
+  {
+    "id": "energy_orb",
+    "size": 512,
+    "prompt": "a single round violet amethyst energy orb set in an antique brass circular rim, broad dark smooth blank center, small purple gleam at the outer edge. Hand painted dark gothic fantasy game icon, strong simple silhouette, one object centered on pure white background, entire object visible, ample empty margins.",
+    "seed": 1008100
+  },
+  {
+    "id": "pile_draw",
+    "size": 256,
+    "prompt": "A single closed deck of dark violet tarot cards, plain unmarked back on top, three layered edges underneath. One compact deck, no faces, no playing card suits. Isolated on plain white background. One object only, centered, fully visible. Painted fantasy game item.",
+    "seed": 1008841
+  },
+  {
+    "id": "pile_discard",
+    "size": 256,
+    "prompt": "one compact fan of three weathered dark slate playing cards, pale silver backs, frayed edges, tilted right. Hand painted dark gothic fantasy game icon, strong simple silhouette, one object centered on pure white background, entire object visible, ample empty margins.",
+    "seed": 1008102
+  },
+  {
+    "id": "intent_attack",
+    "size": 128,
+    "prompt": "a single diagonally angled short crimson sword with black iron hilt, clear broad blade. Hand painted dark gothic fantasy game icon, strong simple silhouette, one object centered on pure white background, entire object visible, ample empty margins.",
+    "seed": 1008103
+  },
+  {
+    "id": "intent_defend",
+    "size": 128,
+    "prompt": "a single small blue steel kite shield, broad silver rim, plain blue center. Hand painted dark gothic fantasy game icon, strong simple silhouette, one object centered on pure white background, entire object visible, ample empty margins.",
+    "seed": 1008104
+  },
+  {
+    "id": "intent_buff",
+    "size": 128,
+    "prompt": "one golden upward arrow carved from brass, pointed head, faint violet glow. Hand painted dark gothic fantasy game icon, strong simple silhouette, one object centered on pure white background, entire object visible, ample empty margins.",
+    "seed": 1008105
+  },
+  {
+    "id": "intent_debuff",
+    "size": 128,
+    "prompt": "A single purple skull, front view, dark hollow eye sockets, violet bone, compact round silhouette. One solitary object centered on white background, painted dark fantasy game icon, no decorations.",
+    "seed": 1009771
+  },
+  {
+    "id": "intent_unknown",
+    "size": 128,
+    "prompt": "One large violet question mark with its dot, smooth thick polished amethyst, a single centered punctuation symbol. Isolated on plain white background. One object only, centered, fully visible. Painted fantasy game item.",
+    "seed": 1008847
+  },
+  {
+    "id": "block_shield",
+    "size": 128,
+    "prompt": "A single squat blue metal shield with silver rim, plain wide empty center, no decorations, no poles or attachments. Isolated on plain white background. One object only, centered, fully visible. Painted fantasy game item.",
+    "seed": 1008848
+  }
+]

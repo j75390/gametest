@@ -1,0 +1,42 @@
+{
+  "relic_rare_014": {
+    "verdict": "reject",
+    "reason": "접목 도식 종이 없이 가지 형상만 있음",
+    "expected_seed": 1379074
+  },
+  "relic_rare_016": {
+    "verdict": "reject",
+    "reason": "분필 끝과 검은 홀더 대신 흰 원통병",
+    "expected_seed": 1256614
+  },
+  "relic_rare_017": {
+    "verdict": "reject",
+    "reason": "원본 대조 도장 대신 실제 버섯 형태",
+    "expected_seed": 1381068
+  },
+  "relic_epic_001": {
+    "verdict": "reject",
+    "reason": "면죄부에 가짜 문자 줄이 다수 있음",
+    "expected_seed": 1389044
+  },
+  "relic_epic_002": {
+    "verdict": "reject",
+    "reason": "종 몸체는 개선됐으나 필수 여섯 표시 홈 누락",
+    "expected_seed": 1390041
+  },
+  "relic_epic_006": {
+    "verdict": "reject",
+    "reason": "제조식 종이 누락, 얇은 선 격자만 있음",
+    "expected_seed": 1517486
+  },
+  "relic_epic_009": {
+    "verdict": "reject",
+    "reason": "단일 장부 대신 두 권의 책 콜라주",
+    "expected_seed": 1520477
+  },
+  "relic_epic_010": {
+    "verdict": "reject",
+    "reason": "쉼표 메달 대신 네 원판과 마름모 패널 콜라주",
+    "expected_seed": 1521474
+  }
+}

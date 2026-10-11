@@ -1,0 +1,41 @@
+[
+  {
+    "name": "shop_background",
+    "path": "assets/ui/shop/shop_background.png",
+    "size": [
+      1440,
+      900
+    ],
+    "alpha_range": [
+      255,
+      255
+    ],
+    "status": "needs_review"
+  },
+  {
+    "name": "merchant",
+    "path": "assets/ui/shop/merchant.png",
+    "size": [
+      440,
+      620
+    ],
+    "alpha_range": [
+      0,
+      255
+    ],
+    "status": "needs_review"
+  },
+  {
+    "name": "display_tray",
+    "path": "assets/ui/shop/display_tray.png",
+    "size": [
+      520,
+      180
+    ],
+    "alpha_range": [
+      0,
+      255
+    ],
+    "status": "needs_review"
+  }
+]

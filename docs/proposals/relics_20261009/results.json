@@ -1,0 +1,2998 @@
+{
+  "relic_common_007": {
+    "id": "relic_common_007",
+    "name": "종지기 귀마개",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_007.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_007_a9.png",
+    "seed": 2021113,
+    "attempt": 9,
+    "qa": {
+      "alpha_area": 0.3348,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        26,
+        108,
+        694,
+        700
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "two small conical beige felt ear plugs joined by one short curved brown cord, ear protection, complete connecting string visible"
+  },
+  "relic_common_008": {
+    "id": "relic_common_008",
+    "name": "붉은 재봉실",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_008.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_008_a2.png",
+    "seed": 1157911,
+    "attempt": 2,
+    "qa": {
+      "alpha_area": 0.1283,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        214,
+        262,
+        602,
+        641
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a simple small wooden sewing thread bobbin, crimson thread tightly wound around a cylinder between two plain wooden disks, loose thread end, no machinery"
+  },
+  "relic_common_009": {
+    "id": "relic_common_009",
+    "name": "돌아온 단추",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_009.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_009_a2.png",
+    "seed": 1158908,
+    "attempt": 2,
+    "qa": {
+      "alpha_area": 0.3452,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        104,
+        102,
+        628,
+        601
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a flat circular brown horn sewing button, exactly four small sewing holes in the middle, plain unadorned surface, coat fastener, top view"
+  },
+  "relic_common_010": {
+    "id": "relic_common_010",
+    "name": "찬물 대야",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_010.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_010_a1.png",
+    "seed": 1036448,
+    "attempt": 1,
+    "qa": {
+      "alpha_area": 0.5931,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        39,
+        55,
+        739,
+        695
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a loose shallow old pewter bowl, wide round lip, hammered grey metal, empty bowl, medieval wash bowl with no plumbing, three quarter view"
+  },
+  "relic_common_011": {
+    "id": "relic_common_011",
+    "name": "닳은 문고리",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_011.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_011_a0.png",
+    "seed": 913988,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.1103,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        55,
+        307,
+        711,
+        446
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one worn brass door handle with a round backplate"
+  },
+  "relic_common_012": {
+    "id": "relic_common_012",
+    "name": "간호 순번표",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_012.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_012_a0.png",
+    "seed": 914985,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.1656,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        152,
+        186,
+        607,
+        572
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one small ivory nurse shift rota card with a brass clip, blank grid marks no letters"
+  },
+  "relic_common_013": {
+    "id": "relic_common_013",
+    "name": "작은 발받침",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_013.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_013_a0.png",
+    "seed": 915982,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.466,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        20,
+        35,
+        741,
+        757
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one small low wooden footstool"
+  },
+  "relic_common_014": {
+    "id": "relic_common_014",
+    "name": "빛가림 천",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_014.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_014_a2.png",
+    "seed": 1163893,
+    "attempt": 2,
+    "qa": {
+      "alpha_area": 0.2184,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        54,
+        161,
+        741,
+        452
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a neatly folded rectangular piece of dark linen cloth, layered fabric edges, simple cloth square"
+  },
+  "relic_common_015": {
+    "id": "relic_common_015",
+    "name": "약병 마개",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_015.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_015_a3.png",
+    "seed": 1288347,
+    "attempt": 3,
+    "qa": {
+      "alpha_area": 0.1334,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        258,
+        209,
+        486,
+        595
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a plain conical cork stopper, rough tan cork texture, three shallow grooves, solid cylindrical plug without writing"
+  },
+  "relic_common_016": {
+    "id": "relic_common_016",
+    "name": "밀랍 귀퉁이",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_016.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_016_a10.png",
+    "seed": 2153543,
+    "attempt": 10,
+    "qa": {
+      "alpha_area": 0.1439,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        221,
+        174,
+        530,
+        552
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a single solid small red beeswax block with one chipped corner, one unlit wax chunk, no wick"
+  },
+  "relic_common_017": {
+    "id": "relic_common_017",
+    "name": "부두 못",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_017.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_017_a1.png",
+    "seed": 1043427,
+    "attempt": 1,
+    "qa": {
+      "alpha_area": 0.0768,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        51,
+        57,
+        693,
+        723
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a single long rusty black iron nail, square flat head and long pointed shaft, old forged metal"
+  },
+  "relic_common_018": {
+    "id": "relic_common_018",
+    "name": "수로 분필",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_018.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_018_a2.png",
+    "seed": 1167881,
+    "attempt": 2,
+    "qa": {
+      "alpha_area": 0.1865,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        127,
+        183,
+        618,
+        691
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a single short white cylindrical chalk stick, powdery rough surface, a narrow blue string tied around its middle"
+  },
+  "relic_common_019": {
+    "id": "relic_common_019",
+    "name": "접은 돛천",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_019.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_019_a2.png",
+    "seed": 1168878,
+    "attempt": 2,
+    "qa": {
+      "alpha_area": 0.6135,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        70,
+        45,
+        725,
+        714
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a folded thick beige canvas fabric bundle, frayed cloth edge, simple folded cloth"
+  },
+  "relic_common_020": {
+    "id": "relic_common_020",
+    "name": "빈 통행표",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_020.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_020_a5.png",
+    "seed": 1540246,
+    "attempt": 5,
+    "qa": {
+      "alpha_area": 0.8274,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        15,
+        8,
+        747,
+        755
+      ],
+      "flags": [
+        "background_not_removed"
+      ]
+    },
+    "state": "needs_review",
+    "object": "a small blank rectangular ochre parchment slip with clipped corners and one punched round hole, empty tan paper surface"
+  },
+  "relic_common_021": {
+    "id": "relic_common_021",
+    "name": "낚싯줄 고리",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_021.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_021_a0.png",
+    "seed": 923958,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.54,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        55,
+        48,
+        711,
+        726
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one small brass fishing line reel ring with coiled line"
+  },
+  "relic_common_022": {
+    "id": "relic_common_022",
+    "name": "젖지 않는 성냥",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_022.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_022_a0.png",
+    "seed": 924955,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.1791,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        278,
+        78,
+        500,
+        703
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one small open wooden matchbox holding dry wooden matches"
+  },
+  "relic_common_023": {
+    "id": "relic_common_023",
+    "name": "밧줄 토막",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_023.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_023_a3.png",
+    "seed": 1296323,
+    "attempt": 3,
+    "qa": {
+      "alpha_area": 0.4985,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        65,
+        88,
+        747,
+        675
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one short thick frayed hemp rope with a knot"
+  },
+  "relic_common_024": {
+    "id": "relic_common_024",
+    "name": "저울 바늘",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_024.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_024_a9.png",
+    "seed": 2038062,
+    "attempt": 9,
+    "qa": {
+      "alpha_area": 0.064,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        205,
+        267,
+        639,
+        446
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a detached long flat brass pointer, narrow triangular strip, round base with one large circular mounting hole, entire isolated metal strip"
+  },
+  "relic_common_025": {
+    "id": "relic_common_025",
+    "name": "선원 호루라기",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_025.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_025_a2.png",
+    "seed": 1174860,
+    "attempt": 2,
+    "qa": {
+      "alpha_area": 0.0956,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        185,
+        134,
+        660,
+        636
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a small old brass pea whistle with short mouthpiece and round sound chamber, ring attachment"
+  },
+  "relic_common_026": {
+    "id": "relic_common_026",
+    "name": "검표 가위",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_026.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_026_a3.png",
+    "seed": 1299314,
+    "attempt": 3,
+    "qa": {
+      "alpha_area": 0.1387,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        30,
+        115,
+        724,
+        645
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a single pair of small iron scissors, two blades and two finger loops, isolated scissors without case"
+  },
+  "relic_common_027": {
+    "id": "relic_common_027",
+    "name": "녹슨 방향침",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_027.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_027_a0.png",
+    "seed": 929940,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.4771,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        79,
+        30,
+        673,
+        693
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one rusty navigation compass with a red needle under glass"
+  },
+  "relic_common_028": {
+    "id": "relic_common_028",
+    "name": "선실 찻숟가락",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_028.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_028_a0.png",
+    "seed": 930937,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.0928,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        153,
+        94,
+        657,
+        680
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one small tarnished silver teaspoon, horizontal diagonal orientation"
+  },
+  "relic_common_029": {
+    "id": "relic_common_029",
+    "name": "온실 끈",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_029.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_029_a1.png",
+    "seed": 1055391,
+    "attempt": 1,
+    "qa": {
+      "alpha_area": 0.4594,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        58,
+        107,
+        713,
+        729
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one neatly coiled green garden twine tied in a knot"
+  },
+  "relic_common_030": {
+    "id": "relic_common_030",
+    "name": "씨앗 봉투",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_030.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_030_a0.png",
+    "seed": 932931,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.4064,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        106,
+        115,
+        654,
+        647
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one brown paper seed envelope with a small seed emblem, no letters"
+  },
+  "relic_common_031": {
+    "id": "relic_common_031",
+    "name": "찻잔 받침",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_031.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_031_a1.png",
+    "seed": 1057385,
+    "attempt": 1,
+    "qa": {
+      "alpha_area": 0.269,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        42,
+        304,
+        731,
+        611
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a single shallow flat ivory porcelain dish, small chipped rim with blue line, empty flat plate without cup"
+  },
+  "relic_common_032": {
+    "id": "relic_common_032",
+    "name": "무딘 전지가위",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_032.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_032_a0.png",
+    "seed": 934925,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.1333,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        235,
+        35,
+        535,
+        725
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one worn garden pruning shears with dark wooden handles"
+  },
+  "relic_common_033": {
+    "id": "relic_common_033",
+    "name": "약초 압착판",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_033.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_033_a1.png",
+    "seed": 1059379,
+    "attempt": 1,
+    "qa": {
+      "alpha_area": 0.398,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        27,
+        41,
+        733,
+        734
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a small square wooden book press, two flat wooden boards joined by two metal screw clamps, a dried fern between boards"
+  },
+  "relic_common_034": {
+    "id": "relic_common_034",
+    "name": "갈색 여과천",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_034.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_034_a7.png",
+    "seed": 1801118,
+    "attempt": 7,
+    "qa": {
+      "alpha_area": 0.561,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        108,
+        67,
+        670,
+        707
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one complete small folded square brown linen rag, visible four cloth edges, rag lying alone"
+  },
+  "relic_common_035": {
+    "id": "relic_common_035",
+    "name": "작은 유리추",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_035.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_035_a0.png",
+    "seed": 937916,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.1955,
+      "edge_occupancy": 0.0053,
+      "large_components": 1,
+      "visible_bounds": [
+        235,
+        0,
+        529,
+        705
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one small transparent glass plumb bob on a thin cord"
+  },
+  "relic_common_036": {
+    "id": "relic_common_036",
+    "name": "깨진 물뿌리개",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_036.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_036_a0.png",
+    "seed": 938913,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.3404,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        37,
+        70,
+        759,
+        651
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one dented copper watering can with a small hole near its base"
+  },
+  "relic_common_037": {
+    "id": "relic_common_037",
+    "name": "흙 묻은 장갑",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_037.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_037_a2.png",
+    "seed": 1186824,
+    "attempt": 2,
+    "qa": {
+      "alpha_area": 0.4053,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        103,
+        37,
+        679,
+        723
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one single brown leather glove with five finger sleeves, no second glove, entire glove visible"
+  },
+  "relic_common_038": {
+    "id": "relic_common_038",
+    "name": "식물 이름표",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_038.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_038_a8.png",
+    "seed": 1928563,
+    "attempt": 8,
+    "qa": {
+      "alpha_area": 0.1356,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        282,
+        138,
+        482,
+        611
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one flat wooden garden label stake, rectangular writing surface above a pointed bottom, one continuous plank"
+  },
+  "relic_common_039": {
+    "id": "relic_common_039",
+    "name": "작업용 앞치마",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_039.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_039_a0.png",
+    "seed": 941904,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.3116,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        143,
+        27,
+        652,
+        735
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one folded work apron with a stitched pale patch"
+  },
+  "relic_common_040": {
+    "id": "relic_common_040",
+    "name": "온도계 덮개",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_040.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_040_a1.png",
+    "seed": 1066358,
+    "attempt": 1,
+    "qa": {
+      "alpha_area": 0.1462,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        324,
+        35,
+        452,
+        731
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one narrow wooden thermometer protective sleeve with dark metal end cap"
+  },
+  "relic_common_041": {
+    "id": "relic_common_041",
+    "name": "서고 책갈피",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_041.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_041_a0.png",
+    "seed": 943898,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.3297,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        23,
+        28,
+        741,
+        721
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one slim dark red leather bookmark with a tassel"
+  },
+  "relic_common_042": {
+    "id": "relic_common_042",
+    "name": "연필 깎는 칼",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_042.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_042_a1.png",
+    "seed": 1068352,
+    "attempt": 1,
+    "qa": {
+      "alpha_area": 0.2264,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        33,
+        67,
+        748,
+        625
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a single small utility knife with short straight iron blade and plain wooden handle, simple old craft knife"
+  },
+  "relic_common_043": {
+    "id": "relic_common_043",
+    "name": "사서의 먼지솔",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_043.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_043_a0.png",
+    "seed": 945892,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.1951,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        75,
+        49,
+        687,
+        693
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one soft librarian dusting brush with wooden handle"
+  },
+  "relic_common_044": {
+    "id": "relic_common_044",
+    "name": "납작한 잉크병",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_044.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_044_a0.png",
+    "seed": 946889,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.3559,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        182,
+        37,
+        558,
+        757
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one squat flattened glass ink bottle with black liquid and cork"
+  },
+  "relic_common_045": {
+    "id": "relic_common_045",
+    "name": "대출 확인끈",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_045.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_045_a1.png",
+    "seed": 1071343,
+    "attempt": 1,
+    "qa": {
+      "alpha_area": 0.2796,
+      "edge_occupancy": 0.0309,
+      "large_components": 1,
+      "visible_bounds": [
+        0,
+        55,
+        768,
+        655
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a short red braided string tied in a simple bow, only string with two loops and two loose ends"
+  },
+  "relic_common_046": {
+    "id": "relic_common_046",
+    "name": "반쪽 독서경",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_046.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_046_a8.png",
+    "seed": 1936539,
+    "attempt": 8,
+    "qa": {
+      "alpha_area": 0.081,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        221,
+        229,
+        630,
+        501
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a single monocle glass lens in a gold wire rim, one short bent wire arm on its right edge, only one circular lens"
+  },
+  "relic_common_047": {
+    "id": "relic_common_047",
+    "name": "서류 받침",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_047.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_047_a0.png",
+    "seed": 949880,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.3442,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        131,
+        154,
+        640,
+        650
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one smooth dark stone paperweight with subtle veins"
+  },
+  "relic_common_048": {
+    "id": "relic_common_048",
+    "name": "봉투 칼",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_048.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_048_a0.png",
+    "seed": 950877,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.0701,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        314,
+        40,
+        453,
+        737
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one narrow ornate brass letter opener"
+  },
+  "relic_common_049": {
+    "id": "relic_common_049",
+    "name": "백지 묶음",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_049.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_049_a1.png",
+    "seed": 1075331,
+    "attempt": 1,
+    "qa": {
+      "alpha_area": 0.4302,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        68,
+        105,
+        724,
+        669
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a compact rectangular pile of blank cream paper pages, visible thick stacked paper edges, tied together with a thin brown cord"
+  },
+  "relic_common_050": {
+    "id": "relic_common_050",
+    "name": "정정 도장",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_050.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_050_a0.png",
+    "seed": 952871,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.1925,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        173,
+        214,
+        640,
+        575
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one small wooden correction stamp with brass base and no letters"
+  },
+  "relic_common_051": {
+    "id": "relic_common_051",
+    "name": "등불 손잡이",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_051.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_051_a2.png",
+    "seed": 1200782,
+    "attempt": 2,
+    "qa": {
+      "alpha_area": 0.0655,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        80,
+        60,
+        681,
+        649
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a loose thin curved metal carrying bail, narrow brass wire formed into a semicircle, a small hook at each end"
+  },
+  "relic_common_052": {
+    "id": "relic_common_052",
+    "name": "성소 물동이",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_052.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_052_a0.png",
+    "seed": 954865,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.4167,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        125,
+        115,
+        640,
+        705
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one worn ceramic water jar with two side handles"
+  },
+  "relic_common_053": {
+    "id": "relic_common_053",
+    "name": "은빛 재받이",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_053.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_053_a0.png",
+    "seed": 955862,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.5622,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        76,
+        58,
+        712,
+        718
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one shallow silver ash collection dish containing pale ash"
+  },
+  "relic_common_054": {
+    "id": "relic_common_054",
+    "name": "기도 시간표",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_054.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_054_a0.png",
+    "seed": 956859,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.4982,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        124,
+        77,
+        673,
+        715
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one rolled cream prayer schedule with blank grid and dark ribbon"
+  },
+  "relic_common_055": {
+    "id": "relic_common_055",
+    "name": "문지기의 열쇠끈",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_055.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_055_a2.png",
+    "seed": 1204770,
+    "attempt": 2,
+    "qa": {
+      "alpha_area": 0.1613,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        81,
+        89,
+        756,
+        657
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a single old iron key tied to a short brown leather cord, one key with simple square bow, no other keys"
+  },
+  "relic_common_056": {
+    "id": "relic_common_056",
+    "name": "돌계단 조각",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_056.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_056_a1.png",
+    "seed": 1082310,
+    "attempt": 1,
+    "qa": {
+      "alpha_area": 0.5119,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        48,
+        27,
+        701,
+        714
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a single loose rectangular chunk of chipped pale stone, flat worn top and broken rough side, detached masonry block"
+  },
+  "relic_common_057": {
+    "id": "relic_common_057",
+    "name": "작은 배급등",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_057.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_057_a1.png",
+    "seed": 1083307,
+    "attempt": 1,
+    "qa": {
+      "alpha_area": 0.2264,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        59,
+        41,
+        384,
+        685
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one small plain brass ration lantern with warm amber flame"
+  },
+  "relic_common_058": {
+    "id": "relic_common_058",
+    "name": "이름표 실핀",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_058.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_058_a0.png",
+    "seed": 960847,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.1927,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        102,
+        135,
+        689,
+        696
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one silver safety pin holding a blank cloth name tag"
+  },
+  "relic_common_059": {
+    "id": "relic_common_059",
+    "name": "불씨 덮개",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_common_059.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_common_059_a2.png",
+    "seed": 1208758,
+    "attempt": 2,
+    "qa": {
+      "alpha_area": 0.3046,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        87,
+        43,
+        664,
+        698
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a small black iron hemisphere cage with a round base and ventilation holes, domed stove cover"
+  },
+  "relic_uncommon_003": {
+    "id": "relic_uncommon_003",
+    "name": "봉합 상자",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_003.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_uncommon_003_a0.png",
+    "seed": 962841,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.7176,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        36,
+        15,
+        721,
+        702
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one open compact wooden suture kit with neatly secured needle and thread inside"
+  },
+  "relic_uncommon_004": {
+    "id": "relic_uncommon_004",
+    "name": "남겨 둔 식권",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_004.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_uncommon_004_a3.png",
+    "seed": 1334209,
+    "attempt": 3,
+    "qa": {
+      "alpha_area": 0.6522,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        62,
+        33,
+        708,
+        732
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a blank rectangular ochre parchment slip with scalloped edges, a tiny red wax blob stuck on the corner, unmarked tan paper"
+  },
+  "relic_uncommon_006": {
+    "id": "relic_uncommon_006",
+    "name": "붉은 선 장부",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_006.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_uncommon_006_a1.png",
+    "seed": 1088292,
+    "attempt": 1,
+    "qa": {
+      "alpha_area": 0.3585,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        47,
+        103,
+        724,
+        678
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a closed rectangular brown leather book with thick page edges and one red ribbon wrapped across its cover"
+  },
+  "relic_uncommon_008": {
+    "id": "relic_uncommon_008",
+    "name": "반납 상자",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_008.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_uncommon_008_a0.png",
+    "seed": 965832,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.5393,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        27,
+        13,
+        750,
+        734
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one small open wooden return box with an empty plum cloth interior"
+  },
+  "relic_uncommon_009": {
+    "id": "relic_uncommon_009",
+    "name": "밀랍 수송인",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_009.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_uncommon_009_a2.png",
+    "seed": 1213743,
+    "attempt": 2,
+    "qa": {
+      "alpha_area": 0.7705,
+      "edge_occupancy": 0.0188,
+      "large_components": 1,
+      "visible_bounds": [
+        5,
+        1,
+        766,
+        765
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one single red wax shipping seal medallion with abstract ship mark"
+  },
+  "relic_uncommon_011": {
+    "id": "relic_uncommon_011",
+    "name": "수문 회전축",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_011.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_uncommon_011_a1.png",
+    "seed": 1091283,
+    "attempt": 1,
+    "qa": {
+      "alpha_area": 0.2267,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        172,
+        49,
+        559,
+        745
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a single old iron crank shaft with one attached small turning wheel, entire mechanism visible"
+  },
+  "relic_uncommon_012": {
+    "id": "relic_uncommon_012",
+    "name": "선장 없는 항해일지",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_012.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_uncommon_012_a2.png",
+    "seed": 1215737,
+    "attempt": 2,
+    "qa": {
+      "alpha_area": 0.7768,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        67,
+        25,
+        723,
+        763
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a closed brown leather book with thick paper edges, small brass anchor embossed on its cover"
+  },
+  "relic_uncommon_013": {
+    "id": "relic_uncommon_013",
+    "name": "이중 바닥 상자",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_013.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_uncommon_013_a0.png",
+    "seed": 969820,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.2753,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        62,
+        174,
+        705,
+        537
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one small wooden double-bottom cargo box with inner compartment revealed"
+  },
+  "relic_uncommon_014": {
+    "id": "relic_uncommon_014",
+    "name": "뱃사공의 손목띠",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_014.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_uncommon_014_a1.png",
+    "seed": 1094274,
+    "attempt": 1,
+    "qa": {
+      "alpha_area": 0.4356,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        36,
+        47,
+        733,
+        735
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one boatman's wide leather wrist strap with a tied rope loop"
+  },
+  "relic_uncommon_015": {
+    "id": "relic_uncommon_015",
+    "name": "해진 구조망",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_015.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_uncommon_015_a0.png",
+    "seed": 971814,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.3487,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        14,
+        13,
+        755,
+        760
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one compact folded torn rescue net with knots visible"
+  },
+  "relic_uncommon_016": {
+    "id": "relic_uncommon_016",
+    "name": "검표원의 인장",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_016.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_uncommon_016_a4.png",
+    "seed": 1466639,
+    "attempt": 4,
+    "qa": {
+      "alpha_area": 0.2812,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        15,
+        78,
+        756,
+        670
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a single wooden hand stamp, short brown handle and circular brass bottom, small anchor engraved into its brass face"
+  },
+  "relic_uncommon_017": {
+    "id": "relic_uncommon_017",
+    "name": "두 잔의 찻잔",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_017.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_uncommon_017_a3.png",
+    "seed": 1344179,
+    "attempt": 3,
+    "qa": {
+      "alpha_area": 0.2808,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        22,
+        88,
+        729,
+        723
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "two plain ivory ceramic cups side by side joined by a short brown cord, complete pair of cups only"
+  },
+  "relic_uncommon_019": {
+    "id": "relic_uncommon_019",
+    "name": "거꾸로 쓴 처방전",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_019.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_uncommon_019_a15.png",
+    "seed": 2826660,
+    "attempt": 15,
+    "qa": {
+      "alpha_area": 0.2343,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        202,
+        174,
+        564,
+        582
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one small folded dark brown parchment prescription, clearly visible complete torn paper edges, small purple wax dot on lower corner, paper is solid dark ochre"
+  },
+  "relic_uncommon_020": {
+    "id": "relic_uncommon_020",
+    "name": "접목용 은사",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_020.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_uncommon_020_a3.png",
+    "seed": 1346173,
+    "attempt": 3,
+    "qa": {
+      "alpha_area": 0.1075,
+      "edge_occupancy": 0.0022,
+      "large_components": 1,
+      "visible_bounds": [
+        0,
+        57,
+        618,
+        689
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a single small wooden bobbin wound with shining thin silver wire, one tiny green sprig tucked into the wire"
+  },
+  "relic_uncommon_021": {
+    "id": "relic_uncommon_021",
+    "name": "해독 유리종",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_021.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_uncommon_021_a0.png",
+    "seed": 976799,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.3125,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        138,
+        71,
+        628,
+        699
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one empty clear glass bell dome on a brass base"
+  },
+  "relic_uncommon_023": {
+    "id": "relic_uncommon_023",
+    "name": "연금술 저울",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_023.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_uncommon_023_a0.png",
+    "seed": 977796,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.2261,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        53,
+        39,
+        708,
+        732
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one compact alchemist balance scale with two shallow pans"
+  },
+  "relic_uncommon_024": {
+    "id": "relic_uncommon_024",
+    "name": "봉인된 뿌리",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_024.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_uncommon_024_a5.png",
+    "seed": 1596078,
+    "attempt": 5,
+    "qa": {
+      "alpha_area": 0.2554,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        252,
+        29,
+        513,
+        733
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one sealed small glass specimen vial, a brown branching root entirely enclosed inside, cork stopper, one vial only"
+  },
+  "relic_uncommon_025": {
+    "id": "relic_uncommon_025",
+    "name": "이름을 남기는 바늘",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_025.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_uncommon_025_a13.png",
+    "seed": 2584731,
+    "attempt": 13,
+    "qa": {
+      "alpha_area": 0.0139,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        231,
+        144,
+        543,
+        660
+      ],
+      "flags": [
+        "empty_or_too_small"
+      ]
+    },
+    "state": "needs_review",
+    "object": "one silver sewing needle with a clearly visible oval hole at the blunt end, one thin purple thread passes through the hole"
+  },
+  "relic_uncommon_026": {
+    "id": "relic_uncommon_026",
+    "name": "서고 대조경",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_026.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_uncommon_026_a1.png",
+    "seed": 1104244,
+    "attempt": 1,
+    "qa": {
+      "alpha_area": 0.8005,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        27,
+        37,
+        759,
+        736
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "two small rectangular mirrors joined by a brass hinge, folded open like a book"
+  },
+  "relic_uncommon_027": {
+    "id": "relic_uncommon_027",
+    "name": "수정된 목록",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_027.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_uncommon_027_a0.png",
+    "seed": 981784,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.6276,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        117,
+        24,
+        674,
+        734
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one folded list document with a red correction ribbon, no writing"
+  },
+  "relic_uncommon_028": {
+    "id": "relic_uncommon_028",
+    "name": "빈 서명란",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_028.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_uncommon_028_a0.png",
+    "seed": 982781,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.4016,
+      "edge_occupancy": 0.0,
+      "large_components": 2,
+      "visible_bounds": [
+        55,
+        66,
+        674,
+        721
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one blank cream signature form with empty ruled box and black wax seal"
+  },
+  "relic_uncommon_029": {
+    "id": "relic_uncommon_029",
+    "name": "붉은 색인",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_029.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_uncommon_029_a5.png",
+    "seed": 1601063,
+    "attempt": 5,
+    "qa": {
+      "alpha_area": 0.25,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        63,
+        73,
+        715,
+        690
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a flat narrow red rectangular paper divider, a small brass tab protruding from its top edge, plain red paper"
+  },
+  "relic_uncommon_030": {
+    "id": "relic_uncommon_030",
+    "name": "봉인문 복사본",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_030.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_uncommon_030_a6.png",
+    "seed": 1725517,
+    "attempt": 6,
+    "qa": {
+      "alpha_area": 0.7869,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        18,
+        15,
+        745,
+        750
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a folded brown parchment packet, two small black wax dots stuck on its folded corners, solid paper body"
+  },
+  "relic_uncommon_031": {
+    "id": "relic_uncommon_031",
+    "name": "두 번째 필적",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_031.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_uncommon_031_a3.png",
+    "seed": 1356143,
+    "attempt": 3,
+    "qa": {
+      "alpha_area": 0.415,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        84,
+        31,
+        730,
+        649
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a folded blank ochre parchment sheet with two tiny purple wax dots stuck to paper, plain flat paper body"
+  },
+  "relic_uncommon_032": {
+    "id": "relic_uncommon_032",
+    "name": "사서의 여행증",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_032.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_uncommon_032_a0.png",
+    "seed": 986769,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.7011,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        60,
+        35,
+        699,
+        725
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one small leather travel permit wallet with brass librarian symbol"
+  },
+  "relic_uncommon_033": {
+    "id": "relic_uncommon_033",
+    "name": "재 분리접시",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_033.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_uncommon_033_a10.png",
+    "seed": 2222336,
+    "attempt": 10,
+    "qa": {
+      "alpha_area": 0.2089,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        175,
+        203,
+        597,
+        577
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one shallow ceramic dish split into two equal compartments by a raised straight ceramic ridge across the center"
+  },
+  "relic_uncommon_034": {
+    "id": "relic_uncommon_034",
+    "name": "배급 한도표",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_034.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_uncommon_034_a12.png",
+    "seed": 2470247,
+    "attempt": 12,
+    "qa": {
+      "alpha_area": 0.2197,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        228,
+        178,
+        543,
+        592
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one thick rectangular wooden tablet, exactly ten short scratched tally marks carved on its face, solid wooden board"
+  },
+  "relic_uncommon_035": {
+    "id": "relic_uncommon_035",
+    "name": "돌아온 기도문",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_035.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_uncommon_035_a0.png",
+    "seed": 989760,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.379,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        31,
+        67,
+        744,
+        753
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one folded returned prayer paper wrapped with a faded red ribbon"
+  },
+  "relic_uncommon_036": {
+    "id": "relic_uncommon_036",
+    "name": "분배관 손잡이",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_036.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_uncommon_036_a9.png",
+    "seed": 2101870,
+    "attempt": 9,
+    "qa": {
+      "alpha_area": 0.063,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        220,
+        251,
+        556,
+        547
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one small brass T-shaped tap key, horizontal bar directly attached to short vertical stem, detached handle only"
+  },
+  "relic_uncommon_037": {
+    "id": "relic_uncommon_037",
+    "name": "손으로 적은 한도",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_037.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_uncommon_037_a13.png",
+    "seed": 2596695,
+    "attempt": 13,
+    "qa": {
+      "alpha_area": 0.2359,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        195,
+        175,
+        564,
+        580
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one small dark ochre parchment card, complete paper surface and all edges, few short ink strokes on solid paper"
+  },
+  "relic_uncommon_038": {
+    "id": "relic_uncommon_038",
+    "name": "야간 구호표",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_038.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_uncommon_038_a1.png",
+    "seed": 1116208,
+    "attempt": 1,
+    "qa": {
+      "alpha_area": 0.4141,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        110,
+        92,
+        650,
+        664
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one dark blue night relief token with a small crescent emblem"
+  },
+  "relic_uncommon_039": {
+    "id": "relic_uncommon_039",
+    "name": "소형 축열병",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_039.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_uncommon_039_a1.png",
+    "seed": 1117205,
+    "attempt": 1,
+    "qa": {
+      "alpha_area": 0.3023,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        206,
+        37,
+        557,
+        741
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one small insulated copper heat storage bottle with cork cap"
+  },
+  "relic_uncommon_040": {
+    "id": "relic_uncommon_040",
+    "name": "서로 다른 심지",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_uncommon_040.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_uncommon_040_a9.png",
+    "seed": 2105858,
+    "attempt": 9,
+    "qa": {
+      "alpha_area": 0.0705,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        214,
+        76,
+        552,
+        602
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one small two-armed antique candleholder holding exactly two candles, one red candle and one blue candle"
+  },
+  "relic_rare_001": {
+    "id": "relic_rare_001",
+    "name": "환자 없는 퇴원장",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_001.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_rare_001_a1.png",
+    "seed": 1119199,
+    "attempt": 1,
+    "qa": {
+      "alpha_area": 0.7107,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        56,
+        39,
+        711,
+        733
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a folded blank hospital parchment sheet with a pale violet wax seal, blank oval watermark in paper"
+  },
+  "relic_rare_002": {
+    "id": "relic_rare_002",
+    "name": "역순 맥박계",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_002.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_rare_002_a2.png",
+    "seed": 1243653,
+    "attempt": 2,
+    "qa": {
+      "alpha_area": 0.7167,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        20,
+        9,
+        754,
+        754
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a single antique brass instrument, round ivory face with only a red pointer, otherwise blank dial, short metal stem below"
+  },
+  "relic_rare_003": {
+    "id": "relic_rare_003",
+    "name": "에델의 예비 열쇠",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_003.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_rare_003_a2.png",
+    "seed": 1244650,
+    "attempt": 2,
+    "qa": {
+      "alpha_area": 0.1219,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        217,
+        39,
+        554,
+        724
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a single long iron key with a short red ribbon tied into its round bow, entire key visible"
+  },
+  "relic_rare_004": {
+    "id": "relic_rare_004",
+    "name": "무명 구호단 완장",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_004.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_rare_004_a2.png",
+    "seed": 1245647,
+    "attempt": 2,
+    "qa": {
+      "alpha_area": 0.2025,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        93,
+        110,
+        663,
+        652
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a folded black fabric armband, soft cloth loop with a small white cross patch, no shield"
+  },
+  "relic_rare_005": {
+    "id": "relic_rare_005",
+    "name": "여섯 번째 침대",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_005.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_rare_005_a0.png",
+    "seed": 999730,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.2301,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        57,
+        237,
+        733,
+        660
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one miniature empty iron hospital bed with folded ivory blanket, full bed visible"
+  },
+  "relic_rare_006": {
+    "id": "relic_rare_006",
+    "name": "돌아오는 선적표",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_006.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_rare_006_a10.png",
+    "seed": 2235297,
+    "attempt": 10,
+    "qa": {
+      "alpha_area": 0.238,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        127,
+        177,
+        641,
+        573
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one complete dark brown folded paper shipping document with a small anchor ink stamp on its lower corner, the paper sheet fills most of the object"
+  },
+  "relic_rare_007": {
+    "id": "relic_rare_007",
+    "name": "수심 없는 해도",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_007.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_rare_007_a10.png",
+    "seed": 2236294,
+    "attempt": 10,
+    "qa": {
+      "alpha_area": 0.2402,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        191,
+        164,
+        565,
+        583
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one complete dark ochre parchment nautical map, all four paper edges visible, small simple blue coastlines drawn on paper"
+  },
+  "relic_rare_008": {
+    "id": "relic_rare_008",
+    "name": "잠긴 구조정",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_008.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_rare_008_a8.png",
+    "seed": 1990377,
+    "attempt": 8,
+    "qa": {
+      "alpha_area": 0.1254,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        172,
+        232,
+        595,
+        517
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one miniature wooden rowboat with one prominent brass padlock and chain fastened across its seats"
+  },
+  "relic_rare_009": {
+    "id": "relic_rare_009",
+    "name": "분리된 수문추",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_009.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_rare_009_a0.png",
+    "seed": 1003718,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.3892,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        47,
+        65,
+        717,
+        696
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one detached heavy iron sluice counterweight with broken chain link"
+  },
+  "relic_rare_010": {
+    "id": "relic_rare_010",
+    "name": "살아 있는 화물증",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_010.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_rare_010_a7.png",
+    "seed": 1868914,
+    "attempt": 7,
+    "qa": {
+      "alpha_area": 0.2438,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        184,
+        171,
+        565,
+        636
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one complete dark brown parchment cargo certificate with one small red heart-shaped wax seal attached to corner, solid paper document"
+  },
+  "relic_rare_011": {
+    "id": "relic_rare_011",
+    "name": "로엔의 두 번째 잔",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_011.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_rare_011_a0.png",
+    "seed": 1005712,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.441,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        85,
+        123,
+        717,
+        685
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one solitary worn porcelain teacup with a green leaf pattern"
+  },
+  "relic_rare_012": {
+    "id": "relic_rare_012",
+    "name": "미완성 안정제",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_012.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_rare_012_a2.png",
+    "seed": 1253623,
+    "attempt": 2,
+    "qa": {
+      "alpha_area": 0.2662,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        180,
+        66,
+        595,
+        688
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a single small sealed glass bottle half filled with clear amber liquid, attached cork stopper, no loose objects"
+  },
+  "relic_rare_013": {
+    "id": "relic_rare_013",
+    "name": "투명한 폐엽",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_013.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_rare_013_a1.png",
+    "seed": 1131163,
+    "attempt": 1,
+    "qa": {
+      "alpha_area": 0.4892,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        14,
+        28,
+        749,
+        734
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a translucent glass leaf with two broad lobes shaped like human lungs, central stem and branching veins, botanical sculpture"
+  },
+  "relic_rare_014": {
+    "id": "relic_rare_014",
+    "name": "원장의 접목도",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_014.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_rare_014_a9.png",
+    "seed": 2119816,
+    "attempt": 9,
+    "qa": {
+      "alpha_area": 0.2369,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        190,
+        162,
+        562,
+        581
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one complete brown parchment diagram page, branching black lines drawn on paper, small red seal attached to corner, solid brown paper"
+  },
+  "relic_rare_016": {
+    "id": "relic_rare_016",
+    "name": "삭제관의 백묵",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_016.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_rare_016_a7.png",
+    "seed": 1873899,
+    "attempt": 7,
+    "qa": {
+      "alpha_area": 0.1033,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        117,
+        280,
+        518,
+        472
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one short white chalk stick partly inserted inside one short black metal sleeve, white solid chalk tip protruding from black holder"
+  },
+  "relic_rare_017": {
+    "id": "relic_rare_017",
+    "name": "원본 대조인",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_017.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_rare_017_a7.png",
+    "seed": 1874896,
+    "attempt": 7,
+    "qa": {
+      "alpha_area": 0.0856,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        245,
+        192,
+        526,
+        523
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one single antique rubber stamp with rounded wooden handle, short stem, flat circular black rubber base attached, no decorative image"
+  },
+  "relic_rare_018": {
+    "id": "relic_rare_018",
+    "name": "이안의 봉투",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_018.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_rare_018_a1.png",
+    "seed": 1135151,
+    "attempt": 1,
+    "qa": {
+      "alpha_area": 0.6706,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        58,
+        11,
+        720,
+        720
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a closed rectangular tan paper envelope, triangular folded flap held shut by a single dark violet wax seal"
+  },
+  "relic_rare_019": {
+    "id": "relic_rare_019",
+    "name": "사라지지 않는 색인",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_019.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_rare_019_a2.png",
+    "seed": 1259605,
+    "attempt": 2,
+    "qa": {
+      "alpha_area": 0.62,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        51,
+        70,
+        722,
+        725
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a closed small brown paper file folder, thick stacked index cards inside and red and ivory tabs protruding"
+  },
+  "relic_rare_020": {
+    "id": "relic_rare_020",
+    "name": "수령 거부서",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_020.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_rare_020_a0.png",
+    "seed": 1013688,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.5183,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        26,
+        35,
+        753,
+        723
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one folded refusal document with a clean empty signature box and broken black wax seal"
+  },
+  "relic_rare_021": {
+    "id": "relic_rare_021",
+    "name": "한도 있는 성배",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_021.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_rare_021_a0.png",
+    "seed": 1014685,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.4293,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        103,
+        60,
+        646,
+        750
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one silver chalice with clearly etched horizontal fill-limit line"
+  },
+  "relic_rare_022": {
+    "id": "relic_rare_022",
+    "name": "에델의 등불",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_022.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_rare_022_a0.png",
+    "seed": 1015682,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.1834,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        244,
+        53,
+        539,
+        715
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one worn tall iron lantern with amber flame and paper strips wrapped on handle, no writing"
+  },
+  "relic_rare_023": {
+    "id": "relic_rare_023",
+    "name": "작은 분배기",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_023.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_rare_023_a0.png",
+    "seed": 1016679,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.2763,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        29,
+        55,
+        743,
+        698
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one compact brass manifold distributor with three short pipes and violet core"
+  },
+  "relic_rare_024": {
+    "id": "relic_rare_024",
+    "name": "이주 명부",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_rare_024.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_rare_024_a2.png",
+    "seed": 1264590,
+    "attempt": 2,
+    "qa": {
+      "alpha_area": 0.3526,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        30,
+        165,
+        743,
+        659
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a closed brown leather book with paper edges and a travel ribbon tied around its cover"
+  },
+  "relic_epic_001": {
+    "id": "relic_epic_001",
+    "name": "서명 없는 면죄부",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_epic_001.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_epic_001_a7.png",
+    "seed": 1882872,
+    "attempt": 7,
+    "qa": {
+      "alpha_area": 0.2743,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        169,
+        142,
+        588,
+        593
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one partially unrolled dark ochre parchment scroll, solid paper connecting both curled ends, tiny gold wax seal attached to paper"
+  },
+  "relic_epic_002": {
+    "id": "relic_epic_002",
+    "name": "여섯 사람의 종",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_epic_002.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_epic_002_a9.png",
+    "seed": 2130783,
+    "attempt": 9,
+    "qa": {
+      "alpha_area": 0.097,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        236,
+        136,
+        537,
+        537
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one bronze handbell, six dark engraved vertical tally lines around its flared lower rim, wooden handle above"
+  },
+  "relic_epic_003": {
+    "id": "relic_epic_003",
+    "name": "멈춘 수송로",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_epic_003.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_epic_003_a0.png",
+    "seed": 1020667,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.5168,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        46,
+        34,
+        741,
+        739
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one compact broken waterway mechanical gear assembly with a stopped iron wheel"
+  },
+  "relic_epic_004": {
+    "id": "relic_epic_004",
+    "name": "선장의 마지막 매듭",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_epic_004.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_epic_004_a1.png",
+    "seed": 1145121,
+    "attempt": 1,
+    "qa": {
+      "alpha_area": 0.1559,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        148,
+        247,
+        646,
+        590
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a thick compact hemp knot tightly tied around a visible brass ring"
+  },
+  "relic_epic_005": {
+    "id": "relic_epic_005",
+    "name": "검은 온실핵",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_epic_005.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_epic_005_a0.png",
+    "seed": 1022661,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.3819,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        15,
+        13,
+        752,
+        754
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one black glass greenhouse seed core with subtle green roots encircling it"
+  },
+  "relic_epic_006": {
+    "id": "relic_epic_006",
+    "name": "반증된 제조식",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_epic_006.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_epic_006_a10.png",
+    "seed": 2258228,
+    "attempt": 10,
+    "qa": {
+      "alpha_area": 0.2304,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        195,
+        180,
+        574,
+        564
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one whole dark brown parchment formula page with three simple geometric ink diagrams, solid intact paper"
+  },
+  "relic_epic_007": {
+    "id": "relic_epic_007",
+    "name": "이름의 여백",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_epic_007.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_epic_007_a1.png",
+    "seed": 1148112,
+    "attempt": 1,
+    "qa": {
+      "alpha_area": 0.6275,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        67,
+        24,
+        720,
+        749
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a single torn tan paper scrap, solid blank paper center, violet pigment along its ragged outer edge"
+  },
+  "relic_epic_008": {
+    "id": "relic_epic_008",
+    "name": "연결을 끊는 칼",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_epic_008.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_epic_008_a2.png",
+    "seed": 1272566,
+    "attempt": 2,
+    "qa": {
+      "alpha_area": 0.4261,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        32,
+        18,
+        724,
+        732
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a single silver knife with a short cut rope end draped over its wooden handle"
+  },
+  "relic_epic_009": {
+    "id": "relic_epic_009",
+    "name": "공개된 장부",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_epic_009.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_epic_009_a5.png",
+    "seed": 1643934,
+    "attempt": 5,
+    "qa": {
+      "alpha_area": 0.672,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        24,
+        48,
+        740,
+        664
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one single open thick leather bookkeeping book, tan blank pages and one red ribbon bookmark"
+  },
+  "relic_epic_010": {
+    "id": "relic_epic_010",
+    "name": "성가대의 쉼표",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_epic_010.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_epic_010_a12.png",
+    "seed": 2509130,
+    "attempt": 12,
+    "qa": {
+      "alpha_area": 0.2231,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        179,
+        180,
+        589,
+        589
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one round bronze medallion engraved with a single wide rectangular horizontal bar at the center, musical whole rest symbol"
+  },
+  "relic_epic_011": {
+    "id": "relic_epic_011",
+    "name": "분산된 불씨",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_epic_011.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_epic_011_a6.png",
+    "seed": 1769385,
+    "attempt": 6,
+    "qa": {
+      "alpha_area": 0.241,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        169,
+        158,
+        600,
+        553
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one wide rectangular glass bottle divided vertically into exactly three glass compartments, each compartment contains one glowing orange ember"
+  },
+  "relic_epic_012": {
+    "id": "relic_epic_012",
+    "name": "마지막 대기표",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_epic_012.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_epic_012_a3.png",
+    "seed": 1400011,
+    "attempt": 3,
+    "qa": {
+      "alpha_area": 0.6419,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        34,
+        16,
+        723,
+        741
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one small flat ochre paper slip, one punched corner and a ragged edge, blank unmarked paper"
+  },
+  "relic_legend_001": {
+    "id": "relic_legend_001",
+    "name": "첫 수령인의 계약",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_legend_001.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_legend_001_a0.png",
+    "seed": 1030637,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.2005,
+      "edge_occupancy": 0.0,
+      "large_components": 2,
+      "visible_bounds": [
+        11,
+        17,
+        685,
+        640
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one ancient ivory contract scroll with two gold wax seals and a dark red ribbon, no writing"
+  },
+  "relic_legend_002": {
+    "id": "relic_legend_002",
+    "name": "검은 운하의 심장",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_legend_002.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_legend_002_a0.png",
+    "seed": 1031634,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.4696,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        28,
+        55,
+        758,
+        725
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one compact black iron canal pump core with visible brass gears and a violet glowing heart chamber"
+  },
+  "relic_legend_003": {
+    "id": "relic_legend_003",
+    "name": "원본의 무게",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_legend_003.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_legend_003_a0.png",
+    "seed": 1032631,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.8159,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        37,
+        15,
+        754,
+        734
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one thick original archive tome chained to a heavy brass weight as a single bound object"
+  },
+  "relic_legend_004": {
+    "id": "relic_legend_004",
+    "name": "각자의 등불",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_legend_004.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_legend_004_a1.png",
+    "seed": 1157085,
+    "attempt": 1,
+    "qa": {
+      "alpha_area": 0.3663,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        125,
+        13,
+        642,
+        758
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a brass lantern with triangular cross section, three visible glass windows each holding a separate glowing amber candle"
+  },
+  "relic_ancient_002": {
+    "id": "relic_ancient_002",
+    "name": "풀어 쓴 맹세",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_ancient_002.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_ancient_002_a10.png",
+    "seed": 2269195,
+    "attempt": 10,
+    "qa": {
+      "alpha_area": 0.2361,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        195,
+        176,
+        564,
+        580
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one complete unrolled dark brown parchment oath document, small silver wax seal bearing tiny sword engraving attached on corner"
+  },
+  "relic_ancient_003": {
+    "id": "relic_ancient_003",
+    "name": "발음되지 않은 별",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_ancient_003.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_ancient_003_a0.png",
+    "seed": 1035622,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.3815,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        92,
+        53,
+        671,
+        707
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one deep blue star-shaped crystal pendant with silver rim and faint violet center"
+  },
+  "relic_ancient_004": {
+    "id": "relic_ancient_004",
+    "name": "거절하는 성유",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_ancient_004.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_ancient_004_a0.png",
+    "seed": 1036619,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.3128,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        171,
+        48,
+        606,
+        694
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one sealed ivory holy oil flask with gold filigree and closed stopper"
+  },
+  "relic_ancient_005": {
+    "id": "relic_ancient_005",
+    "name": "문밖의 방패",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_ancient_005.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_ancient_005_a7.png",
+    "seed": 1901815,
+    "attempt": 7,
+    "qa": {
+      "alpha_area": 0.1708,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        201,
+        187,
+        566,
+        605
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one dark iron kite shield, centered raised gold engraving shaped like a small arched doorway"
+  },
+  "relic_ancient_006": {
+    "id": "relic_ancient_006",
+    "name": "돌아갈 표식",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_ancient_006.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_ancient_006_a0.png",
+    "seed": 1038613,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.5925,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        50,
+        33,
+        714,
+        744
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one ranger leather return marker medallion with leaf and home-shaped motif"
+  },
+  "relic_ancient_007": {
+    "id": "relic_ancient_007",
+    "name": "빈 의자 인형",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_ancient_007.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_ancient_007_a0.png",
+    "seed": 1039610,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.2215,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        116,
+        107,
+        652,
+        710
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one small cloth doll resting on a miniature empty wooden chair as one bound relic"
+  },
+  "relic_ancient_008": {
+    "id": "relic_ancient_008",
+    "name": "반납된 탄창",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_ancient_008.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_ancient_008_a2.png",
+    "seed": 1287521,
+    "attempt": 2,
+    "qa": {
+      "alpha_area": 0.3618,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        184,
+        28,
+        579,
+        739
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one box shaped dark steel gun magazine, flat metal sides with long vertical ribs, closed bottom and slightly open top"
+  },
+  "relic_ancient_009": {
+    "id": "relic_ancient_009",
+    "name": "자필 헌혈증",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_ancient_009.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_ancient_009_a6.png",
+    "seed": 1782346,
+    "attempt": 6,
+    "qa": {
+      "alpha_area": 0.2369,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        194,
+        174,
+        564,
+        581
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one complete dark brown parchment certificate, a small red droplet wax seal on its lower corner, solid paper visible"
+  },
+  "relic_ancient_010": {
+    "id": "relic_ancient_010",
+    "name": "꺼질 수 있는 심장",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_ancient_010.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_ancient_010_a1.png",
+    "seed": 1166058,
+    "attempt": 1,
+    "qa": {
+      "alpha_area": 0.4627,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        58,
+        36,
+        698,
+        731
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "a small brass mechanical heart, exposed gears around its edge and a short stop lever projecting from its side, violet core"
+  },
+  "relic_ancient_011": {
+    "id": "relic_ancient_011",
+    "name": "해빙의 서약",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_ancient_011.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_ancient_011_a0.png",
+    "seed": 1043598,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.4673,
+      "edge_occupancy": 0.0352,
+      "large_components": 1,
+      "visible_bounds": [
+        93,
+        0,
+        681,
+        704
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one pale blue ice crystal oath medallion with thawing water droplet and silver chain"
+  },
+  "relic_ancient_012": {
+    "id": "relic_ancient_012",
+    "name": "매듭 푼 목줄",
+    "path": "res://assets/relics/comfy_batch_20261009/relic_ancient_012.png",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\relics_20261009_output\\relic_ancient_012_a0.png",
+    "seed": 1044595,
+    "attempt": 0,
+    "qa": {
+      "alpha_area": 0.4355,
+      "edge_occupancy": 0.0,
+      "large_components": 1,
+      "visible_bounds": [
+        49,
+        85,
+        732,
+        656
+      ],
+      "flags": []
+    },
+    "state": "needs_review",
+    "object": "one open dark leather collar with a loosened rope knot, no animal or body"
+  }
+}

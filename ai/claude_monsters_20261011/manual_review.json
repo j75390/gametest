@@ -1,0 +1,102 @@
+{
+  "round_doll": {
+    "seed": 11386914,
+    "approved": false,
+    "reason": "Required profession props/posture missing or style inconsistent"
+  },
+  "waiting_patient": {
+    "seed": 11387911,
+    "approved": false,
+    "reason": "Required profession props/posture missing or style inconsistent"
+  },
+  "lamp_pilgrim": {
+    "seed": 11388908,
+    "approved": false,
+    "reason": "Required profession props/posture missing or style inconsistent"
+  },
+  "recovery_agent": {
+    "seed": 11389905,
+    "approved": false,
+    "reason": "Required profession props/posture missing or style inconsistent"
+  },
+  "seal_clerk": {
+    "seed": 11390902,
+    "approved": false,
+    "reason": "Required profession props/posture missing or style inconsistent"
+  },
+  "convoy_armor": {
+    "seed": 11391899,
+    "approved": false,
+    "reason": "Required profession props/posture missing or style inconsistent"
+  },
+  "ash_warden_elite": {
+    "seed": 11392896,
+    "approved": false,
+    "reason": "Required profession props/posture missing or style inconsistent"
+  },
+  "convoy_captain": {
+    "seed": 11270436,
+    "approved": false,
+    "reason": "Required profession props/posture missing or style inconsistent"
+  },
+  "first_volunteer": {
+    "seed": 11271433,
+    "approved": false,
+    "reason": "Required profession props/posture missing or style inconsistent"
+  },
+  "head_nurse": {
+    "seed": 11272430,
+    "approved": false,
+    "reason": "Required profession props/posture missing or style inconsistent"
+  },
+  "shaft_keeper": {
+    "seed": 11273427,
+    "approved": false,
+    "reason": "Required profession props/posture missing or style inconsistent"
+  },
+  "ash_warden_boss": {
+    "seed": 11274424,
+    "approved": false,
+    "reason": "Required profession props/posture missing or style inconsistent"
+  },
+  "weak": {
+    "seed": 11522335,
+    "approved": false,
+    "reason": "Three swords instead of one weakened sword"
+  },
+  "strength": {
+    "seed": 11277415,
+    "approved": true,
+    "reason": "Single intact armored fist; readable silhouette"
+  },
+  "vulnerable": {
+    "seed": 11399875,
+    "approved": true,
+    "reason": "Single shield with a deep diagonal fracture"
+  },
+  "relic_uncommon_002": {
+    "seed": 11278412,
+    "approved": true,
+    "reason": "Bronze hand bell with wooden handle and purple cord"
+  },
+  "relic_uncommon_005": {
+    "seed": 11526323,
+    "approved": false,
+    "reason": "Fake dial lettering and numerals"
+  },
+  "relic_uncommon_007": {
+    "seed": 11280406,
+    "approved": true,
+    "reason": "Hinged two-panel prescription plate with botanical decoration"
+  },
+  "relic_uncommon_010": {
+    "seed": 11404860,
+    "approved": true,
+    "reason": "Single pointed plumb weight with rope"
+  },
+  "relic_uncommon_018": {
+    "seed": 11405857,
+    "approved": true,
+    "reason": "Solid black paper sheet with worn edges"
+  }
+}

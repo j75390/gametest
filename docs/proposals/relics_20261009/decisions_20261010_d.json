@@ -1,0 +1,67 @@
+{
+  "relic_uncommon_019": {
+    "reason": "复검수: 필수 봉인/분리벽/잉크/여섯 홈/쉼표/검 봉인 표시 누락",
+    "verdict": "reject",
+    "expected_seed": 2703203
+  },
+  "relic_uncommon_033": {
+    "reason": "复검수: 필수 봉인/분리벽/잉크/여섯 홈/쉼표/검 봉인 표시 누락",
+    "verdict": "reject",
+    "expected_seed": 2098879
+  },
+  "relic_uncommon_037": {
+    "reason": "复검수: 필수 봉인/분리벽/잉크/여섯 홈/쉼표/검 봉인 표시 누락",
+    "verdict": "reject",
+    "expected_seed": 2349781
+  },
+  "relic_uncommon_040": {
+    "reason": "육안검수: 해당 유물의 핵심 구성과 재질·외곽 유지, 글자와 콜라주 없음",
+    "verdict": "pass",
+    "expected_seed": 2105858
+  },
+  "relic_rare_006": {
+    "reason": "육안검수: 해당 유물의 핵심 구성과 재질·외곽 유지, 글자와 콜라주 없음",
+    "verdict": "pass",
+    "expected_seed": 2235297
+  },
+  "relic_rare_007": {
+    "reason": "육안검수: 해당 유물의 핵심 구성과 재질·외곽 유지, 글자와 콜라주 없음",
+    "verdict": "pass",
+    "expected_seed": 2236294
+  },
+  "relic_rare_008": {
+    "reason": "육안검수: 해당 유물의 핵심 구성과 재질·외곽 유지, 글자와 콜라주 없음",
+    "verdict": "pass",
+    "expected_seed": 1990377
+  },
+  "relic_rare_010": {
+    "reason": "육안검수: 해당 유물의 핵심 구성과 재질·외곽 유지, 글자와 콜라주 없음",
+    "verdict": "pass",
+    "expected_seed": 1868914
+  },
+  "relic_rare_014": {
+    "reason": "육안검수: 해당 유물의 핵심 구성과 재질·외곽 유지, 글자와 콜라주 없음",
+    "verdict": "pass",
+    "expected_seed": 2119816
+  },
+  "relic_epic_002": {
+    "reason": "复검수: 필수 봉인/분리벽/잉크/여섯 홈/쉼표/검 봉인 표시 누락",
+    "verdict": "reject",
+    "expected_seed": 2007326
+  },
+  "relic_epic_010": {
+    "reason": "复검수: 필수 봉인/분리벽/잉크/여섯 홈/쉼표/검 봉인 표시 누락",
+    "verdict": "reject",
+    "expected_seed": 2262216
+  },
+  "relic_ancient_002": {
+    "reason": "复검수: 필수 봉인/분리벽/잉크/여섯 홈/쉼표/검 봉인 표시 누락",
+    "verdict": "reject",
+    "expected_seed": 2022281
+  },
+  "relic_ancient_005": {
+    "reason": "육안검수: 해당 유물의 핵심 구성과 재질·외곽 유지, 글자와 콜라주 없음",
+    "verdict": "pass",
+    "expected_seed": 1901815
+  }
+}

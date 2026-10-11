@@ -1,0 +1,24 @@
+{
+  "id": "pain_ledger",
+  "name": "pain_ledger",
+  "path": "res://assets/relics/comfy_batch_20261009/pain_ledger.png",
+  "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_status_cards_20261011\\pain_ledger_a0.png",
+  "seed": 236551,
+  "attempt": 0,
+  "qa": {
+    "alpha_area": 0.6841,
+    "edge_occupancy": 0.1681,
+    "large_components": 1,
+    "visible_bounds": [
+      0,
+      0,
+      768,
+      768
+    ],
+    "flags": [
+      "possible_edge_crop"
+    ]
+  },
+  "state": "needs_review",
+  "object": "one tightly CLOSED dark leather book, front cover facing viewer, thick bound pages invisible inside, a tiny red blood droplet on plain closed cover, no writing"
+}

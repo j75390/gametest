@@ -1,0 +1,147 @@
+{
+  "relic_common_007": {
+    "verdict": "reject",
+    "reason": "울 귀마개 대신 전기 커넥터",
+    "expected_seed": 1527285
+  },
+  "relic_common_016": {
+    "verdict": "reject",
+    "reason": "밀랍 콜라주와 화면 잘림/배경 잔여",
+    "expected_seed": 1536258
+  },
+  "relic_common_020": {
+    "verdict": "reject",
+    "reason": "가장자리 가짜 글자",
+    "expected_seed": 1293332
+  },
+  "relic_common_024": {
+    "verdict": "reject",
+    "reason": "금속 조각 콜라주/잘림",
+    "expected_seed": 1297320
+  },
+  "relic_common_031": {
+    "verdict": "pass",
+    "reason": "찻잔 없는 단일 받침과 청색 테두리 확인",
+    "expected_seed": 1057385
+  },
+  "relic_common_033": {
+    "verdict": "pass",
+    "reason": "목재 압착 장치/누름판 형태 확인",
+    "expected_seed": 1059379
+  },
+  "relic_common_034": {
+    "verdict": "reject",
+    "reason": "천 대신 목재 판과 불투명 배경",
+    "expected_seed": 1307290
+  },
+  "relic_common_037": {
+    "verdict": "reject",
+    "reason": "장갑 한 개 대신 겹친 장갑 복수",
+    "expected_seed": 1063367
+  },
+  "relic_common_038": {
+    "verdict": "reject",
+    "reason": "명찰판 두 개와 분리된 말뚝",
+    "expected_seed": 1064364
+  },
+  "relic_common_042": {
+    "verdict": "pass",
+    "reason": "단일 짧은 칼/목재 손잡이/온전한 외곽",
+    "expected_seed": 1068352
+  },
+  "relic_common_045": {
+    "verdict": "pass",
+    "reason": "책 없는 붉은 매듭 끈",
+    "expected_seed": 1071343
+  },
+  "relic_common_046": {
+    "verdict": "reject",
+    "reason": "반쪽 안경 대신 안경/부품 복수",
+    "expected_seed": 1195797
+  },
+  "relic_common_049": {
+    "verdict": "pass",
+    "reason": "두꺼운 빈 종이 묶음 형태 확인",
+    "expected_seed": 1075331
+  },
+  "relic_common_051": {
+    "verdict": "reject",
+    "reason": "손잡이 대신 아치문",
+    "expected_seed": 1077325
+  },
+  "relic_common_055": {
+    "verdict": "pass",
+    "reason": "단일 오래된 열쇠와 갈색 매듭",
+    "expected_seed": 1204770
+  },
+  "relic_common_056": {
+    "verdict": "pass",
+    "reason": "계단 전체 대신 마모된 돌 조각",
+    "expected_seed": 1082310
+  },
+  "relic_common_059": {
+    "verdict": "pass",
+    "reason": "환기 구멍 있는 반구 덮개",
+    "expected_seed": 1208758
+  },
+  "relic_uncommon_004": {
+    "verdict": "reject",
+    "reason": "가짜 문자와 봉인 떨어짐",
+    "expected_seed": 1210752
+  },
+  "relic_uncommon_006": {
+    "verdict": "pass",
+    "reason": "붉은 끈으로 묶인 가죽 장부",
+    "expected_seed": 1088292
+  },
+  "relic_uncommon_009": {
+    "verdict": "pass",
+    "reason": "배 문양 있는 단일 적색 밀랍 봉인, 잘림 해소",
+    "expected_seed": 1213743
+  },
+  "relic_uncommon_011": {
+    "verdict": "pass",
+    "reason": "단일 회전륜과 크랭크 축 구조",
+    "expected_seed": 1091283
+  },
+  "relic_uncommon_012": {
+    "verdict": "pass",
+    "reason": "배 대신 닻 문양 가죽 책",
+    "expected_seed": 1215737
+  },
+  "relic_uncommon_016": {
+    "verdict": "reject",
+    "reason": "도장 옆 분리된 인장과 가짜 글자",
+    "expected_seed": 1096268
+  },
+  "relic_uncommon_017": {
+    "verdict": "reject",
+    "reason": "찻잔 세 개 콜라주",
+    "expected_seed": 1220722
+  },
+  "relic_uncommon_019": {
+    "verdict": "reject",
+    "reason": "접힌 처방전/봉인 대신 장식 종이틀",
+    "expected_seed": 1221719
+  },
+  "relic_uncommon_020": {
+    "verdict": "reject",
+    "reason": "은사 대신 초록 실패 복수",
+    "expected_seed": 1222716
+  },
+  "relic_uncommon_024": {
+    "verdict": "reject",
+    "reason": "뿌리의 유리관 누락",
+    "expected_seed": 1102250
+  },
+  "relic_uncommon_025": {
+    "verdict": "reject",
+    "reason": "바늘 대신 실제 눈 그림",
+    "expected_seed": 1226704
+  },
+  "relic_uncommon_026": {
+    "verdict": "pass",
+    "reason": "경첩으로 연결된 이중 거울",
+    "expected_seed": 1104244
+  }
+}

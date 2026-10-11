@@ -1,0 +1,187 @@
+{
+  "status": "needs_review",
+  "frames": [
+    {
+      "name": "idle",
+      "path": "assets/characters/mira/pixel_sd_plague_v3/idle.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "visible_bounds": [
+        0,
+        19,
+        1237,
+        1254
+      ],
+      "status": "needs_animation_review"
+    },
+    {
+      "name": "idle_blink",
+      "path": "assets/characters/mira/pixel_sd_plague_v3/idle_blink.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "visible_bounds": [
+        0,
+        19,
+        1237,
+        1254
+      ],
+      "status": "needs_animation_review"
+    },
+    {
+      "name": "walk_a",
+      "path": "assets/characters/mira/pixel_sd_plague_v3/walk_a.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "visible_bounds": [
+        19,
+        21,
+        1236,
+        1223
+      ],
+      "status": "needs_animation_review"
+    },
+    {
+      "name": "walk_pass",
+      "path": "assets/characters/mira/pixel_sd_plague_v3/walk_pass.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "visible_bounds": [
+        0,
+        21,
+        1240,
+        1226
+      ],
+      "status": "needs_animation_review"
+    },
+    {
+      "name": "walk_b",
+      "path": "assets/characters/mira/pixel_sd_plague_v3/walk_b.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "visible_bounds": [
+        19,
+        21,
+        1194,
+        1210
+      ],
+      "status": "needs_animation_review"
+    },
+    {
+      "name": "attack_prepare",
+      "path": "assets/characters/mira/pixel_sd_plague_v3/attack_prepare.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "visible_bounds": [
+        0,
+        21,
+        1239,
+        1238
+      ],
+      "status": "needs_animation_review"
+    },
+    {
+      "name": "attack_release",
+      "path": "assets/characters/mira/pixel_sd_plague_v3/attack_release.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "visible_bounds": [
+        0,
+        21,
+        1254,
+        1254
+      ],
+      "status": "needs_animation_review"
+    },
+    {
+      "name": "skill_charge",
+      "path": "assets/characters/mira/pixel_sd_plague_v3/skill_charge.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "visible_bounds": [
+        0,
+        11,
+        1234,
+        1254
+      ],
+      "status": "needs_animation_review"
+    },
+    {
+      "name": "skill_release",
+      "path": "assets/characters/mira/pixel_sd_plague_v3/skill_release.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "visible_bounds": [
+        0,
+        46,
+        1254,
+        1254
+      ],
+      "status": "needs_animation_review"
+    },
+    {
+      "name": "hurt",
+      "path": "assets/characters/mira/pixel_sd_plague_v3/hurt.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "visible_bounds": [
+        0,
+        19,
+        1254,
+        1227
+      ],
+      "status": "needs_animation_review"
+    },
+    {
+      "name": "death_fall",
+      "path": "assets/characters/mira/pixel_sd_plague_v3/death_fall.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "visible_bounds": [
+        0,
+        21,
+        1237,
+        1224
+      ],
+      "status": "needs_animation_review"
+    },
+    {
+      "name": "death_rest",
+      "path": "assets/characters/mira/pixel_sd_plague_v3/death_rest.png",
+      "size": [
+        1774,
+        887
+      ],
+      "visible_bounds": [
+        0,
+        8,
+        1759,
+        858
+      ],
+      "status": "needs_animation_review"
+    }
+  ],
+  "integration_owner": "Claude",
+  "note": "Independent frames. Preserve v2; review foot baseline and body size in animation before replacing character_assets.json."
+}

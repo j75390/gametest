@@ -1,0 +1,1098 @@
+{
+  "source": "local ComfyUI SDXL + BiRefNet",
+  "preserve_existing": 18,
+  "catalog_modified": false,
+  "passed": [
+    {
+      "id": "relic_common_007",
+      "name": "종지기 귀마개",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_007.png",
+      "seed": 2021113,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_008",
+      "name": "붉은 재봉실",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_008.png",
+      "seed": 1157911,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_009",
+      "name": "돌아온 단추",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_009.png",
+      "seed": 1158908,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_010",
+      "name": "찬물 대야",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_010.png",
+      "seed": 1036448,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_011",
+      "name": "닳은 문고리",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_011.png",
+      "seed": 913988,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_012",
+      "name": "간호 순번표",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_012.png",
+      "seed": 914985,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_013",
+      "name": "작은 발받침",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_013.png",
+      "seed": 915982,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_014",
+      "name": "빛가림 천",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_014.png",
+      "seed": 1163893,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_015",
+      "name": "약병 마개",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_015.png",
+      "seed": 1288347,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_016",
+      "name": "밀랍 귀퉁이",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_016.png",
+      "seed": 2153543,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_017",
+      "name": "부두 못",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_017.png",
+      "seed": 1043427,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_018",
+      "name": "수로 분필",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_018.png",
+      "seed": 1167881,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_019",
+      "name": "접은 돛천",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_019.png",
+      "seed": 1168878,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_020",
+      "name": "빈 통행표",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_020.png",
+      "seed": 1540246,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_021",
+      "name": "낚싯줄 고리",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_021.png",
+      "seed": 923958,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_022",
+      "name": "젖지 않는 성냥",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_022.png",
+      "seed": 924955,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_023",
+      "name": "밧줄 토막",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_023.png",
+      "seed": 1296323,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_024",
+      "name": "저울 바늘",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_024.png",
+      "seed": 2038062,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_025",
+      "name": "선원 호루라기",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_025.png",
+      "seed": 1174860,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_026",
+      "name": "검표 가위",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_026.png",
+      "seed": 1299314,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_027",
+      "name": "녹슨 방향침",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_027.png",
+      "seed": 929940,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_028",
+      "name": "선실 찻숟가락",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_028.png",
+      "seed": 930937,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_029",
+      "name": "온실 끈",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_029.png",
+      "seed": 1055391,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_030",
+      "name": "씨앗 봉투",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_030.png",
+      "seed": 932931,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_031",
+      "name": "찻잔 받침",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_031.png",
+      "seed": 1057385,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_032",
+      "name": "무딘 전지가위",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_032.png",
+      "seed": 934925,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_033",
+      "name": "약초 압착판",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_033.png",
+      "seed": 1059379,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_034",
+      "name": "갈색 여과천",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_034.png",
+      "seed": 1801118,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_035",
+      "name": "작은 유리추",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_035.png",
+      "seed": 937916,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_036",
+      "name": "깨진 물뿌리개",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_036.png",
+      "seed": 938913,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_037",
+      "name": "흙 묻은 장갑",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_037.png",
+      "seed": 1186824,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_038",
+      "name": "식물 이름표",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_038.png",
+      "seed": 1928563,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_039",
+      "name": "작업용 앞치마",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_039.png",
+      "seed": 941904,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_040",
+      "name": "온도계 덮개",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_040.png",
+      "seed": 1066358,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_041",
+      "name": "서고 책갈피",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_041.png",
+      "seed": 943898,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_042",
+      "name": "연필 깎는 칼",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_042.png",
+      "seed": 1068352,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_043",
+      "name": "사서의 먼지솔",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_043.png",
+      "seed": 945892,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_044",
+      "name": "납작한 잉크병",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_044.png",
+      "seed": 946889,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_045",
+      "name": "대출 확인끈",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_045.png",
+      "seed": 1071343,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_046",
+      "name": "반쪽 독서경",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_046.png",
+      "seed": 1936539,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_047",
+      "name": "서류 받침",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_047.png",
+      "seed": 949880,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_048",
+      "name": "봉투 칼",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_048.png",
+      "seed": 950877,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_049",
+      "name": "백지 묶음",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_049.png",
+      "seed": 1075331,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_050",
+      "name": "정정 도장",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_050.png",
+      "seed": 952871,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_051",
+      "name": "등불 손잡이",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_051.png",
+      "seed": 1200782,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_052",
+      "name": "성소 물동이",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_052.png",
+      "seed": 954865,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_053",
+      "name": "은빛 재받이",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_053.png",
+      "seed": 955862,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_054",
+      "name": "기도 시간표",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_054.png",
+      "seed": 956859,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_055",
+      "name": "문지기의 열쇠끈",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_055.png",
+      "seed": 1204770,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_056",
+      "name": "돌계단 조각",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_056.png",
+      "seed": 1082310,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_057",
+      "name": "작은 배급등",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_057.png",
+      "seed": 1083307,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_058",
+      "name": "이름표 실핀",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_058.png",
+      "seed": 960847,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_common_059",
+      "name": "불씨 덮개",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_common_059.png",
+      "seed": 1208758,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_uncommon_003",
+      "name": "봉합 상자",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_uncommon_003.png",
+      "seed": 962841,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_uncommon_004",
+      "name": "남겨 둔 식권",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_uncommon_004.png",
+      "seed": 1334209,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_uncommon_006",
+      "name": "붉은 선 장부",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_uncommon_006.png",
+      "seed": 1088292,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_uncommon_008",
+      "name": "반납 상자",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_uncommon_008.png",
+      "seed": 965832,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_uncommon_009",
+      "name": "밀랍 수송인",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_uncommon_009.png",
+      "seed": 1213743,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_uncommon_011",
+      "name": "수문 회전축",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_uncommon_011.png",
+      "seed": 1091283,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_uncommon_012",
+      "name": "선장 없는 항해일지",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_uncommon_012.png",
+      "seed": 1215737,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_uncommon_013",
+      "name": "이중 바닥 상자",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_uncommon_013.png",
+      "seed": 969820,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_uncommon_014",
+      "name": "뱃사공의 손목띠",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_uncommon_014.png",
+      "seed": 1094274,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_uncommon_015",
+      "name": "해진 구조망",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_uncommon_015.png",
+      "seed": 971814,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_uncommon_016",
+      "name": "검표원의 인장",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_uncommon_016.png",
+      "seed": 1466639,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_uncommon_017",
+      "name": "두 잔의 찻잔",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_uncommon_017.png",
+      "seed": 1344179,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_uncommon_019",
+      "name": "거꾸로 쓴 처방전",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_uncommon_019.png",
+      "seed": 2826660,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_uncommon_020",
+      "name": "접목용 은사",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_uncommon_020.png",
+      "seed": 1346173,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_uncommon_021",
+      "name": "해독 유리종",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_uncommon_021.png",
+      "seed": 976799,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_uncommon_023",
+      "name": "연금술 저울",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_uncommon_023.png",
+      "seed": 977796,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_uncommon_024",
+      "name": "봉인된 뿌리",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_uncommon_024.png",
+      "seed": 1596078,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_uncommon_025",
+      "name": "이름을 남기는 바늘",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_uncommon_025.png",
+      "seed": 2584731,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_uncommon_026",
+      "name": "서고 대조경",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_uncommon_026.png",
+      "seed": 1104244,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_uncommon_027",
+      "name": "수정된 목록",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_uncommon_027.png",
+      "seed": 981784,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_uncommon_028",
+      "name": "빈 서명란",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_uncommon_028.png",
+      "seed": 982781,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_uncommon_029",
+      "name": "붉은 색인",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_uncommon_029.png",
+      "seed": 1601063,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_uncommon_030",
+      "name": "봉인문 복사본",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_uncommon_030.png",
+      "seed": 1725517,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_uncommon_031",
+      "name": "두 번째 필적",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_uncommon_031.png",
+      "seed": 1356143,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_uncommon_032",
+      "name": "사서의 여행증",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_uncommon_032.png",
+      "seed": 986769,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_uncommon_033",
+      "name": "재 분리접시",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_uncommon_033.png",
+      "seed": 2222336,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_uncommon_034",
+      "name": "배급 한도표",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_uncommon_034.png",
+      "seed": 2470247,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_uncommon_035",
+      "name": "돌아온 기도문",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_uncommon_035.png",
+      "seed": 989760,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_uncommon_036",
+      "name": "분배관 손잡이",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_uncommon_036.png",
+      "seed": 2101870,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_uncommon_037",
+      "name": "손으로 적은 한도",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_uncommon_037.png",
+      "seed": 2596695,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_uncommon_038",
+      "name": "야간 구호표",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_uncommon_038.png",
+      "seed": 1116208,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_uncommon_039",
+      "name": "소형 축열병",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_uncommon_039.png",
+      "seed": 1117205,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_uncommon_040",
+      "name": "서로 다른 심지",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_uncommon_040.png",
+      "seed": 2105858,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_rare_001",
+      "name": "환자 없는 퇴원장",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_rare_001.png",
+      "seed": 1119199,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_rare_002",
+      "name": "역순 맥박계",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_rare_002.png",
+      "seed": 1243653,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_rare_003",
+      "name": "에델의 예비 열쇠",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_rare_003.png",
+      "seed": 1244650,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_rare_004",
+      "name": "무명 구호단 완장",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_rare_004.png",
+      "seed": 1245647,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_rare_005",
+      "name": "여섯 번째 침대",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_rare_005.png",
+      "seed": 999730,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_rare_006",
+      "name": "돌아오는 선적표",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_rare_006.png",
+      "seed": 2235297,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_rare_007",
+      "name": "수심 없는 해도",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_rare_007.png",
+      "seed": 2236294,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_rare_008",
+      "name": "잠긴 구조정",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_rare_008.png",
+      "seed": 1990377,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_rare_009",
+      "name": "분리된 수문추",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_rare_009.png",
+      "seed": 1003718,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_rare_010",
+      "name": "살아 있는 화물증",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_rare_010.png",
+      "seed": 1868914,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_rare_011",
+      "name": "로엔의 두 번째 잔",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_rare_011.png",
+      "seed": 1005712,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_rare_012",
+      "name": "미완성 안정제",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_rare_012.png",
+      "seed": 1253623,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_rare_013",
+      "name": "투명한 폐엽",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_rare_013.png",
+      "seed": 1131163,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_rare_014",
+      "name": "원장의 접목도",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_rare_014.png",
+      "seed": 2119816,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_rare_016",
+      "name": "삭제관의 백묵",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_rare_016.png",
+      "seed": 1873899,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_rare_017",
+      "name": "원본 대조인",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_rare_017.png",
+      "seed": 1874896,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_rare_018",
+      "name": "이안의 봉투",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_rare_018.png",
+      "seed": 1135151,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_rare_019",
+      "name": "사라지지 않는 색인",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_rare_019.png",
+      "seed": 1259605,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_rare_020",
+      "name": "수령 거부서",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_rare_020.png",
+      "seed": 1013688,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_rare_021",
+      "name": "한도 있는 성배",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_rare_021.png",
+      "seed": 1014685,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_rare_022",
+      "name": "에델의 등불",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_rare_022.png",
+      "seed": 1015682,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_rare_023",
+      "name": "작은 분배기",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_rare_023.png",
+      "seed": 1016679,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_rare_024",
+      "name": "이주 명부",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_rare_024.png",
+      "seed": 1264590,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_epic_001",
+      "name": "서명 없는 면죄부",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_epic_001.png",
+      "seed": 1882872,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_epic_002",
+      "name": "여섯 사람의 종",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_epic_002.png",
+      "seed": 2130783,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_epic_003",
+      "name": "멈춘 수송로",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_epic_003.png",
+      "seed": 1020667,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_epic_004",
+      "name": "선장의 마지막 매듭",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_epic_004.png",
+      "seed": 1145121,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_epic_005",
+      "name": "검은 온실핵",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_epic_005.png",
+      "seed": 1022661,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_epic_006",
+      "name": "반증된 제조식",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_epic_006.png",
+      "seed": 2258228,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_epic_007",
+      "name": "이름의 여백",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_epic_007.png",
+      "seed": 1148112,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_epic_008",
+      "name": "연결을 끊는 칼",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_epic_008.png",
+      "seed": 1272566,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_epic_009",
+      "name": "공개된 장부",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_epic_009.png",
+      "seed": 1643934,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_epic_010",
+      "name": "성가대의 쉼표",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_epic_010.png",
+      "seed": 2509130,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_epic_011",
+      "name": "분산된 불씨",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_epic_011.png",
+      "seed": 1769385,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_epic_012",
+      "name": "마지막 대기표",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_epic_012.png",
+      "seed": 1400011,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_legend_001",
+      "name": "첫 수령인의 계약",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_legend_001.png",
+      "seed": 1030637,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_legend_002",
+      "name": "검은 운하의 심장",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_legend_002.png",
+      "seed": 1031634,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_legend_003",
+      "name": "원본의 무게",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_legend_003.png",
+      "seed": 1032631,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_legend_004",
+      "name": "각자의 등불",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_legend_004.png",
+      "seed": 1157085,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_ancient_002",
+      "name": "풀어 쓴 맹세",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_ancient_002.png",
+      "seed": 2269195,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_ancient_003",
+      "name": "발음되지 않은 별",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_ancient_003.png",
+      "seed": 1035622,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_ancient_004",
+      "name": "거절하는 성유",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_ancient_004.png",
+      "seed": 1036619,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_ancient_005",
+      "name": "문밖의 방패",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_ancient_005.png",
+      "seed": 1901815,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_ancient_006",
+      "name": "돌아갈 표식",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_ancient_006.png",
+      "seed": 1038613,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_ancient_007",
+      "name": "빈 의자 인형",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_ancient_007.png",
+      "seed": 1039610,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_ancient_008",
+      "name": "반납된 탄창",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_ancient_008.png",
+      "seed": 1287521,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_ancient_009",
+      "name": "자필 헌혈증",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_ancient_009.png",
+      "seed": 1782346,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_ancient_010",
+      "name": "꺼질 수 있는 심장",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_ancient_010.png",
+      "seed": 1166058,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_ancient_011",
+      "name": "해빙의 서약",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_ancient_011.png",
+      "seed": 1043598,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    },
+    {
+      "id": "relic_ancient_012",
+      "name": "매듭 푼 목줄",
+      "image": "res://assets/relics/comfy_batch_20261009/relic_ancient_012.png",
+      "seed": 1044595,
+      "status": "visual_pass",
+      "gameplay_changed": false
+    }
+  ],
+  "rejected": [],
+  "pending_review": [],
+  "missing": []
+}

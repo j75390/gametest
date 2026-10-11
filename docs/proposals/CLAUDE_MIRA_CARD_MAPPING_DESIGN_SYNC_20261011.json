@@ -1,0 +1,607 @@
+[
+  {
+    "id": "flask_barrage",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png",
+    "source_sha256": "a89459acaea619cd7e0411fb747d13c94ed4871a26221a23c7b05fb6ccccf7ac",
+    "verdict": "pass",
+    "reason": "얼굴 없는 투척 효과 구도. 단일 손의 다섯 손가락과 소매-손목 연결 확인. 세 약병, 깨진 유리와 갑옷 충돌이 선명함. v1 인물 구도 교체.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\flask_barrage_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "4bca3b6b32b9d40ec3550bfcd543255104ca1bb2c8f2ca27c8f372783f13538d"
+  },
+  {
+    "id": "warm_decoction",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-5e944911-c76a-44da-8e2f-18ec5792e598.png",
+    "source_sha256": "c58ae10a52ee41de671310091ec112e87dbd426c06c396b62239023fc277114d",
+    "verdict": "pass",
+    "reason": "솥과 약초 및 김 중심. 얼굴 없음. 한 손의 손잡이 접촉과 손목-소매 연결 확인. v1 초상화 교체.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\warm_decoction_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "f4b778d9f4cbf61ce6345af3ec4d9ea038f14316dd85cd4e8fc82c7ad59a34fc"
+  },
+  {
+    "id": "vial_throw",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_v2_20261011\\vial_throw_raw.png",
+    "source_sha256": "09d52f57be498356dc129789124e0de7d436afca7112b73d988d1fa0b9883bdb",
+    "verdict": "pass",
+    "reason": "단일 독병 파열과 안개, 얼굴 없는 효과 구도 확인.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\vial_throw_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "c0bb9cb772012baa24236b4db7e0e0306a95aaa269dcf9f445054460cdde406a"
+  },
+  {
+    "id": "needle_prick",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_v2_20261011\\needle_prick_raw.png",
+    "source_sha256": "7d321fb0293d4b3d1eb59c9eef91cd8154b40f6e1835c782e45f3be9d5ff4f96",
+    "verdict": "pass",
+    "reason": "주사기와 독액 방울, 한 손의 손목 연결 및 도구 접촉 확인.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\needle_prick_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "395584d96d69b024bc2f0111ec63372467a96e756b9a4aa9ffe56b9eb2966c50"
+  },
+  {
+    "id": "antiseptic",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_v2_20261011\\antiseptic_raw.png",
+    "source_sha256": "3d483c4097f8bf8e0835054c7fdc423c5bac99d8f07795ec9856a80c92b84973",
+    "verdict": "pass",
+    "reason": "소독액과 거즈 접촉 및 대상 팔 구분. 두 작업 손의 연결 확인.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\antiseptic_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "4a90697b4817f1125b459213bf157ac8ffbbc78fb6c5eb739dc1650803b5c11d"
+  },
+  {
+    "id": "weakening_draught",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_v2_20261011\\weakening_draught_raw.png",
+    "source_sha256": "0822477798ac5693fee8c7f7973f26c8527580144a47caed3d60e87d77cb9780",
+    "verdict": "pass",
+    "reason": "보라 약액과 시든 꽃 중심. 한 손의 병 잡는 접촉 확인.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\weakening_draught_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "f6a9c8103244d69df7dbb66c7e14f88dbc0e800fdf1857b4136955394b622136"
+  },
+  {
+    "id": "expose_weakness",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_v2_20261011\\expose_weakness_raw.png",
+    "source_sha256": "ab25f333edf5d3f1dbc0e518a860f4a0484c6067ce422d54fdf38ff576a98f2c",
+    "verdict": "pass",
+    "reason": "빈 갑옷의 금과 등불 초점으로 약점 효과 식별.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\expose_weakness_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "82d02c4687745cd5837d78229bdd261a0ed54b078cdf1ee80376c8fe6d7ebf31"
+  },
+  {
+    "id": "distill",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_v2_20261011\\distill_raw.png",
+    "source_sha256": "bcb33e86924e038b374f5ac30ba2f18151e40c215512334d8b61a3188e400554",
+    "verdict": "pass",
+    "reason": "레토르트와 코일 연결, 받는 병 및 증류 방울 확인.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\distill_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "1975e069e46b191131b92e58d966dbca71a741ed72044c9994c69630abf4ae45"
+  },
+  {
+    "id": "concentrate",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_v2_20261011\\concentrate_raw.png",
+    "source_sha256": "f55b09f85a817e8cdb7b5ac88e5697ab139877143b36bc3d1fa079d495e6b0d2",
+    "verdict": "pass",
+    "reason": "가열 플라스크와 짙은 초록 농축액 중심.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\concentrate_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "37643235f5c571264403422184957f4b4b1c749d287b49e12b9c9f6d23ef0d80"
+  },
+  {
+    "id": "lingering_flask",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_v2_20261011\\lingering_flask_raw.png",
+    "source_sha256": "4457182aaa50c4b01bf8fd6aedca220d5a8d20af81bae9e0f43ba48c4cb346a4",
+    "verdict": "pass",
+    "reason": "열린 병에서 길게 늘어지는 액체와 접시 확인. 모래시계 오류 없음.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\lingering_flask_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "5f5e90eaae03bdd22c6b51dc9f065a813a82d412d4cecc6ee416e894ade044eb"
+  },
+  {
+    "id": "fume_cloud",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_v2_20261011\\fume_cloud_raw.png",
+    "source_sha256": "6e6e336f45255d4d8468ff67658421bcd56be9a19e7d37768193c94823cb2d13",
+    "verdict": "pass",
+    "reason": "두 병에서 서로 다른 연기가 섞여 부리형 가면 윤곽 형성.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\fume_cloud_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "71c78db9f90dac39d536d10c77eedc6ba39b0117244341055d2d3b6075a2cb5b"
+  },
+  {
+    "id": "bitter_dose",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_v2_20261011\\bitter_dose_raw.png",
+    "source_sha256": "da03b123b1b53dce18ec721ed58390300fa688868b13ae143eab1eb0b4d98bc1",
+    "verdict": "pass",
+    "reason": "초록 약의 잔과 가시 약초 중심. 단일 손의 잔 잡는 접촉 확인.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\bitter_dose_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "1edceb9c4fdaa9d58d96373b46be970f00b9f2d36b50c71075538e6808912c10"
+  },
+  {
+    "id": "blood_for_medicine",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_v2_20261011\\blood_for_medicine_raw.png",
+    "source_sha256": "ff02bfa9f86a6dbd4d45c7d91108e1483c45fdc1a1879b7d7e5f728d6be09313",
+    "verdict": "pass",
+    "reason": "맨손 검지의 한 방울과 열린 병. 별도 장갑은 작업대 물건으로 구분됨.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\blood_for_medicine_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "30e5767a94245cff20bc2eaa2615627269823d66971bd5a5e4b3111f843458b0"
+  },
+  {
+    "id": "brewing_bench",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_v2_20261011\\brewing_bench_raw.png",
+    "source_sha256": "118ae05d891dc4f391b0efef5a2764656504c5baea4f6de5aa3fdfe54b6f89dc",
+    "verdict": "pass",
+    "reason": "세 병과 각 주입 관, 약 색이 명확히 구분됨. 인물 없음.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\brewing_bench_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "733a19a5cd3ebb324b04e3748720b0fba7cc9dc5488be3bbde063b33806d504c"
+  },
+  {
+    "id": "corrosive_vapor",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_v2_20261011\\corrosive_vapor_raw.png",
+    "source_sha256": "089b9609e96a9c82026d4bdac4cde054255ce5491944388b63652424c4fa9212",
+    "verdict": "pass",
+    "reason": "녹슨 사슬과 갑옷에 초록 부식 안개. 효과 중심으로 구분됨.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\corrosive_vapor_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "baf9016df0e892df6e57d4626cbca87406e9190631580a56460018eb17bdb08d"
+  },
+  {
+    "id": "flowering_toxin",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_v2_20261011\\flowering_toxin_raw.png",
+    "source_sha256": "91c82654aa1300667a78c1fed92c3b1dc2f85cda26e81e749da3c384b17dd7a3",
+    "verdict": "pass",
+    "reason": "작은 적 위에 꽃 모양 초록 독 burst. 얼굴 반복 없이 독 개화 식별.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\flowering_toxin_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "f93effd144bb1dabeb91341a0e988214427c31e4ad91979b2a0c0d3b12a78338"
+  },
+  {
+    "id": "hasty_remedy",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_v2_20261011\\hasty_remedy_raw.png",
+    "source_sha256": "72777edbaf4a7c7179dba97eb8858528535f10585c2a0c7a230abe132ca51712",
+    "verdict": "pass",
+    "reason": "빈 처방지, 잉크병과 약병을 향하는 한 손. 글자 없음.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\hasty_remedy_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "bd307740ab5ad2cf36008703890a47f119bd42e01c30ee8bf8fadd3edb49ae44"
+  },
+  {
+    "id": "masked_whisper",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_v2_20261011\\masked_whisper_raw.png",
+    "source_sha256": "b6491e2fca60209aee232adc2113e9eea13b455375302f631890c87995039da1",
+    "verdict": "pass",
+    "reason": "상아 부리 가면과 내부 보라 연기. 인물 얼굴 없음.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\masked_whisper_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "493569f4333903fcbb5b35cb2432dd9c7520443c21cb1e1f32b9d7ea1a2c03a5"
+  },
+  {
+    "id": "pain_transfer",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_v2_20261011\\pain_transfer_raw.png",
+    "source_sha256": "53b9bd4cd2aab5323da07466f1f10b7795a74ffd96266782710efb269e018214",
+    "verdict": "pass",
+    "reason": "한 손에서 적으로 가는 붉은 고통 실. 추가 인물 팔 없음.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\pain_transfer_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "9151b551aa6c9bedd7d9b7de8f4178f31f9fda16c1d62bb508409c719aeceecb"
+  },
+  {
+    "id": "quick_mix",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_v2_20261011\\quick_mix_raw.png",
+    "source_sha256": "cb89f87665557afb2263d145a9e5c7a4e4e681ae4d0e13aaca8632c688bd1346",
+    "verdict": "pass",
+    "reason": "입 일부만 보이며 금빛 약병과 마시는 행동이 주역. 한 손의 잡기 확인.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\quick_mix_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "efbb96b84b18047b80bd4f876f2a2e6c76ae1704bbdabb1cd4f4ec83c2a3911a"
+  },
+  {
+    "id": "slow_steep",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_v2_20261011\\slow_steep_raw.png",
+    "source_sha256": "8bf604db1332c00e16b8e968050e7d3a603b1eb35f4e59f27ece447523c613fc",
+    "verdict": "pass",
+    "reason": "약초를 우려내는 보라 병, 정적인 분위기로 농축과 구분.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\slow_steep_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "6951c773c1cf7bd66c0f549f25c7c48cafcb2be8965cbe73bc7087f3e02f54f4"
+  },
+  {
+    "id": "tainted_blade",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_v2_20261011\\tainted_blade_raw.png",
+    "source_sha256": "03759ad66fea68f6e93117c0963c894a5d666c9b6256ee19154148a6c8de2aab",
+    "verdict": "pass",
+    "reason": "짧은 수술용 메스와 독액 베기. 장검 오류 없음. 한 손의 손목 연결.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\tainted_blade_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "60751ddd25bf4543ed444509bf62a62233004457d1806c76929264ee132aa9fe"
+  },
+  {
+    "id": "thorn_salve",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_v2_20261011\\thorn_salve_raw.png",
+    "source_sha256": "1894e3d715135d5713d6b9c5ca0a0793188ed827eb1ffe50d04bc5ae862b3335",
+    "verdict": "pass",
+    "reason": "소매에서 연결된 한 팔과 가시 보호 연고. 다섯 손가락 윤곽 확인.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\thorn_salve_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "485ebb951f571b0f4eeface366eb1992f78d7d2e7d6c42984520f3707dd8c022"
+  },
+  {
+    "id": "weak_point_injection",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_v2_20261011\\weak_point_injection_raw.png",
+    "source_sha256": "63e5996b4e6857e302f1fa281fffedce2f4bbc8b691184b650835edcf0dd6b9b",
+    "verdict": "pass",
+    "reason": "주사침이 빈 갑옷 틈에 접촉. 손과 손목 연결 확인.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\weak_point_injection_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "00c58fa3c6d399bba936fcc4fab72c8eb11221dd6599984abae344f76ce43f12"
+  },
+  {
+    "id": "glass_veil",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_v2_20261011\\glass_veil_raw.png",
+    "source_sha256": "d3481e61151b6c2a32e9b50b1b0de2b916c87f5ac6dc9bcd8ed718c488e5044b",
+    "verdict": "pass",
+    "reason": "유리 곡면과 화살 충돌, 파편이 선명함. 얼굴 없음.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\glass_veil_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "cb918f56666ec716094b87ed3e853a75fbffb0b4df5eb287c6ffe34d9eb8f9d4"
+  },
+  {
+    "id": "accumulated_pain",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_v2_20261011\\accumulated_pain_raw.png",
+    "source_sha256": "17c90ff838558c1af4a061c3ec30a2961e11c2373c6f8e6f6c3f306dfa1a6c8e",
+    "verdict": "pass",
+    "reason": "붕대 감은 단일 팔과 주먹, 붉은 통증 집중. 손목 연결 확인.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\accumulated_pain_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "100e3960d34425d6bc64149a6de19472f155ea12327d50d75e263b6d815ead18"
+  },
+  {
+    "id": "echo_dose",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_v2_20261011\\echo_dose_raw.png",
+    "source_sha256": "18d85fcceca758ea9f373d9d3dc0471439def3932520e23f2f70101659627526",
+    "verdict": "pass",
+    "reason": "실체 약병과 투명 잔상을 분명히 구분. 추가 팔 오류 없음.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\echo_dose_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "03f4031e05755a525f2af7a071e18185d20a8ef571527ad7c6d60c99ea944af8"
+  },
+  {
+    "id": "purification",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_v2_20261011\\purification_raw.png",
+    "source_sha256": "f838873b3ae9c5c7fa71a6440f064cf934c44bf8ad28dbab06f8cd8e1d26ca1d",
+    "verdict": "pass",
+    "reason": "맑은 물과 불꽃이 검은 얼룩을 정화하는 명확한 접촉 장면.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\purification_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "0711d674c80233ce91f28dba53d17dfe20fa7dc4eb76a8198c34847c4ebc016b"
+  },
+  {
+    "id": "chain_reaction",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_v2_20261011\\chain_reaction_raw.png",
+    "source_sha256": "20d2d346fd22c36d5a84cf0460502182002571051551ec4fce78dcba4688043d",
+    "verdict": "pass",
+    "reason": "세 약병의 파열이 연속적으로 이어짐. 마개 관통 액체 오류 없음.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\chain_reaction_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "c4ced329a11445870ac97b36cb5c8d7c304a16c8d8a074194cce4f5218aabf83"
+  },
+  {
+    "id": "rapid_brew",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_v2_20261011\\rapid_brew_raw.png",
+    "source_sha256": "acb8518474bc28cbb797a792a499513cc3df3fab06aaa3b51a6863218e62c601",
+    "verdict": "pass",
+    "reason": "레토르트의 빠른 소용돌이가 열린 새 약병으로 이어짐. 물리 연결 확인.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\rapid_brew_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "62e2ab65866e9ce085bcd443d3fcad69e9659fd255be71dfce67e1705b9e9021"
+  },
+  {
+    "id": "pain_ledger",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_v2_20261011\\pain_ledger_raw.png",
+    "source_sha256": "2bf62618474f4c883508e3c683137d44b1e4c2b34269ebbaf48b8c0912293e44",
+    "verdict": "pass",
+    "reason": "빈 줄 장부와 붉은 방울, 글자 없이 기록 효과 식별.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\pain_ledger_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "ec5f53d8863e43ca60b218750f22a7d4d154033a73d264d18efa80366039ef71"
+  },
+  {
+    "id": "ether_cycle",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_v2_20261011\\ether_cycle_raw.png",
+    "source_sha256": "fedda716b4761fa21664a918e7f0b41107d31d1a6a2fd06c1d7c27b1bef48a4a",
+    "verdict": "pass",
+    "reason": "세 병 주위를 도는 보라 고리. 닫힌 병에서 액체를 따르는 오류 없음.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\ether_cycle_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "7878b7956fe509567b72a83a8ebf7e695d51e1fe60c36663739d00c7eaa35f46"
+  },
+  {
+    "id": "plague_onset",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_v2_20261011\\plague_onset_raw.png",
+    "source_sha256": "f2b4af3fcee778147e57f8095bd35c2e1c8dd5e93d42f6f2dde0a4b61bb2013a",
+    "verdict": "pass",
+    "reason": "俯瞰 폐허 마을에 초록 역병이 길을 따라 확산. 얼굴 없는 지역 효과 장면.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\plague_onset_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "8fa2f2b1d3a259316b5f19758ff6ff00ba0e7f9c3bee12ee7fe8b2a3af691424"
+  },
+  {
+    "id": "chemical_burst",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_v2_20261011\\chemical_burst_raw.png",
+    "source_sha256": "18941a8fe278461636d2a27f43134609ceaaf5e6dca90a93d1e6c4789839a0fa",
+    "verdict": "pass",
+    "reason": "벨트의 세 약병이 깨진 부분에서 폭발. 세 병 및 벨트 접촉 확인.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\chemical_burst_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "71603882e1bb0ec950265a9bb4bd8ee4aa4d5bd324c7ba0203aeb313d7947e9a"
+  },
+  {
+    "id": "side_effect",
+    "source": "gametest\\ai\\claude_mira_cards_v2_20261011\\side_effect_raw.png",
+    "source_sha256": "189998ce010b83dba4d83dce1f8769dfea5ef7f48035294877c7c420de4e665c",
+    "verdict": "pass",
+    "reason": "열린 병에서 보라 얼룩이 붕대에 번짐. 인물 없는 부작용 장면.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\side_effect_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "14a1615f2821ded68886eea455da9daea0442574c823356ec2ba9d29be5d89b1"
+  },
+  {
+    "id": "overdose",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\claude_mira_cards_v2_20261011\\overdose_retry_raw.png",
+    "source_sha256": "b66f8c29bb5733c319dea10e831807422eb7e0ab7a5e0c89182189ea0e56f6d6",
+    "verdict": "pass",
+    "reason": "열린 병목 세 개와 분리된 마개 확인. 약액이 마개를 관통하는 오류 수정.",
+    "prompt": "",
+    "method": "built_in_imagegen",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\cards\\overdose_v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "7ebbf6abf662ae48dc26e86e18480b6cd940720add6eed663cc7051f16058685"
+  },
+  {
+    "id": "bear_the_pain",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\mira_design_sync\\cards\\bear_the_pain_design_v3.png",
+    "resource_path": "res://assets/delivery/claude_20261011/mira_design_sync/cards/bear_the_pain_design_v3.png",
+    "sha256": "f328ae6802156f12db496988bd5e3c9f58da6134cfc552a5fa6f3b7cb90b6745",
+    "reason": "얼굴 없는 가슴을 짚는 손 구도 유지. 가슴 상아 블라우스·검정 목깃·검정 코르셋. 다섯 손가락·소매 연결 확인.",
+    "verdict": "pass",
+    "replaces": "assets/delivery/claude_20261011/cards/bear_the_pain_v2.png",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "borrowed_pain",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\mira_design_sync\\cards\\borrowed_pain_design_v3.png",
+    "resource_path": "res://assets/delivery/claude_20261011/mira_design_sync/cards/borrowed_pain_design_v3.png",
+    "sha256": "7f2301dabd4f47be6656932ee3295c0d3a5aa02f7d5f9784dae94ae217695eb2",
+    "reason": "작은 후면 미라와 갑옷으로 옮기는 고통 효과 유지. 노출 어깨 대신 상아 블라우스. 옆 가면·어두운 머리·손목 연결 확인.",
+    "verdict": "pass",
+    "replaces": "assets/delivery/claude_20261011/cards/borrowed_pain_v2.png",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "strike",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\mira_design_sync\\cards\\strike_design_v3.png",
+    "resource_path": "res://assets/delivery/claude_20261011/mira_design_sync/cards/strike_design_v3.png",
+    "sha256": "57d03d46b7d7bb265041494c1c55e5bb52f3c2f36202f4d9b2ac0b866151feb3",
+    "reason": "상아 블라우스와 검정 목깃/장갑, 두 허리 약병. 공격 손의 다섯 손가락과 손목 연결, 기존 효과 구도 확인.",
+    "verdict": "pass",
+    "replaces": "assets/cards/mira/strike_scene_v2.png",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "defend",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\mira_design_sync\\cards\\defend_design_v3.png",
+    "resource_path": "res://assets/delivery/claude_20261011/mira_design_sync/cards/defend_design_v3.png",
+    "sha256": "1ebefc8cd15a7133581c649e9750616c8374ff4dcb82c28a954627afc4a52412",
+    "reason": "정면 원형 결계와 정면 손 유지. 상아 블라우스·높은 검정 목깃, 검정 장갑 다섯 손가락 확인.",
+    "verdict": "pass",
+    "replaces": "assets/cards/mira/defend_scene_v4.png",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "soul_binding",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\mira_design_sync\\cards\\soul_binding_design_v3.png",
+    "resource_path": "res://assets/delivery/claude_20261011/mira_design_sync/cards/soul_binding_design_v3.png",
+    "sha256": "8c226f7b4db982b62383e2ec802ba2a9b0f72c5b7737461a879b5a03b45414c6",
+    "reason": "작은 미라와 사슬/유령의 넓은 구도 보존. 긴 치마로 허벅지 노출 제거, 양 팔·부츠 연결 확인.",
+    "verdict": "pass",
+    "replaces": "assets/cards/mira/soul_binding_wide_v4.png",
+    "size": [
+      1448,
+      1086
+    ]
+  }
+]

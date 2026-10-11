@@ -1,0 +1,132 @@
+{
+  "relic_common_024": {
+    "verdict": "reject",
+    "reason": "재생성 육안검수: 필수 구조 불충족. 기존 문제인 물건 종류/부품/종이 외곽을 해결하지 못함",
+    "expected_seed": 1791148
+  },
+  "relic_common_038": {
+    "verdict": "reject",
+    "reason": "재생성 육안검수: 필수 구조 불충족. 기존 문제인 물건 종류/부품/종이 외곽을 해결하지 못함",
+    "expected_seed": 1558192
+  },
+  "relic_common_046": {
+    "verdict": "reject",
+    "reason": "재생성 육안검수: 필수 구조 불충족. 기존 문제인 물건 종류/부품/종이 외곽을 해결하지 못함",
+    "expected_seed": 1689625
+  },
+  "relic_uncommon_019": {
+    "verdict": "reject",
+    "reason": "재생성 육안검수: 필수 구조 불충족. 기존 문제인 물건 종류/부품/종이 외곽을 해결하지 못함",
+    "expected_seed": 2209375
+  },
+  "relic_uncommon_024": {
+    "verdict": "pass",
+    "reason": "하나의 코르크 마개 유리병 내부에 갈라진 갈색 뿌리, 외곽 온전",
+    "expected_seed": 1596078
+  },
+  "relic_uncommon_025": {
+    "verdict": "reject",
+    "reason": "재생성 육안검수: 필수 구조 불충족. 기존 문제인 물건 종류/부품/종이 외곽을 해결하지 못함",
+    "expected_seed": 2090903
+  },
+  "relic_uncommon_033": {
+    "verdict": "reject",
+    "reason": "재생성 육안검수: 필수 구조 불충족. 기존 문제인 물건 종류/부품/종이 외곽을 해결하지 못함",
+    "expected_seed": 1605051
+  },
+  "relic_uncommon_034": {
+    "verdict": "reject",
+    "reason": "재생성 육안검수: 필수 구조 불충족. 기존 문제인 물건 종류/부품/종이 외곽을 해결하지 못함",
+    "expected_seed": 2099876
+  },
+  "relic_uncommon_036": {
+    "verdict": "reject",
+    "reason": "재생성 육안검수: 필수 구조 불충족. 기존 문제인 물건 종류/부품/종이 외곽을 해결하지 못함",
+    "expected_seed": 1731499
+  },
+  "relic_uncommon_037": {
+    "verdict": "reject",
+    "reason": "재생성 육안검수: 필수 구조 불충족. 기존 문제인 물건 종류/부품/종이 외곽을 해결하지 못함",
+    "expected_seed": 1855953
+  },
+  "relic_uncommon_040": {
+    "verdict": "reject",
+    "reason": "재생성 육안검수: 필수 구조 불충족. 기존 문제인 물건 종류/부품/종이 외곽을 해결하지 못함",
+    "expected_seed": 1735487
+  },
+  "relic_rare_006": {
+    "verdict": "reject",
+    "reason": "재생성 육안검수: 필수 구조 불충족. 기존 문제인 물건 종류/부품/종이 외곽을 해결하지 못함",
+    "expected_seed": 1864926
+  },
+  "relic_rare_007": {
+    "verdict": "reject",
+    "reason": "재생성 육안검수: 필수 구조 불충족. 기존 문제인 물건 종류/부품/종이 외곽을 해결하지 못함",
+    "expected_seed": 1865923
+  },
+  "relic_rare_008": {
+    "verdict": "reject",
+    "reason": "재생성 육안검수: 필수 구조 불충족. 기존 문제인 물건 종류/부품/종이 외곽을 해결하지 못함",
+    "expected_seed": 1620006
+  },
+  "relic_rare_010": {
+    "verdict": "reject",
+    "reason": "재생성 육안검수: 필수 구조 불충족. 기존 문제인 물건 종류/부품/종이 외곽을 해결하지 못함",
+    "expected_seed": 1498543
+  },
+  "relic_rare_014": {
+    "verdict": "reject",
+    "reason": "재생성 육안검수: 필수 구조 불충족. 기존 문제인 물건 종류/부품/종이 외곽을 해결하지 못함",
+    "expected_seed": 1749445
+  },
+  "relic_rare_016": {
+    "verdict": "reject",
+    "reason": "재생성 육안검수: 필수 구조 불충족. 기존 문제인 물건 종류/부품/종이 외곽을 해결하지 못함",
+    "expected_seed": 1626985
+  },
+  "relic_rare_017": {
+    "verdict": "reject",
+    "reason": "재생성 육안검수: 필수 구조 불충족. 기존 문제인 물건 종류/부품/종이 외곽을 해결하지 못함",
+    "expected_seed": 1627982
+  },
+  "relic_epic_001": {
+    "verdict": "reject",
+    "reason": "재생성 육안검수: 필수 구조 불충족. 기존 문제인 물건 종류/부품/종이 외곽을 해결하지 못함",
+    "expected_seed": 1635958
+  },
+  "relic_epic_002": {
+    "verdict": "reject",
+    "reason": "재생성 육안검수: 필수 구조 불충족. 기존 문제인 물건 종류/부품/종이 외곽을 해결하지 못함",
+    "expected_seed": 1636955
+  },
+  "relic_epic_006": {
+    "verdict": "reject",
+    "reason": "재생성 육안검수: 필수 구조 불충족. 기존 문제인 물건 종류/부품/종이 외곽을 해결하지 못함",
+    "expected_seed": 2011314
+  },
+  "relic_epic_010": {
+    "verdict": "reject",
+    "reason": "재생성 육안검수: 필수 구조 불충족. 기존 문제인 물건 종류/부품/종이 외곽을 해결하지 못함",
+    "expected_seed": 1891845
+  },
+  "relic_epic_011": {
+    "verdict": "reject",
+    "reason": "재생성 육안검수: 필수 구조 불충족. 기존 문제인 물건 종류/부품/종이 외곽을 해결하지 못함",
+    "expected_seed": 1645928
+  },
+  "relic_ancient_002": {
+    "verdict": "reject",
+    "reason": "재생성 육안검수: 필수 구조 불충족. 기존 문제인 물건 종류/부품/종이 외곽을 해결하지 못함",
+    "expected_seed": 1651910
+  },
+  "relic_ancient_005": {
+    "verdict": "reject",
+    "reason": "재생성 육안검수: 필수 구조 불충족. 기존 문제인 물건 종류/부품/종이 외곽을 해결하지 못함",
+    "expected_seed": 1531444
+  },
+  "relic_ancient_009": {
+    "verdict": "reject",
+    "reason": "재생성 육안검수: 필수 구조 불충족. 기존 문제인 물건 종류/부품/종이 외곽을 해결하지 못함",
+    "expected_seed": 1535432
+  }
+}

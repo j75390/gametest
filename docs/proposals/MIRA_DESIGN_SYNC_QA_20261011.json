@@ -1,0 +1,17 @@
+{
+  "result": "PASS",
+  "cards_modified": 5,
+  "pixel_frames": 12,
+  "sd_reference": 1,
+  "new_assets": 18,
+  "combined_card_mapping": 41,
+  "reviewed_rejects": 7,
+  "checks": [
+    "manual verdict",
+    "unique frame hashes",
+    "RGBA canvas/clear margins",
+    "file existence/hash"
+  ],
+  "runtime_applied": false,
+  "runtime_qa": "Claude pending"
+}

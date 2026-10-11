@@ -1,0 +1,157 @@
+{
+  "relic_common_007": {
+    "verdict": "pass",
+    "reason": "두 펠트 귀마개와 연결 끈 외곽 온전",
+    "expected_seed": 2021113
+  },
+  "relic_common_016": {
+    "verdict": "pass",
+    "reason": "심지 없는 단일 붉은 밀랍 덩어리",
+    "expected_seed": 2153543
+  },
+  "relic_common_024": {
+    "verdict": "reject",
+    "reason": "저울 바늘 축 구멍 누락, 봉 형태",
+    "expected_seed": 1667691
+  },
+  "relic_common_038": {
+    "verdict": "reject",
+    "reason": "하나의 이름표 대신 분리된 목판과 말뚝",
+    "expected_seed": 1434735
+  },
+  "relic_common_046": {
+    "verdict": "reject",
+    "reason": "반쪽 대신 완전한 두 렌즈 안경",
+    "expected_seed": 1566168
+  },
+  "relic_uncommon_016": {
+    "verdict": "pass",
+    "reason": "단일 목제 손잡이와 황동 검표 도장 면",
+    "expected_seed": 1466639
+  },
+  "relic_uncommon_019": {
+    "verdict": "reject",
+    "reason": "종이 외곽이 네모로 잘림",
+    "expected_seed": 1962461
+  },
+  "relic_uncommon_024": {
+    "verdict": "reject",
+    "reason": "뿌리관과 별도 빈 관 두 개",
+    "expected_seed": 1472621
+  },
+  "relic_uncommon_025": {
+    "verdict": "reject",
+    "reason": "실구멍 없는 핀과 붓같은 실 뭉치",
+    "expected_seed": 1843989
+  },
+  "relic_uncommon_030": {
+    "verdict": "pass",
+    "reason": "온전한 접힌 종이 복사본과 검은 봉인 점",
+    "expected_seed": 1725517
+  },
+  "relic_uncommon_033": {
+    "verdict": "reject",
+    "reason": "분리벽 없는 접시",
+    "expected_seed": 1481594
+  },
+  "relic_uncommon_034": {
+    "verdict": "reject",
+    "reason": "한도 목판 대신 세로 막대 배열",
+    "expected_seed": 1976419
+  },
+  "relic_uncommon_036": {
+    "verdict": "reject",
+    "reason": "T형 손잡이 누락",
+    "expected_seed": 1608042
+  },
+  "relic_uncommon_037": {
+    "verdict": "reject",
+    "reason": "종이 없이 프레임만 남음",
+    "expected_seed": 1609039
+  },
+  "relic_uncommon_040": {
+    "verdict": "reject",
+    "reason": "두 심지 대신 세 개 촛대",
+    "expected_seed": 1488573
+  },
+  "relic_rare_006": {
+    "verdict": "reject",
+    "reason": "선적표 종이 없이 닻만 있음",
+    "expected_seed": 1741469
+  },
+  "relic_rare_007": {
+    "verdict": "reject",
+    "reason": "해도 종이 외곽 잘림",
+    "expected_seed": 1619009
+  },
+  "relic_rare_008": {
+    "verdict": "reject",
+    "reason": "잠금 장치와 사슬 누락",
+    "expected_seed": 1496549
+  },
+  "relic_rare_010": {
+    "verdict": "reject",
+    "reason": "화물 문서 없이 하트만 있음",
+    "expected_seed": 1375086
+  },
+  "relic_rare_014": {
+    "verdict": "reject",
+    "reason": "접목 도식 종이 없이 희미한 가지",
+    "expected_seed": 1625988
+  },
+  "relic_rare_016": {
+    "verdict": "reject",
+    "reason": "분필과 홀더 대신 빈 금속관 두 개",
+    "expected_seed": 1503528
+  },
+  "relic_rare_017": {
+    "verdict": "reject",
+    "reason": "도장 본체와 도장 면 분리, 버섯 그림",
+    "expected_seed": 1504525
+  },
+  "relic_epic_001": {
+    "verdict": "reject",
+    "reason": "면죄부 두루마리가 두 관으로 분리",
+    "expected_seed": 1512501
+  },
+  "relic_epic_002": {
+    "verdict": "reject",
+    "reason": "여섯 표시 홈 누락",
+    "expected_seed": 1513498
+  },
+  "relic_epic_006": {
+    "verdict": "reject",
+    "reason": "제조식 종이 없이 얇은 파편만 남음",
+    "expected_seed": 1764400
+  },
+  "relic_epic_009": {
+    "verdict": "pass",
+    "reason": "단일 열린 장부와 붉은 리본, 글자 없음",
+    "expected_seed": 1643934
+  },
+  "relic_epic_010": {
+    "verdict": "reject",
+    "reason": "음악 쉼표 문양 누락, 사각 패널",
+    "expected_seed": 1644931
+  },
+  "relic_epic_011": {
+    "verdict": "reject",
+    "reason": "세 불씨 칸 대신 두 열과 여섯 용기",
+    "expected_seed": 1522471
+  },
+  "relic_ancient_002": {
+    "verdict": "reject",
+    "reason": "맹세 두루마리 없이 검만 있음",
+    "expected_seed": 1528453
+  },
+  "relic_ancient_005": {
+    "verdict": "reject",
+    "reason": "문 형상 없는 방패",
+    "expected_seed": 1407987
+  },
+  "relic_ancient_009": {
+    "verdict": "reject",
+    "reason": "헌혈증 종이가 제거되어 빈 프레임",
+    "expected_seed": 1411975
+  }
+}

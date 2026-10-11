@@ -1,0 +1,86 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "sd_xl_base_1.0.safetensors"
+    }
+  },
+  "2": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "Dark gothic fantasy collectible card ILLUSTRATION, stylized hand painted 2D game art, bold clean readable shapes, simplified focal action, muted black violet palette with colored alchemical accents, one coherent square scene. one antique hourglass with green venom slowly trickling through narrow neck into lower chamber, patient ominous liquid flow. Close object/action scene with atmospheric dark violet setting, no text, no borders, NO character portrait. Painterly game art, not photograph. Full important objects fit inside picture with margins.",
+      "clip": [
+        "1",
+        1
+      ]
+    }
+  },
+  "3": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "(text, letters, numbers, watermark, logo, card border, frame, UI, panels, collage, sheet:1.8), photograph, photorealistic, face closeup, portrait, modern hospital, machinery, extra fingers, malformed hands, disconnected limbs, blurry",
+      "clip": [
+        "1",
+        1
+      ]
+    }
+  },
+  "4": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 1024,
+      "height": 1024,
+      "batch_size": 1
+    }
+  },
+  "5": {
+    "class_type": "KSampler",
+    "inputs": {
+      "seed": 741070,
+      "steps": 28,
+      "cfg": 6.0,
+      "sampler_name": "dpmpp_2m",
+      "scheduler": "karras",
+      "denoise": 1.0,
+      "model": [
+        "1",
+        0
+      ],
+      "positive": [
+        "2",
+        0
+      ],
+      "negative": [
+        "3",
+        0
+      ],
+      "latent_image": [
+        "4",
+        0
+      ]
+    }
+  },
+  "6": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "5",
+        0
+      ],
+      "vae": [
+        "1",
+        2
+      ]
+    }
+  },
+  "7": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "filename_prefix": "mira_wave3/patient_poison",
+      "images": [
+        "6",
+        0
+      ]
+    }
+  }
+}

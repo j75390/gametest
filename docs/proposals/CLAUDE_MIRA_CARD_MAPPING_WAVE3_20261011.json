@@ -1,0 +1,97 @@
+[
+  {
+    "id": "lancet",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/lancet_v3.png",
+    "verdict": "pass"
+  },
+  {
+    "id": "herb_bundle",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/herb_bundle_v3.png",
+    "verdict": "pass"
+  },
+  {
+    "id": "bitter_tonic",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/bitter_tonic_v3.png",
+    "verdict": "pass"
+  },
+  {
+    "id": "numbing_salve",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/numbing_salve_v3.png",
+    "verdict": "pass"
+  },
+  {
+    "id": "rotten_fruit",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/rotten_fruit_v3.png",
+    "verdict": "pass"
+  },
+  {
+    "id": "venom_chain",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/venom_chain_v3.png",
+    "verdict": "pass"
+  },
+  {
+    "id": "plague_mist",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/plague_mist_v3.png",
+    "verdict": "pass"
+  },
+  {
+    "id": "thorn_tincture",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/thorn_tincture_v3.png",
+    "verdict": "pass"
+  },
+  {
+    "id": "patient_poison",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/patient_poison_v3.png",
+    "verdict": "pass"
+  },
+  {
+    "id": "acid_splash",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/acid_splash_v3.png",
+    "verdict": "pass"
+  },
+  {
+    "id": "steady_dose",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/steady_dose_v3.png",
+    "verdict": "pass"
+  },
+  {
+    "id": "siphon_vitality",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/siphon_vitality_v3.png",
+    "verdict": "pass"
+  },
+  {
+    "id": "scar_tissue",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/scar_tissue_v3.png",
+    "verdict": "pass"
+  },
+  {
+    "id": "rapid_poison",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/rapid_poison_v3.png",
+    "verdict": "pass"
+  },
+  {
+    "id": "unstable_mixture",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/unstable_mixture_v3.png",
+    "verdict": "pass"
+  },
+  {
+    "id": "lethal_dose",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/lethal_dose_v3.png",
+    "verdict": "pass"
+  },
+  {
+    "id": "grand_elixir",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/grand_elixir_v3.png",
+    "verdict": "pass"
+  },
+  {
+    "id": "apothecary_feast",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/apothecary_feast_v3.png",
+    "verdict": "pass"
+  },
+  {
+    "id": "venom_pulse",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/venom_pulse_v3.png",
+    "verdict": "pass"
+  }
+]

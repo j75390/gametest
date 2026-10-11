@@ -1,0 +1,12 @@
+{
+  "status": "placement_proposal_not_runtime_applied",
+  "review": "Four originals inspected at full size; reusing illustration does not restore card approval.",
+  "placements": [
+    {"id":"brewing_bench","source":"ai/claude_mira_cards_20261011/withdrawn_portrait_v1/brewing_bench_v1.png","target_kind":"narrative","target_id":"mira_labels","target_name":"같은 병에 담지 말 것","reuse_status":"suitable_for_large_illustration","rule":"Preserve ratio, do not overlay writing on hands or face; no new rewards."},
+    {"id":"masked_whisper","source":"ai/claude_mira_cards_20261011/withdrawn_portrait_v1/masked_whisper_v1.png","target_kind":"character_lore_detail","target_id":"mira_mask_followup","target_name":"가면 이야기 후속 상세","reuse_status":"suitable_for_large_illustration","rule":"Proposed new slot, not implemented; no identity spoiler in opening biography."},
+    {"id":"side_effect","source":"ai/claude_mira_cards_20261011/withdrawn_portrait_v1/side_effect_v1.png","target_kind":"event_illustration","target_id":"mira_brewing_fatigue","target_name":"조제 후 피로","reuse_status":"suitable_for_large_illustration","rule":"Proposed event slot, not implemented; do not use as combat token or buff icon."},
+    {"id":"distill","source":"ai/claude_mira_cards_20261011/withdrawn_portrait_v1/distill_v1.png","target_kind":"event_illustration","target_id":"mira_workshop","target_name":"미라의 조제 작업실","reuse_status":"suitable_for_large_illustration","rule":"Proposed event slot, not implemented; not a full-screen shop background."}
+  ],
+  "blocked_until_repaired": ["flask_barrage", "warm_decoction"],
+  "other_preserved_candidates": "Remaining 32 assets need full-size anatomy review and matching story text before integration. No automatic approval."
+}

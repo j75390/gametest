@@ -1,0 +1,14 @@
+import json
+from pathlib import Path
+p=Path(__file__).resolve().parents[1]/'ai/relic_objects_20261009.json'
+d=json.loads(p.read_text(encoding='utf-8'))
+changes={
+'rare':{12:'a single small sealed glass bottle half filled with clear amber liquid, attached cork stopper, no loose objects',13:'a translucent glass leaf with two broad lobes shaped like human lungs, central stem and branching veins, botanical sculpture',14:'a folded tan paper diagram with thin branch line drawing, tiny red wax seal attached to corner',16:'a short white chalk stub gripped in a black cylindrical brass chalk holder',17:'a single old wooden hand stamp with brass circular base, two concentric rings engraved on its base',18:'a closed rectangular tan paper envelope, triangular folded flap held shut by a single dark violet wax seal',19:'a closed small brown paper file folder, thick stacked index cards inside and red and ivory tabs protruding',24:'a closed brown leather book with paper edges and a travel ribbon tied around its cover'},
+'epic':{1:'a rolled tan parchment scroll partly unrolled, a cracked gold wax seal visibly attached to paper',2:'a small bronze handbell, wooden handle, six shallow evenly spaced dents around its bottom rim',4:'a thick compact hemp knot tightly tied around a visible brass ring',6:'a folded tan parchment sheet, simple crossed geometric lines drawn on paper, amber wax seal on corner',7:'a single torn tan paper scrap, solid blank paper center, violet pigment along its ragged outer edge',8:'a single silver knife with a short cut rope end draped over its wooden handle',9:'a thick open book with blank tan pages, dark leather cover and a short red ribbon bookmark',10:'a small brass medallion engraved with a zigzag musical quarter rest symbol, no musical notes',11:'a glass vessel divided into three adjacent closed chambers, each chamber containing one small ember flame',12:'a single small tan paper ticket, blank unmarked surface and ragged punched corner'},
+'legend':{4:'a brass lantern with triangular cross section, three visible glass windows each holding a separate glowing amber candle'},
+'ancient':{2:'a rolled blank tan parchment scroll with a small sword emblem embossed in a silver wax seal, no loose sword',5:'a dark steel shield with an engraved rectangular open doorway in its center, aged gold rim',8:'a single dark rectangular iron ammunition magazine, three brass bullet tips protrude from its top opening',9:'a folded blank tan parchment certificate with a single blood red droplet wax seal attached',10:'a small brass mechanical heart, exposed gears around its edge and a short stop lever projecting from its side, violet core'}
+}
+for group,items in changes.items():
+    for num,desc in items.items():d[group][str(num)]=desc
+p.write_text(json.dumps(d,ensure_ascii=False,indent=2),encoding='utf-8')
+print('REFINED',sum(map(len,changes.values())))

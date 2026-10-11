@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-12",
+  "godot": "4.7.2",
+  "tests": {
+    "act2_qa": {
+      "pass": true,
+      "summary": [
+        "ACT2_QA failures=0"
+      ]
+    },
+    "act3_qa": {
+      "pass": true,
+      "summary": [
+        "ACT3_QA failures=0"
+      ]
+    },
+    "act4_qa": {
+      "pass": true,
+      "summary": [
+        "ACT4_QA failures=0"
+      ]
+    },
+    "mira_wave3_qa": {
+      "pass": true,
+      "summary": [
+        "MIRA_WAVE3_QA cards=19 failures=0"
+      ]
+    },
+    "damage_preview_qa": {
+      "pass": true,
+      "summary": [
+        "DAMAGE_PREVIEW_QA failures=0"
+      ]
+    },
+    "content_status_qa": {
+      "pass": true,
+      "summary": [
+        "CONTENT_STATUS_QA units=2 shared_catalog=true failures=0"
+      ]
+    },
+    "event_effects_qa": {
+      "pass": true,
+      "mode": "OpenGL rendering; headless screenshot attempt failed and was replaced"
+    }
+  },
+  "catalog_media_paths": 231,
+  "missing_media_paths": 0,
+  "credential_candidates": 0,
+  "full_suite_rerun": false,
+  "act_fights": "Claude reported25 fights PASS; local rerun in progress, not counted as passed"
+}

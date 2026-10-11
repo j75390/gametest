@@ -1,0 +1,127 @@
+{
+  "relic_common_007": {
+    "verdict": "reject",
+    "reason": "실뭉치에 가까운 두 공이며 연결 끈 끝이 잘려 귀마개 형태가 불명확",
+    "expected_seed": 1650742
+  },
+  "relic_common_016": {
+    "verdict": "reject",
+    "reason": "밀랍 조각 대신 불붙은 심지가 있는 촛불",
+    "expected_seed": 1659715
+  },
+  "relic_common_020": {
+    "verdict": "pass",
+    "reason": "가짜 글자 없이 온전한 빈 종이 통행표 형태",
+    "expected_seed": 1540246
+  },
+  "relic_common_024": {
+    "verdict": "reject",
+    "reason": "분리된 저울 바늘 대신 원형 계기판 본체 포함",
+    "expected_seed": 1420777
+  },
+  "relic_common_034": {
+    "verdict": "reject",
+    "reason": "여과천 외곽이 네모로 잘린 근접 천 텍스처",
+    "expected_seed": 1554204
+  },
+  "relic_common_037": {
+    "verdict": "pass",
+    "reason": "다섯 손가락과 손목이 온전한 단일 가죽 장갑",
+    "expected_seed": 1186824
+  },
+  "relic_common_038": {
+    "verdict": "reject",
+    "reason": "식물용 말뚝 이름표 대신 별도 흰 태그와 목판 결합",
+    "expected_seed": 1187821
+  },
+  "relic_common_046": {
+    "verdict": "reject",
+    "reason": "반쪽 안경 대신 단일 완전한 둥근 거울 렌즈, 안경 옆다리 없음",
+    "expected_seed": 1319254
+  },
+  "relic_common_051": {
+    "verdict": "pass",
+    "reason": "등불 본체 없이 두 고리 끝이 있는 분리된 금속 손잡이",
+    "expected_seed": 1200782
+  },
+  "relic_uncommon_004": {
+    "verdict": "pass",
+    "reason": "글자 없는 온전한 낡은 식권 종이",
+    "expected_seed": 1334209
+  },
+  "relic_uncommon_016": {
+    "verdict": "reject",
+    "reason": "검표 도장 대신 벨트와 버클",
+    "expected_seed": 1219725
+  },
+  "relic_uncommon_017": {
+    "verdict": "pass",
+    "reason": "정확히 두 잔과 연결 끈, 콜라주 없음",
+    "expected_seed": 1344179
+  },
+  "relic_uncommon_019": {
+    "verdict": "reject",
+    "reason": "처방전 위 보라색 덩어리가 글씨나 봉인 형태로 읽히지 않음",
+    "expected_seed": 1468633
+  },
+  "relic_uncommon_020": {
+    "verdict": "pass",
+    "reason": "단일 은색 철사 실패와 접목용 작은 식물 가지",
+    "expected_seed": 1346173
+  },
+  "relic_uncommon_024": {
+    "verdict": "reject",
+    "reason": "뿌리가 유리관 밖 별도 나무 토막으로 나왔고 관 뚜껑도 분리",
+    "expected_seed": 1225707
+  },
+  "relic_uncommon_025": {
+    "verdict": "reject",
+    "reason": "실이 달린 바느질 바늘 대신 굵은 펜 모양",
+    "expected_seed": 1350161
+  },
+  "relic_uncommon_029": {
+    "verdict": "reject",
+    "reason": "붉은 종이 색인 대신 둥근 금속 판",
+    "expected_seed": 1354149
+  },
+  "relic_uncommon_030": {
+    "verdict": "reject",
+    "reason": "복사본 종이 없이 검은 봉인 원판만 있음",
+    "expected_seed": 1355146
+  },
+  "relic_uncommon_031": {
+    "verdict": "pass",
+    "reason": "온전한 낡은 종이에 옅은 두 번째 필적 흔적, 별도 깃펜 없음",
+    "expected_seed": 1356143
+  },
+  "relic_uncommon_033": {
+    "verdict": "reject",
+    "reason": "두 칸 분리 접시 대신 네 칸 접시",
+    "expected_seed": 1234680
+  },
+  "relic_uncommon_034": {
+    "verdict": "reject",
+    "reason": "목판 외곽 잘린 나뭇결 텍스처",
+    "expected_seed": 1606048
+  },
+  "relic_uncommon_036": {
+    "verdict": "reject",
+    "reason": "분배관 T형 손잡이 대신 세워진 십자가 장식",
+    "expected_seed": 1361128
+  },
+  "relic_uncommon_037": {
+    "verdict": "reject",
+    "reason": "손으로 적은 한도 종이 없이 빈 사각 프레임만 있음",
+    "expected_seed": 1362125
+  },
+  "relic_uncommon_040": {
+    "verdict": "reject",
+    "reason": "두 심지 모두 붉은 촛불, 요구한 서로 다른 붉은색 파란색 구성 없음",
+    "expected_seed": 1241659
+  },
+  "relic_rare_002": {
+    "verdict": "pass",
+    "reason": "가짜 문자 없이 온전한 황동 계기와 붉은 맥박 표시",
+    "expected_seed": 1243653
+  }
+}

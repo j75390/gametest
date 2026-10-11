@@ -1,0 +1,17 @@
+{
+  "relic_uncommon_019": {
+    "reason": "육안검수: 완전한 낡은 종이와 보라색 밀랍 봉인, 외곽 및 단일 물건 유지",
+    "verdict": "pass",
+    "expected_seed": 2826660
+  },
+  "relic_epic_002": {
+    "reason": "육안검수: 손잡이 달린 청동 종과 몸체의 여섯 홈 확인",
+    "verdict": "pass",
+    "expected_seed": 2130783
+  },
+  "relic_uncommon_033": {
+    "reason": "육안검수: 접시 안 중앙 분리벽과 두 칸 명확, 잘림 없음",
+    "verdict": "pass",
+    "expected_seed": 2222336
+  }
+}

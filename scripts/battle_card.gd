@@ -4,6 +4,9 @@ const CardStyle = preload("res://scripts/card_style.gd")
 const CARD_SIZE := Vector2(220, 330)
 var definition: Dictionary
 var active := false
+var peek := false
+var effect_label: Label
+var type_label: Label
 
 func setup(card: Dictionary) -> void:
 	definition = card
@@ -32,15 +35,47 @@ func setup(card: Dictionary) -> void:
 	frame.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	add_child(frame)
 	_label("Name", str(card.name), Rect2(51, 21, 134, 25), 22 if str(card.name).length() < 6 else 18, Color("211721"), true)
-	var energy := _label("Energy", str(int(card.cost)), Rect2(13, 22, 31, 34), 28, Color("fff5e0"), true)
+	var energy := _label("Energy", "X" if card.get("x", false) else str(int(card.cost)), Rect2(13, 22, 31, 34), 28, Color("fff5e0"), true)
 	energy.add_theme_color_override("font_shadow_color", Color("281031"))
 	energy.add_theme_constant_override("shadow_offset_y", 1)
-	_label("Type", str(card.type), Rect2(85, 214, 51, 13), 12, Color("211721"), true)
+	type_label = _label("Type", str(card.type), Rect2(85, 214, 51, 13), 12, Color("211721"), true)
 	var text := Data.effect_text(card).replace(". ", ".\n")
 	var words := text.split(" ")
 	for i in range(words.size()): words[i] = "\u2060".join(words[i].split(""))
 	var effect := _label("Effect", " ".join(words), Rect2(28, 239, 164, 63), 16, Color("f7edda"))
 	effect.add_theme_constant_override("line_spacing", 3)
+	effect_label = effect
+
+## Shows the damage the card would really deal now (green when raised, red when lowered).
+func show_damage(value: int) -> void:
+	var base := int(definition.get("damage", 0))
+	if base <= 0 or value == base: return
+	var shown := definition.duplicate(true)
+	shown["damage"] = value
+	var text := Data.effect_text(shown).replace(". ", ".
+")
+	var words := text.split(" ")
+	for i in range(words.size()): words[i] = "⁠".join(words[i].split(""))
+	effect_label.text = " ".join(words)
+	effect_label.add_theme_color_override("font_color", Color("6dff7c") if value > base else Color("ff6b5e"))
+	effect_label.add_theme_color_override("font_outline_color", Color("14081c"))
+	effect_label.add_theme_constant_override("outline_size", 4)
+
+## Hand mode: the card is mostly tucked below the screen edge, so the effect text
+## stays hidden until the card is expanded (hovered or selected).
+func set_peek(value: bool) -> void:
+	peek = value
+	set_expanded(not value)
+
+func set_expanded(value: bool) -> void:
+	if not peek: value = true
+	effect_label.visible = value
+	type_label.visible = value
+
+func set_hotkey(number: int) -> void:
+	var label := _label("Hotkey", str(number), Rect2(88, -26, 44, 24), 20, Color("d8c7e8"), true)
+	label.add_theme_color_override("font_shadow_color", Color.BLACK)
+	label.add_theme_constant_override("shadow_offset_y", 2)
 
 func _label(node_name: String, value: String, rect: Rect2, font_size: int, color: Color, bold := false) -> Label:
 	var label := Label.new()

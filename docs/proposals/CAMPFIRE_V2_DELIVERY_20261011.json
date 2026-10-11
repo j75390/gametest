@@ -1,0 +1,33 @@
+{
+  "prompt": "Edit this ruined cathedral NIGHT PIXEL ART camp background into centered party campsite. Preserve same beautiful violet indigo sky, mossy gothic ruined arches, distant cathedral silhouettes and crisp pixel art style. Landscape16:10 designed as360x225 low-resolution pixel art with hard square pixel clusters, not smooth illustration. Composition changes: move warm orange reflected floor light from right to CENTER at logical x180,y152 (50% width,67.5% height), symmetrical subtle glow. DO NOT draw fire, logs, stones ring, characters, props, text or UI. Entire middle courtyard must be wide FLAT UNOBSTRUCTED flagstone floor from x70..290,y115..175 for eventual four seated sprites. No pillars, bushes, large stones, steps, debris in that floor area. Gothic columns and ivy are confined to extreme sides x0..55 and305..360; one broad open gothic arch frames central sky, central vertical strip x150..210 uncluttered with no pillar or foreground silhouettes. Distant horizon scenery ends above y110. Bottom y175..225 quiet simple low-contrast flagstone for menu overlays. Top-left middle x72..175,y37..55 dark quiet sky suitable for dialogue bubble. No actual dialogue bubble. Floor may show subtle cracks but no busy highcontrast highlights. Keep atmospheric tasteful rich detail around edges and sky only. Background only, single complete opaque image.",
+  "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-e4b64be6-bc42-4408-82f4-56c9c4719f4e.png",
+  "path": "C:/Users/j9357/Documents/Codex/2026-09-29/godot-comfyui-codex-agents-md-codex/gametest/assets/delivery/claude_20261011/rest/raw/campfire_scene_v2.png",
+  "delivery": "res://assets/delivery/claude_20261011/rest/campfire_scene_v2.png",
+  "four_x": "res://assets/delivery/claude_20261011/rest/campfire_scene_v2_4x.png",
+  "verdict": "pass",
+  "scope": "background_only_existing_mira_unchanged",
+  "fire_anchor": [
+    180,
+    152
+  ],
+  "character_slots_1440": [
+    [
+      472,
+      608
+    ],
+    [
+      968,
+      608
+    ],
+    [
+      604,
+      552
+    ],
+    [
+      836,
+      552
+    ]
+  ],
+  "runtime_integration": "Claude pending; no scripts or canonical files modified",
+  "preview_is_game_capture": false
+}

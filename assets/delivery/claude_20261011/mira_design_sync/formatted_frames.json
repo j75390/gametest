@@ -1,0 +1,194 @@
+[
+  {
+    "id": "idle",
+    "raw": "assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\idle_raw.png",
+    "path": "assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\idle.png",
+    "size": [
+      320,
+      192
+    ],
+    "bounds": [
+      73,
+      12,
+      218,
+      180
+    ],
+    "verdict": "needs_review"
+  },
+  {
+    "id": "idle_blink",
+    "raw": "assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\idle_blink_raw.png",
+    "path": "assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\idle_blink.png",
+    "size": [
+      320,
+      192
+    ],
+    "bounds": [
+      78,
+      12,
+      214,
+      180
+    ],
+    "verdict": "needs_review"
+  },
+  {
+    "id": "walk_a",
+    "raw": "assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\walk_a_raw.png",
+    "path": "assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\walk_a.png",
+    "size": [
+      320,
+      192
+    ],
+    "bounds": [
+      68,
+      12,
+      211,
+      180
+    ],
+    "verdict": "needs_review"
+  },
+  {
+    "id": "walk_pass",
+    "raw": "assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\walk_pass_raw.png",
+    "path": "assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\walk_pass.png",
+    "size": [
+      320,
+      192
+    ],
+    "bounds": [
+      73,
+      12,
+      218,
+      180
+    ],
+    "verdict": "needs_review"
+  },
+  {
+    "id": "walk_b",
+    "raw": "assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\walk_b_raw.png",
+    "path": "assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\walk_b.png",
+    "size": [
+      320,
+      192
+    ],
+    "bounds": [
+      75,
+      12,
+      212,
+      180
+    ],
+    "verdict": "needs_review"
+  },
+  {
+    "id": "attack_prepare",
+    "raw": "assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\attack_prepare_raw.png",
+    "path": "assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\attack_prepare.png",
+    "size": [
+      320,
+      192
+    ],
+    "bounds": [
+      82,
+      12,
+      218,
+      180
+    ],
+    "verdict": "needs_review"
+  },
+  {
+    "id": "attack_release",
+    "raw": "assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\attack_release_raw.png",
+    "path": "assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\attack_release.png",
+    "size": [
+      320,
+      192
+    ],
+    "bounds": [
+      65,
+      12,
+      267,
+      180
+    ],
+    "verdict": "needs_review"
+  },
+  {
+    "id": "skill_charge",
+    "raw": "assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\skill_charge_raw.png",
+    "path": "assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\skill_charge.png",
+    "size": [
+      320,
+      192
+    ],
+    "bounds": [
+      70,
+      12,
+      211,
+      180
+    ],
+    "verdict": "needs_review"
+  },
+  {
+    "id": "skill_release",
+    "raw": "assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\skill_release_raw.png",
+    "path": "assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\skill_release.png",
+    "size": [
+      320,
+      192
+    ],
+    "bounds": [
+      96,
+      12,
+      236,
+      180
+    ],
+    "verdict": "needs_review"
+  },
+  {
+    "id": "hurt",
+    "raw": "assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\hurt_raw.png",
+    "path": "assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\hurt.png",
+    "size": [
+      320,
+      192
+    ],
+    "bounds": [
+      77,
+      12,
+      215,
+      180
+    ],
+    "verdict": "needs_review"
+  },
+  {
+    "id": "death_fall",
+    "raw": "assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\death_fall_raw.png",
+    "path": "assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\death_fall.png",
+    "size": [
+      320,
+      192
+    ],
+    "bounds": [
+      65,
+      20,
+      205,
+      180
+    ],
+    "verdict": "needs_review"
+  },
+  {
+    "id": "death_rest",
+    "raw": "assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\death_rest_raw.png",
+    "path": "assets\\delivery\\claude_20261011\\mira_design_sync\\pixel\\death_rest.png",
+    "size": [
+      320,
+      192
+    ],
+    "bounds": [
+      81,
+      20,
+      217,
+      180
+    ],
+    "verdict": "needs_review"
+  }
+]

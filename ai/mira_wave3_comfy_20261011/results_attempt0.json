@@ -1,0 +1,173 @@
+{
+  "acid_splash": {
+    "id": "acid_splash",
+    "seed": 731100,
+    "attempt": 0,
+    "prompt": "Dark gothic fantasy collectible card ILLUSTRATION, stylized hand painted 2D game art, bold clean readable shapes, simplified focal action, muted black violet palette with colored alchemical accents, one coherent square scene. broken glass vial splashing bright green acid onto ONE steel armor plate, corroding glowing holes in the metal. Close object/action scene with atmospheric dark violet setting, no text, no borders, NO character portrait. Painterly game art, not photograph. Full important objects fit inside picture with margins.",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\acid_splash_731100.png",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/acid_splash_v3.png",
+    "state": "needs_review"
+  },
+  "steady_dose": {
+    "id": "steady_dose",
+    "seed": 732097,
+    "attempt": 0,
+    "prompt": "Dark gothic fantasy collectible card ILLUSTRATION, stylized hand painted 2D game art, bold clean readable shapes, simplified focal action, muted black violet palette with colored alchemical accents, one coherent square scene. antique glass dropper above a small cup, one green poisonous drop falling, spreading green ripples inside the cup. Close object/action scene with atmospheric dark violet setting, no text, no borders, NO character portrait. Painterly game art, not photograph. Full important objects fit inside picture with margins.",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\steady_dose_732097.png",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/steady_dose_v3.png",
+    "state": "needs_review"
+  },
+  "lancet": {
+    "id": "lancet",
+    "seed": 733094,
+    "attempt": 0,
+    "prompt": "Dark gothic fantasy collectible card ILLUSTRATION, stylized hand painted 2D game art, bold clean readable shapes, simplified focal action, muted black violet palette with colored alchemical accents, one coherent square scene. one tiny sharply pointed silver medical lancet with a single crimson droplet, resting across an open dark leather instrument pouch. Close object/action scene with atmospheric dark violet setting, no text, no borders, NO character portrait. Painterly game art, not photograph. Full important objects fit inside picture with margins.",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\lancet_733094.png",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/lancet_v3.png",
+    "state": "needs_review"
+  },
+  "herb_bundle": {
+    "id": "herb_bundle",
+    "seed": 734091,
+    "attempt": 0,
+    "prompt": "Dark gothic fantasy collectible card ILLUSTRATION, stylized hand painted 2D game art, bold clean readable shapes, simplified focal action, muted black violet palette with colored alchemical accents, one coherent square scene. bound medicinal herb bundle and one small amber mixing vial on an old alchemist workbench. Close object/action scene with atmospheric dark violet setting, no text, no borders, NO character portrait. Painterly game art, not photograph. Full important objects fit inside picture with margins.",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\herb_bundle_734091.png",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/herb_bundle_v3.png",
+    "state": "needs_review"
+  },
+  "bitter_tonic": {
+    "id": "bitter_tonic",
+    "seed": 735088,
+    "attempt": 0,
+    "prompt": "Dark gothic fantasy collectible card ILLUSTRATION, stylized hand painted 2D game art, bold clean readable shapes, simplified focal action, muted black violet palette with colored alchemical accents, one coherent square scene. tipped empty dark drinking cup with black tonic residue, violet vein-like magical lines spread over tabletop, ominous energizing glow. Close object/action scene with atmospheric dark violet setting, no text, no borders, NO character portrait. Painterly game art, not photograph. Full important objects fit inside picture with margins.",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\bitter_tonic_735088.png",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/bitter_tonic_v3.png",
+    "state": "needs_review"
+  },
+  "numbing_salve": {
+    "id": "numbing_salve",
+    "seed": 736085,
+    "attempt": 0,
+    "prompt": "Dark gothic fantasy collectible card ILLUSTRATION, stylized hand painted 2D game art, bold clean readable shapes, simplified focal action, muted black violet palette with colored alchemical accents, one coherent square scene. open small blue salve jar beside one naturally connected bandaged forearm and hand, cool blue healing sheen on bandage. Close object/action scene with atmospheric dark violet setting, no text, no borders, NO character portrait. Painterly game art, not photograph. Full important objects fit inside picture with margins.",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\numbing_salve_736085.png",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/numbing_salve_v3.png",
+    "state": "needs_review"
+  },
+  "rotten_fruit": {
+    "id": "rotten_fruit",
+    "seed": 737082,
+    "attempt": 0,
+    "prompt": "Dark gothic fantasy collectible card ILLUSTRATION, stylized hand painted 2D game art, bold clean readable shapes, simplified focal action, muted black violet palette with colored alchemical accents, one coherent square scene. one split rotten fruit covered with green mildew releasing visible violet spores. Close object/action scene with atmospheric dark violet setting, no text, no borders, NO character portrait. Painterly game art, not photograph. Full important objects fit inside picture with margins.",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\rotten_fruit_737082.png",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/rotten_fruit_v3.png",
+    "state": "needs_review"
+  },
+  "venom_chain": {
+    "id": "venom_chain",
+    "seed": 738079,
+    "attempt": 0,
+    "prompt": "Dark gothic fantasy collectible card ILLUSTRATION, stylized hand painted 2D game art, bold clean readable shapes, simplified focal action, muted black violet palette with colored alchemical accents, one coherent square scene. green venom dripping from metal chain coiled tightly around a single armored enemy silhouette, chain trapping enemy. Close object/action scene with atmospheric dark violet setting, no text, no borders, NO character portrait. Painterly game art, not photograph. Full important objects fit inside picture with margins.",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\venom_chain_738079.png",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/venom_chain_v3.png",
+    "state": "needs_review"
+  },
+  "plague_mist": {
+    "id": "plague_mist",
+    "seed": 739076,
+    "attempt": 0,
+    "prompt": "Dark gothic fantasy collectible card ILLUSTRATION, stylized hand painted 2D game art, bold clean readable shapes, simplified focal action, muted black violet palette with colored alchemical accents, one coherent square scene. pale violet toxic fog fills ruined gothic corridor, tiny distant silhouette in plague mask, fog dominant. Close object/action scene with atmospheric dark violet setting, no text, no borders, NO character portrait. Painterly game art, not photograph. Full important objects fit inside picture with margins.",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\plague_mist_739076.png",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/plague_mist_v3.png",
+    "state": "needs_review"
+  },
+  "thorn_tincture": {
+    "id": "thorn_tincture",
+    "seed": 740073,
+    "attempt": 0,
+    "prompt": "Dark gothic fantasy collectible card ILLUSTRATION, stylized hand painted 2D game art, bold clean readable shapes, simplified focal action, muted black violet palette with colored alchemical accents, one coherent square scene. one violet tincture vial tightly wrapped by thorny bramble vines, thorns pointing outward defensively. Close object/action scene with atmospheric dark violet setting, no text, no borders, NO character portrait. Painterly game art, not photograph. Full important objects fit inside picture with margins.",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\thorn_tincture_740073.png",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/thorn_tincture_v3.png",
+    "state": "needs_review"
+  },
+  "patient_poison": {
+    "id": "patient_poison",
+    "seed": 741070,
+    "attempt": 0,
+    "prompt": "Dark gothic fantasy collectible card ILLUSTRATION, stylized hand painted 2D game art, bold clean readable shapes, simplified focal action, muted black violet palette with colored alchemical accents, one coherent square scene. one antique hourglass with green venom slowly trickling through narrow neck into lower chamber, patient ominous liquid flow. Close object/action scene with atmospheric dark violet setting, no text, no borders, NO character portrait. Painterly game art, not photograph. Full important objects fit inside picture with margins.",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\patient_poison_741070.png",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/patient_poison_v3.png",
+    "state": "needs_review"
+  },
+  "siphon_vitality": {
+    "id": "siphon_vitality",
+    "seed": 742067,
+    "attempt": 0,
+    "prompt": "Dark gothic fantasy collectible card ILLUSTRATION, stylized hand painted 2D game art, bold clean readable shapes, simplified focal action, muted black violet palette with colored alchemical accents, one coherent square scene. crimson life-energy flows through a curved glass tube from faint wounded shadow into one violet potion flask. Close object/action scene with atmospheric dark violet setting, no text, no borders, NO character portrait. Painterly game art, not photograph. Full important objects fit inside picture with margins.",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\siphon_vitality_742067.png",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/siphon_vitality_v3.png",
+    "state": "needs_review"
+  },
+  "scar_tissue": {
+    "id": "scar_tissue",
+    "seed": 743064,
+    "attempt": 0,
+    "prompt": "Dark gothic fantasy collectible card ILLUSTRATION, stylized hand painted 2D game art, bold clean readable shapes, simplified focal action, muted black violet palette with colored alchemical accents, one coherent square scene. one scarred forearm with naturally connected closed hand, translucent layered glass-like protective membrane growing above scar, no gore. Close object/action scene with atmospheric dark violet setting, no text, no borders, NO character portrait. Painterly game art, not photograph. Full important objects fit inside picture with margins.",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\scar_tissue_743064.png",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/scar_tissue_v3.png",
+    "state": "needs_review"
+  },
+  "rapid_poison": {
+    "id": "rapid_poison",
+    "seed": 744061,
+    "attempt": 0,
+    "prompt": "Dark gothic fantasy collectible card ILLUSTRATION, stylized hand painted 2D game art, bold clean readable shapes, simplified focal action, muted black violet palette with colored alchemical accents, one coherent square scene. one fine silver needle tip with lime green venom spreading outward in sharp lightning-shaped streaks. Close object/action scene with atmospheric dark violet setting, no text, no borders, NO character portrait. Painterly game art, not photograph. Full important objects fit inside picture with margins.",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\rapid_poison_744061.png",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/rapid_poison_v3.png",
+    "state": "needs_review"
+  },
+  "unstable_mixture": {
+    "id": "unstable_mixture",
+    "seed": 745058,
+    "attempt": 0,
+    "prompt": "Dark gothic fantasy collectible card ILLUSTRATION, stylized hand painted 2D game art, bold clean readable shapes, simplified focal action, muted black violet palette with colored alchemical accents, one coherent square scene. one bubbling glass flask filled with two distinct violet and lime-green liquids swirling together and frothing over rim. Close object/action scene with atmospheric dark violet setting, no text, no borders, NO character portrait. Painterly game art, not photograph. Full important objects fit inside picture with margins.",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\unstable_mixture_745058.png",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/unstable_mixture_v3.png",
+    "state": "needs_review"
+  },
+  "lethal_dose": {
+    "id": "lethal_dose",
+    "seed": 746055,
+    "attempt": 0,
+    "prompt": "Dark gothic fantasy collectible card ILLUSTRATION, stylized hand painted 2D game art, bold clean readable shapes, simplified focal action, muted black violet palette with colored alchemical accents, one coherent square scene. one large antique brass glass syringe filled completely with green venom, one small skull emblem, NO letters NO numeric measurement marks, needle whole. Close object/action scene with atmospheric dark violet setting, no text, no borders, NO character portrait. Painterly game art, not photograph. Full important objects fit inside picture with margins.",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\lethal_dose_746055.png",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/lethal_dose_v3.png",
+    "state": "needs_review"
+  },
+  "grand_elixir": {
+    "id": "grand_elixir",
+    "seed": 747052,
+    "attempt": 0,
+    "prompt": "Dark gothic fantasy collectible card ILLUSTRATION, stylized hand painted 2D game art, bold clean readable shapes, simplified focal action, muted black violet palette with colored alchemical accents, one coherent square scene. one large golden glowing elixir bottle behind translucent overlapping glass shield layers, warm healing rays. Close object/action scene with atmospheric dark violet setting, no text, no borders, NO character portrait. Painterly game art, not photograph. Full important objects fit inside picture with margins.",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\grand_elixir_747052.png",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/grand_elixir_v3.png",
+    "state": "needs_review"
+  },
+  "apothecary_feast": {
+    "id": "apothecary_feast",
+    "seed": 748049,
+    "attempt": 0,
+    "prompt": "Dark gothic fantasy collectible card ILLUSTRATION, stylized hand painted 2D game art, bold clean readable shapes, simplified focal action, muted black violet palette with colored alchemical accents, one coherent square scene. small ritual table arranged with a few potions, herbs, candles and one ivory gold crow-beak plague mask, no people. Close object/action scene with atmospheric dark violet setting, no text, no borders, NO character portrait. Painterly game art, not photograph. Full important objects fit inside picture with margins.",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\apothecary_feast_748049.png",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/apothecary_feast_v3.png",
+    "state": "needs_review"
+  },
+  "venom_pulse": {
+    "id": "venom_pulse",
+    "seed": 749046,
+    "attempt": 0,
+    "prompt": "Dark gothic fantasy collectible card ILLUSTRATION, stylized hand painted 2D game art, bold clean readable shapes, simplified focal action, muted black violet palette with colored alchemical accents, one coherent square scene. one heart-like pulsing violet poisonous orb sends concentric toxic purple waves through dark space. Close object/action scene with atmospheric dark violet setting, no text, no borders, NO character portrait. Painterly game art, not photograph. Full important objects fit inside picture with margins.",
+    "source": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\ai\\mira_wave3_comfy_20261011\\venom_pulse_749046.png",
+    "path": "res://assets/delivery/claude_20261011/cards_wave3/venom_pulse_v3.png",
+    "state": "needs_review"
+  }
+}

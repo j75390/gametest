@@ -1,0 +1,240 @@
+[
+  {
+    "id": "round_doll",
+    "category": "monsters",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\monsters\\round_doll_v2.png",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-10c7049e-356f-4de0-8c69-79b2a327a6aa.png",
+    "method": "built-in imagegen; local ComfyUI BiRefNet cutout for sprites/icons",
+    "verdict": "pass",
+    "reason": "Covered face, articulated doll hands, nursing uniform and confirmation stamp; full shoes.",
+    "size": [
+      768,
+      1152
+    ],
+    "sha256": "043ea23d0a9a64f916db5c1e36c25babb856ed59828c7baff103666567fa16d5"
+  },
+  {
+    "id": "waiting_patient",
+    "category": "monsters",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\monsters\\waiting_patient_v2.png",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-3d638df1-03c6-414e-907c-a6c1fbe1be5d.png",
+    "method": "built-in imagegen; local ComfyUI BiRefNet cutout for sprites/icons",
+    "verdict": "pass",
+    "reason": "Bent waist and reaching ash-filled hand, worn ward gown; coherent legs and feet.",
+    "size": [
+      768,
+      1152
+    ],
+    "sha256": "427e97583db4f8b7d229369c60bd4a89ab95984131bc01a5281f00582bec196d"
+  },
+  {
+    "id": "lamp_pilgrim",
+    "category": "monsters",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\monsters\\lamp_pilgrim_v2.png",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-233ec79b-139a-44c3-a3fc-184d465f725b.png",
+    "method": "built-in imagegen; local ComfyUI BiRefNet cutout for sprites/icons",
+    "verdict": "pass",
+    "reason": "Lantern cradled at chest, faint flame, opposite hand on staff; hood and full boots.",
+    "size": [
+      768,
+      1152
+    ],
+    "sha256": "2e7a81aa831e7a57fc6536178e7f02139d4ca707982ccdf1b4a7396bab070075"
+  },
+  {
+    "id": "recovery_agent",
+    "category": "monsters",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\monsters\\recovery_agent_v2.png",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-1cb71c61-74a0-4a1c-88d7-de8a65c8266e.png",
+    "method": "built-in imagegen; local ComfyUI BiRefNet cutout for sprites/icons",
+    "verdict": "pass",
+    "reason": "Large open ledger satchel with papers/fragments, stamp, cord and obscuring hat.",
+    "size": [
+      768,
+      1152
+    ],
+    "sha256": "7bc39687048d701680b80fa8d4ce7aa185642483f924ee0c78f43a338bdcb7e1"
+  },
+  {
+    "id": "seal_clerk",
+    "category": "monsters",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\monsters\\seal_clerk_v2.png",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-490e74f7-a2ce-4fe0-80a6-9b2c14f1294b.png",
+    "method": "built-in imagegen; local ComfyUI BiRefNet cutout for sprites/icons",
+    "verdict": "pass",
+    "reason": "Long arms holding huge rectangular-based stamp; downward cuff ink and full feet.",
+    "size": [
+      768,
+      1152
+    ],
+    "sha256": "f523e7bae76f1de1c8fbe5b4d0d05ba406392ad5eecb822ddc0a2fe5836b5353"
+  },
+  {
+    "id": "convoy_armor",
+    "category": "monsters",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\monsters\\convoy_armor_v2.png",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-74fbfa1e-a50e-45f5-83c6-300a2316ec91.png",
+    "method": "built-in imagegen; local ComfyUI BiRefNet cutout for sprites/icons",
+    "verdict": "pass",
+    "reason": "Empty dark visor, low broad armor, rusty shield and geometric shoulder mark. Background-foot residue corrected.",
+    "size": [
+      768,
+      1152
+    ],
+    "sha256": "924e189fda28965af885182f6f60c22a8c607ddf4ee7f2e1266eebd6531b6bfe"
+  },
+  {
+    "id": "ash_warden_elite",
+    "category": "monsters",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\monsters\\ash_warden_elite_v2.png",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-589cbca7-796c-4850-b986-5bddc6570c18.png",
+    "method": "built-in imagegen; local ComfyUI BiRefNet cutout for sprites/icons",
+    "verdict": "pass",
+    "reason": "Tall narrow warden family armor, caked grey ash and hanging censer; full boots.",
+    "size": [
+      768,
+      1152
+    ],
+    "sha256": "9e9d0737b402d8a1778017c460fef45de5fb2914cf61752072b3681fe1885165"
+  },
+  {
+    "id": "convoy_captain",
+    "category": "monsters",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\monsters\\convoy_captain_v2.png",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-4fc36c4e-d53b-4868-9887-c9b61a5d33d0.png",
+    "method": "built-in imagegen; local ComfyUI BiRefNet cutout for sprites/icons",
+    "verdict": "pass",
+    "reason": "Bent helmet plume, blank ledger board, visible fingers and separate shield; upright stance.",
+    "size": [
+      768,
+      1152
+    ],
+    "sha256": "519878d3df7672b68ee19d7018181a402a2f3f11a22c664236e851e6a01c4fc3"
+  },
+  {
+    "id": "first_volunteer",
+    "category": "monsters",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\monsters\\first_volunteer_v2.png",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-84dda1bb-5bdd-43bb-b966-fbac8a748c0b.png",
+    "method": "built-in imagegen; local ComfyUI BiRefNet cutout for sprites/icons",
+    "verdict": "pass",
+    "reason": "Joined prayer hands, calm sad face, worn robes and ash trails; both complete shoes.",
+    "size": [
+      768,
+      1152
+    ],
+    "sha256": "4ca3ffa726c58d4e1eb9784c0ec975082c7ca9b787b213ef6d5ae4c7d039fe07"
+  },
+  {
+    "id": "head_nurse",
+    "category": "monsters",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\monsters\\head_nurse_v2.png",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-77ce67e1-a93b-42bb-8d2a-67d0c861fe9c.png",
+    "method": "built-in imagegen; local ComfyUI BiRefNet cutout for sprites/icons",
+    "verdict": "pass",
+    "reason": "Angular hood, apron, blank prescription board and large scissors; straight stance and full shoes.",
+    "size": [
+      768,
+      1152
+    ],
+    "sha256": "d22a821894666a915cb2befa32dc7325b5c84a3ef4040809d4182750d4f7b602"
+  },
+  {
+    "id": "shaft_keeper",
+    "category": "monsters",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\monsters\\shaft_keeper_v2.png",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-0883cfa8-a345-4a4a-8988-bd9ed831565d.png",
+    "method": "built-in imagegen; local ComfyUI BiRefNet cutout for sprites/icons",
+    "verdict": "pass",
+    "reason": "Stocky worker, torso chains and distinct valve wheel; workwear and complete heavy boots.",
+    "size": [
+      768,
+      1152
+    ],
+    "sha256": "5f3ec638179f929caff9ac4a221b0ec30028fdc1e9e861e3898947f155446669"
+  },
+  {
+    "id": "ash_warden_boss",
+    "category": "monsters",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\monsters\\ash_warden_boss_v2.png",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-4d0f5690-656f-4b84-ae31-045c73da8bcf.png",
+    "method": "built-in imagegen; local ComfyUI BiRefNet cutout for sprites/icons",
+    "verdict": "pass",
+    "reason": "Massive warden family, complete timber door with hinges and handle, ember seams and full boots.",
+    "size": [
+      768,
+      1152
+    ],
+    "sha256": "1f366a5525bcae8a6c9c84f344bf9c6106f042270bb67ff5ec5b5c32a46ae21e"
+  },
+  {
+    "id": "weak",
+    "category": "status",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\status\\weak_v2.png",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-ac5e33a7-239d-48ce-88e3-d82c58516642.png",
+    "method": "built-in imagegen; local ComfyUI BiRefNet cutout for sprites/icons",
+    "verdict": "pass",
+    "reason": "Exactly one sagging bent sword, no duplicates or lettering; legible small silhouette.",
+    "size": [
+      512,
+      512
+    ],
+    "sha256": "1b28dfbc195c76ad8876fb785bcd1ab06d4630ae3c9e4ef02316c9024ed2f1ac"
+  },
+  {
+    "id": "relic_uncommon_005",
+    "category": "relics",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\relics\\relic_uncommon_005.png",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-281c15e6-a060-4f8c-b3ea-a97c61c9a8d4.png",
+    "method": "built-in imagegen; local ComfyUI BiRefNet cutout for sprites/icons",
+    "verdict": "pass",
+    "reason": "One coherent hinged pocket watch, two hands and plain grooves; no numerals or fake text.",
+    "size": [
+      512,
+      512
+    ],
+    "sha256": "90f339e525252eb55a32dd9c56b66fc991d7ef3b9b215bc3e2ead9ec5be44f5e"
+  },
+  {
+    "id": "common_act1_05",
+    "category": "events",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\events\\common_act1_05.png",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-1ac1946c-cb15-438a-af29-bd549072a9d7.png",
+    "method": "built-in imagegen; local ComfyUI BiRefNet cutout for sprites/icons",
+    "verdict": "pass",
+    "reason": "Two scale pans; plain metal tag on pan, bread behind; textured gothic scene, no text.",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "6e81bc0a746bf0966fe616513d5af0b787ec688f0e7c7fb447cf9db04f3ea84a"
+  },
+  {
+    "id": "common_act1_26",
+    "category": "events",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\events\\common_act1_26.png",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-83cb3fcb-096a-451c-b717-decc556ab4a5.png",
+    "method": "built-in imagegen; local ComfyUI BiRefNet cutout for sprites/icons",
+    "verdict": "pass",
+    "reason": "Overturned wagon, spilled crates/sacks and wheel ruts toward cathedral; no choice-result imagery.",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "3cb54c2b4e7611086d08fbaea51e7a203a9993108e5d99648181a5d6e7dfcdcd"
+  },
+  {
+    "id": "common_act1_28",
+    "category": "events",
+    "path": "C:\\Users\\j9357\\Documents\\Codex\\2026-09-29\\godot-comfyui-codex-agents-md-codex\\gametest\\assets\\delivery\\claude_20261011\\events\\common_act1_28.png",
+    "source": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-0cb96d1c-aff1-415a-adae-b3808f14e87d.png",
+    "method": "built-in imagegen; local ComfyUI BiRefNet cutout for sprites/icons",
+    "verdict": "pass",
+    "reason": "Extinguished black wick without flame, praying monk back view; cold moonlit painted scene.",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "a8ceb6b28cb36831ec6701365854ff7577b333513857271f181e582620e6c55e"
+  }
+]

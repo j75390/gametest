@@ -1,0 +1,218 @@
+[
+  {
+    "id": "vial_throw",
+    "scene": "One green poison vial shattering on dark stone, spreading a broad sickly green mist and glass fragments. No hands or people. Strong diagonal trajectory.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "needle_prick",
+    "scene": "One black-gloved hand with lavender sleeve holds a slender medical needle tipped with a vivid green poison drop. Close tool action, clear five-finger anatomy, no figure.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "antiseptic",
+    "scene": "Two natural black-gloved hands, lavender cuffs, clean a small shallow wound on a single forearm with white gauze and clear teal disinfectant. No gore, no torso.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "weakening_draught",
+    "scene": "An open violet medicine bottle pours onto a once strong flower that now wilts and droops. No people.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "expose_weakness",
+    "scene": "An amber lantern illuminates a small vulnerable cracked gap in a discarded empty steel breastplate. No people.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "distill",
+    "scene": "A simple fantasy glass retort and coiled condenser release one bright teal drop into a small vial. No people.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "bear_the_pain",
+    "scene": "A small rear-view alchemist silhouette in pale lavender robe draws red-violet pain threads from a wounded shadow toward her heart. Face invisible, effects dominate.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "concentrate",
+    "scene": "A large boiling glass flask over a small burner, thick concentrated emerald medicine collecting at its base, rising condensation. No person.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "lingering_flask",
+    "scene": "One tipped OPEN bottle slowly releases a long viscous purple medicine drop into a plain shallow dish. No hourglass, no person.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "fume_cloud",
+    "scene": "Two open medicine bottles emit overlapping green and violet vapour, vaguely forming a crow-beaked mask silhouette. No person.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "pain_transfer",
+    "scene": "Red-violet pain threads stream from one black-gloved hand entering from left toward an enemy shadow at right. No face or torso.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "quick_mix",
+    "scene": "Close side view of a medicine vial raised to a small cropped mouth at image edge; most image is golden medicine swirl. No full face, natural single gloved hand.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "blood_for_medicine",
+    "scene": "One natural ungloved fingertip releases a single red drop into an open vial of teal medicine on a bench. A black glove lies beside it. No wound or gore, no figure.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "flowering_toxin",
+    "scene": "A poison burst opens like a luminous green thorny flower over a tiny dark enemy silhouette. No hero face.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "corrosive_vapor",
+    "scene": "Green corrosive vapour eats rusted links of a discarded steel chain and armour plate. No people.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "slow_steep",
+    "scene": "A dark transparent bottle holds slowly steeping lavender herbs and curling purple liquid. Quiet ripples on a shadowy stone bench, no person.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "brewing_bench",
+    "scene": "Close workbench with THREE distinct medicine vials being filled by simple glass alchemy pipes; uncluttered arrangement. No person.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "thorn_salve",
+    "scene": "Single sleeved forearm diagonal across frame, purple salve on black glove hardens into thorny protective spikes. No figure, clear connected wrist.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "tainted_blade",
+    "scene": "A MEDICAL SCALPEL, thin small steel surgical blade with flat handle, slicing a vivid green poison arc. Not a sword or dagger, no face.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "hasty_remedy",
+    "scene": "A single gloved hand rapidly reaches for a small medicine vial beside blank paper and a spilled inkpot. Paper entirely without writing. No face.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "bitter_dose",
+    "scene": "Bitter green medicine in a small cup with a single gloved hand lifting it, thorny herbs and dark green vapour emphasizing bitterness. No face.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "masked_whisper",
+    "scene": "An ivory crow-beaked plague doctor mask lying sideways, its interior emitting soft violet spectral wisps. No letters, no person, mask not worn.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "weak_point_injection",
+    "scene": "Single black-gloved hand holds a narrow medical syringe injecting green medicine into a visible gap of EMPTY steel armour. Natural fingers and wrist.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "overdose",
+    "scene": "Several glass medicine vials tip into a single bowl, overflowing toxic green medicine in a strong chaotic wave. No person.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "glass_veil",
+    "scene": "A broad translucent curved glass barrier catches an incoming dark arrow, small bright glass fragments suspended at impact. Purple background, no people.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "accumulated_pain",
+    "scene": "Single bruised bandaged forearm, natural gloved fist concentrating a red-violet pain glow. No extra arm, no torso.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "echo_dose",
+    "scene": "One solid medicine vial and one clearly transparent spectral duplicate trailing behind it, violet rippling echo rings. No hands or people.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "purification",
+    "scene": "Clear water and a small gold flame wash a black-violet stain off a stone ritual bowl. No people.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "chain_reaction",
+    "scene": "A diagonal row of THREE medicine bottles exploding in sequence from left to right, coherent turquoise gold energy arcs. No people.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "rapid_brew",
+    "scene": "Simple glass retort rapidly spins a teal medicine vortex into a newly filled vial, dynamic swoosh. No people.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "pain_ledger",
+    "scene": "Open worn blank ruled ledger, a SINGLE red drop spreads along gold ruling. No letters, numerals or symbols, no people.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "ether_cycle",
+    "scene": "Three small medicine flasks enclosed by an unbroken ring of curling purple ether vapour. No people.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "plague_onset",
+    "scene": "Bird's-eye view of a ruined village floorplan in shadow; a tiny green origin spreads a sickly web of green paths across streets. No labels or text.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "chemical_burst",
+    "scene": "Exactly THREE potion vials strapped to a detached leather belt shatter together, vivid teal and gold explosion. No figure.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "borrowed_pain",
+    "scene": "Small distant lavender-robed alchemist seen from behind sends broad red-violet threads of pain into a hulking enemy silhouette, strong heroic triangular composition. No visible face, effects occupy most image.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  },
+  {
+    "id": "side_effect",
+    "scene": "An overturned dark medicine vial spreading a sickly violet stain across a bandage, ominous restrained purple glow. No person.",
+    "method": "built_in_imagegen",
+    "style_reference": "C:\\Users\\j9357\\.codex\\generated_images\\01a0ed92-836f-7a31-b1fb-0c0b8265b911\\exec-85212528-f262-4cde-8f0a-983ed17ea5d3.png"
+  }
+]

@@ -32,6 +32,7 @@ func run() -> void:
 			assert(main.arrival_view.actions.get_child_count() == 3)
 			await create_timer(0.15).timeout
 			if reward == 0:
+				main.arrival_view.finish_typing()
 				await RenderingServer.frame_post_draw
 				root.get_texture().get_image().save_png("res://docs/act-arrival-%d.png" % dimensions.x)
 			var offered = main.arrival_card.id
@@ -51,10 +52,11 @@ func run() -> void:
 			main.show_map()
 			assert(main.screen == "map")
 	main.show_event()
-	assert(main.screen == "story_event" and str(main.story_event.id).begins_with("common_act1_"))
+	assert(main.screen == "story_event" and (str(main.story_event.id).begins_with("common_act1_") or str(main.story_event.id).ends_with("_personal_1") or str(main.story_event.id) == "mira_coat"))
 	main.choose_character(main.characters[0])
 	assert(not main.arrival_reward_taken and main.gold == 120 and main.deck.size() == 10)
 	main.queue_free()
 	await process_frame
 	print("ACT_ARRIVAL_QA PASS: two resolutions, dialogue, three rewards, once-only, map gate, reset, normal event")
 	quit()
+

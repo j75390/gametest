@@ -1,0 +1,57 @@
+[
+  {
+    "path": "sd/idle_v4.png",
+    "verdict": "pass",
+    "reason": "상아 블라우스·긴 치마·검정 장갑/부츠·옆 가면·허리 약병 일치. 팔 둘과 다리 둘, 발끝 외곽 확인."
+  },
+  {
+    "path": "pixel/idle_raw.png",
+    "verdict": "pass",
+    "reason": "기본 자세의 의상·가면·두 손/두 부츠 연결과 투명 외곽 확인."
+  },
+  {
+    "path": "pixel/idle_blink_raw.png",
+    "verdict": "pass",
+    "reason": "기본 자세를 유지한 눈 감김, 의상과 손발 연결 일치."
+  },
+  {
+    "path": "pixel/walk_a_raw.png",
+    "verdict": "pass",
+    "reason": "전진 발걸음과 소매/머리 이동. 두 신발의 정강이 연결 확인."
+  },
+  {
+    "path": "pixel/walk_pass_rejected_01.png",
+    "verdict": "reject",
+    "reason": "발이 넓게 벌어져 통과 자세가 아니며 walk_a와 걸음 차이 부족."
+  },
+  {
+    "path": "pixel/walk_b_rejected_01.png",
+    "verdict": "reject",
+    "reason": "walk_a와 같은 발걸음 방향, 반대 발걸음 구분 부족."
+  },
+  {
+    "path": "cards/strike_design_v3.png",
+    "verdict": "pass",
+    "reason": "상아 블라우스와 검정 목깃/장갑, 두 허리 약병. 공격 손의 다섯 손가락과 손목 연결, 기존 효과 구도 확인."
+  },
+  {
+    "path": "cards/defend_design_v3.png",
+    "verdict": "pass",
+    "reason": "정면 원형 결계와 정면 손 유지. 상아 블라우스·높은 검정 목깃, 검정 장갑 다섯 손가락 확인."
+  },
+  {
+    "path": "cards/soul_binding_design_v3.png",
+    "verdict": "pass",
+    "reason": "작은 미라와 사슬/유령의 넓은 구도 보존. 긴 치마로 허벅지 노출 제거, 양 팔·부츠 연결 확인."
+  },
+  {
+    "path": "cards/bear_the_pain_design_v3.png",
+    "verdict": "pass",
+    "reason": "얼굴 없는 가슴을 짚는 손 구도 유지. 가슴 상아 블라우스·검정 목깃·검정 코르셋. 다섯 손가락·소매 연결 확인."
+  },
+  {
+    "path": "cards/borrowed_pain_design_v3.png",
+    "verdict": "pass",
+    "reason": "작은 후면 미라와 갑옷으로 옮기는 고통 효과 유지. 노출 어깨 대신 상아 블라우스. 옆 가면·어두운 머리·손목 연결 확인."
+  }
+]
