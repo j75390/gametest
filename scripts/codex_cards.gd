@@ -182,7 +182,7 @@ func _card_slot(row: Dictionary) -> Control:
 	elif row.state == "hidden":
 		hit.tooltip_text = "미발견\n아직 이 카드를 발견하지 못했습니다."
 	else:
-		hit.tooltip_text = "잠김\n이 카드는 스토리에서 해금해야 앞으로의 원정에 등장합니다."
+		hit.tooltip_text = "잠김\n이 카드는 스토리에서 해금해야 앞으로의 원정에 등장합니다.\n" + CodexData.unlock_hint(record)
 	return slot
 
 func _make_card(record: Dictionary, owner: String, state: String) -> Control:
@@ -209,7 +209,7 @@ func _open_detail(row: Dictionary) -> void:
 		make_label(inner, "아직 이 카드를 발견하지 못했습니다.\n원정 중에 만나면 이곳에 기록됩니다.", Rect2(x, 120, 500, 120), 24, PARCHMENT, false, HORIZONTAL_ALIGNMENT_LEFT)
 	else:
 		make_label(inner, "잠김", Rect2(x, 28, 500, 50), 36, GOLD, true, HORIZONTAL_ALIGNMENT_LEFT)
-		make_label(inner, "이 카드는 스토리에서 해금해야 앞으로의 원정에 등장합니다.", Rect2(x, 120, 500, 120), 24, PARCHMENT, false, HORIZONTAL_ALIGNMENT_LEFT)
+		make_label(inner, "이 카드는 스토리에서 해금해야 앞으로의 원정에 등장합니다.\n" + CodexData.unlock_hint(record), Rect2(x, 120, 500, 200), 24, PARCHMENT, false, HORIZONTAL_ALIGNMENT_LEFT)
 	var done := Button.new()
 	done.text = "닫기"
 	done.position = Vector2(700, 490)

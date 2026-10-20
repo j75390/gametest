@@ -14,7 +14,9 @@ const DISCOVERY_CAP := 30
 const FIRST_CLEAR_POINTS := 100
 const REPEAT_CLEAR_POINTS := 30
 const ENDING_IDS := ["kept_fire", "long_night", "own_lamps"]
-const CHARACTERS := ["mira", "kalian", "sera", "lucian"]
+## Story flag set by the ACT V ending scene -> the ending it records.
+const ENDING_FLAGS := {"ending_remaining_fire": "kept_fire", "ending_long_night": "long_night", "ending_separate_lamps": "own_lamps"}
+const CHARACTERS := ["mira", "severin", "calamo", "esca"]
 
 ## Scripts run with --script (the QA suite) never touch the player's real progress file.
 static func _default_path() -> String:
@@ -194,7 +196,17 @@ static func settle(run: Dictionary, outcome: String, run_flags: Array, dex_perce
 		state.counters.deaths += 1
 	var found := maxi(0, _discovery_count() - int(run.discover_start))
 	gained += mini(DISCOVERY_CAP, found * DISCOVERY_POINTS)
-	for flag in run_flags: state.flags_seen[str(flag)] = true
+	# an ending only counts once the run is cleared; leaving during the epilogue keeps it out of the chronicle
+	for flag in run_flags:
+		if outcome != "clear" and str(flag).begins_with("ending_"): continue
+		state.flags_seen[str(flag)] = true
+	# the way a cleared ACT V ended is kept for good (the ending flags are set by the last scene)
+	if outcome == "clear":
+		var endings: Array = state.get("endings", [])
+		for flag in run_flags:
+			var ending_id := str(ENDING_FLAGS.get(str(flag), ""))
+			if not ending_id.is_empty() and not endings.has(ending_id): endings.append(ending_id)
+		state.endings = endings
 	state.dex_percent = dex_percent
 	state.points += gained
 	var opened := _resolve(state)

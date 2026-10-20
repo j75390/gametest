@@ -54,7 +54,7 @@ func setup(owner_game):
 	var background := TextureRect.new()
 	background.name = "Environment"
 	# ACT II/III have their own battle backdrops once delivered (battle_canal_v1.png, battle_greenhouse_v1.png); until then the cathedral stands in
-	var act_backdrop: String = {2: "res://assets/backgrounds/battle_canal_v1.png", 3: "res://assets/backgrounds/battle_greenhouse_v1.png", 4: "res://assets/backgrounds/battle_library_v1.png"}.get(int(game.current_act), "")
+	var act_backdrop: String = {2: "res://assets/backgrounds/battle_canal_v1.png", 3: "res://assets/backgrounds/battle_greenhouse_v1.png", 4: "res://assets/backgrounds/battle_library_v1.png", 5: "res://assets/backgrounds/battle_sanctum_v1.png"}.get(int(game.current_act), "")
 	background.texture = load(act_backdrop if not act_backdrop.is_empty() and ResourceLoader.exists(act_backdrop) else "res://assets/backgrounds/battle_cathedral_v1.png")
 	background.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 	background.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_COVERED
@@ -96,6 +96,11 @@ func setup(owner_game):
 	enemy.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 	enemy.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
 	var enemy_size := ENEMY_BOX * UNIT_SCALE * float(game.enemy.get("scale", 1.0))
+	# a big picture (bosses) must not be wider than its health bar: shrink the box, keeping the feet on the same line
+	var visible_width := _visible_width(enemy.texture, enemy_size)
+	var width_limit := float(int(300 * UNIT_SCALE)) - 8.0
+	if visible_width > width_limit: enemy_size *= width_limit / visible_width
+	enemy_box_height = enemy_size.y
 	place(enemy, Rect2(1080 - enemy_size.x / 2, FEET_Y - enemy_size.y, enemy_size.x, enemy_size.y), stage)
 	var statuses := Control.new()
 	statuses.name = "UnitStatuses"
@@ -155,6 +160,7 @@ func setup(owner_game):
 		button.pressed.connect(pair[1])
 		if pair[0] == "턴 종료":
 			button.name = "EndTurn"
+			button.tooltip_text = "턴 종료 (E) · 카드는 1~9 키로도 쓸 수 있습니다 · T: 전투 속도(x1 → x1.5 → x2)"
 			button.custom_minimum_size = Vector2(270, 90)
 			button.add_theme_font_size_override("font_size", 31)
 			button.add_theme_color_override("font_color", Color("f1deb0"))
@@ -236,7 +242,7 @@ func _build_top_bar() -> void:
 	_ui_picture("TopBarGoldIcon", "topbar/icon_gold", Rect2(330, 16, 48, 48))
 	_top_text("TopBarGold", str(game.gold), Rect2(384, 12, 120, 56), Color("f2cf72"), 32).horizontal_alignment = HORIZONTAL_ALIGNMENT_LEFT
 	_ui_picture("TopBarFloorIcon", "topbar/icon_floor", Rect2(530, 16, 48, 48))
-	_top_text("TopBarPlace", {1: "잿빛 성당", 2: "검은 운하", 3: "유리 온실", 4: "이름 없는 서고"}.get(int(game.current_act), "잿빛 성당"), Rect2(584, 12, 260, 56), Color("e7d8c0"), 28).horizontal_alignment = HORIZONTAL_ALIGNMENT_LEFT
+	_top_text("TopBarPlace", {1: "잿빛 성당", 2: "검은 운하", 3: "유리 온실", 4: "이름 없는 서고", 5: "새벽 없는 성소"}.get(int(game.current_act), "잿빛 성당"), Rect2(584, 12, 260, 56), Color("e7d8c0"), 28).horizontal_alignment = HORIZONTAL_ALIGNMENT_LEFT
 	var deck := TipIcon.new()
 	deck.name = "TopBarDeck"
 	deck.texture = load("res://assets/ui/topbar/icon_deck.png")
@@ -303,7 +309,7 @@ func _build_intent(action: Dictionary) -> void:
 	var intent := Control.new()
 	intent.name = "Intent"
 	# Stage top is y=110; the icon floats about 65px above the enemy's box.
-	place(intent, Rect2(1010, 110 + FEET_Y - ENEMY_BOX.y * UNIT_SCALE * float(game.enemy.get("scale", 1.0)) - 65, 220, 70))
+	place(intent, Rect2(1010, 110 + FEET_Y - enemy_box_height - 65, 220, 70))
 	intent.mouse_filter = Control.MOUSE_FILTER_STOP
 	intent.tooltip_text = "%s\n%s" % [str(action.get("name", "")), MonsterActions.text(action, game.enemy_status.amount("strength") + bonus)]
 	var icon := TextureRect.new()
@@ -347,6 +353,19 @@ func _build_intent(action: Dictionary) -> void:
 		cursor += 38.0
 
 ## Opens the card grid for "draw", "discard" or "deck". Ignored while an action is running.
+## Width of the drawn picture's visible (non-transparent) part when the texture is fitted into `box` (aspect kept). Cached per texture.
+static var _used_rects := {}
+var enemy_box_height := ENEMY_BOX.y * UNIT_SCALE
+func _visible_width(tex: Texture2D, box: Vector2) -> float:
+	if tex == null: return 0.0
+	var key := tex.resource_path
+	if not _used_rects.has(key):
+		var img := tex.get_image()
+		_used_rects[key] = Rect2(img.get_used_rect()) if img != null else Rect2(Vector2.ZERO, tex.get_size())
+	var used: Rect2 = _used_rects[key]
+	var k := minf(box.x / tex.get_width(), box.y / tex.get_height())
+	return used.size.x * k
+
 func open_pile(kind: String) -> void:
 	if is_instance_valid(viewer) or game.battle_busy: return
 	var hand = get_node_or_null("Hand")
@@ -376,6 +395,8 @@ func _unhandled_key_input(event: InputEvent) -> void:
 		KEY_S: open_pile("discard")
 		KEY_X: if not game.exhaust_pile.is_empty(): open_pile("exhaust")
 		KEY_D: open_pile("deck")
+		KEY_E: game.end_turn()
+		KEY_T: game.cycle_battle_speed()
 
 func _pile(id: String, art: String, rect: Rect2, count: int, title: String, body: String, kind: String) -> void:
 	var icon := TipIcon.new()

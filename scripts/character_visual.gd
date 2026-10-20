@@ -23,6 +23,8 @@ func play(next_motion: String) -> void:
 	elapsed = 0.0
 	finished = false
 	texture = Assets.frame(character_id, motion, 0)
+	# a character that has no frames for a one-shot motion (death, hurt ...) must not wait for it forever
+	if Assets.count(character_id, motion) == 0 and motion not in ["idle", "walk"]: finished = true
 
 func _process(delta: float) -> void:
 	var total := Assets.count(character_id, motion)

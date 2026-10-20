@@ -125,7 +125,7 @@ func _tooltip(row: Dictionary) -> String:
 		"hidden":
 			return "미발견\n아직 이 %s을(를) 발견하지 못했습니다." % kind
 		_:
-			return "잠김\n이 %s은(는) 스토리에서 해금해야 앞으로의 원정에 등장합니다." % kind
+			return "잠김\n이 %s은(는) 스토리에서 해금해야 앞으로의 원정에 등장합니다.\n%s" % [kind, CodexData.unlock_hint(record)]
 
 func _open_detail(row: Dictionary) -> void:
 	var record: Dictionary = row.record

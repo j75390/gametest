@@ -10,8 +10,8 @@ const COLUMN_W := 262.0
 const ROW_H := 140.0
 const LEFT := 40.0
 const ERA_COLORS := {
-	"가려진 역사": Color("b9955a"), "원정": Color("c26a5a"), "미라": Color("a47bd6"), "칼리안": Color("d86a5a"),
-	"세라": Color("6a9bd6"), "루시안": Color("d8c25a"), "이야기들": Color("7ac2a6"), "그 이후": Color("9aa0aa")}
+	"가려진 역사": Color("b9955a"), "원정": Color("c26a5a"), "미라": Color("a47bd6"), "세버린": Color("d86a5a"),
+	"칼라모": Color("8f9c58"), "에스카": Color("e0883a"), "이야기들": Color("7ac2a6"), "그 이후": Color("9aa0aa")}
 
 var state: Dictionary
 var new_ids: Array = []

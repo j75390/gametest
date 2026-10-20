@@ -32,6 +32,16 @@ static func effect_text(effect: Dictionary) -> String:
 			parts.append(pair[1] % effect[pair[0]])
 	if effect.get("per_potion_damage", 0) > 0:
 		parts.append("벨트의 포션 1개마다 피해를 %d 더 줍니다" % effect.per_potion_damage)
+	for pair in [["sin_damage", "죄목 1당 피해 %d"], ["rat_damage", "쥐 1마리당 피해 %d"], ["ember_damage", "불씨 1당 피해 %d"],
+			["sin_block", "죄목 1당 방어도 %d"], ["rat_block", "쥐 1마리당 방어도 %d"], ["ember_block", "불씨 1당 방어도 %d"]]:
+		if effect.get(pair[0], 0) > 0: parts.append(pair[1] % effect[pair[0]])
+	if effect.get("sin_spend", false): parts.append("죄목은 사라집니다")
+	if effect.get("rats_spend", false): parts.append("쥐는 모두 떠납니다")
+	if effect.get("embers_spend", false): parts.append("불씨는 모두 탑니다")
+	for pair in [["sin", "죄목 +%d"], ["rats", "쥐 +%d"], ["embers", "불씨 +%d"]]:
+		if effect.get(pair[0], 0) > 0: parts.append(pair[1] % effect[pair[0]])
+	for pair in [["sin_mult", "적의 죄목을 %d배로 만듭니다"], ["rats_mult", "쥐를 %d배로 늘립니다"], ["embers_mult", "불씨를 %d배로 만듭니다"]]:
+		if effect.get(pair[0], 0) > 1: parts.append(pair[1] % effect[pair[0]])
 	if effect.get("weak", 0) > 0:
 		parts.append("약화를 %d 부여합니다" % effect.weak)
 	if effect.get("vulnerable", 0) > 0:
@@ -55,7 +65,7 @@ static func effect_text(effect: Dictionary) -> String:
 	if effect.get("energy", 0) > 0:
 		parts.append("에너지를 %d 얻습니다" % effect.energy)
 	if effect.get("brew", false):
-		parts.append("무작위 포션을 1개 조제합니다")
+		parts.append("포션 1개 조제")
 	if effect.get("drink_potion", false):
 		parts.append("벨트의 첫 포션을 마십니다")
 	if effect.get("drink_all", false):

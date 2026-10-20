@@ -202,7 +202,7 @@ void fragment() {
 }"""
 ## owner -> [hue shift, saturation, value] relative to the purple Mira frame
 const OWNER_TINT := {
-	"mira": [0.0, 1.0, 1.0], "kalian": [0.24, 1.0, 1.0], "sera": [0.82, 0.95, 1.0],
+	"mira": [0.0, 1.0, 1.0], "kalian": [0.24, 1.0, 1.0], "sera": [0.82, 0.95, 1.0], "severin": [0.24, 1.0, 1.0], "calamo": [0.5, 0.8, 1.0], "esca": [0.36, 1.0, 1.1],
 	"lucian": [0.36, 0.85, 1.12], "common": [0.0, 0.12, 0.95]}
 
 ## One card as the codex shows it. `state` is found / hidden / locked; hidden and locked cards keep their

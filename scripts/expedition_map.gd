@@ -10,7 +10,7 @@ var pending := false
 var completed := false
 ## ACT number and rows whose room is a fixed story event ({row: event id}); every node of such a row is that event.
 var act := 1
-const FIXED_ROWS := {2: {3: "act2_cargo_scale", 8: "act2_bypass_sluice"}, 3: {3: "act3_tea", 8: "act3_formula_room"}, 4: {3: "act4_restore_order", 8: "act4_ian_slip"}}
+const FIXED_ROWS := {2: {3: "act2_cargo_scale", 8: "act2_bypass_sluice"}, 3: {3: "act3_tea", 8: "act3_formula_room"}, 4: {3: "act4_restore_order", 8: "act4_ian_slip"}, 5: {3: "act5_lantern", 8: "act5_assignment"}}
 var fixed: Dictionary = {}
 
 func generate(seed_value: int, act_number: int = 1) -> void:

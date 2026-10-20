@@ -174,8 +174,11 @@ func action(value: String, at: Vector2, dimensions: Vector2) -> Button:
 func _select(index: int) -> void:
 	selected_index = index
 	var ch: Dictionary = roster[index]
-	background.texture = load("res://assets/backgrounds/mira_selection_gallery_v1.png" if ch.id == "mira" else "res://assets/backgrounds/selection_ruins_v2.png")
-	portrait.visible = ch.id != "mira"
+	# a character with a painted selection scene (like Mira's: the figure is part of the picture) shows only that; the others stand on the shared ruins
+	var scene_path: String = str(Assets.profile(str(ch.id)).get("selection_scene", ""))
+	var has_scene: bool = ch.id == "mira" or (not scene_path.is_empty() and ResourceLoader.exists(scene_path))
+	background.texture = load("res://assets/backgrounds/mira_selection_gallery_v1.png" if ch.id == "mira" else (scene_path if has_scene else "res://assets/backgrounds/selection_ruins_v2.png"))
+	portrait.visible = not has_scene
 	if portrait.visible: portrait.texture = Assets.picture(ch.id,"selection")
 	heading.text = ch.name
 	slot.text = ch.class

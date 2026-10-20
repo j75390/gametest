@@ -5,6 +5,8 @@ var canvas: Control
 var buttons: Array[Button] = []
 var highlights: Array[TextureRect] = []
 var elapsed := 0.0
+## Set by the game before the menu is shown when an autosaved expedition can be continued: {"character","act","hp","max_hp"}.
+var continue_info: Dictionary = {}
 
 func _ready() -> void:
 	set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
@@ -51,6 +53,9 @@ void fragment() {
 }"""
 	var labels := ["싱글 플레이", "멀티 플레이", "도감", "설정", "종료하기"]
 	var actions := ["single", "multi", "codex", "settings", "quit"]
+	if not continue_info.is_empty():
+		labels.push_front("이어하기")
+		actions.push_front("continue")
 	for i in range(labels.size()):
 		var button := Button.new()
 		button.name = actions[i]
@@ -88,8 +93,11 @@ void fragment() {
 		button.pressed.connect(func(): chosen.emit(actions[i]))
 		canvas.add_child(button)
 		buttons.append(button)
-	buttons[1].tooltip_text = "친구 원정 · 네트워크 기능 준비 중"
-	buttons[3].tooltip_text = "설정 기능 준비 중"
+	for i in range(actions.size()):
+		match actions[i]:
+			"multi": buttons[i].tooltip_text = "친구 원정 · 네트워크 기능 준비 중"
+			"settings": buttons[i].tooltip_text = "배경음악 · 효과음 · 글자 속도 · 전체 화면"
+			"continue": buttons[i].tooltip_text = "%s · ACT %d · HP %d/%d" % [continue_info.get("name", ""), int(continue_info.get("act", 1)), int(continue_info.get("hp", 0)), int(continue_info.get("max_hp", 0))]
 	resized.connect(_layout)
 	_layout()
 	buttons[0].grab_focus()

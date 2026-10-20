@@ -24,7 +24,7 @@ static func phase_name(enemy: Dictionary, hp: int, max_hp: int) -> String:
 static func kind(action: Dictionary) -> String:
 	if int(action.get("damage", 0)) > 0: return "attack"
 	if int(action.get("block", 0)) > 0: return "defend"
-	if not action.get("buff", []).is_empty() or int(action.get("heal", 0)) > 0 or int(action.get("cleanse", 0)) > 0: return "buff"
+	if not action.get("buff", []).is_empty() or int(action.get("heal", 0)) > 0 or int(action.get("cleanse", 0)) > 0 or int(action.get("cleanse_pct", 0)) > 0: return "buff"
 	if not action.get("apply_statuses", []).is_empty() or int(action.get("side_effect", 0)) > 0: return "debuff"
 	return "unknown"
 
@@ -33,7 +33,7 @@ static func extras(action: Dictionary) -> Array:
 	var main := kind(action)
 	var found: Array = []
 	if int(action.get("block", 0)) > 0 and main != "defend": found.append("defend")
-	if (not action.get("buff", []).is_empty() or int(action.get("heal", 0)) > 0 or int(action.get("cleanse", 0)) > 0) and main != "buff": found.append("buff")
+	if (not action.get("buff", []).is_empty() or int(action.get("heal", 0)) > 0 or int(action.get("cleanse", 0)) > 0 or int(action.get("cleanse_pct", 0)) > 0) and main != "buff": found.append("buff")
 	if (not action.get("apply_statuses", []).is_empty() or int(action.get("side_effect", 0)) > 0) and main != "debuff": found.append("debuff")
 	return found
 
@@ -53,6 +53,7 @@ static func text(action: Dictionary, bonus := 0) -> String:
 	if int(action.get("block", 0)) > 0: parts.append("방어도 +%d" % int(action.block))
 	if int(action.get("heal", 0)) > 0: parts.append("회복 %d" % int(action.heal))
 	if int(action.get("cleanse", 0)) > 0: parts.append("자신의 중독 %d 정화" % int(action.cleanse))
+	if int(action.get("cleanse_pct", 0)) > 0: parts.append("자신의 중독 %d%% 정화" % int(action.cleanse_pct))
 	for item in action.get("buff", []): parts.append("자신에게 " + status_text(item))
 	for item in action.get("apply_statuses", []): parts.append("플레이어에게 " + status_text(item))
 	if int(action.get("side_effect", 0)) > 0: parts.append("부작용 카드 %d장을 버린 더미에 섞음" % int(action.side_effect))

@@ -19,7 +19,8 @@ static func frame(character_id: String, motion: String, index: int) -> Texture2D
 	var frames: Array = profile(character_id).get("motions", {}).get(motion, [])
 	if frames.is_empty():
 		var idle: Array = profile(character_id).get("motions", {}).get("idle", [])
-		return load(idle[0].path) as Texture2D if not idle.is_empty() else null
+		# a character without battle frames yet stands in with the selection illustration
+		return load(idle[0].path) as Texture2D if not idle.is_empty() else picture(character_id, "selection")
 	var item: Dictionary = frames[clampi(index, 0, frames.size() - 1)]
 	return load(item.path) as Texture2D
 

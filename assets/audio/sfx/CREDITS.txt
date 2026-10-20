@@ -1,0 +1,3 @@
+Sound effects: Kenney (kenney.nl) — "Impact Sounds", "Interface Sounds", "RPG Audio", "UI Audio".
+License: Creative Commons CC0 1.0 (public domain; free for commercial use, no attribution required). Credit given anyway.
+The earlier procedurally synthesised set is kept in ../sfx_synth_backup/ (not used by the game).

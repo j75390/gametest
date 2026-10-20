@@ -215,5 +215,275 @@
     "needs_transparent_art": false,
     "selection": "res://assets/characters/lucian/illustration/lucian_character_select.png",
     "map_portrait": "res://assets/characters/lucian/portrait/lucian_map_portrait.png"
+  },
+  "severin": {
+    "illustration": "res://assets/characters/severin/illustration/severin_select_v1.png",
+    "selection": "res://assets/characters/severin/illustration/severin_select_v1.png",
+    "map_portrait": "res://assets/characters/severin/portrait/severin_map_portrait.png",
+    "needs_transparent_art": false,
+    "status": "전투 모션: Codex 2차(sd_motion_v2).",
+    "selection_scene_art": "res://assets/characters/severin/illustration/severin_select_v1.png",
+    "full": "res://assets/characters/severin/illustration/severin_select_v1.png",
+    "motions": {
+      "idle": [
+        {
+          "path": "res://assets/characters/severin/sd_motion_v2/idle.png",
+          "duration": 2.4
+        },
+        {
+          "path": "res://assets/characters/severin/sd_motion_v2/idle_blink.png",
+          "duration": 0.13
+        }
+      ],
+      "attack": [
+        {
+          "path": "res://assets/characters/severin/sd_motion_v2/attack_1.png",
+          "duration": 0.18
+        },
+        {
+          "path": "res://assets/characters/severin/sd_motion_v2/attack_2.png",
+          "duration": 0.3
+        },
+        {
+          "path": "res://assets/characters/severin/sd_motion_v2/attack_3.png",
+          "duration": 0.18
+        }
+      ],
+      "skill": [
+        {
+          "path": "res://assets/characters/severin/sd_motion_v2/skill_1.png",
+          "duration": 0.32
+        },
+        {
+          "path": "res://assets/characters/severin/sd_motion_v2/skill_2.png",
+          "duration": 0.48
+        },
+        {
+          "path": "res://assets/characters/severin/sd_motion_v2/skill_3.png",
+          "duration": 0.18
+        }
+      ],
+      "hurt": [
+        {
+          "path": "res://assets/characters/severin/sd_motion_v2/hurt.png",
+          "duration": 0.26
+        }
+      ],
+      "death": [
+        {
+          "path": "res://assets/characters/severin/sd_motion_v2/death_1.png",
+          "duration": 0.3
+        },
+        {
+          "path": "res://assets/characters/severin/sd_motion_v2/death_2.png",
+          "duration": 1.2
+        }
+      ],
+      "walk": [
+        {
+          "path": "res://assets/characters/severin/sd_motion_v2/idle.png",
+          "duration": 0.3
+        }
+      ]
+    },
+    "rest_frames": [
+      {
+        "path": "res://assets/characters/severin/rest/rest_sit.png",
+        "duration": 3.2
+      },
+      {
+        "path": "res://assets/characters/severin/rest/rest_doze_1.png",
+        "duration": 1.5
+      },
+      {
+        "path": "res://assets/characters/severin/rest/rest_doze_2.png",
+        "duration": 1.5
+      },
+      {
+        "path": "res://assets/characters/severin/rest/rest_doze_1.png",
+        "duration": 1.5
+      }
+    ],
+    "selection_scene": "res://assets/characters/severin/illustration/severin_selection_scene.png"
+  },
+  "calamo": {
+    "illustration": "res://assets/characters/calamo/illustration/calamo_select_v1.png",
+    "selection": "res://assets/characters/calamo/illustration/calamo_select_v1.png",
+    "map_portrait": "res://assets/characters/calamo/portrait/calamo_map_portrait.png",
+    "needs_transparent_art": false,
+    "status": "전투 모션: Codex 2차(sd_motion_v2).",
+    "selection_scene_art": "res://assets/characters/calamo/illustration/calamo_select_v1.png",
+    "full": "res://assets/characters/calamo/illustration/calamo_select_v1.png",
+    "motions": {
+      "idle": [
+        {
+          "path": "res://assets/characters/calamo/sd_motion_v2/idle.png",
+          "duration": 2.4
+        },
+        {
+          "path": "res://assets/characters/calamo/sd_motion_v2/idle_blink.png",
+          "duration": 0.13
+        }
+      ],
+      "attack": [
+        {
+          "path": "res://assets/characters/calamo/sd_motion_v2/attack_1.png",
+          "duration": 0.18
+        },
+        {
+          "path": "res://assets/characters/calamo/sd_motion_v2/attack_2.png",
+          "duration": 0.3
+        },
+        {
+          "path": "res://assets/characters/calamo/sd_motion_v2/attack_3.png",
+          "duration": 0.18
+        }
+      ],
+      "skill": [
+        {
+          "path": "res://assets/characters/calamo/sd_motion_v2/skill_1.png",
+          "duration": 0.32
+        },
+        {
+          "path": "res://assets/characters/calamo/sd_motion_v2/skill_2.png",
+          "duration": 0.48
+        },
+        {
+          "path": "res://assets/characters/calamo/sd_motion_v2/skill_3.png",
+          "duration": 0.18
+        }
+      ],
+      "hurt": [
+        {
+          "path": "res://assets/characters/calamo/sd_motion_v2/hurt.png",
+          "duration": 0.26
+        }
+      ],
+      "death": [
+        {
+          "path": "res://assets/characters/calamo/sd_motion_v2/death_1.png",
+          "duration": 0.3
+        },
+        {
+          "path": "res://assets/characters/calamo/sd_motion_v2/death_2.png",
+          "duration": 1.2
+        }
+      ],
+      "walk": [
+        {
+          "path": "res://assets/characters/calamo/sd_motion_v2/idle.png",
+          "duration": 0.3
+        }
+      ]
+    },
+    "selection_scene": "res://assets/characters/calamo/illustration/calamo_selection_scene.png",
+    "rest_frames": [
+      {
+        "path": "res://assets/characters/calamo/rest/rest_sit.png",
+        "duration": 3.2
+      },
+      {
+        "path": "res://assets/characters/calamo/rest/rest_doze_1.png",
+        "duration": 1.5
+      },
+      {
+        "path": "res://assets/characters/calamo/rest/rest_doze_2.png",
+        "duration": 1.5
+      },
+      {
+        "path": "res://assets/characters/calamo/rest/rest_doze_1.png",
+        "duration": 1.5
+      }
+    ]
+  },
+  "esca": {
+    "illustration": "res://assets/characters/esca/illustration/esca_select_v1.png",
+    "selection": "res://assets/characters/esca/illustration/esca_select_v1.png",
+    "map_portrait": "res://assets/characters/esca/portrait/esca_map_portrait.png",
+    "needs_transparent_art": false,
+    "status": "전투 모션: Codex 2차(sd_motion_v2).",
+    "selection_scene_art": "res://assets/characters/esca/illustration/esca_select_v1.png",
+    "full": "res://assets/characters/esca/illustration/esca_select_v1.png",
+    "motions": {
+      "idle": [
+        {
+          "path": "res://assets/characters/esca/sd_motion_v2/idle.png",
+          "duration": 2.4
+        },
+        {
+          "path": "res://assets/characters/esca/sd_motion_v2/idle_blink.png",
+          "duration": 0.13
+        }
+      ],
+      "attack": [
+        {
+          "path": "res://assets/characters/esca/sd_motion_v2/attack_1.png",
+          "duration": 0.18
+        },
+        {
+          "path": "res://assets/characters/esca/sd_motion_v2/attack_2.png",
+          "duration": 0.3
+        },
+        {
+          "path": "res://assets/characters/esca/sd_motion_v2/attack_3.png",
+          "duration": 0.18
+        }
+      ],
+      "skill": [
+        {
+          "path": "res://assets/characters/esca/sd_motion_v2/skill_1.png",
+          "duration": 0.32
+        },
+        {
+          "path": "res://assets/characters/esca/sd_motion_v2/skill_2.png",
+          "duration": 0.48
+        },
+        {
+          "path": "res://assets/characters/esca/sd_motion_v2/skill_3.png",
+          "duration": 0.18
+        }
+      ],
+      "hurt": [
+        {
+          "path": "res://assets/characters/esca/sd_motion_v2/hurt.png",
+          "duration": 0.26
+        }
+      ],
+      "death": [
+        {
+          "path": "res://assets/characters/esca/sd_motion_v2/death_1.png",
+          "duration": 0.3
+        },
+        {
+          "path": "res://assets/characters/esca/sd_motion_v2/death_2.png",
+          "duration": 1.2
+        }
+      ],
+      "walk": [
+        {
+          "path": "res://assets/characters/esca/sd_motion_v2/idle.png",
+          "duration": 0.3
+        }
+      ]
+    },
+    "selection_scene": "res://assets/characters/esca/illustration/esca_selection_scene.png",
+    "rest_frames": [
+      {
+        "path": "res://assets/characters/esca/rest/rest_sit.png",
+        "duration": 3.2
+      },
+      {
+        "path": "res://assets/characters/esca/rest/rest_doze_1.png",
+        "duration": 1.5
+      },
+      {
+        "path": "res://assets/characters/esca/rest/rest_doze_2.png",
+        "duration": 1.5
+      },
+      {
+        "path": "res://assets/characters/esca/rest/rest_doze_1.png",
+        "duration": 1.5
+      }
+    ]
   }
 }

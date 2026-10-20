@@ -21,6 +21,9 @@ var homes: Array[Vector2] = []
 var angles: Array[float] = []
 ## Optional: Callable(card) -> int giving the damage the card would deal now.
 var damage_preview := Callable()
+## The word explanations beside the hovered card (rebuilt only when the hovered card changes).
+var help_panel: Control
+var help_index := -1
 
 class AimOverlay extends Control:
 	var hand
@@ -119,7 +122,35 @@ func _process(delta):
 		views[i].z_index = 30 if focused else i
 		views[i].set_active(focused and not locked)
 		views[i].set_expanded(focused)
+	_update_help()
 	if is_instance_valid(aiming): aiming.queue_redraw()
+
+func _update_help() -> void:
+	var wanted := hovered if selected < 0 and not locked else -1
+	if wanted >= cards.size(): wanted = -1
+	if wanted != help_index:
+		help_index = wanted
+		if is_instance_valid(help_panel): help_panel.queue_free()
+		help_panel = null
+		if wanted >= 0:
+			help_panel = preload("res://scripts/keyword_help.gd").build(cards[wanted])
+			if help_panel.get_child_count() == 0:
+				help_panel.queue_free()
+				help_panel = null
+			else:
+				help_panel.z_index = 90
+				add_child(help_panel)
+	if is_instance_valid(help_panel) and help_index >= 0 and help_index < views.size():
+		# beside the focused card, bottom edge on the card's bottom edge; left of the card when the right side would leave the screen
+		var card_rect: Rect2 = views[help_index].get_global_rect()
+		var view_size := get_viewport_rect().size
+		var factor := help_panel.get_global_transform().get_scale()
+		var width := maxf(help_panel.size.x, 372.0) * factor.x
+		var height := help_panel.size.y * factor.y
+		var to_right := card_rect.end.x + 8.0 + width < view_size.x - 10.0
+		var global_x := card_rect.end.x + 8.0 if to_right else maxf(10.0, card_rect.position.x - width - 8.0)
+		var global_y := minf(card_rect.end.y, view_size.y - 10.0) - height
+		help_panel.global_position = Vector2(global_x, maxf(view_size.y * 0.1, global_y))
 
 func _card_input(event: InputEvent, index: int):
 	if locked or cards[index].cost > energy: return

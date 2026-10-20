@@ -172,7 +172,9 @@ func _item_slot(kind: String, index: int, item: Dictionary, title: String, body:
 		icon.size = Vector2(72, 72)
 		icon.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		box.add_child(icon)
-	var name_label := _label(title, Rect2(88, 12, 106, 72), 19, Color("ebd8b7"), box, true)
+	# a long name gets a smaller font so it breaks between words, not in the middle of one (the name box is only 106 px wide)
+	var name_size := 19 if title.length() <= 5 else (16 if title.length() == 6 else (14 if title.length() == 7 else 13))
+	var name_label := _label(title, Rect2(88, 12, 106, 72), name_size, Color("ebd8b7"), box, true)
 	name_label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	name_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_LEFT
 	name_label.vertical_alignment = VERTICAL_ALIGNMENT_CENTER

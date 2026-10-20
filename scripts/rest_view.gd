@@ -259,6 +259,8 @@ func _seat_member(id: String, x: float, back: bool, face_left: bool, order: int)
 		# characters without seated art keep their standing sprite, sized to the same height as a seated one
 		shown = (2.0 if first.get_width() == 320 else clampf(300.0 / float(first.get_height()), 0.4, 1.0))
 		if first.get_width() == 320: feet_pad = 24.0
+		# a wide painted sprite (a cloak, a big shield) must not cover the fire: keep it inside a seat
+		shown = minf(shown, 170.0 / float(first.get_width()))
 	if back: shown *= 0.85
 	var view := TextureRect.new()
 	view.name = "RestHero_%s" % id
@@ -523,11 +525,11 @@ func _open_picker() -> void:
 	side.size = Vector2(420, 690)
 	side.add_theme_stylebox_override("panel", _box(Color(0.08, 0.06, 0.12, 0.9), Color("ad8953"), 16, 2))
 	picker.add_child(side)
-	_label("강화 후", Rect2(0, 12, 420, 40), 28, GOLD, side)
+	_label("강화 전  →  강화 후", Rect2(0, 12, 420, 40), 28, GOLD, side)
 	preview_holder = Control.new()
-	preview_holder.position = Vector2(100, 62)
+	preview_holder.position = Vector2(12, 62)
 	side.add_child(preview_holder)
-	preview_text = _label("카드 위에 마우스를 올리면\n강화된 모습을 볼 수 있습니다.", Rect2(20, 420, 380, 250), 22, Color("e7dccd"), side)
+	preview_text = _label("카드 위에 마우스를 올리면\n강화 전후를 나란히 볼 수 있습니다.", Rect2(16, 400, 388, 280), 20, Color("e7dccd"), side)
 	var cancel := Button.new()
 	cancel.text = "취소"
 	cancel.position = Vector2(570, 806)
@@ -543,11 +545,26 @@ func _open_picker() -> void:
 func _preview(index: int) -> void:
 	for child in preview_holder.get_children(): child.queue_free()
 	var after := Data.upgraded(deck[index])
-	var view := BattleCard.new()
-	view.setup(after)
-	view.mouse_filter = Control.MOUSE_FILTER_IGNORE
-	preview_holder.add_child(view)
-	preview_text.text = "%s\n%s\n↓\n%s" % [deck[index].name, Data.effect_text(deck[index]), Data.effect_text(after)]
+	# the card before and after side by side, so a change in cost or text is seen on the cards themselves
+	var shown_scale := 0.78
+	var width: float = BattleCard.CARD_SIZE.x * shown_scale
+	for pair in [[deck[index], 0.0], [after, width + 28.0]]:
+		var view := BattleCard.new()
+		view.setup(pair[0])
+		view.scale = Vector2.ONE * shown_scale
+		view.position = Vector2(pair[1], 0)
+		view.mouse_filter = Control.MOUSE_FILTER_IGNORE
+		preview_holder.add_child(view)
+	var arrow := _label("→", Rect2(width - 2, BattleCard.CARD_SIZE.y * shown_scale * 0.5 - 22, 32, 44), 34, GOLD, preview_holder)
+	arrow.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	var changes: Array[String] = []
+	var cost_before := int(deck[index].get("cost", 0))
+	var cost_after := int(after.get("cost", 0))
+	if cost_after != cost_before: changes.append("코스트 %d → %d" % [cost_before, cost_after])
+	var before_text := Data.effect_text(deck[index])
+	var after_text := Data.effect_text(after)
+	if before_text != after_text: changes.append("%s\n↓\n%s" % [before_text, after_text])
+	preview_text.text = "%s\n%s" % [str(deck[index].name), "\n".join(changes)]
 
 func _pick_upgrade(index: int) -> void:
 	busy = true

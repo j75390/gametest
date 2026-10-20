@@ -1,783 +1,1472 @@
 {
- "schema": 1,
- "epochs": [
-  "가려진 역사",
-  "원정",
-  "미라",
-  "칼리안",
-  "세라",
-  "루시안",
-  "이야기들",
-  "그 이후"
- ],
- "entries": [
-  {
-   "id": "H01",
-   "epoch": "가려진 역사",
-   "column": 0,
-   "row": 0,
-   "title": "상처",
-   "art": "res://assets/backgrounds/selection_ruins_v2.png",
-   "placeholder_art": true,
-   "situation": "왕국의 지하 깊은 곳에서 무언가가 발견되었다.",
-   "condition": {
-    "type": "START"
-   },
-   "goal": "처음부터 열려 있습니다.",
-   "story": "발견된 것은 신의 시체도 악마의 심장도 아니었다. 빛을 비추면 아직 일어나지 않은 상처가 표면에 떠오르는 거대한 막이었다. 연구자들은 그것을 흰 막이라 불렀다. 무엇의 일부인지는 아무도 말하지 못했다.",
-   "expands": [
-    "H02"
-   ],
-   "start_visible": true,
-   "hint": "",
-   "clues": [],
-   "unlocks": [],
-   "note": ""
-  },
-  {
-   "id": "H02",
-   "epoch": "가려진 역사",
-   "column": 0,
-   "row": 1,
-   "title": "이름",
-   "art": "res://assets/story/mask_name_v1.png",
-   "placeholder_art": true,
-   "situation": "연구자들은 대상을 구분하기 위해 이름을 불렀다.",
-   "condition": {
-    "type": "POINTS",
-    "value": 60
-   },
-   "goal": "점수를 쌓는다.",
-   "story": "이름이 불린 것은 구분되었고, 막은 그 구분을 받아들였다. 이름은 곧 주소가 되었다. 아무도 그 말을 오래 의심하지 않았다.",
-   "expands": [
-    "H03",
-    "H06"
-   ],
-   "start_visible": false,
-   "hint": "점수를 쌓으면 열립니다.",
-   "clues": [],
-   "unlocks": [],
-   "note": ""
-  },
-  {
-   "id": "H03",
-   "epoch": "가려진 역사",
-   "column": 1,
-   "row": 0,
-   "title": "자원한 사제",
-   "art": "res://assets/backgrounds/selection_cathedral_v1.png",
-   "placeholder_art": true,
-   "situation": "첫 기적에는 이름이 두 개 적혀 있었다.",
-   "condition": {
-    "type": "FLAG",
-    "flag": "ward_ledger"
-   },
-   "goal": "성당의 이송 장부를 확보한다.",
-   "story": "역병이 돌던 해, 죽어 가던 환자의 고통이 자원한 사제에게 옮겨졌다. 환자는 살아났고 사제는 죽었다. 첫 기록에는 두 사람의 이름이 나란히 적혀 있었다. 사람들은 그 희생을 기억했다.",
-   "expands": [
-    "H04",
-    "H05"
-   ],
-   "start_visible": false,
-   "hint": "성당의 기록을 끝까지 따라가면 열립니다.",
-   "clues": [],
-   "unlocks": [],
-   "note": ""
-  },
-  {
-   "id": "H04",
-   "epoch": "가려진 역사",
-   "column": 1,
-   "row": 1,
-   "title": "따뜻한 부산물",
-   "art": "res://assets/story/borrowed_flame_v1.png",
-   "placeholder_art": true,
-   "situation": "옮겨진 고통에서 빛이 났다.",
-   "condition": {
-    "type": "POINTS",
-    "value": 250
-   },
-   "goal": "점수를 쌓는다.",
-   "story": "옮겨진 고통이 막과 닿을 때 따뜻한 빛이 났다. 사람들은 그것을 성화라 불렀다. 성화가 인격을 가진 신이라는 말은 믿음이었을 뿐, 확인된 적은 없다.",
-   "expands": [],
-   "start_visible": false,
-   "hint": "점수를 쌓으면 열립니다.",
-   "clues": [],
-   "unlocks": [],
-   "note": ""
-  },
-  {
-   "id": "H05",
-   "epoch": "가려진 역사",
-   "column": 2,
-   "row": 0,
-   "title": "그릇",
-   "art": "res://assets/story/ward_nameplates_v1.png",
-   "placeholder_art": true,
-   "situation": "자원자가 줄자 고통을 맡아 두는 그릇이 생겼다.",
-   "condition": {
-    "type": "CLEAR_ACT",
-    "act": 1,
-    "character": "any"
-   },
-   "goal": "ACT I을 클리어한다.",
-   "story": "구호원은 고통을 잠시 보관하는 그릇을 만들었다. 그릇이 한계에 이르면 누군가가 받아야 했다. 누가 받는지는 장부에만 적혔다.",
-   "expands": [
-    "H07"
-   ],
-   "start_visible": false,
-   "hint": "성당을 끝까지 걸어가면 열립니다.",
-   "clues": [],
-   "unlocks": [],
-   "note": ""
-  },
-  {
-   "id": "H06",
-   "epoch": "가려진 역사",
-   "column": 2,
-   "row": 1,
-   "title": "죽은 자의 주소",
-   "art": "res://assets/story/mira_ledger_v1.png",
-   "placeholder_art": true,
-   "situation": "장부의 수령 칸에는 죽은 이름이 들어가기 시작했다.",
-   "condition": {
-    "type": "FLAG",
-    "flag": "carrier_hint"
-   },
-   "goal": "빈 약병의 행방을 조사한다.",
-   "story": "죽은 사람에게 보내면 아무도 다치지 않을 것이라는 설명이 돌았다. 그러나 이름은 빈 주소가 아니었다. 그 이름을 기억하는 산 사람에게 무언가가 흘렀다.",
-   "expands": [
-    "H09"
-   ],
-   "start_visible": false,
-   "hint": "약병이 어디로 가는지 알아보면 열립니다.",
-   "clues": [
-    "carrier_hint"
-   ],
-   "unlocks": [],
-   "note": ""
-  },
-  {
-   "id": "H07",
-   "epoch": "가려진 역사",
-   "column": 2,
-   "row": 2,
-   "title": "배급된 약",
-   "art": "res://assets/ui/codex/hub_potions_v1.png",
-   "placeholder_art": true,
-   "situation": "가족에게는 잊게 하는 약이 나눠졌다.",
-   "condition": {
-    "type": "CLEAR_ACT",
-    "act": 1,
-    "character": "mira"
-   },
-   "goal": "미라로 ACT I을 클리어한다.",
-   "story": "연결을 끊으려고 수령인의 이름을 공문서에서 지웠고, 가족에게는 잊게 하는 약을 나눠 주었다. 기적은 커졌지만 누가 대가를 냈는지 확인할 방법은 사라졌다.",
-   "expands": [
-    "H08"
-   ],
-   "start_visible": false,
-   "hint": "특정 인물로 성당을 끝까지 걸어가면 열립니다.",
-   "clues": [],
-   "unlocks": [],
-   "note": ""
-  },
-  {
-   "id": "H08",
-   "epoch": "가려진 역사",
-   "column": 3,
-   "row": 1,
-   "title": "안정화 처방",
-   "art": "res://assets/story/garden_vent_v1.png",
-   "placeholder_art": true,
-   "situation": "처방의 공동 서명란에는 이니셜이 둘 있었다.",
-   "condition": {
-    "type": "FLAG",
-    "flag": "greenhouse_seal"
-   },
-   "goal": "ACT II의 수령 도장을 비교한다.",
-   "story": "잊게 하는 약을 더 안정적으로 만드는 처방이 완성되었다. 공동 서명란에는 두 개의 이니셜이 남았다. 서명한 사람 중 한 명은 여백에 경고를 적어 두었다.",
-   "expands": [],
-   "start_visible": false,
-   "hint": "운하 너머의 기록을 확인하면 열립니다.",
-   "clues": [],
-   "unlocks": [],
-   "note": ""
-  },
-  {
-   "id": "H09",
-   "epoch": "가려진 역사",
-   "column": 3,
-   "row": 0,
-   "title": "수령인란은 별도 보관",
-   "art": "res://assets/events/empty_ward_v1.png",
-   "placeholder_art": true,
-   "situation": "완치 여섯, 퇴원 없음.",
-   "condition": {
-    "type": "FLAG_ANY",
-    "flags": [
-     "ward_plate",
-     "ward_copy",
-     "ward_left"
-    ]
-   },
-   "goal": "빈 병동에서 어떤 선택이든 한다.",
-   "story": "병실에는 침대가 여섯 있었고 이불에는 사람이 누웠던 자국이 남아 있었다. 명패는 닦여 있었다. 수령인란은 별도 보관이라고만 적혀 있었다.",
-   "expands": [
-    "H10"
-   ],
-   "start_visible": false,
-   "hint": "빈 병실에서 무엇을 하든 기록됩니다.",
-   "clues": [
-    "ward_plate",
-    "ward_copy",
-    "ward_left"
-   ],
-   "unlocks": [],
-   "note": ""
-  },
-  {
-   "id": "H10",
-   "epoch": "가려진 역사",
-   "column": 4,
-   "row": 0,
-   "title": "대종이 멈춘 밤",
-   "art": "res://assets/backgrounds/battle_cathedral_v1.png",
-   "placeholder_art": true,
-   "situation": "십 년 전, 종소리가 멎었다.",
-   "condition": {
-    "type": "KILLS",
-    "kind": "boss",
-    "count": 1,
-    "character": "any"
-   },
-   "goal": "수문장을 처음 쓰러뜨린다.",
-   "story": "마지막 이름들이 지워진 밤, 종소리가 멎었다. 여러 시대의 병실과 거리가 겹쳤고, 고통을 받을 대상을 찾는 검은 안개가 퍼졌다. 성화의 대부분이 꺼졌다.",
-   "expands": [
-    "H11"
-   ],
-   "start_visible": false,
-   "hint": "강한 적을 쓰러뜨리면 열립니다.",
-   "clues": [],
-   "unlocks": [],
-   "note": ""
-  },
-  {
-   "id": "H11",
-   "epoch": "가려진 역사",
-   "column": 4,
-   "row": 1,
-   "title": "빈칸",
-   "art": "res://assets/story/ward_copy_v2.png",
-   "placeholder_art": true,
-   "situation": "지운 칸은 오래 비어 있지 않았다.",
-   "condition": {
-    "type": "POINTS",
-    "value": 600
-   },
-   "goal": "점수를 쌓는다.",
-   "story": "지워진 칸은 빈 채로 남았다. 그리고 빈 칸은 오래 비어 있지 않았다. 성당은 더 많은 이름을 지워 그 자리를 막으려 했다.",
-   "expands": [
-    "H12"
-   ],
-   "start_visible": false,
-   "hint": "점수를 쌓으면 열립니다.",
-   "clues": [],
-   "unlocks": [],
-   "note": "인과(삭제와 재배정)는 ACT2 설계안 §1-1 승인 전까지 암시에 그친다."
-  },
-  {
-   "id": "H12",
-   "epoch": "가려진 역사",
-   "column": 4,
-   "row": 2,
-   "title": "불씨 주변",
-   "art": "res://assets/ui/codex/hub_story_v1.png",
-   "placeholder_art": true,
-   "situation": "아직 지워지지 않은 기억이 남은 곳에서는 장소가 안정되었다.",
-   "condition": {
-    "type": "POINTS",
-    "value": 1000
-   },
-   "goal": "점수를 쌓는다.",
-   "story": "불씨 곁에서는 이름과 장소가 흔들리지 않았다. 사람들은 문턱마다 불씨를 나누어 가졌다. 성화는 재앙을 낳은 제도의 산물이면서, 지금 사람을 지키는 수단이었다.",
-   "expands": [],
-   "start_visible": false,
-   "hint": "점수를 쌓으면 열립니다.",
-   "clues": [],
-   "unlocks": [],
-   "note": ""
-  },
-  {
-   "id": "W01",
-   "epoch": "원정",
-   "column": 5,
-   "row": 0,
-   "title": "불씨 한 알",
-   "art": "res://assets/events/ash_keeper_v1.png",
-   "placeholder_art": true,
-   "situation": "문지기는 길을 열기 전에 불씨를 건넸다.",
-   "condition": {
-    "type": "PLAY",
-    "character": "any"
-   },
-   "goal": "원정을 한 번 시작한다.",
-   "story": "문지기는 빈손으로 들여보낼 수는 없다며 불씨 하나를 건넸다. 돌아올 사람에게만 쓰이기를 바란다는 말과 함께.",
-   "expands": [
-    "W02"
-   ],
-   "start_visible": true,
-   "hint": "원정을 떠나면 열립니다.",
-   "clues": [],
-   "unlocks": [],
-   "note": ""
-  },
-  {
-   "id": "W02",
-   "epoch": "원정",
-   "column": 5,
-   "row": 1,
-   "title": "열네 번째 금",
-   "art": "res://assets/story/canal_weighing_v1.png",
-   "placeholder_art": true,
-   "situation": "검은 운하의 수로지기는 가방의 무게부터 쟀다.",
-   "condition": {
-    "type": "ACT_REACHED",
-    "act": 2
-   },
-   "goal": "ACT II에 도착한다.",
-   "story": "물은 소리를 내지 않았다. 부두 끝의 장대에는 칼금이 열세 개, 열네 번째는 새겼다기보다 긁은 자국이었다. 이름은 자주 바뀌지만 무게는 그대로라고 수로지기는 말했다.",
-   "expands": [
-    "W03"
-   ],
-   "start_visible": false,
-   "hint": "운하에 닿으면 열립니다.",
-   "clues": [],
-   "unlocks": [],
-   "note": "ACT II 미구현이라 아직 열 수 없다."
-  },
-  {
-   "id": "W03",
-   "epoch": "원정",
-   "column": 5,
-   "row": 2,
-   "title": "돌아오지 않는 선장",
-   "art": "res://assets/map/region_atlas_v1.png",
-   "placeholder_art": true,
-   "situation": "끝난 귀항을 반복하는 선장이 있었다.",
-   "condition": {
-    "type": "BOSS_ACT",
-    "act": 2
-   },
-   "goal": "ACT II의 보스를 쓰러뜨린다.",
-   "story": "선장은 손에서 직인을 놓았다. 찍힌 자국은 항구가 아니라 온실의 이름이었다. 이송선은 아직 움직이고 있었다.",
-   "expands": [
-    "X1",
-    "X2",
-    "X3",
-    "X4"
-   ],
-   "start_visible": false,
-   "hint": "운하의 끝에서 열립니다.",
-   "clues": [],
-   "unlocks": [],
-   "note": "ACT II 미구현이라 아직 열 수 없다."
-  },
-  {
-   "id": "M1",
-   "epoch": "미라",
-   "column": 6,
-   "row": 0,
-   "title": "소매를 걷는 사람",
-   "art": "res://assets/characters/mira_full.png",
-   "placeholder_art": true,
-   "situation": "미라는 약을 만지기 전에 소매부터 걷는다.",
-   "condition": {
-    "type": "PLAY",
-    "character": "mira"
-   },
-   "goal": "미라로 원정을 시작한다.",
-   "story": "읽기 전에 손부터 씻는 버릇이 있다. 왜 그런 버릇이 생겼는지는 기억하지 못한다. 가면 안쪽의 이름은 그녀의 필체가 아니다.",
-   "expands": [
-    "M2"
-   ],
-   "start_visible": true,
-   "hint": "이 인물과 함께 떠나면 열립니다.",
-   "clues": [],
-   "unlocks": [],
-   "note": ""
-  },
-  {
-   "id": "M2",
-   "epoch": "미라",
-   "column": 6,
-   "row": 1,
-   "title": "약어",
-   "art": "res://assets/story/mira_ledger_v1.png",
-   "placeholder_art": true,
-   "situation": "장부의 여백에 낯익은 갈고리 표시가 있었다.",
-   "condition": {
-    "type": "CLEAR_ACT",
-    "act": 1,
-    "character": "mira"
-   },
-   "goal": "미라로 ACT I을 클리어한다.",
-   "story": "경과 관찰. 긴 말을 쓰기 싫을 때 쓰던 약어였다. 그 아래에는 관찰을 끝냈다는 표시가 없었다. 다음 장의 이송란에는 인계 완료가 적혀 있었다.",
-   "expands": [
-    "M3"
-   ],
-   "start_visible": false,
-   "hint": "이 인물과 함께 성당을 끝까지 가면 열립니다.",
-   "clues": [],
-   "unlocks": [],
-   "note": ""
-  },
-  {
-   "id": "M3",
-   "epoch": "미라",
-   "column": 6,
-   "row": 2,
-   "title": "경과 관찰",
-   "art": "res://assets/ui/codex/hub_monsters_v1.png",
-   "placeholder_art": true,
-   "situation": "누구를 계속 지켜보아야 했는지 아직 모른다.",
-   "condition": {
-    "type": "KILLS",
-    "kind": "elite",
-    "count": 10,
-    "character": "mira"
-   },
-   "goal": "미라로 엘리트를 10마리 처치한다.",
-   "story": "관찰은 끝났다는 표시 없이 이어졌다. 그녀가 쓰러뜨린 것들은 모두 누군가의 경과였는지도 모른다.",
-   "expands": [
-    "M4"
-   ],
-   "start_visible": false,
-   "hint": "이 인물이 강한 적을 거듭 쓰러뜨리면 열립니다.",
-   "clues": [],
-   "unlocks": [],
-   "note": ""
-  },
-  {
-   "id": "M4",
-   "epoch": "미라",
-   "column": 6,
-   "row": 3,
-   "title": "가면 안쪽",
-   "art": "res://assets/story/mask_name_v1.png",
-   "placeholder_art": true,
-   "situation": "누군가 다시 읽을 수 있는 곳에 이름을 남겼다.",
-   "condition": {
-    "type": "KILLS",
-    "kind": "boss",
-    "count": 5,
-    "character": "mira"
-   },
-   "goal": "미라로 보스를 5마리 처치한다.",
-   "story": "가면 안쪽의 글씨는 주문이 아니었다. 자신을 잊을 때마다 다시 읽을 수 있도록 남긴 흔적이었다. 누가 남겼는지는 아직 말할 수 없다.",
-   "expands": [],
-   "start_visible": false,
-   "hint": "이 인물이 수문장을 거듭 쓰러뜨리면 열립니다.",
-   "clues": [],
-   "unlocks": [],
-   "note": ""
-  },
-  {
-   "id": "K1",
-   "epoch": "칼리안",
-   "column": 7,
-   "row": 0,
-   "title": "마지막 검객",
-   "art": "res://assets/characters/kalian_full.png",
-   "placeholder_art": true,
-   "situation": "무너진 성채의 마지막 검객이 원정에 올랐다.",
-   "condition": {
-    "type": "PLAY",
-    "character": "kalian"
-   },
-   "goal": "칼리안으로 원정을 시작한다.",
-   "story": "그가 지키려던 맹세가 무엇이었는지는 갑옷 안쪽에만 남아 있다. 성채는 무너졌지만 그는 아직 문지기처럼 서 있다.",
-   "expands": [
-    "K2"
-   ],
-   "start_visible": true,
-   "hint": "이 인물과 함께 떠나면 열립니다.",
-   "clues": [],
-   "unlocks": [],
-   "note": ""
-  },
-  {
-   "id": "K2",
-   "epoch": "칼리안",
-   "column": 7,
-   "row": 1,
-   "title": "세지 않은 칸",
-   "art": "res://assets/map/cathedral_atlas_v1.png",
-   "placeholder_art": true,
-   "situation": "호송선의 현창은 세어 보았다. 선창은 세어 보지 않았다.",
-   "condition": {
-    "type": "CLEAR_ACT",
-    "act": 1,
-    "character": "kalian"
-   },
-   "goal": "칼리안으로 ACT I을 클리어한다.",
-   "story": "호송 규정에는 안에서 여는 법이 없었다. 그는 오래 지켜 왔지만 무엇을 호송했는지는 한 번도 세어 보지 않았다.",
-   "expands": [],
-   "start_visible": false,
-   "hint": "이 인물과 함께 성당을 끝까지 가면 열립니다.",
-   "clues": [],
-   "unlocks": [],
-   "note": ""
-  },
-  {
-   "id": "S1",
-   "epoch": "세라",
-   "column": 8,
-   "row": 0,
-   "title": "별이 사라진 밤",
-   "art": "res://assets/characters/sera_full.png",
-   "placeholder_art": true,
-   "situation": "별이 사라진 밤을 연구하는 마도사가 원정에 올랐다.",
-   "condition": {
-    "type": "PLAY",
-    "character": "sera"
-   },
-   "goal": "세라로 원정을 시작한다.",
-   "story": "금지된 언어로 저주를 엮는 법을 안다. 그 언어가 원래 무엇을 지우던 문법이었는지는 말하지 않는다.",
-   "expands": [
-    "S2"
-   ],
-   "start_visible": true,
-   "hint": "이 인물과 함께 떠나면 열립니다.",
-   "clues": [],
-   "unlocks": [],
-   "note": ""
-  },
-  {
-   "id": "S2",
-   "epoch": "세라",
-   "column": 8,
-   "row": 1,
-   "title": "읽지 않기로 한 글자",
-   "art": "res://assets/backgrounds/selection_cathedral_v1.png",
-   "placeholder_art": true,
-   "situation": "읽으면 입이 그 문법대로 움직일 것 같았다.",
-   "condition": {
-    "type": "CLEAR_ACT",
-    "act": 1,
-    "character": "sera"
-   },
-   "goal": "세라로 ACT I을 클리어한다.",
-   "story": "그녀는 판자에 새겨진 글자를 읽는 대신 손바닥으로 덮었다. 덮은 손 아래에서 다음 줄이 먼저 떠올랐다.",
-   "expands": [],
-   "start_visible": false,
-   "hint": "이 인물과 함께 성당을 끝까지 가면 열립니다.",
-   "clues": [],
-   "unlocks": [],
-   "note": ""
-  },
-  {
-   "id": "L1",
-   "epoch": "루시안",
-   "column": 9,
-   "row": 0,
-   "title": "꺼져 가는 불",
-   "art": "res://assets/characters/lucian_full.png",
-   "placeholder_art": true,
-   "situation": "꺼져 가는 성화를 지키는 사제가 원정에 올랐다.",
-   "condition": {
-    "type": "PLAY",
-    "character": "lucian"
-   },
-   "goal": "루시안으로 원정을 시작한다.",
-   "story": "그는 원정대의 상처를 돌보며 폐허에 남은 빛을 찾는다. 기도문보다 점호의 순서를 먼저 외웠다는 걸 어느 날 깨달았다.",
-   "expands": [
-    "L2"
-   ],
-   "start_visible": true,
-   "hint": "이 인물과 함께 떠나면 열립니다.",
-   "clues": [],
-   "unlocks": [],
-   "note": ""
-  },
-  {
-   "id": "L2",
-   "epoch": "루시안",
-   "column": 9,
-   "row": 1,
-   "title": "불리지 않은 칸",
-   "art": "res://assets/backgrounds/mira_selection_gallery_v1.png",
-   "placeholder_art": true,
-   "situation": "불린 이름보다 불리지 않은 칸이 더 많았다.",
-   "condition": {
-    "type": "CLEAR_ACT",
-    "act": 1,
-    "character": "lucian"
-   },
-   "goal": "루시안으로 ACT I을 클리어한다.",
-   "story": "점호는 끝났지만 대답 없는 칸이 남았다. 그는 그 칸을 건너뛰지 않기로 했다.",
-   "expands": [],
-   "start_visible": false,
-   "hint": "이 인물과 함께 성당을 끝까지 가면 열립니다.",
-   "clues": [],
-   "unlocks": [],
-   "note": ""
-  },
-  {
-   "id": "T1",
-   "epoch": "이야기들",
-   "column": 10,
-   "row": 0,
-   "title": "네 개의 문",
-   "art": "res://assets/backgrounds/mira_selection_gallery_v1.png",
-   "placeholder_art": true,
-   "situation": "네 사람은 서로 다른 문으로 같은 성당에 들어섰다.",
-   "condition": {
-    "type": "PLAY_ALL"
-   },
-   "goal": "모든 인물로 한 번씩 원정을 시작한다.",
-   "story": "같은 장부, 다른 이름이 읽혔다. 같은 불씨를 받았지만 각자 다른 쪽을 향했다.",
-   "expands": [
-    "T2"
-   ],
-   "start_visible": true,
-   "hint": "네 사람 모두와 떠나 보면 열립니다.",
-   "clues": [],
-   "unlocks": [],
-   "note": ""
-  },
-  {
-   "id": "T2",
-   "epoch": "이야기들",
-   "column": 10,
-   "row": 1,
-   "title": "채워지는 도감",
-   "art": "res://assets/ui/codex/hub_cards_v1.png",
-   "placeholder_art": true,
-   "situation": "도감의 빈칸이 채워질수록 지워진 것이 가까워졌다.",
-   "condition": {
-    "type": "DEX",
-    "percent": 30
-   },
-   "goal": "도감을 30% 채운다.",
-   "story": "발견한 것들이 쌓이자 발견하지 못한 것들의 윤곽이 보이기 시작했다. 빈칸은 비어 있는 동안 계속 누군가를 기다렸다.",
-   "expands": [
-    "T3"
-   ],
-   "start_visible": false,
-   "hint": "도감을 채우면 열립니다.",
-   "clues": [],
-   "unlocks": [],
-   "note": ""
-  },
-  {
-   "id": "T3",
-   "epoch": "이야기들",
-   "column": 10,
-   "row": 2,
-   "title": "처음 쓰러진 날",
-   "art": "res://assets/ui/codex/hub_relics_v1.png",
-   "placeholder_art": true,
-   "situation": "쓰러진 이름도 장부에 적혔다.",
-   "condition": {
-    "type": "FIRST_DEATH"
-   },
-   "goal": "원정에서 쓰러져 본다.",
-   "story": "쓰러진 이름 옆에는 날짜가 적혔고, 다음 원정은 그 뒤 칸에서 시작되었다. 이름이 적힌다는 것은 아직 지워지지 않았다는 뜻이기도 했다.",
-   "expands": [],
-   "start_visible": false,
-   "hint": "쓰러져 본 뒤에 열립니다.",
-   "clues": [],
-   "unlocks": [],
-   "note": ""
-  },
-  {
-   "id": "X1",
-   "epoch": "그 이후",
-   "column": 11,
-   "row": 0,
-   "title": "남겨진 불",
-   "art": "res://assets/map/expedition-parchment-v2.png",
-   "placeholder_art": true,
-   "situation": "장치를 고쳐 자원자와 한도를 기록했다.",
-   "condition": {
-    "type": "ENDING",
-    "id": "kept_fire"
-   },
-   "goal": "결말: 남겨진 불에 닿는다.",
-   "story": "강제 배정은 사라지고 자원자와 한도가 기록되었다. 마을의 불은 유지된다. 에델은 처음으로 모든 칸에 이름을 적었다.",
-   "expands": [],
-   "start_visible": false,
-   "hint": "끝에 닿으면 열립니다.",
-   "clues": [],
-   "unlocks": [],
-   "note": "결말 미구현이라 아직 열 수 없다."
-  },
-  {
-   "id": "X2",
-   "epoch": "그 이후",
-   "column": 11,
-   "row": 1,
-   "title": "긴 밤의 귀환",
-   "art": "res://assets/backgrounds/title_ruins_v1.png",
-   "placeholder_art": true,
-   "situation": "성화를 단계적으로 끄고 사람들을 옮겼다.",
-   "condition": {
-    "type": "ENDING",
-    "id": "long_night"
-   },
-   "goal": "결말: 긴 밤의 귀환에 닿는다.",
-   "story": "세계 전체를 한 번에 고치지는 못했다. 일부 마을과 길은 포기해야 했다. 준비가 부족해도 선택은 가능했지만 결과는 더 어려웠다.",
-   "expands": [],
-   "start_visible": false,
-   "hint": "끝에 닿으면 열립니다.",
-   "clues": [],
-   "unlocks": [],
-   "note": "결말 미구현이라 아직 열 수 없다."
-  },
-  {
-   "id": "X3",
-   "epoch": "그 이후",
-   "column": 11,
-   "row": 2,
-   "title": "각자의 등불",
-   "art": "res://assets/map/cathedral_atlas_v1.png",
-   "placeholder_art": true,
-   "situation": "중앙 분배를 해체하고 작은 그릇과 공개된 명부로 서로 도왔다.",
-   "condition": {
-    "type": "ENDING",
-    "id": "own_lamps"
-   },
-   "goal": "결말: 각자의 등불에 닿는다.",
-   "story": "영구적인 무상 기적은 사라졌다. 기억과 책임이 여러 사람에게 나뉘었다. 희생이 없는 비밀 정답은 아니었다.",
-   "expands": [],
-   "start_visible": false,
-   "hint": "끝에 닿으면 열립니다.",
-   "clues": [],
-   "unlocks": [],
-   "note": "결말 미구현이라 아직 열 수 없다."
-  },
-  {
-   "id": "X4",
-   "epoch": "그 이후",
-   "column": 11,
-   "row": 3,
-   "title": "이름을 쓴다",
-   "art": "res://assets/story/mask_name_v1.png",
-   "placeholder_art": true,
-   "situation": "같은 이름을 스스로 서명했다.",
-   "condition": {
-    "type": "ENDING",
-    "id": "all"
-   },
-   "goal": "세 결말에 모두 닿는다.",
-   "story": "이안이 남긴 이름을 버리지도, 운명처럼 따르지도 않았다. 그 이름으로 어떤 사람이 될지를 스스로 정했다.",
-   "expands": [],
-   "start_visible": false,
-   "hint": "세 갈래의 끝을 모두 보면 열립니다.",
-   "clues": [],
-   "unlocks": [],
-   "note": "결말 미구현이라 아직 열 수 없다."
-  }
- ]
+  "schema": 1,
+  "epochs": [
+    "가려진 역사",
+    "원정",
+    "미라",
+    "세버린",
+    "칼라모",
+    "에스카",
+    "이야기들",
+    "그 이후"
+  ],
+  "entries": [
+    {
+      "id": "H01",
+      "epoch": "가려진 역사",
+      "column": 0,
+      "row": 0,
+      "title": "상처",
+      "art": "res://assets/backgrounds/selection_ruins_v2.png",
+      "placeholder_art": true,
+      "situation": "왕국의 지하 깊은 곳에서 무언가가 발견되었다.",
+      "condition": {
+        "type": "START"
+      },
+      "goal": "처음부터 열려 있습니다.",
+      "story": "발견된 것은 신의 시체도 악마의 심장도 아니었다. 빛을 비추면 아직 일어나지 않은 상처가 표면에 떠오르는 거대한 막이었다. 연구자들은 그것을 흰 막이라 불렀다. 무엇의 일부인지는 아무도 말하지 못했다.",
+      "expands": [
+        "H02"
+      ],
+      "start_visible": true,
+      "hint": "",
+      "clues": [],
+      "unlocks": [],
+      "note": ""
+    },
+    {
+      "id": "H02",
+      "epoch": "가려진 역사",
+      "column": 0,
+      "row": 1,
+      "title": "이름",
+      "art": "res://assets/story/mask_name_v1.png",
+      "placeholder_art": true,
+      "situation": "연구자들은 대상을 구분하기 위해 이름을 불렀다.",
+      "condition": {
+        "type": "POINTS",
+        "value": 60
+      },
+      "goal": "점수를 쌓는다.",
+      "story": "이름이 불린 것은 구분되었고, 막은 그 구분을 받아들였다. 이름은 곧 주소가 되었다. 아무도 그 말을 오래 의심하지 않았다.",
+      "expands": [
+        "H03",
+        "H06"
+      ],
+      "start_visible": false,
+      "hint": "점수를 쌓으면 열립니다.",
+      "clues": [],
+      "unlocks": [],
+      "note": ""
+    },
+    {
+      "id": "H03",
+      "epoch": "가려진 역사",
+      "column": 1,
+      "row": 0,
+      "title": "자원한 사제",
+      "art": "res://assets/backgrounds/selection_cathedral_v1.png",
+      "placeholder_art": true,
+      "situation": "첫 기적에는 이름이 두 개 적혀 있었다.",
+      "condition": {
+        "type": "FLAG",
+        "flag": "ward_ledger"
+      },
+      "goal": "성당의 이송 장부를 확보한다.",
+      "story": "역병이 돌던 해, 죽어 가던 환자의 고통이 자원한 사제에게 옮겨졌다. 환자는 살아났고 사제는 죽었다. 첫 기록에는 두 사람의 이름이 나란히 적혀 있었다. 사람들은 그 희생을 기억했다.",
+      "expands": [
+        "H04",
+        "H05"
+      ],
+      "start_visible": false,
+      "hint": "성당의 기록을 끝까지 따라가면 열립니다.",
+      "clues": [],
+      "unlocks": [],
+      "note": ""
+    },
+    {
+      "id": "H04",
+      "epoch": "가려진 역사",
+      "column": 1,
+      "row": 1,
+      "title": "따뜻한 부산물",
+      "art": "res://assets/story/borrowed_flame_v1.png",
+      "placeholder_art": true,
+      "situation": "옮겨진 고통에서 빛이 났다.",
+      "condition": {
+        "type": "POINTS",
+        "value": 250
+      },
+      "goal": "점수를 쌓는다.",
+      "story": "옮겨진 고통이 막과 닿을 때 따뜻한 빛이 났다. 사람들은 그것을 성화라 불렀다. 성화가 인격을 가진 신이라는 말은 믿음이었을 뿐, 확인된 적은 없다.",
+      "expands": [],
+      "start_visible": false,
+      "hint": "점수를 쌓으면 열립니다.",
+      "clues": [],
+      "unlocks": [],
+      "note": ""
+    },
+    {
+      "id": "H05",
+      "epoch": "가려진 역사",
+      "column": 2,
+      "row": 0,
+      "title": "그릇",
+      "art": "res://assets/story/ward_nameplates_v1.png",
+      "placeholder_art": true,
+      "situation": "자원자가 줄자 고통을 맡아 두는 그릇이 생겼다.",
+      "condition": {
+        "type": "CLEAR_ACT",
+        "act": 1,
+        "character": "any"
+      },
+      "goal": "ACT I을 클리어한다.",
+      "story": "구호원은 고통을 잠시 보관하는 그릇을 만들었다. 그릇이 한계에 이르면 누군가가 받아야 했다. 누가 받는지는 장부에만 적혔다.",
+      "expands": [
+        "H07"
+      ],
+      "start_visible": false,
+      "hint": "성당을 끝까지 걸어가면 열립니다.",
+      "clues": [],
+      "unlocks": [
+        {
+          "id": "lingering_flask",
+          "name": "카드 · 길게 끄는 병"
+        },
+        {
+          "id": "plague_mist",
+          "name": "카드 · 역병 안개"
+        },
+        {
+          "id": "scar_tissue",
+          "name": "카드 · 흉터 조직"
+        },
+        {
+          "id": "relic_common_015",
+          "name": "유물 · 약병 마개"
+        },
+        {
+          "id": "relic_common_031",
+          "name": "유물 · 찻잔 받침"
+        },
+        {
+          "id": "potion_text_07",
+          "name": "포션 · 잔불 증류주"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "H06",
+      "epoch": "가려진 역사",
+      "column": 2,
+      "row": 1,
+      "title": "죽은 자의 주소",
+      "art": "res://assets/story/mira_ledger_v1.png",
+      "placeholder_art": true,
+      "situation": "장부의 수령 칸에는 죽은 이름이 들어가기 시작했다.",
+      "condition": {
+        "type": "FLAG",
+        "flag": "carrier_hint"
+      },
+      "goal": "빈 약병의 행방을 조사한다.",
+      "story": "죽은 사람에게 보내면 아무도 다치지 않을 것이라는 설명이 돌았다. 그러나 이름은 빈 주소가 아니었다. 그 이름을 기억하는 산 사람에게 무언가가 흘렀다.",
+      "expands": [
+        "H09"
+      ],
+      "start_visible": false,
+      "hint": "약병이 어디로 가는지 알아보면 열립니다.",
+      "clues": [
+        "carrier_hint"
+      ],
+      "unlocks": [],
+      "note": ""
+    },
+    {
+      "id": "H07",
+      "epoch": "가려진 역사",
+      "column": 2,
+      "row": 2,
+      "title": "배급된 약",
+      "art": "res://assets/ui/codex/hub_potions_v1.png",
+      "placeholder_art": true,
+      "situation": "가족에게는 잊게 하는 약이 나눠졌다.",
+      "condition": {
+        "type": "CLEAR_ACT",
+        "act": 1,
+        "character": "mira"
+      },
+      "goal": "미라로 ACT I을 클리어한다.",
+      "story": "연결을 끊으려고 수령인의 이름을 공문서에서 지웠고, 가족에게는 잊게 하는 약을 나눠 주었다. 기적은 커졌지만 누가 대가를 냈는지 확인할 방법은 사라졌다.",
+      "expands": [
+        "H08"
+      ],
+      "start_visible": false,
+      "hint": "특정 인물로 성당을 끝까지 걸어가면 열립니다.",
+      "clues": [],
+      "unlocks": [],
+      "note": ""
+    },
+    {
+      "id": "H08",
+      "epoch": "가려진 역사",
+      "column": 3,
+      "row": 1,
+      "title": "안정화 처방",
+      "art": "res://assets/story/garden_vent_v1.png",
+      "placeholder_art": true,
+      "situation": "처방의 공동 서명란에는 이니셜이 둘 있었다.",
+      "condition": {
+        "type": "FLAG",
+        "flag": "greenhouse_seal"
+      },
+      "goal": "ACT II의 수령 도장을 비교한다.",
+      "story": "잊게 하는 약을 더 안정적으로 만드는 처방이 완성되었다. 공동 서명란에는 두 개의 이니셜이 남았다. 서명한 사람 중 한 명은 여백에 경고를 적어 두었다.",
+      "expands": [],
+      "start_visible": false,
+      "hint": "운하 너머의 기록을 확인하면 열립니다.",
+      "clues": [],
+      "unlocks": [],
+      "note": ""
+    },
+    {
+      "id": "H09",
+      "epoch": "가려진 역사",
+      "column": 3,
+      "row": 0,
+      "title": "수령인란은 별도 보관",
+      "art": "res://assets/events/empty_ward_v1.png",
+      "placeholder_art": true,
+      "situation": "완치 여섯, 퇴원 없음.",
+      "condition": {
+        "type": "FLAG_ANY",
+        "flags": [
+          "ward_plate",
+          "ward_copy",
+          "ward_left"
+        ]
+      },
+      "goal": "빈 병동에서 어떤 선택이든 한다.",
+      "story": "병실에는 침대가 여섯 있었고 이불에는 사람이 누웠던 자국이 남아 있었다. 명패는 닦여 있었다. 수령인란은 별도 보관이라고만 적혀 있었다.",
+      "expands": [
+        "H10"
+      ],
+      "start_visible": false,
+      "hint": "빈 병실에서 무엇을 하든 기록됩니다.",
+      "clues": [
+        "ward_plate",
+        "ward_copy",
+        "ward_left"
+      ],
+      "unlocks": [],
+      "note": ""
+    },
+    {
+      "id": "H10",
+      "epoch": "가려진 역사",
+      "column": 4,
+      "row": 0,
+      "title": "대종이 멈춘 밤",
+      "art": "res://assets/backgrounds/battle_cathedral_v1.png",
+      "placeholder_art": true,
+      "situation": "십 년 전, 종소리가 멎었다.",
+      "condition": {
+        "type": "KILLS",
+        "kind": "boss",
+        "count": 1,
+        "character": "any"
+      },
+      "goal": "수문장을 처음 쓰러뜨린다.",
+      "story": "마지막 이름들이 지워진 밤, 종소리가 멎었다. 여러 시대의 병실과 거리가 겹쳤고, 고통을 받을 대상을 찾는 검은 안개가 퍼졌다. 성화의 대부분이 꺼졌다.",
+      "expands": [
+        "H11"
+      ],
+      "start_visible": false,
+      "hint": "강한 적을 쓰러뜨리면 열립니다.",
+      "clues": [],
+      "unlocks": [],
+      "note": ""
+    },
+    {
+      "id": "H11",
+      "epoch": "가려진 역사",
+      "column": 4,
+      "row": 1,
+      "title": "빈칸",
+      "art": "res://assets/story/ward_copy_v2.png",
+      "placeholder_art": true,
+      "situation": "지운 칸은 오래 비어 있지 않았다.",
+      "condition": {
+        "type": "POINTS",
+        "value": 600
+      },
+      "goal": "점수를 쌓는다.",
+      "story": "지워진 칸은 빈 채로 남았다. 그리고 빈 칸은 오래 비어 있지 않았다. 성당은 더 많은 이름을 지워 그 자리를 막으려 했다.",
+      "expands": [
+        "H12"
+      ],
+      "start_visible": false,
+      "hint": "점수를 쌓으면 열립니다.",
+      "clues": [],
+      "unlocks": [],
+      "note": "인과(삭제와 재배정)는 ACT2 설계안 §1-1 승인 전까지 암시에 그친다."
+    },
+    {
+      "id": "H12",
+      "epoch": "가려진 역사",
+      "column": 4,
+      "row": 2,
+      "title": "불씨 주변",
+      "art": "res://assets/ui/codex/hub_story_v1.png",
+      "placeholder_art": true,
+      "situation": "아직 지워지지 않은 기억이 남은 곳에서는 장소가 안정되었다.",
+      "condition": {
+        "type": "POINTS",
+        "value": 1000
+      },
+      "goal": "점수를 쌓는다.",
+      "story": "불씨 곁에서는 이름과 장소가 흔들리지 않았다. 사람들은 문턱마다 불씨를 나누어 가졌다. 성화는 재앙을 낳은 제도의 산물이면서, 지금 사람을 지키는 수단이었다.",
+      "expands": [],
+      "start_visible": false,
+      "hint": "점수를 쌓으면 열립니다.",
+      "clues": [],
+      "unlocks": [],
+      "note": ""
+    },
+    {
+      "id": "W01",
+      "epoch": "원정",
+      "column": 5,
+      "row": 0,
+      "title": "불씨 한 알",
+      "art": "res://assets/events/ash_keeper_v1.png",
+      "placeholder_art": true,
+      "situation": "문지기는 길을 열기 전에 불씨를 건넸다.",
+      "condition": {
+        "type": "PLAY",
+        "character": "any"
+      },
+      "goal": "원정을 한 번 시작한다.",
+      "story": "문지기는 빈손으로 들여보낼 수는 없다며 불씨 하나를 건넸다. 돌아올 사람에게만 쓰이기를 바란다는 말과 함께.",
+      "expands": [
+        "W02"
+      ],
+      "start_visible": true,
+      "hint": "원정을 떠나면 열립니다.",
+      "clues": [],
+      "unlocks": [],
+      "note": ""
+    },
+    {
+      "id": "W02",
+      "epoch": "원정",
+      "column": 5,
+      "row": 1,
+      "title": "열네 번째 금",
+      "art": "res://assets/story/canal_weighing_v1.png",
+      "placeholder_art": true,
+      "situation": "검은 운하의 수로지기는 가방의 무게부터 쟀다.",
+      "condition": {
+        "type": "ACT_REACHED",
+        "act": 2
+      },
+      "goal": "ACT II에 도착한다.",
+      "story": "물은 소리를 내지 않았다. 부두 끝의 장대에는 칼금이 열세 개, 열네 번째는 새겼다기보다 긁은 자국이었다. 이름은 자주 바뀌지만 무게는 그대로라고 수로지기는 말했다.",
+      "expands": [
+        "W03"
+      ],
+      "start_visible": false,
+      "hint": "운하에 닿으면 열립니다.",
+      "clues": [],
+      "unlocks": [
+        {
+          "id": "rapid_poison",
+          "name": "카드 · 속효성 독"
+        },
+        {
+          "id": "witness_statement",
+          "name": "카드 · 증언 청취"
+        },
+        {
+          "id": "rotting_poultice",
+          "name": "카드 · 썩은 찜질"
+        },
+        {
+          "id": "relic_common_014",
+          "name": "유물 · 빛가림 천"
+        },
+        {
+          "id": "relic_common_016",
+          "name": "유물 · 밀랍 귀퉁이"
+        },
+        {
+          "id": "relic_common_039",
+          "name": "유물 · 작업용 앞치마"
+        },
+        {
+          "id": "relic_common_041",
+          "name": "유물 · 서고 책갈피"
+        },
+        {
+          "id": "potion_text_16",
+          "name": "포션 · 지연 방울"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "W03",
+      "epoch": "원정",
+      "column": 5,
+      "row": 2,
+      "title": "돌아오지 않는 선장",
+      "art": "res://assets/map/region_atlas_v1.png",
+      "placeholder_art": true,
+      "situation": "끝난 귀항을 반복하는 선장이 있었다.",
+      "condition": {
+        "type": "BOSS_ACT",
+        "act": 2
+      },
+      "goal": "ACT II의 보스를 쓰러뜨린다.",
+      "story": "선장은 손에서 직인을 놓았다. 찍힌 자국은 항구가 아니라 온실의 이름이었다. 이송선은 아직 움직이고 있었다.",
+      "expands": [
+        "W04"
+      ],
+      "start_visible": false,
+      "hint": "운하의 끝에서 열립니다.",
+      "clues": [],
+      "unlocks": [
+        {
+          "id": "toxic_oath",
+          "name": "카드 · 독의 서약"
+        },
+        {
+          "id": "long_simmer",
+          "name": "카드 · 오래 끓인 약"
+        },
+        {
+          "id": "flowering_toxin",
+          "name": "카드 · 독의 개화"
+        },
+        {
+          "id": "slow_steep",
+          "name": "카드 · 침잠"
+        },
+        {
+          "id": "relic_uncommon_025",
+          "name": "유물 · 이름을 남기는 바늘"
+        },
+        {
+          "id": "relic_uncommon_031",
+          "name": "유물 · 두 번째 필적"
+        },
+        {
+          "id": "relic_uncommon_036",
+          "name": "유물 · 분배관 손잡이"
+        },
+        {
+          "id": "potion_text_09",
+          "name": "포션 · 마취 연무"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "W04",
+      "epoch": "원정",
+      "column": 6,
+      "row": 0,
+      "title": "유리 위의 물방울",
+      "art": "res://assets/story/timeline_w04_v1.png",
+      "placeholder_art": true,
+      "situation": "온실의 유리는 안쪽에서 흐르는 물방울로 늘 젖어 있었다.",
+      "condition": {
+        "type": "ACT_REACHED",
+        "act": 3
+      },
+      "goal": "ACT III에 도착한다.",
+      "story": "문 앞 선반에는 찻잔이 두 개 놓여 있었다. 김이 오르는 잔과 식은 잔. 온실 관리인은 손님이 온 날도, 오지 않은 날도 두 잔을 끓였다.",
+      "expands": [
+        "W05"
+      ],
+      "start_visible": false,
+      "hint": "온실에 닿으면 열립니다.",
+      "clues": [],
+      "unlocks": [
+        {
+          "id": "sip_of_courage",
+          "name": "카드 · 용기의 한 모금"
+        },
+        {
+          "id": "feverish_rush",
+          "name": "카드 · 열에 들뜬 돌진"
+        },
+        {
+          "id": "coroner_cut",
+          "name": "카드 · 부검의 칼"
+        },
+        {
+          "id": "relic_uncommon_037",
+          "name": "유물 · 손으로 적은 한도"
+        },
+        {
+          "id": "relic_rare_009",
+          "name": "유물 · 분리된 수문추"
+        },
+        {
+          "id": "relic_rare_012",
+          "name": "유물 · 미완성 안정제"
+        },
+        {
+          "id": "potion_text_12",
+          "name": "포션 · 생각의 앙금"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "W05",
+      "epoch": "원정",
+      "column": 6,
+      "row": 1,
+      "title": "접목된 원장",
+      "art": "res://assets/story/timeline_w05_v1.png",
+      "placeholder_art": true,
+      "situation": "여러 환자의 회복을 한 몸에 모은 원장이 있었다.",
+      "condition": {
+        "type": "BOSS_ACT",
+        "act": 3
+      },
+      "goal": "ACT III의 보스를 쓰러뜨린다.",
+      "story": "원장은 환자마다 한 군데씩 회복을 빌려 몸에 이어 붙였다. 처방은 끝까지 읽힌 적이 없었고 서명은 치료자 쪽만 남았다.",
+      "expands": [
+        "W06"
+      ],
+      "start_visible": false,
+      "hint": "온실의 끝에서 열립니다.",
+      "clues": [],
+      "unlocks": [
+        {
+          "id": "brewing_bench",
+          "name": "카드 · 조제대"
+        },
+        {
+          "id": "apothecary_feast",
+          "name": "카드 · 약제사의 만찬"
+        },
+        {
+          "id": "plague_bearer",
+          "name": "카드 · 역병 전파자"
+        },
+        {
+          "id": "relic_rare_015",
+          "name": "유물 · 공동 서명 처방전"
+        },
+        {
+          "id": "relic_rare_020",
+          "name": "유물 · 수령 거부서"
+        },
+        {
+          "id": "potion_text_14",
+          "name": "포션 · 서리 완충제"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "W06",
+      "epoch": "원정",
+      "column": 6,
+      "row": 2,
+      "title": "필체가 나타나는 책",
+      "art": "res://assets/story/timeline_w06_v1.png",
+      "placeholder_art": true,
+      "situation": "서고의 책에는 읽는 사람이 기억하는 사람의 필체가 떠올랐다.",
+      "condition": {
+        "type": "ACT_REACHED",
+        "act": 4
+      },
+      "goal": "ACT IV에 도착한다.",
+      "story": "사서는 이름을 돌려줄 수 있다고 했다. 이름과 함께 무엇이 돌아오는지는 책임질 수 없다고도 했다.",
+      "expands": [
+        "W07"
+      ],
+      "start_visible": false,
+      "hint": "서고에 닿으면 열립니다.",
+      "clues": [],
+      "unlocks": [
+        {
+          "id": "ash_ledger",
+          "name": "카드 · 재의 장부"
+        },
+        {
+          "id": "bitter_script",
+          "name": "카드 · 쓰라린 처방"
+        },
+        {
+          "id": "prescription_pad",
+          "name": "카드 · 처방전 첩"
+        },
+        {
+          "id": "numbed_senses",
+          "name": "카드 · 무뎌진 감각"
+        },
+        {
+          "id": "relic_epic_005",
+          "name": "유물 · 검은 온실핵"
+        },
+        {
+          "id": "relic_epic_006",
+          "name": "유물 · 반증된 제조식"
+        },
+        {
+          "id": "potion_text_10",
+          "name": "포션 · 유리 부식액"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "W07",
+      "epoch": "원정",
+      "column": 7,
+      "row": 0,
+      "title": "삭제관",
+      "art": "res://assets/story/timeline_w07_v1.png",
+      "placeholder_art": true,
+      "situation": "명령을 내린 사람까지 잊고 삭제를 이어 가는 존재가 있었다.",
+      "condition": {
+        "type": "BOSS_ACT",
+        "act": 4
+      },
+      "goal": "ACT IV의 보스를 쓰러뜨린다.",
+      "story": "삭제관의 손은 가장 정확했고 지운 이유는 가장 불확실했다. 쓰러진 자리에 원본 장부가 열려 있었다.",
+      "expands": [
+        "W08"
+      ],
+      "start_visible": false,
+      "hint": "서고의 끝에서 열립니다.",
+      "clues": [],
+      "unlocks": [
+        {
+          "id": "ether_cycle",
+          "name": "카드 · 에테르 순환"
+        },
+        {
+          "id": "grand_elixir",
+          "name": "카드 · 대영약"
+        },
+        {
+          "id": "executioners_dose",
+          "name": "카드 · 집행의 약"
+        },
+        {
+          "id": "relic_epic_010",
+          "name": "유물 · 성가대의 쉼표"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "W08",
+      "epoch": "원정",
+      "column": 7,
+      "row": 1,
+      "title": "내려놓은 등불",
+      "art": "res://assets/story/timeline_w08_v1.png",
+      "placeholder_art": true,
+      "situation": "문 앞에서 길을 비켜 주던 사람이 문 안쪽에서 기다리고 있었다.",
+      "condition": {
+        "type": "ACT_REACHED",
+        "act": 5
+      },
+      "goal": "ACT V에 도착한다.",
+      "story": "에델의 등불 손잡이에는 가는 글씨로 이름이 감겨 있었다. 불이 먼저였는지 외우는 일이 먼저였는지, 그녀는 더 이상 기억하지 못했다.",
+      "expands": [
+        "W09"
+      ],
+      "start_visible": false,
+      "hint": "성소에 닿으면 열립니다.",
+      "clues": [],
+      "unlocks": [],
+      "note": ""
+    },
+    {
+      "id": "W09",
+      "epoch": "원정",
+      "column": 7,
+      "row": 2,
+      "title": "수령 성가대",
+      "art": "res://assets/story/timeline_w09_v1.png",
+      "placeholder_art": true,
+      "situation": "이름이 비면 다음 이름을 정하는 장치가 있었다.",
+      "condition": {
+        "type": "BOSS_ACT",
+        "act": 5
+      },
+      "goal": "ACT V의 보스를 쓰러뜨린다.",
+      "story": "합창은 사람의 목소리였지만 노래하는 사람들은 합의한 적이 없었다. 장치를 멈춘 시간은 길지 않았다.",
+      "expands": [
+        "X1",
+        "X2",
+        "X3",
+        "X4"
+      ],
+      "start_visible": false,
+      "hint": "성소의 끝에서 열립니다.",
+      "clues": [],
+      "unlocks": [
+        {
+          "id": "relic_legend_002",
+          "name": "유물 · 검은 운하의 심장"
+        },
+        {
+          "id": "potion_text_20",
+          "name": "포션 · 귀환 팅크"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "M1",
+      "epoch": "미라",
+      "column": 8,
+      "row": 0,
+      "title": "소매를 걷는 사람",
+      "art": "res://assets/characters/mira_full.png",
+      "placeholder_art": true,
+      "situation": "미라는 약을 만지기 전에 소매부터 걷는다.",
+      "condition": {
+        "type": "PLAY",
+        "character": "mira"
+      },
+      "goal": "미라로 원정을 시작한다.",
+      "story": "읽기 전에 손부터 씻는 버릇이 있다. 왜 그런 버릇이 생겼는지는 기억하지 못한다. 가면 안쪽의 이름은 그녀의 필체가 아니다.",
+      "expands": [
+        "M2"
+      ],
+      "start_visible": true,
+      "hint": "이 인물과 함께 떠나면 열립니다.",
+      "clues": [],
+      "unlocks": [],
+      "note": ""
+    },
+    {
+      "id": "M2",
+      "epoch": "미라",
+      "column": 8,
+      "row": 1,
+      "title": "약어",
+      "art": "res://assets/story/mira_ledger_v1.png",
+      "placeholder_art": true,
+      "situation": "장부의 여백에 낯익은 갈고리 표시가 있었다.",
+      "condition": {
+        "type": "CLEAR_ACT",
+        "act": 1,
+        "character": "mira"
+      },
+      "goal": "미라로 ACT I을 클리어한다.",
+      "story": "경과 관찰. 긴 말을 쓰기 싫을 때 쓰던 약어였다. 그 아래에는 관찰을 끝냈다는 표시가 없었다. 다음 장의 이송란에는 인계 완료가 적혀 있었다.",
+      "expands": [
+        "M3"
+      ],
+      "start_visible": false,
+      "hint": "이 인물과 함께 성당을 끝까지 가면 열립니다.",
+      "clues": [],
+      "unlocks": [
+        {
+          "id": "venom_chain",
+          "name": "카드 · 독의 사슬"
+        },
+        {
+          "id": "patient_poison",
+          "name": "카드 · 인내하는 독"
+        },
+        {
+          "id": "unstable_mixture",
+          "name": "카드 · 불안정 혼합물"
+        },
+        {
+          "id": "double_vial",
+          "name": "카드 · 이중 병"
+        },
+        {
+          "id": "relic_common_043",
+          "name": "유물 · 사서의 먼지솔"
+        },
+        {
+          "id": "relic_uncommon_013",
+          "name": "유물 · 이중 바닥 상자"
+        },
+        {
+          "id": "potion_text_13",
+          "name": "포션 · 봉합액"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "M3",
+      "epoch": "미라",
+      "column": 8,
+      "row": 2,
+      "title": "경과 관찰",
+      "art": "res://assets/ui/codex/hub_monsters_v1.png",
+      "placeholder_art": true,
+      "situation": "누구를 계속 지켜보아야 했는지 아직 모른다.",
+      "condition": {
+        "type": "KILLS",
+        "kind": "elite",
+        "count": 10,
+        "character": "mira"
+      },
+      "goal": "미라로 엘리트를 10마리 처치한다.",
+      "story": "관찰은 끝났다는 표시 없이 이어졌다. 그녀가 쓰러뜨린 것들은 모두 누군가의 경과였는지도 모른다.",
+      "expands": [
+        "M4"
+      ],
+      "start_visible": false,
+      "hint": "이 인물이 강한 적을 거듭 쓰러뜨리면 열립니다.",
+      "clues": [],
+      "unlocks": [
+        {
+          "id": "festering",
+          "name": "카드 · 곪는 상처"
+        },
+        {
+          "id": "fever_record",
+          "name": "카드 · 열병의 기록"
+        },
+        {
+          "id": "pain_ledger",
+          "name": "카드 · 고통의 장부"
+        },
+        {
+          "id": "distilled_breath",
+          "name": "카드 · 정제된 숨"
+        },
+        {
+          "id": "vial_collector",
+          "name": "카드 · 약병 수집가"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "M4",
+      "epoch": "미라",
+      "column": 8,
+      "row": 3,
+      "title": "가면 안쪽",
+      "art": "res://assets/story/mask_name_v1.png",
+      "placeholder_art": true,
+      "situation": "누군가 다시 읽을 수 있는 곳에 이름을 남겼다.",
+      "condition": {
+        "type": "KILLS",
+        "kind": "boss",
+        "count": 5,
+        "character": "mira"
+      },
+      "goal": "미라로 보스를 5마리 처치한다.",
+      "story": "가면 안쪽의 글씨는 주문이 아니었다. 자신을 잊을 때마다 다시 읽을 수 있도록 남긴 흔적이었다. 누가 남겼는지는 아직 말할 수 없다.",
+      "expands": [],
+      "start_visible": false,
+      "hint": "이 인물이 수문장을 거듭 쓰러뜨리면 열립니다.",
+      "clues": [],
+      "unlocks": [
+        {
+          "id": "soul_binding",
+          "name": "카드 · 영혼의 구속"
+        },
+        {
+          "id": "anesthesia",
+          "name": "카드 · 전신 마취"
+        },
+        {
+          "id": "blood_pact",
+          "name": "카드 · 피의 서약"
+        },
+        {
+          "id": "second_wind",
+          "name": "카드 · 두 번째 숨"
+        },
+        {
+          "id": "plague_onset",
+          "name": "카드 · 역병의 시작"
+        },
+        {
+          "id": "borrowed_pain",
+          "name": "카드 · 옮겨진 고통"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "K1",
+      "epoch": "세버린",
+      "column": 9,
+      "row": 0,
+      "title": "판결문 속의 이름",
+      "art": "res://assets/story/timeline_k1_v1.png",
+      "placeholder_art": false,
+      "situation": "한 심문관이 자기 이름이 적힌 판결문을 들고 원정에 올랐다.",
+      "condition": {
+        "type": "PLAY",
+        "character": "severin"
+      },
+      "goal": "세버린으로 원정을 시작한다.",
+      "story": "수백 장의 판결문에 도장을 찍은 손이 마지막 한 장 앞에서 멈췄다. 이름 칸의 글자는 틀리지 않았다.",
+      "expands": [
+        "K2"
+      ],
+      "start_visible": true,
+      "hint": "이 인물과 함께 떠나면 열립니다.",
+      "clues": [],
+      "unlocks": [],
+      "note": ""
+    },
+    {
+      "id": "K2",
+      "epoch": "세버린",
+      "column": 9,
+      "row": 1,
+      "title": "찍지 않은 도장",
+      "art": "res://assets/story/timeline_k2_v1.png",
+      "placeholder_art": false,
+      "situation": "도장은 많았고 찍히지 않은 칸은 하나였다.",
+      "condition": {
+        "type": "CLEAR_ACT",
+        "act": 1,
+        "character": "severin"
+      },
+      "goal": "세버린으로 ACT I을 클리어한다.",
+      "story": "성당 지하에서 그는 자신이 서명하지 않은 판결문을 찾아냈다. 필체는 분명 자기 것이었다.",
+      "expands": [
+        "K3"
+      ],
+      "start_visible": false,
+      "hint": "이 인물과 함께 성당을 끝까지 가면 열립니다.",
+      "clues": [],
+      "unlocks": [
+        {
+          "id": "trial_by_fire",
+          "name": "카드 · 불의 시련"
+        },
+        {
+          "id": "forced_confession",
+          "name": "카드 · 자백 강요"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "S1",
+      "epoch": "칼라모",
+      "column": 10,
+      "row": 0,
+      "title": "약속의 값",
+      "art": "res://assets/story/timeline_s1_v1.png",
+      "placeholder_art": false,
+      "situation": "피리를 든 청년이 값을 받으러 원정에 올랐다.",
+      "condition": {
+        "type": "PLAY",
+        "character": "calamo"
+      },
+      "goal": "칼라모로 원정을 시작한다.",
+      "story": "쥐를 쫓아 준 대가로 약속된 것은 은화가 아니었다. 그는 아직 그 값을 정확히 말하지 않는다.",
+      "expands": [
+        "S2"
+      ],
+      "start_visible": true,
+      "hint": "이 인물과 함께 떠나면 열립니다.",
+      "clues": [],
+      "unlocks": [],
+      "note": ""
+    },
+    {
+      "id": "S2",
+      "epoch": "칼라모",
+      "column": 10,
+      "row": 1,
+      "title": "돌아오지 않은 발소리",
+      "art": "res://assets/story/timeline_s2_v1.png",
+      "placeholder_art": false,
+      "situation": "피리가 멈춘 뒤에도 따라오는 발소리가 있었다.",
+      "condition": {
+        "type": "CLEAR_ACT",
+        "act": 1,
+        "character": "calamo"
+      },
+      "goal": "칼라모로 ACT I을 클리어한다.",
+      "story": "성당 복도에서 그는 피리를 불지 않았는데 쥐들이 일제히 멈췄다. 그의 곡조가 아니었다.",
+      "expands": [
+        "S3"
+      ],
+      "start_visible": false,
+      "hint": "이 인물과 함께 성당을 끝까지 가면 열립니다.",
+      "clues": [],
+      "unlocks": [
+        {
+          "id": "rat_king_call",
+          "name": "카드 · 쥐왕의 부름"
+        },
+        {
+          "id": "march_of_the_many",
+          "name": "카드 · 다중의 행진"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "L1",
+      "epoch": "에스카",
+      "column": 11,
+      "row": 0,
+      "title": "화덕의 기억",
+      "art": "res://assets/story/timeline_l1_v1.png",
+      "placeholder_art": false,
+      "situation": "화덕 문을 등에 멘 여자가 원정에 올랐다.",
+      "condition": {
+        "type": "PLAY",
+        "character": "esca"
+      },
+      "goal": "에스카로 원정을 시작한다.",
+      "story": "오래전 그녀는 배가 고팠고 문 하나를 닫았다. 문 안쪽의 비명보다 불 냄새를 더 오래 기억한다.",
+      "expands": [
+        "L2"
+      ],
+      "start_visible": true,
+      "hint": "이 인물과 함께 떠나면 열립니다.",
+      "clues": [],
+      "unlocks": [],
+      "note": ""
+    },
+    {
+      "id": "L2",
+      "epoch": "에스카",
+      "column": 11,
+      "row": 1,
+      "title": "남겨 둔 부스러기",
+      "art": "res://assets/story/timeline_l2_v1.png",
+      "placeholder_art": false,
+      "situation": "돌아갈 길을 표시한 부스러기는 새들이 먹었다.",
+      "condition": {
+        "type": "CLEAR_ACT",
+        "act": 1,
+        "character": "esca"
+      },
+      "goal": "에스카로 ACT I을 클리어한다.",
+      "story": "이번에는 부스러기를 흘리지 않았다. 돌아갈 곳이 아직 있다고 믿지 않기로 했다.",
+      "expands": [
+        "L3"
+      ],
+      "start_visible": false,
+      "hint": "이 인물과 함께 성당을 끝까지 가면 열립니다.",
+      "clues": [],
+      "unlocks": [
+        {
+          "id": "open_the_oven",
+          "name": "카드 · 화덕 문 열기"
+        },
+        {
+          "id": "heat_haze",
+          "name": "카드 · 아지랑이"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "T1",
+      "epoch": "이야기들",
+      "column": 12,
+      "row": 0,
+      "title": "네 개의 문",
+      "art": "res://assets/backgrounds/mira_selection_gallery_v1.png",
+      "placeholder_art": true,
+      "situation": "네 사람은 서로 다른 문으로 같은 성당에 들어섰다.",
+      "condition": {
+        "type": "PLAY_ALL"
+      },
+      "goal": "모든 인물로 한 번씩 원정을 시작한다.",
+      "story": "같은 장부, 다른 이름이 읽혔다. 같은 불씨를 받았지만 각자 다른 쪽을 향했다.",
+      "expands": [
+        "T2"
+      ],
+      "start_visible": true,
+      "hint": "네 사람 모두와 떠나 보면 열립니다.",
+      "clues": [],
+      "unlocks": [],
+      "note": ""
+    },
+    {
+      "id": "T2",
+      "epoch": "이야기들",
+      "column": 12,
+      "row": 1,
+      "title": "채워지는 도감",
+      "art": "res://assets/ui/codex/hub_cards_v1.png",
+      "placeholder_art": true,
+      "situation": "도감의 빈칸이 채워질수록 지워진 것이 가까워졌다.",
+      "condition": {
+        "type": "DEX",
+        "percent": 30
+      },
+      "goal": "도감을 30% 채운다.",
+      "story": "발견한 것들이 쌓이자 발견하지 못한 것들의 윤곽이 보이기 시작했다. 빈칸은 비어 있는 동안 계속 누군가를 기다렸다.",
+      "expands": [
+        "T3"
+      ],
+      "start_visible": false,
+      "hint": "도감을 채우면 열립니다.",
+      "clues": [],
+      "unlocks": [],
+      "note": ""
+    },
+    {
+      "id": "T3",
+      "epoch": "이야기들",
+      "column": 12,
+      "row": 2,
+      "title": "처음 쓰러진 날",
+      "art": "res://assets/ui/codex/hub_relics_v1.png",
+      "placeholder_art": true,
+      "situation": "쓰러진 이름도 장부에 적혔다.",
+      "condition": {
+        "type": "FIRST_DEATH"
+      },
+      "goal": "원정에서 쓰러져 본다.",
+      "story": "쓰러진 이름 옆에는 날짜가 적혔고, 다음 원정은 그 뒤 칸에서 시작되었다. 이름이 적힌다는 것은 아직 지워지지 않았다는 뜻이기도 했다.",
+      "expands": [],
+      "start_visible": false,
+      "hint": "쓰러져 본 뒤에 열립니다.",
+      "clues": [],
+      "unlocks": [
+        {
+          "id": "blood_for_medicine",
+          "name": "카드 · 피를 약으로"
+        },
+        {
+          "id": "overdose",
+          "name": "카드 · 과잉 투약"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "X1",
+      "epoch": "그 이후",
+      "column": 13,
+      "row": 0,
+      "title": "남겨진 불",
+      "art": "res://assets/map/expedition-parchment-v2.png",
+      "placeholder_art": true,
+      "situation": "장치를 고쳐 자원자와 한도를 기록했다.",
+      "condition": {
+        "type": "ENDING",
+        "id": "kept_fire"
+      },
+      "goal": "결말: 남겨진 불에 닿는다.",
+      "story": "강제 배정은 사라지고 자원자와 한도가 기록되었다. 마을의 불은 유지된다. 에델은 처음으로 모든 칸에 이름을 적었다.",
+      "expands": [],
+      "start_visible": false,
+      "hint": "끝에 닿으면 열립니다.",
+      "clues": [],
+      "unlocks": [],
+      "note": ""
+    },
+    {
+      "id": "X2",
+      "epoch": "그 이후",
+      "column": 13,
+      "row": 1,
+      "title": "긴 밤의 귀환",
+      "art": "res://assets/backgrounds/title_ruins_v1.png",
+      "placeholder_art": true,
+      "situation": "성화를 단계적으로 끄고 사람들을 옮겼다.",
+      "condition": {
+        "type": "ENDING",
+        "id": "long_night"
+      },
+      "goal": "결말: 긴 밤의 귀환에 닿는다.",
+      "story": "세계 전체를 한 번에 고치지는 못했다. 일부 마을과 길은 포기해야 했다. 준비가 부족해도 선택은 가능했지만 결과는 더 어려웠다.",
+      "expands": [],
+      "start_visible": false,
+      "hint": "끝에 닿으면 열립니다.",
+      "clues": [],
+      "unlocks": [],
+      "note": ""
+    },
+    {
+      "id": "X3",
+      "epoch": "그 이후",
+      "column": 13,
+      "row": 2,
+      "title": "각자의 등불",
+      "art": "res://assets/map/cathedral_atlas_v1.png",
+      "placeholder_art": true,
+      "situation": "중앙 분배를 해체하고 작은 그릇과 공개된 명부로 서로 도왔다.",
+      "condition": {
+        "type": "ENDING",
+        "id": "own_lamps"
+      },
+      "goal": "결말: 각자의 등불에 닿는다.",
+      "story": "영구적인 무상 기적은 사라졌다. 기억과 책임이 여러 사람에게 나뉘었다. 희생이 없는 비밀 정답은 아니었다.",
+      "expands": [],
+      "start_visible": false,
+      "hint": "끝에 닿으면 열립니다.",
+      "clues": [],
+      "unlocks": [],
+      "note": ""
+    },
+    {
+      "id": "X4",
+      "epoch": "그 이후",
+      "column": 13,
+      "row": 3,
+      "title": "이름을 쓴다",
+      "art": "res://assets/story/mask_name_v1.png",
+      "placeholder_art": true,
+      "situation": "같은 이름을 스스로 서명했다.",
+      "condition": {
+        "type": "ENDING",
+        "id": "all"
+      },
+      "goal": "세 결말에 모두 닿는다.",
+      "story": "이안이 남긴 이름을 버리지도, 운명처럼 따르지도 않았다. 그 이름으로 어떤 사람이 될지를 스스로 정했다.",
+      "expands": [],
+      "start_visible": false,
+      "hint": "세 갈래의 끝을 모두 보면 열립니다.",
+      "clues": [],
+      "unlocks": [],
+      "note": ""
+    },
+    {
+      "id": "K3",
+      "art": "res://assets/story/timeline_k3_v1.png",
+      "placeholder_art": false,
+      "start_visible": false,
+      "clues": [],
+      "unlocks": [
+        {
+          "id": "rack_and_wheel",
+          "name": "카드 · 고문대"
+        },
+        {
+          "id": "sin_ledger",
+          "name": "카드 · 죄목 장부"
+        }
+      ],
+      "note": "",
+      "epoch": "세버린",
+      "column": 9,
+      "row": 2,
+      "title": "열 번째 판결",
+      "situation": "그는 판결을 세는 것을 그만둔 지 오래다.",
+      "condition": {
+        "type": "KILLS",
+        "kind": "elite",
+        "count": 10,
+        "character": "severin"
+      },
+      "goal": "세버린으로 엘리트를 10마리 처치한다.",
+      "story": "죄목이 쌓일 때마다 장부 한 줄이 채워졌다. 그가 몇 번째 판결에서 줄을 세는 것을 그만두었는지는 장부에도 적혀 있지 않다.",
+      "expands": [
+        "K4"
+      ],
+      "hint": "이 인물이 강한 적을 거듭 쓰러뜨리면 열립니다."
+    },
+    {
+      "id": "K4",
+      "art": "res://assets/story/timeline_k4_v1.png",
+      "placeholder_art": false,
+      "start_visible": false,
+      "clues": [],
+      "unlocks": [
+        {
+          "id": "grand_inquisition",
+          "name": "카드 · 대심문"
+        },
+        {
+          "id": "heretics_pyre",
+          "name": "카드 · 이단자의 장작"
+        },
+        {
+          "id": "inquest",
+          "name": "카드 · 심문 개시"
+        },
+        {
+          "id": "sealed_judgement",
+          "name": "카드 · 봉인된 판결"
+        }
+      ],
+      "note": "",
+      "epoch": "세버린",
+      "column": 9,
+      "row": 3,
+      "title": "도장을 든 손",
+      "situation": "도장을 쥔 손이 누구의 것인지 이제 그는 묻는다.",
+      "condition": {
+        "type": "KILLS",
+        "kind": "boss",
+        "count": 5,
+        "character": "severin"
+      },
+      "goal": "세버린으로 보스를 5마리 처치한다.",
+      "story": "다섯 번의 마지막 판결 뒤에도 도장은 가벼웠다. 가벼운 도장이 가장 무거운 것을 눌렀다는 것을 그는 뒤늦게 알았다.",
+      "expands": [],
+      "hint": "이 인물이 강한 적을 거듭 쓰러뜨리면 열립니다."
+    },
+    {
+      "id": "S3",
+      "art": "res://assets/story/timeline_s3_v1.png",
+      "placeholder_art": false,
+      "start_visible": false,
+      "clues": [],
+      "unlocks": [
+        {
+          "id": "gnawing_hunger",
+          "name": "카드 · 갉아대는 허기"
+        },
+        {
+          "id": "rat_burrow",
+          "name": "카드 · 쥐구멍"
+        }
+      ],
+      "note": "",
+      "epoch": "칼라모",
+      "column": 10,
+      "row": 2,
+      "title": "열 번째 구멍",
+      "situation": "쥐구멍은 늘 한 개 더 있었다.",
+      "condition": {
+        "type": "KILLS",
+        "kind": "elite",
+        "count": 10,
+        "character": "calamo"
+      },
+      "goal": "칼라모로 엘리트를 10마리 처치한다.",
+      "story": "쥐 떼는 그가 부르기 전에 이미 길을 알고 있었다. 길이 누가 낸 것인지는 아직 묻지 않았다.",
+      "expands": [
+        "S4"
+      ],
+      "hint": "이 인물이 강한 적을 거듭 쓰러뜨리면 열립니다."
+    },
+    {
+      "id": "S4",
+      "art": "res://assets/story/timeline_s4_v1.png",
+      "placeholder_art": false,
+      "start_visible": false,
+      "clues": [],
+      "unlocks": [
+        {
+          "id": "stampede",
+          "name": "카드 · 쥐 떼 방출"
+        },
+        {
+          "id": "endless_march",
+          "name": "카드 · 끝없는 행진"
+        },
+        {
+          "id": "canon",
+          "name": "카드 · 돌림노래"
+        },
+        {
+          "id": "debt_collection",
+          "name": "카드 · 대가 요구"
+        }
+      ],
+      "note": "",
+      "epoch": "칼라모",
+      "column": 10,
+      "row": 3,
+      "title": "값을 센 날",
+      "situation": "받아 낸 값을 세어 본 날이 있었다.",
+      "condition": {
+        "type": "KILLS",
+        "kind": "boss",
+        "count": 5,
+        "character": "calamo"
+      },
+      "goal": "칼라모로 보스를 5마리 처치한다.",
+      "story": "다섯 번째 보스 앞에서 그는 처음으로 피리를 입에서 뗐다. 값은 곡이 끝난 뒤에야 얼마였는지 알 수 있다.",
+      "expands": [],
+      "hint": "이 인물이 강한 적을 거듭 쓰러뜨리면 열립니다."
+    },
+    {
+      "id": "L3",
+      "art": "res://assets/story/timeline_l3_v1.png",
+      "placeholder_art": false,
+      "start_visible": false,
+      "clues": [],
+      "unlocks": [
+        {
+          "id": "witch_in_the_oven",
+          "name": "카드 · 화덕 속의 마녀"
+        },
+        {
+          "id": "coal_bed",
+          "name": "카드 · 숯불 자리"
+        }
+      ],
+      "note": "",
+      "epoch": "에스카",
+      "column": 11,
+      "row": 2,
+      "title": "아직 붉은 숯",
+      "situation": "식은 줄 알았던 숯에서 붉은 빛이 다시 올라왔다.",
+      "condition": {
+        "type": "KILLS",
+        "kind": "elite",
+        "count": 10,
+        "character": "esca"
+      },
+      "goal": "에스카로 엘리트를 10마리 처치한다.",
+      "story": "불씨는 쌓일수록 조용해졌다. 조용한 불이 가장 오래 탄다는 것을 그녀는 몸으로 알고 있다.",
+      "expands": [
+        "L4"
+      ],
+      "hint": "이 인물이 강한 적을 거듭 쓰러뜨리면 열립니다."
+    },
+    {
+      "id": "L4",
+      "art": "res://assets/story/timeline_l4_v1.png",
+      "placeholder_art": false,
+      "start_visible": false,
+      "clues": [],
+      "unlocks": [
+        {
+          "id": "inferno",
+          "name": "카드 · 불지옥"
+        },
+        {
+          "id": "hearth_keeper",
+          "name": "카드 · 화덕지기"
+        },
+        {
+          "id": "pyre_dance",
+          "name": "카드 · 불꽃 춤"
+        },
+        {
+          "id": "fire_to_the_witch",
+          "name": "카드 · 던진 부지깽이"
+        }
+      ],
+      "note": "",
+      "epoch": "에스카",
+      "column": 11,
+      "row": 3,
+      "title": "화덕 문 앞의 주인",
+      "situation": "문을 닫는 손과 여는 손이 같은 손이었다.",
+      "condition": {
+        "type": "KILLS",
+        "kind": "boss",
+        "count": 5,
+        "character": "esca"
+      },
+      "goal": "에스카로 보스를 5마리 처치한다.",
+      "story": "다섯 번째 보스를 쓰러뜨린 날 그녀는 문을 열어 둔 채 잠들었다. 오래된 불이 처음으로 밖을 향해 탔다.",
+      "expands": [],
+      "hint": "이 인물이 강한 적을 거듭 쓰러뜨리면 열립니다."
+    }
+  ]
 }

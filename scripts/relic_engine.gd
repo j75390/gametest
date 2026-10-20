@@ -6,7 +6,7 @@ extends RefCounted
 ## sums the `add` values of entries that adjust a number (damage, draw, healing...). Both honour limits.
 ## Relics without `effects` keep working through the old single-field bonuses in main.gd.
 const Data = preload("res://scripts/game_data.gd")
-const OPS := ["block", "heal", "energy", "draw", "gold", "poison_enemy", "max_hp", "cleanse_poison", "upgrade_random", "heal_pct", "hp_loss", "survive"]
+const OPS := ["block", "heal", "energy", "draw", "gold", "poison_enemy", "max_hp", "cleanse_poison", "upgrade_random", "heal_pct", "hp_loss", "survive", "negate", "reduce", "reflect", "enemy_weak", "repeat_block", "repeat_potion", "potion", "self_poison", "retain"]
 
 var battle := {}
 var turn := {}
@@ -93,6 +93,7 @@ func conditions_met(cond: Dictionary, ctx: Dictionary) -> bool:
 			"turn_every": if int(ctx.get("turn", 0)) % int(want) != 0: return false
 			"hp_ratio_max": if float(ctx.get("hp", 0)) > float(ctx.get("max_hp", 1)) * float(want): return false
 			"hp_max": if int(ctx.get("hp", 0)) > int(want): return false
+			"hp_min": if int(ctx.get("hp", 0)) < int(want): return false
 			"kind": if str(ctx.get("kind", "")) != str(want): return false
 			"enemy_poison": if (int(ctx.get("enemy_poison", 0)) > 0) != bool(want): return false
 			"enemy_venom": if (int(ctx.get("enemy_venom", 0)) > 0) != bool(want): return false
@@ -117,6 +118,8 @@ func conditions_met(cond: Dictionary, ctx: Dictionary) -> bool:
 			"flag": if not battle.flags.has(str(want)): return false
 			"energy_left": if (int(ctx.get("energy", 0)) > 0) != bool(want): return false
 			"turn_min": if int(ctx.get("turn", 0)) < int(want): return false
+			"turn_max": if int(ctx.get("turn", 0)) > int(want): return false
+			"debuff": if str(ctx.get("debuff", "")) != str(want): return false
 			"prev_turn_hp_lost": if bool(battle.get("prev_hp_lost", false)) != bool(want): return false
 			"upgraded_cards_min": if int(ctx.get("upgraded_cards", 0)) < int(want): return false
 			"card_upgraded": if bool(card.get("upgraded", false)) != bool(want): return false
@@ -188,6 +191,17 @@ func modify(trigger: String, ctx: Dictionary, owned: Array) -> int:
 			total += int(effect.get("add", 0))
 		lines.append("%s" % entry.relic.name)
 	return total
+
+## Product of the `mult` of the entries that apply (and use them up): 2 means "twice the amount". 1 when none applies.
+func multiplier(trigger: String, ctx: Dictionary, owned: Array) -> int:
+	var factor := 1
+	for entry in _entries(trigger, owned):
+		var effect: Dictionary = entry.effect
+		if not _available(entry) or not conditions_met(effect.get("if", {}), ctx): continue
+		_spend(entry)
+		factor *= maxi(1, int(effect.get("mult", 1)))
+		lines.append("%s" % entry.relic.name)
+	return factor
 
 ## Looks at what a trigger would give without using up any limit (for prices shown before the choice).
 ## Returns {"add": sum of `add`, "free": true when a `free` entry is still available}.

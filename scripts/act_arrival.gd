@@ -12,6 +12,10 @@ var art_frame: Control
 var quote_bar: ColorRect
 var progress: Label
 var typing: Tween
+var base_font_size := 25
+## Relic ids shown as a row at the top right (set by the game before the page is added).
+var relic_ids: Array = []
+var shown_text := ""
 const TEXT_TOP := 256.0
 const ACTIONS_GAP := 36.0
 
@@ -76,6 +80,11 @@ func _ready() -> void:
 		actions.position.x = 120
 		actions.size.x = 1200
 		dialogue.add_theme_font_size_override("font_size", 24)
+	base_font_size = dialogue.get_theme_font_size("font_size")
+	if not relic_ids.is_empty():
+		var strip = preload("res://scripts/relic_strip.gd").build(relic_ids, 732.0 if art_frame.visible else 1200.0, 40.0)
+		strip.position = Vector2(632 if art_frame.visible else 120, 14)
+		canvas.add_child(strip)
 	canvas.modulate.a = 0.0
 	create_tween().tween_property(canvas,"modulate:a",1.0,0.5)
 	resized.connect(fit)
@@ -137,25 +146,51 @@ func finish_typing() -> void:
 
 ## Puts a page of text on screen: the box fits the text, the choices sit right under it, and the words
 ## appear a few letters at a time before the choices fade in.
-func present(text: String) -> void:
-	dialogue.text = text
+## The height the text needs at the current font size and box width.
+func measure(text: String) -> float:
 	var font := dialogue.get_theme_font("font")
 	var font_size := dialogue.get_theme_font_size("font_size")
 	var box := font.get_multiline_string_size(text,HORIZONTAL_ALIGNMENT_LEFT,dialogue.size.x,font_size)
 	var line_count := maxi(1,roundi(box.y / font.get_height(font_size)))
-	var wanted := maxf(96.0,box.y + line_count * float(dialogue.get_theme_constant("line_spacing")) + 12.0)
-	dialogue.size.y = wanted
+	return maxf(96.0,box.y + line_count * float(dialogue.get_theme_constant("line_spacing")) + 12.0)
+
+func apply_height(wanted: float) -> void:
 	dialogue.size.y = wanted
 	quote_bar.size.y = wanted - 8.0
 	actions.position.y = TEXT_TOP + wanted + ACTIONS_GAP
+
+## A page with a long text (many earlier choices add sentences) and several buttons could run past the bottom of the screen:
+## the text then gets a smaller font, a step at a time, until the last button fits.
+func fit_text() -> void:
+	var buttons_height := 0.0
+	for child in actions.get_children(): buttons_height += maxf((child as Control).custom_minimum_size.y, 82.0) + 14.0
+	var size := base_font_size
+	dialogue.add_theme_font_size_override("font_size", size)
+	var wanted := measure(shown_text)
+	while size > 17 and TEXT_TOP + wanted + ACTIONS_GAP + buttons_height > 872.0:
+		size -= 1
+		dialogue.add_theme_font_size_override("font_size", size)
+		wanted = measure(shown_text)
+	apply_height(wanted)
+
+func present(text: String) -> void:
+	shown_text = text
+	dialogue.text = text
+	dialogue.add_theme_font_size_override("font_size", base_font_size)
+	var wanted := measure(text)
+	apply_height(wanted)
 	if progress != null:
 		progress.text = "%d / %d" % [mini(dialogue_index + 1, event.dialogue.size()), event.dialogue.size()] if event.dialogue.size() > 1 and dialogue_index < event.dialogue.size() else ""
 	if typing != null and typing.is_valid(): typing.kill()
 	dialogue.visible_ratio = 0.0
 	actions.modulate.a = 0.0
 	typing = create_tween()
-	typing.tween_property(dialogue,"visible_ratio",1.0,clampf(text.length() * 0.022,0.4,2.6))
-	typing.tween_property(actions,"modulate:a",1.0,0.25)
+	var factor: float = preload("res://scripts/game_settings.gd").text_factor()
+	if factor <= 0.0:
+		dialogue.visible_ratio = 1.0
+	else:
+		typing.tween_property(dialogue,"visible_ratio",1.0,clampf(text.length() * 0.022,0.4,2.6) * factor)
+	typing.tween_property(actions,"modulate:a",1.0,0.25 if factor > 0.0 else 0.05)
 
 func show_dialogue() -> void:
 	present(str(event.dialogue[dialogue_index]).replace("{hero}",hero_name))
@@ -183,9 +218,11 @@ func show_dialogue() -> void:
 			if choice.get("reward","") == "card":
 				option.disabled = offered_card.is_empty()
 				if not offered_card.is_empty(): option.tooltip_text = preload("res://scripts/game_data.gd").effect_text(offered_card)
+	fit_text()
 
 func show_result(reply: String) -> void:
 	present(reply)
 	progress.text = ""
 	clear_actions()
 	button(event.get("continue_label", "성당으로 들어간다  →"),func(): continue_requested.emit())
+	fit_text()

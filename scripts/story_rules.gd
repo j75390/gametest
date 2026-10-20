@@ -54,7 +54,13 @@ static func effect_summary(choice: Dictionary, relic_db: Array = []) -> String:
 			if str(record.get("id", "")) == relic_name: relic_name = str(record.get("name", relic_name))
 		parts.append("유물 ‘%s’ 획득" % relic_name)
 	if choice.has("battle"): parts.append("엘리트 전투" if str(choice.battle) == "엘리트" else "전투 발생")
-	var pending := {"next_battle_first_turn_block_minus_3": "다음 전투 첫 턴 방어도 -3"}
+	var pending := {
+		"next_battle_first_turn_block_minus_3": "다음 전투 첫 턴 방어도 -3",
+		"next_battle_enemy_weak_2": "다음 전투 적 약화 2",
+		"next_battle_enemy_vulnerable_2": "다음 전투 적 취약 2",
+		"next_battle_enemy_strength_2": "다음 전투 적 힘 +2",
+		"next_battle_start_block_12": "다음 전투 시작 방어도 +12",
+	}
 	if choice.has("pending_effect"): parts.append(str(pending.get(str(choice.pending_effect), "다음 전투에 영향")))
 	var outcomes: Array = choice.get("outcomes", [])
 	if not outcomes.is_empty():

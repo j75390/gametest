@@ -1,6 +1,7 @@
 extends Control
 const Data = preload("res://scripts/game_data.gd")
 const CardStyle = preload("res://scripts/card_style.gd")
+const FrameTint = preload("res://scripts/frame_tint.gd")
 const CARD_SIZE := Vector2(220, 330)
 var definition: Dictionary
 var active := false
@@ -33,6 +34,8 @@ func setup(card: Dictionary) -> void:
 	frame.size = CARD_SIZE
 	frame.texture_filter = CanvasItem.TEXTURE_FILTER_LINEAR_WITH_MIPMAPS
 	frame.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	var tint := FrameTint.material_for(str(card.get("character", "")))
+	if tint != null: frame.material = tint
 	add_child(frame)
 	_label("Name", str(card.name), Rect2(51, 21, 134, 25), 22 if str(card.name).length() < 6 else 18, Color("211721"), true)
 	var energy := _label("Energy", "X" if card.get("x", false) else str(int(card.cost)), Rect2(13, 22, 31, 34), 28, Color("fff5e0"), true)
@@ -52,8 +55,9 @@ func show_damage(value: int) -> void:
 	if base <= 0 or value == base: return
 	var shown := definition.duplicate(true)
 	shown["damage"] = value
-	var text := Data.effect_text(shown).replace(". ", ".
-")
+	# the value already counts what a sin / rat / ember adds, so the "per sin" line is dropped from the shown text
+	for key in ["sin_damage", "rat_damage", "ember_damage"]: shown.erase(key)
+	var text := Data.effect_text(shown).replace(". ", ".\n")
 	var words := text.split(" ")
 	for i in range(words.size()): words[i] = "⁠".join(words[i].split(""))
 	effect_label.text = " ".join(words)

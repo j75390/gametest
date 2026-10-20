@@ -7,10 +7,11 @@ const TRACKS := {
 	"boss": "boss_receiver.wav", "shop": "shop_candle.wav", "story": "story_margin.wav"}
 const SCREEN_TRACK := {
 	"menu": "title", "character_select": "title", "arrival": "story", "map": "map", "encounter": "map",
-	"reward": "map", "shop": "shop", "story_event": "story", "game_over": "story"}
+	"reward": "map", "shop": "shop", "story_event": "story", "ending": "story", "game_over": "story"}
 const BUS := "Music"
 const FADE := 1.5
 const BASE_DB := -12.0
+const SFX_TRIM_DB := 3.0
 static var path := "user://audio_settings.json"
 
 var current := ""
@@ -18,6 +19,8 @@ var players: Array[AudioStreamPlayer] = []
 var active := 0
 var volume := 0.8
 var muted := false
+var sfx_volume := 0.8
+var sfx_muted := false
 var cache := {}
 var resume := {}
 var fades := {}
@@ -95,11 +98,30 @@ func set_muted(value: bool) -> void:
 	_apply_bus()
 	_save_settings()
 
+func set_sfx_volume(value: float) -> void:
+	sfx_volume = clampf(value, 0.0, 1.0)
+	_apply_bus()
+	_save_settings()
+
+func set_sfx_muted(value: bool) -> void:
+	sfx_muted = value
+	_apply_bus()
+	_save_settings()
+
+## The music and the sound effects each have their own volume and mute. Both buses are made here when missing, so the saved
+## settings reach the effects from the first sound (sfx.gd only adds its bus when it is not there yet).
+## The effects were made as loud as the music's peaks, so their bus sits 3 dB lower.
 func _apply_bus() -> void:
-	var bus := AudioServer.get_bus_index(BUS)
-	if bus < 0: return
-	AudioServer.set_bus_mute(bus, muted or volume <= 0.001)
-	AudioServer.set_bus_volume_db(bus, BASE_DB + linear_to_db(maxf(volume, 0.001)))
+	for bus_name in [BUS, "SFX"]:
+		if AudioServer.get_bus_index(bus_name) < 0:
+			AudioServer.add_bus()
+			AudioServer.set_bus_name(AudioServer.bus_count - 1, bus_name)
+	var music_bus := AudioServer.get_bus_index(BUS)
+	AudioServer.set_bus_mute(music_bus, muted or volume <= 0.001)
+	AudioServer.set_bus_volume_db(music_bus, BASE_DB + linear_to_db(maxf(volume, 0.001)))
+	var sfx_bus := AudioServer.get_bus_index("SFX")
+	AudioServer.set_bus_mute(sfx_bus, sfx_muted or sfx_volume <= 0.001)
+	AudioServer.set_bus_volume_db(sfx_bus, BASE_DB + linear_to_db(maxf(sfx_volume, 0.001)) - SFX_TRIM_DB)
 
 func _load_settings() -> void:
 	if not FileAccess.file_exists(path): return
@@ -107,7 +129,10 @@ func _load_settings() -> void:
 	if parsed is Dictionary:
 		volume = clampf(float(parsed.get("music_volume", volume)), 0.0, 1.0)
 		muted = parsed.get("music_muted", false) == true
+		# a settings file from before the effects had their own control: they kept following the music, so start from the same level
+		sfx_volume = clampf(float(parsed.get("sfx_volume", volume)), 0.0, 1.0)
+		sfx_muted = parsed.get("sfx_muted", muted) == true
 
 func _save_settings() -> void:
 	var file := FileAccess.open(path, FileAccess.WRITE)
-	if file: file.store_string(JSON.stringify({"music_volume": volume, "music_muted": muted}))
+	if file: file.store_string(JSON.stringify({"music_volume": volume, "music_muted": muted, "sfx_volume": sfx_volume, "sfx_muted": sfx_muted}))

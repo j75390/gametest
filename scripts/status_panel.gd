@@ -91,6 +91,8 @@ func setup(unit_name: String, hp: int, maximum: int, statuses, block := 0, width
 	var row := HFlowContainer.new()
 	row.custom_minimum_size.y = 34
 	add_child(row)
+	# with many statuses (power cards pile up) the icons get smaller so the rows stay clear of the hand
+	var icon_px := 34.0 if statuses.entries.size() <= 10 else (28.0 if statuses.entries.size() <= 15 else 24.0)
 	for id in statuses.entries:
 		var record := Data.find_record("powers", id)
 		var icon = preload("res://scripts/battle_unit_view.gd").new()
@@ -98,7 +100,7 @@ func setup(unit_name: String, hp: int, maximum: int, statuses, block := 0, width
 		icon.texture = load(record.art)
 		icon.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 		icon.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
-		icon.custom_minimum_size = Vector2(34, 34)
+		icon.custom_minimum_size = Vector2(icon_px, icon_px)
 		icon.mouse_filter = Control.MOUSE_FILTER_STOP
 		var count: int = statuses.amount(id)
 		icon.tooltip_text = describe(id, statuses, maximum)
@@ -110,4 +112,4 @@ func setup(unit_name: String, hp: int, maximum: int, statuses, block := 0, width
 		number.add_theme_constant_override("shadow_offset_y", 1)
 		number.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		icon.add_child(number)
-		number.position = Vector2(20, 15)
+		number.position = Vector2(icon_px * 0.58, icon_px * 0.44)

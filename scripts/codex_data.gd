@@ -11,12 +11,20 @@ const RARITY_ORDER := ["시작", "일반", "고급", "희귀", "영웅", "전설
 const RARITY_COLORS := {
 	"시작": Color("9aa0aa"), "일반": Color("b9b3a5"), "고급": Color("62b87a"), "희귀": Color("5d9be6"),
 	"영웅": Color("b974e8"), "전설": Color("e8b04a"), "고대": Color("d65a5a")}
-const OWNER_ORDER := ["common", "mira", "kalian", "sera", "lucian"]
+const OWNER_ORDER := ["common", "mira", "severin", "calamo", "esca"]
 
 static func state(kind: String, record: Dictionary) -> String:
 	var gate := str(record.get("unlock_entry", ""))
 	if not gate.is_empty() and not Timeline.unlocked().has(gate): return "locked"
 	return "found" if Discovery.has(kind, str(record.id)) else "hidden"
+
+## Where a locked record comes from: the timeline entry that opens it (its title only when that entry is already visible on the timeline).
+static func unlock_hint(record: Dictionary) -> String:
+	var gate := str(record.get("unlock_entry", ""))
+	if gate.is_empty(): return ""
+	var entry: Dictionary = Timeline.entry(gate)
+	if entry.is_empty() or not Timeline.load_state().visible.has(gate): return "연대표에서 아직 보이지 않는 칸을 열면 해금됩니다."
+	return "연대표 「%s」 칸을 열면 해금됩니다.\n%s" % [str(entry.title), Timeline.hint(entry)]
 
 static func owner_name(id: String) -> String:
 	for ch in Data.read("characters"):
