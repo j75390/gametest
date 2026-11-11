@@ -12,7 +12,10 @@
           "damage": 9
         },
         "character_art": {
-          "mira": "res://assets/cards/mira/strike_scene_v2.png"
+          "mira": "res://assets/cards/mira/strike_scene_v2.png",
+          "severin": "res://assets/cards/severin/strike_v1.png",
+          "calamo": "res://assets/cards/calamo/strike_v1.png",
+          "esca": "res://assets/cards/esca/strike_v1.png"
         },
         "id": "strike",
         "name": "타격",
@@ -39,7 +42,10 @@
           "block": 8
         },
         "character_art": {
-          "mira": "res://assets/cards/mira/defend_scene_v4.png"
+          "mira": "res://assets/cards/mira/defend_scene_v4.png",
+          "severin": "res://assets/cards/severin/defend_v1.png",
+          "calamo": "res://assets/cards/calamo/defend_v1.png",
+          "esca": "res://assets/cards/esca/defend_v1.png"
         },
         "id": "defend",
         "name": "수비",
@@ -9051,14 +9057,14 @@
       "id": "rats",
       "name": "쥐",
       "target": "SELF",
-      "effect": "턴이 끝날 때 쥐 한 마리마다 적에게 피해 1을 줍니다. 적의 공격 한 번을 만나면 쥐 한 마리가 대신 맞아 그 피해를 4 줄이고 사라집니다.",
+      "effect": "턴이 끝날 때 쥐 한 마리마다 적에게 피해 1을 줍니다. 적에게 공격당할 때마다 쥐 한 마리가 대신 맞아서 피해를 4 줄이고 사라집니다.",
       "art": "res://assets/status/rats_nc_v1.png",
       "category": "BUFF",
       "stack_mode": "COUNTER",
       "duration": 0,
       "max_stack": 12,
       "trigger": "턴 종료 · 피격 시",
-      "tooltip": "턴이 끝날 때 쥐 한 마리마다 적에게 피해 1을 줍니다. 적의 공격 한 번을 만나면 쥐 한 마리가 대신 맞아 그 피해를 4 줄이고 사라집니다.",
+      "tooltip": "턴이 끝날 때 쥐 한 마리마다 적에게 피해 1을 줍니다. 적에게 공격당할 때마다 쥐 한 마리가 대신 맞아서 피해를 4 줄이고 사라집니다.",
       "type": "버프"
     },
     {
@@ -42755,8 +42761,8 @@
         "trigger": "턴 종료 · 피격 시",
         "duration": 0,
         "max_stack": 12,
-        "effect": "턴이 끝날 때 쥐 한 마리마다 적에게 피해 1을 줍니다. 적의 공격 한 번을 만나면 쥐 한 마리가 대신 맞아 그 피해를 4 줄이고 사라집니다.",
-        "tooltip": "턴이 끝날 때 쥐 한 마리마다 적에게 피해 1을 줍니다. 적의 공격 한 번을 만나면 쥐 한 마리가 대신 맞아 그 피해를 4 줄이고 사라집니다.",
+        "effect": "턴이 끝날 때 쥐 한 마리마다 적에게 피해 1을 줍니다. 적에게 공격당할 때마다 쥐 한 마리가 대신 맞아서 피해를 4 줄이고 사라집니다.",
+        "tooltip": "턴이 끝날 때 쥐 한 마리마다 적에게 피해 1을 줍니다. 적에게 공격당할 때마다 쥐 한 마리가 대신 맞아서 피해를 4 줄이고 사라집니다.",
         "remove_condition": "전투가 끝나면 제거",
         "icon": "res://assets/status/rats_nc_v1.png",
         "art_source": "Codex delivery",

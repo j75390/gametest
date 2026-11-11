@@ -37,10 +37,6 @@ static func cards(character: String) -> Array:
 	for owner in OWNER_ORDER:
 		for card in pools.get(owner, []):
 			rows.append({"record": card, "owner": owner, "state": state("카드", card)})
-	for owner in pools:
-		if not OWNER_ORDER.has(owner):
-			for card in pools[owner]:
-				rows.append({"record": card, "owner": owner, "state": state("카드", card)})
 	return rows
 
 static func collectibles(kind: String) -> Array:

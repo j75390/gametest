@@ -2550,7 +2550,7 @@ const HINTS := {
 	"reward": "카드는 하나만 고르거나 건너뛸 수 있습니다. 덱이 얇을수록 좋은 카드를 자주 뽑습니다.",
 	# the first fight of each new character explains its own counter in one line
 	"mech_severin": "죄목은 적에게 쌓입니다. 판결 카드를 쓰면 죄목 1개마다 피해가 늘고, 쓴 죄목은 사라집니다.",
-	"mech_calamo": "쥐는 턴이 끝날 때 적을 물고, 적의 공격 한 번마다 한 마리가 대신 맞아 피해를 줄입니다.",
+	"mech_calamo": "쥐는 턴이 끝날 때 적을 물고, 적에게 공격당할 때마다 한 마리가 대신 맞아서 피해를 줄입니다.",
 	"mech_esca": "불씨를 모아 두면 턴 시작에 방어도가 생깁니다. 화덕 카드는 불씨를 모두 태워 피해로 바꿉니다.",
 }
 static var hints_file := "user://hints_seen.json"

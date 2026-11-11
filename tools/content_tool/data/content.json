@@ -27,7 +27,10 @@
           "damage": 9
         },
         "character_art": {
-          "mira": "res://assets/cards/mira/strike_scene_v2.png"
+          "mira": "res://assets/cards/mira/strike_scene_v2.png",
+          "severin": "res://assets/cards/severin/strike_v1.png",
+          "calamo": "res://assets/cards/calamo/strike_v1.png",
+          "esca": "res://assets/cards/esca/strike_v1.png"
         }
       }
     },
@@ -58,7 +61,10 @@
           "block": 8
         },
         "character_art": {
-          "mira": "res://assets/cards/mira/defend_scene_v4.png"
+          "mira": "res://assets/cards/mira/defend_scene_v4.png",
+          "severin": "res://assets/cards/severin/defend_v1.png",
+          "calamo": "res://assets/cards/calamo/defend_v1.png",
+          "esca": "res://assets/cards/esca/defend_v1.png"
         }
       }
     },
