@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240" role="img" aria-label="잿빛 원정대">
+  <title>잿빛 원정대</title>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#E0B764"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+    <clipPath id="c"><rect x="275.0" y="40" height="120" width="0"><animate attributeName="width" values="0;450;450;0" keyTimes="0;0.35;0.85;1" dur="7s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+  <text x="500" y="130" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Serif KR',serif" font-size="92" font-weight="800" fill="url(#g)" textLength="430" lengthAdjust="spacingAndGlyphs" clip-path="url(#c)">잿빛 원정대</text>
+  <rect y="58" width="5" height="84" rx="2" fill="#E0B764"><animate attributeName="x" values="277.0;721.0;721.0;277.0" keyTimes="0;0.35;0.85;1" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/></rect>
+  <text x="500" y="196" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="26" letter-spacing="6" fill="#8b949e" opacity="0">ASHEN EXPEDITION  ·  DARK GOTHIC DECK-BUILDING ROGUELIKE<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.3;0.45;0.85;1" dur="7s" repeatCount="indefinite"/></text>
+</svg>
