@@ -97,17 +97,17 @@ flowchart LR
 
 타이틀에서 싱글·멀티·도감·설정으로 들어갑니다. 원정대원 선택 화면에서는 캐릭터의 HP, 소지금, 에너지, 시작 유물을 보고 원정을 시작합니다. 미라의 시작 유물 빛바랜 초승달은 매 전투 시작 시 방어도 3을 줍니다.
 
-<img src="docs/title-menu-v2-1440.png" width="48%"> <img src="docs/selection-relic-1440.png" width="48%">
+<img src="docs/screens/01-title.jpg" width="48%"> <img src="docs/screens/02-select.jpg" width="48%">
 </details>
 
 <details>
 <summary><b>2. 손패 전투</b></summary>
 
-기본 덱은 공격 5장과 방어 5장입니다. 카드를 끌어 적에게 놓으면 조준선이 나오고, 공격 카드는 피해량을 미리 보여 줍니다. 상태 이상은 HP바 아래 아이콘으로 표시되고 툴팁에 효과가 나옵니다.
+기본 덱은 공격 5장과 방어 5장입니다. 카드를 끌어 적에게 놓으면 조준선이 나오고, 공격 카드는 피해량을 미리 보여 줍니다. 상태 이상은 HP바 아래 아이콘으로 표시되고 툴팁에 효과가 나옵니다. 화면 위쪽의 포션 벨트(3칸)에서 전투 중에 포션을 씁니다.
 
-<img src="docs/mira-hand-aim.png" width="48%"> <img src="docs/damage-preview-1440.png" width="48%">
+<img src="docs/screens/06-battle-aim.jpg" width="48%"> <img src="docs/screens/07-battle-preview.jpg" width="48%">
 
-<img src="docs/poison-venom-battle.png" width="48%"> <img src="docs/pile-viewer-deck.png" width="48%">
+<img src="docs/screens/09-poison-venom.jpg" width="48%"> <img src="docs/screens/10-deck.jpg" width="48%">
 </details>
 
 <details>
@@ -115,35 +115,49 @@ flowchart LR
 
 앞으로 두 칸까지만 공개되는 안개 지도이고, 금빛 길은 지나온 경로입니다. 탐험가의 지도 유물을 얻으면 현재 ACT 전체가 열립니다.
 
-<img src="docs/map-progress.png" width="48%"> <img src="docs/map-relic.png" width="48%">
+<img src="docs/screens/04-map.jpg" width="48%"> <img src="docs/screens/05-map-reveal.jpg" width="48%">
 </details>
 
 <details>
-<summary><b>4. ACT 시작과 이벤트</b></summary>
+<summary><b>4. 보상 · 상점 · 휴식</b></summary>
+
+전투를 이기면 전용 카드 3장 중 1장을 고르거나 넘길 수 있고, 엘리트는 유물 3개 중 1개도 고릅니다. 상점은 카드·유물·포션을 3개씩 진열하고, 골드로 사거나 덱에서 카드를 지울 수 있으며 지울 때마다 값이 올라갑니다(75골드, 125골드). 휴식에서는 체력을 회복하거나 카드 1장을 강화합니다.
+
+<img src="docs/screens/11-reward.jpg" width="48%"> <img src="docs/screens/12-reward-elite.jpg" width="48%">
+
+<img src="docs/screens/13-shop.jpg" width="48%"> <img src="docs/screens/14-rest.jpg" width="48%">
+</details>
+
+<details>
+<summary><b>5. ACT 시작과 이벤트</b></summary>
 
 각 ACT는 이야기 장면으로 시작합니다. ACT I에서는 문지기 에델이 시작 보상(골드, 최대 생명력, 전용 카드 중 하나)을 건넵니다. 이벤트는 상황 글과 2~4개의 선택지로 이루어지고, 선택에 따라 카드 추가·강화, 체력 증감 같은 결과가 따라옵니다.
 
-<img src="docs/act-arrival-1440.png" width="48%"> <img src="docs/event-ward-1440.png" width="48%">
+<img src="docs/screens/03-act-arrival.jpg" width="48%"> <img src="docs/screens/15-event.jpg" width="48%">
+
+<img src="docs/screens/16-event-effects.jpg" width="48%">
 </details>
 
 <details>
-<summary><b>5. 도감</b></summary>
+<summary><b>6. 도감</b></summary>
 
-캐릭터, 카드, 유물, 몬스터, 포션, 인챈트, 이벤트, 파워, 지역, 스토리 탭이 있고 이름 검색과 등급·종류 필터를 쓸 수 있습니다. 만나지 못한 항목은 실루엣으로만 보입니다.
+캐릭터, 카드, 유물, 몬스터, 포션, 인챈트, 이벤트, 파워, 지역, 스토리 탭이 있고 이름 검색과 등급·종류 필터를 쓸 수 있습니다. 첫 화면에는 도감 완성률과 발견한 항목 수가 나오고, 만나지 못한 항목은 실루엣으로만 보입니다.
 
-<img src="docs/codex-cards-1440.png" width="48%"> <img src="docs/codex-hidden-1440.png" width="48%">
+<img src="docs/screens/17-codex-hub.jpg" width="48%"> <img src="docs/screens/18-codex-cards.jpg" width="48%">
+
+<img src="docs/screens/19-codex-hidden.jpg" width="48%">
 </details>
 
 <details>
-<summary><b>6. 지역 조사 지도</b></summary>
+<summary><b>7. 지역 조사 지도</b></summary>
 
 지역마다 장소가 표시된 조사 지도가 있고, 장소를 누르면 그곳에서 얻은 기록이 나옵니다.
 
-<img src="docs/cathedral-atlas-1440.png" width="96%">
+<img src="docs/screens/20-atlas.jpg" width="96%">
 </details>
 
 <details>
-<summary><b>7. 콘텐츠 도구</b></summary>
+<summary><b>8. 콘텐츠 도구</b></summary>
 
 `tools/content_tool`은 카드·유물·포션·몬스터·이벤트를 검증하고 게임용 `catalog.json`으로 내보내는 Python 도구입니다. 브라우저로 여는 로컬 웹 화면에서 사람이 편집하고, 스크립트는 REST API와 명령줄로 같은 원본을 고칩니다. 외부 패키지 없이 Python 3만 있으면 돌아갑니다. 에셋은 draft, generated, needs_review, approved, rejected 상태를 가지며 승인된 것만 내보냅니다.
 </details>
@@ -152,8 +166,11 @@ flowchart LR
 
 ## 3. 게임 화면
 
-<p align="center"><img src="docs/mira-hit-impact.png" width="48%"> <img src="docs/mira-basic-cards-1440.png" width="48%"></p>
-<p align="center"><img src="docs/REGION_ATLAS_illustrated_v1.png" width="96%"></p>
+<p align="center"><img src="docs/screens/01-title.jpg" width="48%"> <img src="docs/screens/02-select.jpg" width="48%"></p>
+<p align="center"><img src="docs/screens/04-map.jpg" width="48%"> <img src="docs/screens/06-battle-aim.jpg" width="48%"></p>
+<p align="center"><img src="docs/screens/08-battle-hit.jpg" width="48%"> <img src="docs/screens/09-poison-venom.jpg" width="48%"></p>
+<p align="center"><img src="docs/screens/13-shop.jpg" width="48%"> <img src="docs/screens/14-rest.jpg" width="48%"></p>
+<p align="center"><img src="docs/screens/17-codex-hub.jpg" width="48%"> <img src="docs/screens/20-atlas.jpg" width="48%"></p>
 
 ---
 
